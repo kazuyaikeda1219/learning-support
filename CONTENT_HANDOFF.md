@@ -33,7 +33,7 @@
 - `profiles` に **`display_name='テストEN'` / `subject='ja'` / `password_hash=null`**（id `8b4cb069-2627-44a4-9a94-fed39f1181aa`）を追加。日本語学習者の見え方確認用。
 - 検証: ログイン後 → ダッシュボードの学習ログ「教材」が ja カテゴリ（漢字/語彙/文法/JLPT N5〜N1…）に切替、`/test` は文法→Genki I/II・全230問のみ表示（英語コンテンツ非表示）、Genki I 第10課クイズが日本語で正常出題。コンソールエラー無し。
 - ⚠️ 名前が「テストEN」だが中身は ja。紛らわしければ管理画面で改名可。
-- ℹ️ `/test` の章並びが文字列ソートで「第10課→第11課→…第1課→第2課」になる（既存の挙動・本タスク対象外）。数値順にするなら別途修正。
+- ✅ `/test` の章並び（旧: 文字列ソートで「第10課→…第1課」）を**数値順に修正済み（2026-06-17）**。`app/test/page.tsx` に `naturalSort`（`localeCompare(.., 'ja', {numeric:true})`）を追加し、教材順(book)・章順(chapter)の両方に適用。ja(Genki I/II)で 第1課→…→第23課 の連続表示を検証済み。
 
 ### ✅ Phase 2 完了（テスト細分化・種別タブ・2026-06-17 検証済み）
 - スコープ確定（本人合意）: **種別=出題形式**（`q_type`）の絞り込みタブを追加。**単元(unit)は入れない**（教材→章のまま）。並べ替え(reorder)は見送り。→ **マイグレーション不要**（既存 `q_type` を活用、フロントのみ）。
@@ -115,6 +115,12 @@
 
 ### 4-1. 問題（クイズ）★最重要
 - **データ本体は DB `questions` テーブル**。列: `category, chapter, question_text, option_1〜4, correct_option(1-4), q_type('choice'|'text'), correct_text, explanation`。
+- ✅ **解説表示（2026-06-17）**: `app/test/quiz/page.tsx` で回答確定後（`isAnswered`）に `explanation` を💡解説パネルで表示（4択・記述の両形式共通、Nextボタンの上）。`explanation` が空の問題ではパネル非表示。改行は `whitespace-pre-line` で反映。→ 問題ごとの解説の質を上げたい場合は `questions.explanation` を編集（管理画面 or CSV/import）。
+- ✅ **ja クイズのふりがな＋ローマ字（2026-06-17）**: ja(日本語学習)利用者のとき、**選択肢と解説**の漢字に `<ruby>` ふりがな、下に小さいローマ字を表示（`components/JaText.tsx`）。en は対象外（原文表示）。
+  - 読みは**事前生成してJSON保存**: `node scripts/gen-ja-readings.mjs` が subject=ja の questions から選択肢/解説の一意な日本語を集め、kuroshiro で furigana(HTML)＋romaji を生成し `public/ja-readings.json`（テキスト→{furigana,romaji}）に出力。**フロントは日本語テキスト一致で参照**（問題ID変更・再importに強い）。
+  - ⚠️ **ja問題を追加/変更したら `gen-ja-readings.mjs` を再実行**（未生成のテキストはふりがな無しの原文表示にフォールバック）。devDependency: `kuroshiro` / `kuroshiro-analyzer-kuromoji`。
+  - XSS対策: furigana は生成時に `<ruby>/<rt>/<rp>` のみ許可しそれ以外をHTMLエスケープ済み（`JaText` の `dangerouslySetInnerHTML` は安全）。
+  - 検証: Genki I 第1課で選択肢「医者→いしゃ / anata wa isha desu ka.」、解説も漢字ふりがな＋ローマ字表示。tsc・コンソールOK。
 - **登録UI**: 管理画面 `/admin` → 「問題管理」タブ。1問ずつ追加/編集/削除できる（`app/admin/page.tsx` の `QuestionsTab`）。大量投入はDB直insert/CSVでも可。
 - **クイズの選び方の仕組み**（ここが要）:
   - クイズ一覧 = `app/test/page.tsx` の `TEST_CATEGORIES`（レベルチェック/単語/文法/プログレスチェック。各テストに `id`）。
@@ -130,13 +136,14 @@
 - マイページのセクション別進捗計算: `app/mypage/page.tsx:28` の `SECTION_ID_PREFIXES`（idのプレフィックスでセクション判定）。item追加時はここも整合を取る。
 
 ### 4-3. 教材（ライブラリ）
-- **ハードコード**: `app/library/page.tsx` の `INITIAL_VIDEOS`（現在 `Sample Video 1〜6` のダミー。YouTube URL）。`CATEGORIES` でフィルタ（All/Grammar/Pronunciation/Speaking/Listening）。
-- DB化されていない静的配列。実教材に差し替えるか、将来DBテーブル化するか要検討。
+- **現状＝「準備中」表示（2026-06-17）**: ダミー（`Sample Video 1〜6`）を公開してしまっていたため撤去し、`app/library/page.tsx` を「準備中です」の空状態カードのみに差し替え済み（検索/カテゴリフィルタ/ダミー配列はすべて削除）。日本語UIに統一・subject非依存。
+- 実コンテンツ投入時の方針: 実教材URLに差し替えるか、Phase 3 で `materials` テーブル化（管理画面から追加）するか。後者が本命。差し替え前の旧ダミー実装は git 履歴に残る。
 
 ### 4-4. 文言・コピー
 - トップLP: `app/page.tsx`（"Master English with Learning Support." 等）。
 - オンボーディング設問: `app/onboarding/page.tsx` の `STEPS`（survey id `goal_after_tep` は**DB列キーなので変えない**。表示ラベルのみ変更可。現在「プログラム終了後（6ヶ月後）の目標」）。
 - ナビ/各見出し: `components/Navbar.tsx`, 各ページ。ブランドは "Learning Support" に統一済み。
+- ✅ **ナビ整理済み（2026-06-17）**: 上(PC `Navbar`)・下(スマホ `BottomNav`)の主要メニューを **`components/navItems.ts` の `PRIMARY_NAV` に一元化**（ホーム/テスト/単語/ロードマップ/ライブラリ/マイページ）。ここを編集すれば上下両方に反映。アクティブ判定は `isNavActive`（`/test/quiz` 等の子ページは親タブを点灯）。PC上バーは主要ナビを中央に並べ、右側にAdmin＋利用者アバター＋ログアウト。スマホは下バー6タブ＋**ログアウト/管理画面はマイページの「アカウント」欄に集約**（`md:hidden`、PCは上バー側に集約）。ライブラリは準備中だがナビには表示する方針。検証: PC/スマホ両幅・tsc・コンソールOK。
 
 ---
 
@@ -151,6 +158,7 @@
 ## 6. 残タスク（コンテンツ外）
 
 - ✅ **【適用済み 2026-06-17確認】パスワードログインのDBマイグレーション**: `profiles.password_hash` 列は実DBに存在済み（REST検証）。`supabase/migrate_add_password.sql` は適用不要。
+- 🚫 **【運用ルール】git push / 本番デプロイは本人が明示的に指示するまで行わない**。コミットは作ってよいが、`git push`・`netlify deploy --prod` は本人の「pushして」等の指示を待つこと（`main` への push は自動で本番反映されるため）。
 - ✅ **【完了 2026-06-17】GitHub + Netlify デプロイ（Vercelではなく Netlify を採用）**:
   - GitHub: `https://github.com/kazuyaikeda1219/learning-support`（**public**）。
   - Netlify: team `k-ikeda0031` の project `learning-support` → 本番 `https://learning-support.netlify.app`（site_id `bb67b0b9-fb86-4349-ac31-e1299500f5cc`）。`@netlify/plugin-nextjs` でNext.js SSRビルド。

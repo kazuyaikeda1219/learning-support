@@ -6,7 +6,8 @@ import { createClient } from '@/utils/supabase/client';
 import { getCurrentUser } from '@/utils/currentUser';
 import { DEFAULT_SUBJECT } from '@/utils/subject';
 import Navbar from '@/components/Navbar';
-import { CheckCircle2, XCircle, ArrowRight, Loader2, Award, UserCircle } from 'lucide-react';
+import JaText, { type JaReading } from '@/components/JaText';
+import { CheckCircle2, XCircle, ArrowRight, Loader2, Award, UserCircle, Lightbulb } from 'lucide-react';
 
 function QuizContent() {
   const searchParams = useSearchParams();
@@ -25,8 +26,25 @@ function QuizContent() {
   const [loading, setLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
+  const [isJa, setIsJa] = useState(false);
+  const [readings, setReadings] = useState<Record<string, JaReading> | null>(null);
 
   const supabase = createClient();
+
+  // ja 利用者のときだけ、ふりがな＋ローマ字の読み辞書を読み込む（テキスト一致で参照）
+  useEffect(() => {
+    const subject = getCurrentUser()?.subject ?? DEFAULT_SUBJECT;
+    if (subject !== 'ja') return;
+    setIsJa(true);
+    fetch('/ja-readings.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setReadings(d))
+      .catch(() => {});
+  }, []);
+
+  // ja のときだけ読みを引く（無ければ undefined → 原文表示）
+  const ja = (text: string): JaReading | undefined =>
+    isJa ? readings?.[(text ?? '').trim()] : undefined;
 
   useEffect(() => {
     if (!category || !chapter) {
@@ -316,10 +334,10 @@ function QuizContent() {
                 className={`w-full p-5 text-left rounded-2xl border-2 transition-all font-bold flex justify-between items-center group ${cardStyle}`}
               >
                 <div className="flex items-center gap-4">
-                  <span className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm border-2 ${isAnswered && isCorrect ? 'bg-green-500 border-green-500 text-white' : 'border-gray-100 bg-gray-50 text-gray-400 group-hover:border-indigo-200'}`}>
+                  <span className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm border-2 shrink-0 ${isAnswered && isCorrect ? 'bg-green-500 border-green-500 text-white' : 'border-gray-100 bg-gray-50 text-gray-400 group-hover:border-indigo-200'}`}>
                     {String.fromCharCode(65 + i)}
                   </span>
-                  {opt}
+                  <JaText text={opt} reading={ja(opt)} />
                 </div>
                 {isAnswered && isCorrect && <CheckCircle2 className="text-green-500" size={24} />}
                 {isAnswered && isSelected && !isCorrect && <XCircle className="text-red-500" size={24} />}
@@ -329,8 +347,21 @@ function QuizContent() {
         </div>
       )}
 
+      {/* 解説: 回答確定後に表示（explanation がある問題のみ） */}
+      {isAnswered && q.explanation && (
+        <div className="mt-6 p-5 rounded-2xl bg-indigo-50/60 border border-indigo-100 animate-in slide-in-from-bottom-2 duration-300">
+          <div className="flex items-center gap-2 mb-2">
+            <Lightbulb size={18} className="text-indigo-500" />
+            <span className="text-sm font-black text-indigo-600">解説</span>
+          </div>
+          <p className="text-sm font-medium text-gray-700 leading-relaxed whitespace-pre-line">
+            <JaText text={q.explanation} reading={ja(q.explanation)} />
+          </p>
+        </div>
+      )}
+
       {isAnswered && (
-        <div className="mt-10 animate-in slide-in-from-bottom-4 duration-300">
+        <div className="mt-6 animate-in slide-in-from-bottom-4 duration-300">
           <button
             onClick={nextQuestion}
             className="w-full bg-indigo-600 text-white p-5 rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-100 active:scale-95"

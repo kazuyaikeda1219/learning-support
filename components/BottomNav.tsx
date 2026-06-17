@@ -2,34 +2,26 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, ClipboardList, Layers, Map, UserCircle } from 'lucide-react';
-
-const NAV_ITEMS = [
-  { label: 'ホーム', href: '/dashboard', icon: LayoutDashboard },
-  { label: 'テスト', href: '/test', icon: ClipboardList },
-  { label: '単語', href: '/flashcards', icon: Layers },
-  { label: 'ロードマップ', href: '/roadmap', icon: Map },
-  { label: 'マイページ', href: '/mypage', icon: UserCircle },
-];
+import { PRIMARY_NAV, isNavActive } from '@/components/navItems';
 
 export default function BottomNav() {
   const pathname = usePathname();
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-100 md:hidden">
-      <div className="flex items-center justify-around px-2 py-2 pb-safe">
-        {NAV_ITEMS.map((item) => {
-          const isActive = pathname === item.href;
+      <div className="flex items-center justify-around px-1 py-2 pb-safe">
+        {PRIMARY_NAV.map((item) => {
+          const isActive = isNavActive(pathname, item.href);
           const Icon = item.icon;
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`flex flex-col items-center gap-1 px-4 py-2 rounded-2xl transition-all ${
+              className={`flex flex-col items-center gap-1 px-2 py-2 rounded-2xl transition-all ${
                 isActive ? 'text-indigo-600' : 'text-gray-400 hover:text-gray-600'
               }`}
             >
-              <Icon size={24} strokeWidth={isActive ? 2.5 : 1.8} />
+              <Icon size={22} strokeWidth={isActive ? 2.5 : 1.8} />
               <span className={`text-[10px] font-bold ${isActive ? 'text-indigo-600' : 'text-gray-400'}`}>
                 {item.label}
               </span>

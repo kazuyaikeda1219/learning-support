@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { createClient } from '@/utils/supabase/client';
-import { getCurrentUser } from '@/utils/currentUser';
+import { getCurrentUser, clearCurrentUser } from '@/utils/currentUser';
 import { hashPassword } from '@/utils/password';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
@@ -11,6 +11,7 @@ import BottomNav from '@/components/BottomNav';
 import {
   Award, BookOpen, TrendingUp, Loader2, Clock, Pencil,
   X, Save, CheckCircle2, Mic, Languages, ChevronRight,
+  ShieldCheck, LogOut,
 } from 'lucide-react';
 
 // ── ロードマップのセクション定義（roadmap/page.tsx と同期） ──
@@ -163,6 +164,11 @@ export default function MyPage() {
     setTimeout(() => setModalOpen(false), 800);
   };
 
+  const handleLogout = () => {
+    clearCurrentUser();
+    router.push('/');
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen bg-[#f8fafc]">
@@ -307,6 +313,25 @@ export default function MyPage() {
               </Link>
             </div>
           )}
+        </div>
+
+        {/* ── アカウント操作（スマホのみ。PCは上部ナビに集約） ── */}
+        <div className="md:hidden">
+          <p className="text-xs font-bold uppercase tracking-widest text-indigo-600 mb-3">アカウント</p>
+          <div className="bg-white rounded-3xl shadow-sm border border-gray-100 divide-y divide-gray-100 overflow-hidden">
+            <Link href="/admin" className="flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition-all">
+              <span className="flex items-center gap-3 text-sm font-bold text-gray-700">
+                <ShieldCheck size={18} className="text-red-500" /> 管理画面
+              </span>
+              <ChevronRight size={18} className="text-gray-300" />
+            </Link>
+            <button onClick={handleLogout} className="w-full flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition-all">
+              <span className="flex items-center gap-3 text-sm font-bold text-red-600">
+                <LogOut size={18} /> 利用者を切り替え
+              </span>
+              <ChevronRight size={18} className="text-gray-300" />
+            </button>
+          </div>
         </div>
 
         <div className="h-20 md:hidden" />

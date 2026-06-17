@@ -31,6 +31,9 @@ type Row = { category: string; book_name: string; chapter: string; q_type: strin
 const TYPE_LABEL: Record<string, string> = { choice: '4択', text: '記述' };
 const TYPE_ORDER = ['choice', 'text'];
 
+// 章・教材名を数値込みで自然順ソート（「第10課」が「第1課」より後ろに来るように）
+const naturalSort = (a: string, b: string) => a.localeCompare(b, 'ja', { numeric: true });
+
 export default function TestPortal() {
   const supabase = createClient();
   const [rows, setRows] = useState<Row[]>([]);
@@ -157,7 +160,7 @@ export default function TestPortal() {
 
                     {/* 中項目（教材）ごと */}
                     <div className="space-y-6">
-                      {Object.keys(books).sort().map((book) => {
+                      {Object.keys(books).sort(naturalSort).map((book) => {
                         const chapters = books[book];
                         return (
                           <div key={book}>
@@ -167,7 +170,7 @@ export default function TestPortal() {
                             </div>
                             {/* 小項目（章）ごと = クイズ */}
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                              {Object.keys(chapters).sort().map((chap) => (
+                              {Object.keys(chapters).sort(naturalSort).map((chap) => (
                                 <Link
                                   key={chap}
                                   href={`/test/quiz?category=${encodeURIComponent(cat)}&book=${encodeURIComponent(book)}&chapter=${encodeURIComponent(chap)}${qType !== 'all' ? `&qtype=${encodeURIComponent(qType)}` : ''}`}
