@@ -1,0 +1,104 @@
+{
+  "category": "文法",
+  "book_name": "中学英文法（単元別）",
+  "questions": [
+    {
+      "chapter": "中1 - be動詞",
+      "question_text": "These ___ my friends. に入るのは？",
+      "options": ["am", "is", "are", "be"],
+      "correct": 3,
+      "explanation": "主語 These は複数なので be動詞は are。"
+    },
+    {
+      "chapter": "中1 - be動詞",
+      "question_text": "次のうち be動詞の否定文として正しいのは？",
+      "options": ["He not is busy.", "He isn't busy.", "He don't busy.", "He no busy."],
+      "correct": 2,
+      "explanation": "be動詞の否定は be動詞のすぐ後に not。is not = isn't。"
+    },
+    {
+      "chapter": "中1 - 一般動詞",
+      "question_text": "I ___ soccer after school. に入るのは？",
+      "options": ["plays", "play", "playing", "am play"],
+      "correct": 2,
+      "explanation": "主語 I の一般動詞はそのままの形 play。"
+    },
+    {
+      "chapter": "中1 - 一般動詞",
+      "question_text": "Do you like music? への正しい答えは？",
+      "options": ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, you do."],
+      "correct": 1,
+      "explanation": "一般動詞 Do の疑問には do/don't で答える。"
+    },
+    {
+      "chapter": "中1 - 三人称単数現在",
+      "question_text": "My brother ___ to school by bus. に入るのは？",
+      "options": ["go", "goes", "going", "gone"],
+      "correct": 2,
+      "explanation": "主語が3人称単数（My brother）なので go に -es。"
+    },
+    {
+      "chapter": "中1 - 三人称単数現在",
+      "question_text": "She ___ have a dog. の空所に入るのは？（否定文）",
+      "options": ["don't", "doesn't", "isn't", "not"],
+      "correct": 2,
+      "explanation": "3単現の否定は doesn't + 動詞の原形。"
+    },
+    {
+      "chapter": "中2 - 過去形",
+      "question_text": "We ___ to Kyoto last summer. に入るのは？",
+      "options": ["go", "goes", "went", "going"],
+      "correct": 3,
+      "explanation": "last summer があるので過去形。go の過去形は went。"
+    },
+    {
+      "chapter": "中2 - 過去形",
+      "q_type": "text",
+      "question_text": "buy の過去形を書きなさい。",
+      "correct_text": "bought",
+      "explanation": "buy → bought（不規則動詞）。"
+    },
+    {
+      "chapter": "中2 - 比較",
+      "question_text": "This bag is ___ than mine. に入るのは？",
+      "options": ["big", "bigger", "biggest", "more big"],
+      "correct": 2,
+      "explanation": "than があるので比較級。big は語尾を重ねて bigger。"
+    },
+    {
+      "chapter": "中2 - 比較",
+      "question_text": "Mt. Fuji is the ___ mountain in Japan. に入るのは？",
+      "options": ["high", "higher", "highest", "more high"],
+      "correct": 3,
+      "explanation": "the と in Japan があるので最上級 highest。"
+    },
+    {
+      "chapter": "中2 - 不定詞",
+      "question_text": "I want ___ English abroad. に入るのは？",
+      "options": ["study", "studied", "to study", "studying"],
+      "correct": 3,
+      "explanation": "want to do（〜したい）。to + 動詞の原形。"
+    },
+    {
+      "chapter": "中3 - 受動態",
+      "question_text": "This temple ___ 300 years ago. に入るのは？",
+      "options": ["built", "was built", "is building", "has built"],
+      "correct": 2,
+      "explanation": "「建てられた」は受動態 be + 過去分詞。過去なので was built。"
+    },
+    {
+      "chapter": "中3 - 現在完了",
+      "question_text": "I have lived here ___ 2015. に入るのは？",
+      "options": ["for", "since", "ago", "from"],
+      "correct": 2,
+      "explanation": "since + 起点（2015）。for は期間の長さに使う。"
+    },
+    {
+      "chapter": "中3 - 関係代名詞",
+      "question_text": "I have a friend ___ can speak French. に入るのは？",
+      "options": ["which", "who", "whose", "what"],
+      "correct": 2,
+      "explanation": "先行詞が人（a friend）で主格なので who。"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+/* @ts-ignore */
+@import "tailwindcss";
+
+/* 独自のスタイル */
+body {
+  background-color: #f9fafb; 
+  color: #111827;
+}

@@ -1,0 +1,20 @@
+{
+  "category": "文法",
+  "book_name": "教材名をここに",
+  "questions": [
+    {
+      "chapter": "中1 - be動詞",
+      "question_text": "I ___ a student. に入るのは？",
+      "options": ["am", "is", "are", "be"],
+      "correct": 1,
+      "explanation": "主語が I のとき be動詞は am。"
+    },
+    {
+      "chapter": "中1 - be動詞",
+      "q_type": "text",
+      "question_text": "「私は学生です」を英語で（I ___ a student.）",
+      "correct_text": "am",
+      "explanation": "I に対応する be動詞は am。"
+    }
+  ]
+}
