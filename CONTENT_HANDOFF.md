@@ -151,7 +151,13 @@
 ## 6. 残タスク（コンテンツ外）
 
 - ✅ **【適用済み 2026-06-17確認】パスワードログインのDBマイグレーション**: `profiles.password_hash` 列は実DBに存在済み（REST検証）。`supabase/migrate_add_password.sql` は適用不要。
-- Vercel新規デプロイ（env: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `NEXT_PUBLIC_ADMIN_PASSCODE`）。まだ未実施。
+- ✅ **【完了 2026-06-17】GitHub + Netlify デプロイ（Vercelではなく Netlify を採用）**:
+  - GitHub: `https://github.com/kazuyaikeda1219/learning-support`（**public**）。
+  - Netlify: team `k-ikeda0031` の project `learning-support` → 本番 `https://learning-support.netlify.app`（site_id `bb67b0b9-fb86-4349-ac31-e1299500f5cc`）。`@netlify/plugin-nextjs` でNext.js SSRビルド。
+  - **CI/CD有効**: `main` に push すると自動ビルド＆本番反映（deploy key＋webhook 設定済み。`netlify.toml`: build `npm run build` / publish `.next`）。env 3つ（`NEXT_PUBLIC_SUPABASE_URL`/`NEXT_PUBLIC_SUPABASE_ANON_KEY`/`NEXT_PUBLIC_ADMIN_PASSCODE`）は Netlify サイトに設定済み。
+  - ⚠️ public 化の経緯: 無料プランで private リポの自動ビルドが "Unrecognized Git contributor" でブロックされ、Netlifyアカウント(k.ikeda0031)に GitHub(kazuyaikeda1219)を連携できなかった（その GitHub は別Netlifyアカウントに連携済み）ため public 化で回避。anon鍵/passcodeは元々 `NEXT_PUBLIC_*` で client 配信済み・`.env.local` は未コミットのため新規漏洩なし。
+  - このリポの git author は repo-local 設定で `kazuyaikeda1219 <…@users.noreply.github.com>`（グローバル設定は変更していない）。
+  - 手動デプロイしたい場合: `netlify deploy --build --prod`（`~/.local/bin/netlify`）。
 
 ## 6-1. ログイン仕様（パスワード方式・2026-06-16 追加）
 
