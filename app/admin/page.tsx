@@ -21,6 +21,7 @@ interface StudentRow {
   id: string;
   name: string;
   student_id: string;
+  subject: string;
   role: string;
   progress: number;
   totalHours: string;
@@ -302,6 +303,17 @@ function StudentsTab() {
   const [isUploading, setIsUploading] = useState(false);
   const [uploadStatus, setUploadStatus] = useState<{ message: string; type: 'success' | 'error' | null }>({ message: '', type: null });
 
+  // 編集・削除
+  const [editTarget, setEditTarget] = useState<StudentRow | null>(null);
+  const [editName, setEditName] = useState('');
+  const [editStudentId, setEditStudentId] = useState('');
+  const [editSubject, setEditSubject] = useState<Subject>('en');
+  const [editPassword, setEditPassword] = useState('');
+  const [editError, setEditError] = useState('');
+  const [editSaving, setEditSaving] = useState(false);
+  const [deleteTarget, setDeleteTarget] = useState<StudentRow | null>(null);
+  const [deleting, setDeleting] = useState(false);
+
   useEffect(() => {
     fetchStudentData();
   }, []);
@@ -326,6 +338,7 @@ function StudentsTab() {
           id: p.id,
           name: p.display_name || `Student (${p.id.slice(0, 4)})`,
           student_id: p.student_id || '-',
+          subject: p.subject || 'en',
           role: p.role,
           progress: Math.round(((count || 0) / TOTAL_ROADMAP_ITEMS) * 100),
           totalHours: (totalMinutes / 60).toFixed(1),
@@ -361,6 +374,50 @@ function StudentsTab() {
       fetchStudentData();
     }
     setAddLoading(false);
+  };
+
+  const openEdit = (s: StudentRow) => {
+    setEditTarget(s);
+    setEditName(s.name);
+    setEditStudentId(s.student_id === '-' ? '' : s.student_id);
+    setEditSubject((s.subject as Subject) || 'en');
+    setEditPassword('');
+    setEditError('');
+  };
+
+  const saveEdit = async () => {
+    if (!editTarget) return;
+    setEditError('');
+    if (!editName.trim()) { setEditError('名前を入力してください'); return; }
+    setEditSaving(true);
+    const updates: Record<string, unknown> = {
+      display_name: editName.trim(),
+      student_id: editStudentId.trim() || null,
+      subject: editSubject,
+    };
+    // パスワード欄が入力されたときだけ更新（空ならそのまま）
+    if (editPassword.trim()) {
+      updates.password_hash = await hashPassword(editPassword.trim());
+    }
+    const { error } = await supabase.from('profiles').update(updates).eq('id', editTarget.id);
+    if (error) {
+      setEditError('更新中にエラーが発生しました');
+    } else {
+      setEditTarget(null);
+      fetchStudentData();
+    }
+    setEditSaving(false);
+  };
+
+  const confirmDelete = async () => {
+    if (!deleteTarget) return;
+    setDeleting(true);
+    const { error } = await supabase.from('profiles').delete().eq('id', deleteTarget.id);
+    setDeleting(false);
+    if (!error) {
+      setDeleteTarget(null);
+      fetchStudentData();
+    }
   };
 
   const handleCsvUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -421,7 +478,6 @@ function StudentsTab() {
             placeholder="名前（必須）"
             value={newName}
             onChange={e => { setNewName(e.target.value); setAddError(''); }}
-            onKeyDown={e => e.key === 'Enter' && addStudent()}
             className="flex-1 border border-gray-200 rounded-2xl px-5 py-3 text-sm font-medium outline-none focus:ring-2 focus:ring-indigo-400 transition-all"
           />
           <input
@@ -429,7 +485,6 @@ function StudentsTab() {
             placeholder="ID（任意）"
             value={newStudentId}
             onChange={e => setNewStudentId(e.target.value)}
-            onKeyDown={e => e.key === 'Enter' && addStudent()}
             className="md:w-40 border border-gray-200 rounded-2xl px-5 py-3 text-sm font-medium outline-none focus:ring-2 focus:ring-indigo-400 transition-all"
           />
           <input
@@ -437,7 +492,6 @@ function StudentsTab() {
             placeholder="初期パスワード（任意）"
             value={newPassword}
             onChange={e => setNewPassword(e.target.value)}
-            onKeyDown={e => e.key === 'Enter' && addStudent()}
             className="md:w-48 border border-gray-200 rounded-2xl px-5 py-3 text-sm font-medium outline-none focus:ring-2 focus:ring-indigo-400 transition-all"
           />
           <select
@@ -534,6 +588,12 @@ function StudentsTab() {
                     <p className="text-[10px] font-bold text-blue-400 uppercase tracking-widest mb-1">Weekly</p>
                     <p className="font-black text-blue-600">{s.weeklyHours}h</p>
                   </div>
+                  <button onClick={() => openEdit(s)} title="編集" className="p-3 bg-gray-50 text-gray-400 rounded-2xl hover:bg-indigo-600 hover:text-white transition-all">
+                    <Pencil size={18} />
+                  </button>
+                  <button onClick={() => setDeleteTarget(s)} title="削除" className="p-3 bg-gray-50 text-gray-400 rounded-2xl hover:bg-red-500 hover:text-white transition-all">
+                    <Trash2 size={18} />
+                  </button>
                   <Link href={`/admin/students/${s.id}`} className="p-3 bg-gray-50 text-gray-400 rounded-2xl hover:bg-blue-600 hover:text-white transition-all">
                     <ChevronRight size={20} />
                   </Link>
@@ -543,6 +603,72 @@ function StudentsTab() {
           </div>
         )}
       </div>
+
+      {/* ── 編集モーダル ── */}
+      {editTarget && (
+        <div className="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-md">
+            <div className="flex items-center justify-between p-8 pb-4">
+              <h2 className="text-xl font-black text-gray-900">利用者を編集</h2>
+              <button onClick={() => setEditTarget(null)} className="p-2 text-gray-400 hover:text-gray-700 rounded-xl hover:bg-gray-100 transition-all">
+                <X size={20} />
+              </button>
+            </div>
+            <div className="p-8 pt-2 space-y-4">
+              <div>
+                <label className="text-xs font-black text-gray-400 uppercase tracking-widest block mb-2">名前</label>
+                <input type="text" value={editName} onChange={e => { setEditName(e.target.value); setEditError(''); }}
+                  className="w-full border border-gray-200 rounded-2xl px-4 py-3 text-sm font-medium outline-none focus:ring-2 focus:ring-indigo-400" />
+              </div>
+              <div>
+                <label className="text-xs font-black text-gray-400 uppercase tracking-widest block mb-2">ID（任意）</label>
+                <input type="text" value={editStudentId} onChange={e => setEditStudentId(e.target.value)}
+                  className="w-full border border-gray-200 rounded-2xl px-4 py-3 text-sm font-medium outline-none focus:ring-2 focus:ring-indigo-400" />
+              </div>
+              <div>
+                <label className="text-xs font-black text-gray-400 uppercase tracking-widest block mb-2">学習内容</label>
+                <select value={editSubject} onChange={e => setEditSubject(e.target.value as Subject)}
+                  className="w-full border border-gray-200 rounded-2xl px-4 py-3 text-sm font-bold text-gray-600 outline-none focus:ring-2 focus:ring-indigo-400">
+                  {SUBJECTS.map(s => <option key={s.value} value={s.value}>{s.label}</option>)}
+                </select>
+              </div>
+              <div>
+                <label className="text-xs font-black text-gray-400 uppercase tracking-widest block mb-2">パスワード再設定（任意）</label>
+                <input type="text" value={editPassword} onChange={e => setEditPassword(e.target.value)} placeholder="変更する場合のみ入力"
+                  className="w-full border border-gray-200 rounded-2xl px-4 py-3 text-sm font-medium outline-none focus:ring-2 focus:ring-indigo-400" />
+                <p className="text-[11px] text-gray-400 font-medium mt-1.5">空欄のままなら現在のパスワードを維持します。</p>
+              </div>
+              {editError && <p className="flex items-center gap-2 text-red-500 text-sm font-bold"><AlertCircle size={14} />{editError}</p>}
+              <button onClick={saveEdit} disabled={editSaving}
+                className="w-full bg-indigo-600 text-white py-4 rounded-2xl font-black flex items-center justify-center gap-2 hover:bg-indigo-700 transition-all disabled:opacity-50">
+                {editSaving ? <Loader2 size={18} className="animate-spin" /> : <Save size={18} />}
+                変更を保存
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── 削除確認ダイアログ ── */}
+      {deleteTarget && (
+        <div className="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-3xl shadow-2xl p-8 w-full max-w-sm text-center">
+            <div className="w-14 h-14 bg-red-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <Trash2 className="text-red-500" size={26} />
+            </div>
+            <h3 className="text-lg font-black text-gray-900 mb-2">「{deleteTarget.name}」を削除しますか？</h3>
+            <p className="text-sm text-gray-400 font-medium mb-6">この利用者の学習記録・進捗も全て削除されます。この操作は取り消せません。</p>
+            <div className="flex gap-3">
+              <button onClick={() => setDeleteTarget(null)} className="flex-1 py-3 rounded-2xl border border-gray-200 font-bold text-gray-600 hover:bg-gray-50 transition-all">
+                キャンセル
+              </button>
+              <button onClick={confirmDelete} disabled={deleting} className="flex-1 py-3 rounded-2xl bg-red-500 text-white font-bold hover:bg-red-600 transition-all disabled:opacity-50 flex items-center justify-center gap-2">
+                {deleting && <Loader2 size={16} className="animate-spin" />}削除する
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
