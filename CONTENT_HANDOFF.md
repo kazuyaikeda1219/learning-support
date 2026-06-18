@@ -5,6 +5,21 @@
 
 ---
 
+## ✅ 完了タスク（2026-06-17 UI/UXセッション・本番反映済み）
+
+このセッションで実施し、**`main` に push 済み（Netlify 自動デプロイ済み・コミット `027d7da`）**。詳細は各該当節を参照。
+
+1. **章ソート修正** — `/test` の章/教材を数値順に（旧: 第10課→第1課）。`app/test/page.tsx` の `naturalSort`。→ §4-1 直下の note。
+2. **ライブラリ準備中化** — ダミー動画(Sample Video 1〜6)を撤去し「準備中」表示。`app/library/page.tsx`。→ §4-3。
+3. **上下ナビ整理** — 主要メニューを `components/navItems.ts`(`PRIMARY_NAV`) に一元化（ホーム/テスト/単語/ロードマップ/ライブラリ/マイページ）。PC上バーに主要ナビ追加、スマホのログアウト/管理画面はマイページの「アカウント」欄に集約。`Navbar.tsx`/`BottomNav.tsx`/`mypage`。→ §4-4。
+4. **クイズに解説表示** — 回答確定後に `explanation` を💡パネル表示（4択/記述共通）。`app/test/quiz/page.tsx`。→ §4-1。
+5. **ja クイズのふりがな＋ローマ字** — ja利用者のとき選択肢・解説の漢字に `<ruby>`＋小ローマ字。`scripts/gen-ja-readings.mjs`→`public/ja-readings.json`、`components/JaText.tsx`。→ §4-1。
+6. **運用ルール明記** — git push/本番デプロイは本人の明示指示があるまで行わない（§6 冒頭）。
+
+🚫 リマインド: 以降も push は本人の指示を待つこと。ja問題を追加したら `node scripts/gen-ja-readings.mjs` を再実行。
+
+---
+
 ## ★更新（2026-06-17）再設計に着手 — 学習内容(subject)で出し分け
 
 方針確定: **システムは分割せず1つのまま**、`subject`（`'en'`=英語 / `'ja'`=日本語＝外国人向け日本語学習）という1次元で出し分ける。違いはコードでなく**データ（問題・教材・項目）だけ**。段階リリース計画（Phase 1〜4）の全体像と理由は、本人と合意済み。
@@ -26,6 +41,28 @@
 - 投入結果: en「総合英語Evergreen」240問(24章) ＋ 既存サンプル20問、ja「Genki I」120問(12章)・「Genki II」110問(11章)。DB総計490問。`/test`・クイズ出題ともブラウザ検証済み。
 - ⚠️ 旧スターターの遺物カラム `choice_1..4 / correct_choice / grade_level` に **NOT NULL 制約が残存**しており、新カラムだけの insert は弾かれる。import スクリプトは旧カラムにも同値を入れて回避している。将来 `migrate_questions_schema.sql` 末尾の drop 文で旧カラムを削除すれば回避コードは不要になる（任意・要SQL Editor）。
 - `scripts/seed-questions.mjs` も subject 対応済み（JSON先頭に `"subject":"ja"`、未指定はen）。
+
+### ✅ Anne先生教材から ja クイズ追加投入（2026-06-18・検証済み）
+- ソース: `learning-support/` 直下に置かれた `Japanese lesson with Anne-*.zip`（約8.5GB）＋`Vocabulary_ ドンキホーテ①-002.mp4`。**巨大かつ著作物(Genki PDF)を含むため `.gitignore` に退避済み**（`*.mp4/*.mov/*.m4a/Japanese lesson with Anne*.zip/_anne_extract/`）。zip中の小docxは `_anne_extract/` に展開（gitignore済み）。
+- 投入したクイズ（CSV→`import-test-data.mjs`、Genkiに触れないよう**専用ステージング** `/Users/kazuya_ikeda/Downloads/04_開発/テスト用データ_anne/{日本語学習,英語学習}/` から `--replace` 実行）:
+  - ja「**使えるフレーズ**」40問（単語。`phrases_useful.csv`。出典: Useful Japanese Phrases.docx）。章=あいさつ・自己紹介/買い物・お金/レストラン・食事/移動・場所/緊急・トラブル/コミュニケーション。
+  - ja「**文法シリーズ**」30問（文法。`grammar_numbers_time.csv`。出典: Grammar文法シリーズ.docx）。章=数字/時刻/日付/曜日/助数詞/年齢。
+  - `bookNameFor()` に `phrase→使えるフレーズ` / `grammar|bunpo→文法シリーズ` のマッピングを追加済み。
+- ⚠️ **クイズ画面は選択肢をシャッフルしない**（`app/test/quiz/page.tsx`：問題順のみシャッフル、option_1..4は固定表示）。→ CSV作成時に**正解位置を1〜4に分散させること**（今回はスクリプトで分散済み）。
+- `gen-ja-readings.mjs` 再実行済み（1396件）。検証: `/test`に両教材表示、英語問題文＋日本語4択＋ローマ字、漢字選択肢/解説にruby＋ローマ字、正解判定・解説パネルOK、コンソールエラー無し。
+  - ℹ️ 既知の軽微: kuroshiro自動ふりがなが単独漢字で別読みを当てる場合あり（例「時(じ)」の選択肢でrubyが「とき」）。データは正しく表示用の自動生成由来。Genki既存も同様。
+- 🚫 **まだ未着手の素材**（本人と方針決め必要）: 動画(Videos in Japan/Writing Practice .mov/mp4)・音声(.m4a)・早見表画像 → Library(Phase 3 `materials`)候補だが**巨大→外部ホスト/Supabase Storage前提**。Genki PDF/N5漢字PDFは**著作物につきアプリ非搭載**（参考にオリジナル問題を作る用途のみ）。`Information & Links (Flash Cards).docx`は**個人情報＋Stripe決済リンクなので非搭載**。
+
+### ✅ Anne先生 残りdocsをクイズ化＆push（2026-06-18・検証＆本番反映済み）
+- `_anne_extract/` 内の**クイズ化できる残りdocx 3本**を全てクイズ化（`Information & Links` は個人情報/Stripeのため対象外、Grammar/Useful Phrases は前項で投入済み）。専用ステージング `/Users/kazuya_ikeda/Downloads/04_開発/テスト用データ_anne/日本語学習/` にCSVを作成し `import-test-data.mjs <staging> --replace` で投入（76問）:
+  - ja「**きほん動詞**」36問（単語。`verbs_basic.csv`。出典: Basic verbs どうし.docx）。章=きほん動詞/日常の動詞/ストーリー動詞/かわいい・ユニーク動詞/チャレンジ動詞。英語で意味を問い、ひらがな動詞4択＋ローマ字。
+  - ja「**会話シャドーイング**」20問（単語。`shadowing_dialogues.csv`。出典: Shadowing Material for Beginners.docx）。章=あいさつ・天気/自己紹介・出身/買い物・レストラン/道案内・電車/日常・予定・電話。英語→正しい日本語フレーズ4択。
+  - ja「**日本のFAQ**」20問（**新ジャンル `文化・知識`**。`faq_japan.csv`。出典: FAQ.docx）。章=ことば・学習/くらしのマナー/食事のマナー/おでかけ・観光。文化・マナー・言語の知識クイズ（設問・選択肢とも英語。は/がの2問のみ設問に「は」を含むが答えのバラしではない）。
+  - `bookNameFor()` に `verb|doushi→きほん動詞` / `shadow→会話シャドーイング` / `faq→日本のFAQ` のマッピングを追加。
+- 正解位置は1〜4に分散（クイズはoption順を固定）・選択肢重複なしを `python3` で検証。`gen-ja-readings.mjs` 再実行済み（**1612件**）。
+- 検証（`learning-support-dev` / テストEN(ja)）: `/test` に `単語`(使えるフレーズ/会話シャドーイング/きほん動詞)・`文化・知識`(日本のFAQ) が表示、きほん動詞クイズで英語設問＋ひらがな4択＋ローマ字、解答→解説パネルで漢字に ruby＋ローマ字（例「作つくる」）、コンソールエラー無し。`npx tsc --noEmit` クリーン。
+- DB総計: ja 376問（Genki I/II 230 ＋ 使えるフレーズ40 ＋ 文法シリーズ30 ＋ きほん動詞36 ＋ 会話シャドーイング20 ＋ 日本のFAQ20）。
+- ✅ **本人の指示によりこのセッションで `main` に push 済み**（Netlify 自動デプロイ）。push対象は `scripts/import-test-data.mjs`・`public/ja-readings.json`・`.gitignore`・本ファイル（実問題はDBにあり=コミット対象外。ソースCSVは従来どおりリポ外ステージング）。
 
 ### ⚠️ ja トラック実コンテンツ: 投入済み（上記）。さらに追加する場合は管理画面 or import/seed スクリプトで。
 

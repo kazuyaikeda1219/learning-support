@@ -78,6 +78,12 @@ function bookNameFor(subject, fileName) {
   if (subject === 'en') return '総合英語Evergreen';
   if (/genki1/i.test(fileName)) return 'Genki I';
   if (/genki2/i.test(fileName)) return 'Genki II';
+  // Anne先生の教材（CONTENT_HANDOFF.md「実コンテンツ投入済み」参照）
+  if (/phrase/i.test(fileName)) return '使えるフレーズ';
+  if (/grammar|bunpo/i.test(fileName)) return '文法シリーズ';
+  if (/verb|doushi/i.test(fileName)) return 'きほん動詞';
+  if (/shadow/i.test(fileName)) return '会話シャドーイング';
+  if (/faq/i.test(fileName)) return '日本のFAQ';
   return '日本語教材';
 }
 
