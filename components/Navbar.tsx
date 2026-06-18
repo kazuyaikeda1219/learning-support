@@ -52,7 +52,7 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-bold transition-all ${
+                  className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-bold whitespace-nowrap shrink-0 transition-all ${
                     isActive
                       ? 'bg-indigo-50 text-indigo-600'
                       : 'text-gray-500 hover:bg-gray-50 hover:text-gray-800'

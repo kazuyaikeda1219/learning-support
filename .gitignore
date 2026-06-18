@@ -46,6 +46,8 @@ next-env.d.ts
 # 教材の生データ（巨大・著作物含む / publicリポにコミットしない）
 # Anne先生の動画・音声・PDF・zip等。Library化は外部ホスト or Supabase Storage で行う。
 Japanese lesson with Anne*.zip
+Japanese lesson with Anne/
+Japanese lesson with Anne */
 *.mp4
 *.mov
 *.m4a
