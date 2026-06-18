@@ -84,6 +84,16 @@ const rows = questions.map((q, i) => {
     q_type: qType,
     correct_text: qType === 'text' ? q.correct_text : null,
     explanation: q.explanation || null,
+    // ── 旧スターター由来の legacy 列（choice_*/correct_choice/grade_level）は
+    //    まだ NOT NULL 制約が残っており、未充填だと anon insert が失敗する。
+    //    アプリは option_*/correct_option しか読まないが、insert を通すため新列をミラーする。
+    //    （DDL で legacy 列を drop できれば不要。migrate_questions_schema.sql 末尾の任意手順参照）
+    choice_1: opts[0] ?? '',
+    choice_2: opts[1] ?? '',
+    choice_3: opts[2] ?? '',
+    choice_4: opts[3] ?? '',
+    correct_choice: qType === 'choice' ? q.correct : 1,
+    grade_level: q.chapter || '一般',
   };
 });
 
