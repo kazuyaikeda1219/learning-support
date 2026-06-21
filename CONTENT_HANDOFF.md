@@ -20,6 +20,27 @@
 
 ---
 
+## ★更新（2026-06-21）フラッシュカード（単語帳）本投入＋3D反転アニメ・**本番反映済み**
+
+このセッションで実施し、**`main` に push 済み（Netlify 自動デプロイ／コミット `6848816`）**。
+
+### ✅ 単語帳データ 12デッキ・計1,629枚を投入（subject=ja）
+- 仕組み（`flashcard_decks`/`flashcards` テーブル＋ `/flashcards` 一覧＋ `/flashcards/[id]` のクリック反転）は既存実装済みで**新規UIは不要**だった。表=`front`（日本語）/裏=`back`（英語）＋`reading`（ローマ字・ふりがな）/`example`。
+- 本人提供の `フラッシュカード.xlsx`（Anne先生向け日本語学習・全14シート）を **`scripts/convert-flashcards-xlsx.py`**（Python標準ライブラリでxlsx解析・シート別ハンドラ）で `content/*.json` 12本に整形 → `node scripts/seed-flashcards.mjs content/<deck>.json --replace` で投入。
+- 内訳: ひらがな101 / カタカナ五十音46 / カタカナ語100 / N5漢字80 / Genki I 単語①413・②389 / 曜日13 / 数字55 / 日付31 / 100 Useful Phrases 122 / N5漢字フレーズ50 / N4漢字フレーズ229。
+- **除外**: 「100 Basic Vocabulary」（本人指示・行レイアウト不揃い）と「シート14」（リンク集。NHKスキット会話の取込希望メモあり＝未対応で本人OK）。
+- 取りこぼし行は当初42 → 救済ロジックで**残り1行のみ**（日本語見出しのない孤立テンプレ `ni arerugii ga arimasu`。allergyは別カードで網羅済み）。救済内容＝補足注釈(☆/( )/読み)を直前カードの`example`へ寄せ／複数行に割れた見出しの結合(にんき＋がある)／3行構成(日本語/ローマ字/☆英語)／単一行完結(ぜひ zehi)／フレーズのここ・そこ・あそこのズレ補正／Q&A回答(→)の例文化／壊れたExcel時刻シリアル(0.128…→3:05)修正。
+
+### ✅ カードを3D反転アニメ化
+- `app/flashcards/[id]/page.tsx` を表/裏の2面を持つ構造に変更し、`app/globals.css` に `.flip-card` 系スタイル（`perspective`／`transform-style: preserve-3d`／`backface-visibility: hidden`／`prefers-reduced-motion`対応）を追加。「めくる」やタップで rotateY(180deg) でくるっと反転。preview(port3200)で動作確認済み。
+
+### ⚠️ 再投入・運用メモ
+- **専用Supabaseに `supabase/migrate_flashcards.sql` が未適用**だとテーブルが無く seed が PGRST205 で失敗する。本セッションで本人がSQL Editorに適用済み。
+- データ更新は `フラッシュカード.xlsx` を直して `python3 scripts/convert-flashcards-xlsx.py` → 生成された `content/*.json` を `seed-flashcards.mjs --replace` で入れ直すだけ（デッキ名 subject+deck_name 単位で置換）。
+- **`フラッシュカード.xlsx`（教材語彙の原本）は public リポに載せないため `.gitignore` 済み**。アプリはSupabaseから読むのでビルドに不要。content/*.json と変換スクリプトはコミット対象。
+
+---
+
 ## ★更新（2026-06-17）再設計に着手 — 学習内容(subject)で出し分け
 
 方針確定: **システムは分割せず1つのまま**、`subject`（`'en'`=英語 / `'ja'`=日本語＝外国人向け日本語学習）という1次元で出し分ける。違いはコードでなく**データ（問題・教材・項目）だけ**。段階リリース計画（Phase 1〜4）の全体像と理由は、本人と合意済み。
@@ -136,7 +157,8 @@
   - `student_profiles` … オンボーディングのアンケート回答（id=profiles.id）
   - `questions` … 問題バンク（後述）
   - `study_logs` / `roadmap_progress` / `quiz_results` … 個人別データ（user_id=profiles.id）
-- スキーマ群: `supabase/schema.sql`, `supabase/migrate_profiles.sql`, `supabase/migrate_drop_profiles_fk.sql`（**適用済み。再実行不要**）。
+  - `flashcard_decks` / `flashcards` … 単語帳（§4-5）。subject で出し分け。`supabase/migrate_flashcards.sql` 適用済み（2026-06-21）。
+- スキーマ群: `supabase/schema.sql`, `supabase/migrate_profiles.sql`, `supabase/migrate_drop_profiles_fk.sql`, `supabase/migrate_flashcards.sql`（**適用済み。再実行不要**）。
 - ⚠️ 既知の落とし穴（解消済み・再発時の参考）: このプロジェクトには元々「認証ありスターターの profiles（auth.usersへのFK付き）」が残っていた。`migrate_drop_profiles_fk.sql` でFK削除済み。新テーブル追加後にAPIが404(PGRST205)なら SQL末尾に `notify pgrst, 'reload schema';`。
 
 ## 3. 認証なしの仕組み（コンテンツ改修時に壊さない用）
@@ -181,6 +203,13 @@
 - オンボーディング設問: `app/onboarding/page.tsx` の `STEPS`（survey id `goal_after_tep` は**DB列キーなので変えない**。表示ラベルのみ変更可。現在「プログラム終了後（6ヶ月後）の目標」）。
 - ナビ/各見出し: `components/Navbar.tsx`, 各ページ。ブランドは "Learning Support" に統一済み。
 - ✅ **ナビ整理済み（2026-06-17）**: 上(PC `Navbar`)・下(スマホ `BottomNav`)の主要メニューを **`components/navItems.ts` の `PRIMARY_NAV` に一元化**（ホーム/テスト/単語/ロードマップ/ライブラリ/マイページ）。ここを編集すれば上下両方に反映。アクティブ判定は `isNavActive`（`/test/quiz` 等の子ページは親タブを点灯）。PC上バーは主要ナビを中央に並べ、右側にAdmin＋利用者アバター＋ログアウト。スマホは下バー6タブ＋**ログアウト/管理画面はマイページの「アカウント」欄に集約**（`md:hidden`、PCは上バー側に集約）。ライブラリは準備中だがナビには表示する方針。検証: PC/スマホ両幅・tsc・コンソールOK。
+
+### 4-5. 単語帳（フラッシュカード）★2026-06-21 本投入
+- **データ本体は DB `flashcard_decks`（教材＝デッキ）＋ `flashcards`（カード）**。subject で出し分け（現状 ja に12デッキ・1,629枚）。カード列: `front`(表=日本語) / `back`(裏=英語) / `reading`(ローマ字・ふりがな) / `example` / `sort_order`。
+- **画面**: `/flashcards`（カテゴリ別のデッキ一覧）→ `/flashcards/[id]`（クリックで3D反転して表⇔裏。←→移動・Spaceで反転・シャッフル）。UIは実装済みで、追加は基本データ投入のみ。
+- **投入フロー**: ①`フラッシュカード.xlsx` を編集 → ②`python3 scripts/convert-flashcards-xlsx.py` で `content/*.json` を生成 → ③`node scripts/seed-flashcards.mjs content/<deck>.json --replace`（subject+deck_name 単位で置換）。JSON形式は `{ subject, category, deck_name, description, cards:[{front,back,reading?,example?}] }`。
+- ⚠️ テーブルが無い環境では先に `supabase/migrate_flashcards.sql` を SQL Editor で実行（未適用だと PGRST205）。
+- ⚠️ 原本 `フラッシュカード.xlsx` は `.gitignore` 済み（public リポに教材語彙の原本を載せない）。再生成は上記スクリプトで可能。
 
 ---
 
