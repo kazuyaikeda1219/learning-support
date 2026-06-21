@@ -1,0 +1,500 @@
+{
+  "subject": "ja",
+  "category": "フレーズ",
+  "deck_name": "100 Useful Phrases",
+  "description": "Everyday useful phrases (with furigana).",
+  "cards": [
+    {
+      "front": "お名前（なまえ）はなんですか",
+      "back": "What is your name?"
+    },
+    {
+      "front": "XXです",
+      "back": "I'm XX"
+    },
+    {
+      "front": "出身（しゅっしん）はどこですか？",
+      "back": "Where are you from?"
+    },
+    {
+      "front": "XX出身（しゅっしん）です",
+      "back": "I'm from XX"
+    },
+    {
+      "front": "どこに住（す）んでいますか",
+      "back": "Where do you live?"
+    },
+    {
+      "front": "XXに住（す）んでいます",
+      "back": "I live in XX"
+    },
+    {
+      "front": "おはようございます",
+      "back": "Good morning"
+    },
+    {
+      "front": "こんにちは",
+      "back": "Hello"
+    },
+    {
+      "front": "こんばんは",
+      "back": "Good evening"
+    },
+    {
+      "front": "じゃあ、またね",
+      "back": "See you"
+    },
+    {
+      "front": "ありがとうございます",
+      "back": "Thank you (polite)"
+    },
+    {
+      "front": "トイレはどこですか？",
+      "back": "Where is the toilet?"
+    },
+    {
+      "front": "お会計（かいけい）はどこですか？",
+      "back": "Where is the checkout?"
+    },
+    {
+      "front": "ここです",
+      "back": "It's here"
+    },
+    {
+      "front": "そこです",
+      "back": "It's right there"
+    },
+    {
+      "front": "あそこです",
+      "back": "It's over there"
+    },
+    {
+      "front": "クレジットカードでお願（ねが）いします",
+      "back": "By credit card, please."
+    },
+    {
+      "front": "現金（げんきん）でお願（ねが）いします",
+      "back": "In cash, please."
+    },
+    {
+      "front": "おいしいです",
+      "back": "It's tasty."
+    },
+    {
+      "front": "XXは、いくらですか？/なんえんですか？",
+      "back": "How much is XX?"
+    },
+    {
+      "front": "1234円（えん）です",
+      "back": "It's ￥1234"
+    },
+    {
+      "front": "せんにひゃくさんじゅうよえん です",
+      "back": "It's ￥1234"
+    },
+    {
+      "front": "ふくろをお願（ねが）いします",
+      "back": "Can I get a bag, please?"
+    },
+    {
+      "front": "英語（えいご）のメニューはありますか？",
+      "back": "Is there an English menu?"
+    },
+    {
+      "front": "大丈夫（だいじょうぶ）です",
+      "back": "I'm good./ No thank you"
+    },
+    {
+      "front": "助（たす）けてください！",
+      "back": "Help me, please"
+    },
+    {
+      "front": "体調（たいちょう）が悪（わる）いです",
+      "back": "I'm not feeling good."
+    },
+    {
+      "front": "XXを探（さが）しています",
+      "back": "I'm looking for XX"
+    },
+    {
+      "front": "写真（しゃしん）を撮（と）ってもいいですか？",
+      "back": "Can I take a photo?"
+    },
+    {
+      "front": "ゆっくり話（はな）してください",
+      "back": "Can you please speak slowly?"
+    },
+    {
+      "front": "もう一度（いちど）お願（ねが）いします",
+      "back": "Can you say that again, please?"
+    },
+    {
+      "front": "日本語（にほんご）がわかりません",
+      "back": "I don't know Japanese"
+    },
+    {
+      "front": "英語（えいご）を話（はな）せますか？",
+      "back": "Can you speak English?"
+    },
+    {
+      "front": "これは何（なん）ですか？",
+      "back": "What is this?"
+    },
+    {
+      "front": "レシートをください",
+      "back": "Can I get the receipt, please?"
+    },
+    {
+      "front": "病院（びょういん）はどこですか？",
+      "back": "Where is the hospital/clinic?"
+    },
+    {
+      "front": "警察（けいさつ）を呼(よ)んでください",
+      "back": "Can you call the police, please?"
+    },
+    {
+      "front": "チェックインをお願いします",
+      "back": "Check-in, please."
+    },
+    {
+      "front": "予約（よやく）しています",
+      "back": "I have a reservation."
+    },
+    {
+      "front": "ワイファイはありますか？",
+      "back": "Do you have Wi-Fi?"
+    },
+    {
+      "front": "駅（えき）はどこですか？",
+      "back": "Where is the station?"
+    },
+    {
+      "front": "この電車（でんしゃ）はXXに行（い）きますか？",
+      "back": "Does this train go to XX?"
+    },
+    {
+      "front": "おすすめは何ですか？",
+      "back": "What is your recommendation?"
+    },
+    {
+      "front": "持ち帰り（もちかえり）でお願（ねが）いします",
+      "back": "Takeaway, please."
+    },
+    {
+      "front": "XXのアレルギーがあります",
+      "back": "I have an allergy to XX."
+    },
+    {
+      "front": "これ、ベジタリアンですか？",
+      "back": "Is this vegetarian?"
+    },
+    {
+      "front": "お元気（げんき）ですか",
+      "back": "How are you?"
+    },
+    {
+      "front": "はい、げんきです。",
+      "back": "Yes, I'm fine."
+    },
+    {
+      "front": "あなたは？",
+      "back": "How about you?"
+    },
+    {
+      "front": "いいえ、げんきじゃありません",
+      "back": "No, I'm not fine."
+    },
+    {
+      "front": "はじめまして",
+      "back": "Nice to meet you."
+    },
+    {
+      "front": "何（なに）をしていますか",
+      "back": "What are you doing?"
+    },
+    {
+      "front": "XXをしています",
+      "back": "I'm doing XX"
+    },
+    {
+      "front": "何（なに）をしましたか",
+      "back": "What did you do?"
+    },
+    {
+      "front": "XXをしました",
+      "back": "I did XX"
+    },
+    {
+      "front": "趣味（しゅみ）はなんですか",
+      "back": "What is your hobby?"
+    },
+    {
+      "front": "XXをすることです。",
+      "back": "Doing XX"
+    },
+    {
+      "front": "XXをしたことはありますか",
+      "back": "Have you ever XX?",
+      "example": "はい、あります。（Yes, I have.） / いいえ、ありません。（No, I haven't.）"
+    },
+    {
+      "front": "XXしましたか",
+      "back": "Did you XX?",
+      "example": "はい、しました。（Yes, I did.） / いいえ、しませんでした（No, I didn't.）"
+    },
+    {
+      "front": "XXがすきですか？",
+      "back": "Do you like XX?",
+      "example": "はい、すきです。（Yes, I do.） / いいえ、すきじゃありません。（No, I don't.）"
+    },
+    {
+      "front": "XXはどういう意味（いみ）ですか",
+      "back": "What does XX mean?"
+    },
+    {
+      "front": "XXはYYという意味（いみ）です。",
+      "back": "XX means YY."
+    },
+    {
+      "front": "XXができますか？",
+      "back": "Can you do XX?",
+      "example": "はい、できます。（Yes, I can.） / いいえ、できません。（No, I can't.）"
+    },
+    {
+      "front": "XXに行きたいです。",
+      "back": "I want to go to XX"
+    },
+    {
+      "front": "XXにはどう(やって)行きますか？",
+      "back": "How do I go to XX?"
+    },
+    {
+      "front": "バスでXにいきます。",
+      "back": "I go to X by bus."
+    },
+    {
+      "front": "Xは、どれですか",
+      "back": "Which is X?"
+    },
+    {
+      "front": "Xは、いつですか",
+      "back": "When is X?"
+    },
+    {
+      "front": "Xは、なんですか",
+      "back": "What is X?"
+    },
+    {
+      "front": "Xは、どうしてですか",
+      "back": "Why is X?"
+    },
+    {
+      "front": "Xは、どこですか?",
+      "back": "Where is X?"
+    },
+    {
+      "front": "どう(やって)Xしますか？",
+      "back": "How do you X?"
+    },
+    {
+      "front": "あれは、だれですか？",
+      "back": "Who is that?"
+    },
+    {
+      "front": "今(いま)、何時（なんじ）ですか",
+      "back": "What time is it?"
+    },
+    {
+      "front": "今（いま）は、午後X時Y分（ごごXじYふん）です",
+      "back": "It's X:Y pm"
+    },
+    {
+      "front": "午前（ごぜん）",
+      "back": "Am"
+    },
+    {
+      "front": "午後（ごご）",
+      "back": "Pm"
+    },
+    {
+      "front": "何時（なんじ）に閉（し）まりますか",
+      "back": "What time do you close?"
+    },
+    {
+      "front": "午後５時(ごごごじ)に閉（し）まります。",
+      "back": "We close at 5pm"
+    },
+    {
+      "front": "今日（きょう）は、何日（なんにち）ですか",
+      "back": "What date is it today?"
+    },
+    {
+      "front": "２０２５年５月１５日",
+      "back": "15 May 2025."
+    },
+    {
+      "front": "ni sen ni juu go nen go gatsu juu go",
+      "back": "15 May 2025."
+    },
+    {
+      "front": "今日（きょう）は、何曜日（なんようび）ですか",
+      "back": "What day is it today?"
+    },
+    {
+      "front": "日曜日（にちようび）です",
+      "back": "It's Sunday"
+    },
+    {
+      "front": "☆Xようび",
+      "back": "It's Sunday"
+    },
+    {
+      "front": "少（すこ）し暑（あつ）いです",
+      "back": "It's a bit hot"
+    },
+    {
+      "front": "とても寒（さむ）いです",
+      "back": "It's very cold"
+    },
+    {
+      "front": "旅行（りょこう）をします",
+      "back": "I travel/ I will travel"
+    },
+    {
+      "front": "旅行（りょこう）をしています",
+      "back": "I'm traveling"
+    },
+    {
+      "front": "旅行（りょこう）をしました",
+      "back": "I traveled"
+    },
+    {
+      "front": "旅行（りょこう）をしていました",
+      "back": "I was traveling"
+    },
+    {
+      "front": "旅行（りょこう）をしません",
+      "back": "I don't travel/ I will not travel"
+    },
+    {
+      "front": "旅行（りょこう）をしていません",
+      "back": "I'm not traveling"
+    },
+    {
+      "front": "旅行（りょこう）をしませんでした",
+      "back": "I didn't travel"
+    },
+    {
+      "front": "旅行（りょこう）をしていませんでした",
+      "back": "I wasn't traveling"
+    },
+    {
+      "front": "仕事（しごと）をする",
+      "back": "I work/ I will work"
+    },
+    {
+      "front": "（わたしは）嬉（うれ）しいです",
+      "back": "I'm happy"
+    },
+    {
+      "front": "（わたしは）悲（かな）しいです",
+      "back": "I'm sad"
+    },
+    {
+      "front": "（あなたは）怒（おこ）っています",
+      "back": "You are mad"
+    },
+    {
+      "front": "良（い）いですね！",
+      "back": "Good!"
+    },
+    {
+      "front": "素敵（すてき）ですね！",
+      "back": "Nice! Sweet!"
+    },
+    {
+      "front": "すごい！",
+      "back": "Great! Amazing!"
+    },
+    {
+      "front": "Xが大好（だいす）きです！",
+      "back": "I love X"
+    },
+    {
+      "front": "Xはあまり好きじゃありません",
+      "back": "I don't really like X"
+    },
+    {
+      "front": "どのくらいですか？",
+      "back": "How much? (quantity, weight, price)"
+    },
+    {
+      "front": "How long ?(duration)",
+      "back": "Where is X?"
+    },
+    {
+      "front": "Xは、どこですか",
+      "back": "Where is X?"
+    },
+    {
+      "front": "XXくらいです",
+      "back": "About XX"
+    },
+    {
+      "front": "Xが得意（とくい）です",
+      "back": "I'm good at X"
+    },
+    {
+      "front": "Xが苦手（にがて）です",
+      "back": "I'm not good at X"
+    },
+    {
+      "front": "Xが食（た）べられません",
+      "back": "I can't eat X"
+    },
+    {
+      "front": "試食（ししょく）してもいいですか？",
+      "back": "Can I have a tasting?"
+    },
+    {
+      "front": "試着（しちゃく）してもいいですか？",
+      "back": "Can I try it on?"
+    },
+    {
+      "front": "アルコールが入（はい）っていますか？",
+      "back": "Does this have alcohol in it?"
+    },
+    {
+      "front": "これはお酒（さけ）ですか？",
+      "back": "Is this alcohol?"
+    },
+    {
+      "front": "Xは日本語（にほんご）でなんと言（い）いますか",
+      "back": "How do you say X in Japanese?"
+    },
+    {
+      "front": "連絡先（れんらくさき）を交換（こうかん）しましょう",
+      "back": "Let's exchange contact information."
+    },
+    {
+      "front": "Instagramをしていますか？",
+      "back": "Do you have Instagram?"
+    },
+    {
+      "front": "また会（あ）いましょう",
+      "back": "See you again."
+    },
+    {
+      "front": "お元気（げんき）で",
+      "back": "Take care(Focus on health and well-being.)"
+    },
+    {
+      "front": "気（き）をつけてください",
+      "back": "Take care(Focus on safety and caution.)"
+    },
+    {
+      "front": "彼女（かのじょ）は私（わたし）にXしてくれる",
+      "back": "She does X for me, (which I really appreciate.)"
+    }
+  ]
+}

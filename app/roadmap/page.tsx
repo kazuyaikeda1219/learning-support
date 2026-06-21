@@ -135,6 +135,8 @@ export default function Roadmap() {
     async function loadProgress() {
       const cu = getCurrentUser();
       if (!cu) { router.push('/login'); return; }
+      // ロードマップは英語学習向けの内容なので、日本語学習者には提供しない
+      if (cu.subject === 'ja') { router.replace('/mypage'); return; }
       setUserId(cu.id);
       const { data } = await supabase.from('roadmap_progress').select('item_key').eq('user_id', cu.id).eq('is_completed', true);
       if (data) setCompletedIds(new Set(data.map(d => d.item_key)));

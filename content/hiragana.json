@@ -1,0 +1,412 @@
+{
+  "subject": "ja",
+  "category": "かな",
+  "deck_name": "ひらがな（五十音）",
+  "description": "Basic hiragana — flip to see the romaji reading.",
+  "cards": [
+    {
+      "front": "あ",
+      "back": "a"
+    },
+    {
+      "front": "い",
+      "back": "i"
+    },
+    {
+      "front": "う",
+      "back": "u"
+    },
+    {
+      "front": "え",
+      "back": "e"
+    },
+    {
+      "front": "お",
+      "back": "o"
+    },
+    {
+      "front": "か",
+      "back": "ka"
+    },
+    {
+      "front": "き",
+      "back": "ki"
+    },
+    {
+      "front": "く",
+      "back": "ku"
+    },
+    {
+      "front": "け",
+      "back": "ke"
+    },
+    {
+      "front": "こ",
+      "back": "ko"
+    },
+    {
+      "front": "さ",
+      "back": "sa"
+    },
+    {
+      "front": "し",
+      "back": "shi"
+    },
+    {
+      "front": "す",
+      "back": "su"
+    },
+    {
+      "front": "せ",
+      "back": "se"
+    },
+    {
+      "front": "そ",
+      "back": "so"
+    },
+    {
+      "front": "た",
+      "back": "ta"
+    },
+    {
+      "front": "ち",
+      "back": "chi"
+    },
+    {
+      "front": "つ",
+      "back": "tsu"
+    },
+    {
+      "front": "て",
+      "back": "te"
+    },
+    {
+      "front": "と",
+      "back": "to"
+    },
+    {
+      "front": "な",
+      "back": "na"
+    },
+    {
+      "front": "に",
+      "back": "ni"
+    },
+    {
+      "front": "ぬ",
+      "back": "nu"
+    },
+    {
+      "front": "ね",
+      "back": "ne"
+    },
+    {
+      "front": "の",
+      "back": "no"
+    },
+    {
+      "front": "は",
+      "back": "ha"
+    },
+    {
+      "front": "ひ",
+      "back": "hi"
+    },
+    {
+      "front": "ふ",
+      "back": "hu"
+    },
+    {
+      "front": "へ",
+      "back": "he"
+    },
+    {
+      "front": "ほ",
+      "back": "ho"
+    },
+    {
+      "front": "ま",
+      "back": "ma"
+    },
+    {
+      "front": "み",
+      "back": "mi"
+    },
+    {
+      "front": "む",
+      "back": "mu"
+    },
+    {
+      "front": "め",
+      "back": "me"
+    },
+    {
+      "front": "も",
+      "back": "mo"
+    },
+    {
+      "front": "や",
+      "back": "ya"
+    },
+    {
+      "front": "ゆ",
+      "back": "yu"
+    },
+    {
+      "front": "よ",
+      "back": "yo"
+    },
+    {
+      "front": "ら",
+      "back": "ra"
+    },
+    {
+      "front": "り",
+      "back": "ri"
+    },
+    {
+      "front": "る",
+      "back": "ru"
+    },
+    {
+      "front": "れ",
+      "back": "re"
+    },
+    {
+      "front": "ろ",
+      "back": "ro"
+    },
+    {
+      "front": "わ",
+      "back": "wa"
+    },
+    {
+      "front": "を",
+      "back": "wo/ o"
+    },
+    {
+      "front": "ん",
+      "back": "n"
+    },
+    {
+      "front": "が",
+      "back": "ga"
+    },
+    {
+      "front": "ぎ",
+      "back": "gi"
+    },
+    {
+      "front": "ぐ",
+      "back": "gu"
+    },
+    {
+      "front": "げ",
+      "back": "ge"
+    },
+    {
+      "front": "ご",
+      "back": "go"
+    },
+    {
+      "front": "ざ",
+      "back": "za"
+    },
+    {
+      "front": "じ",
+      "back": "ji"
+    },
+    {
+      "front": "ず",
+      "back": "zu"
+    },
+    {
+      "front": "ぜ",
+      "back": "ze"
+    },
+    {
+      "front": "ぞ",
+      "back": "zo"
+    },
+    {
+      "front": "だ",
+      "back": "da"
+    },
+    {
+      "front": "ぢ",
+      "back": "ji"
+    },
+    {
+      "front": "づ",
+      "back": "zu"
+    },
+    {
+      "front": "で",
+      "back": "de"
+    },
+    {
+      "front": "ど",
+      "back": "do"
+    },
+    {
+      "front": "ば",
+      "back": "ba"
+    },
+    {
+      "front": "び",
+      "back": "bi"
+    },
+    {
+      "front": "ぶ",
+      "back": "bu"
+    },
+    {
+      "front": "べ",
+      "back": "be"
+    },
+    {
+      "front": "ぼ",
+      "back": "bo"
+    },
+    {
+      "front": "ぱ",
+      "back": "pa"
+    },
+    {
+      "front": "ぴ",
+      "back": "pi"
+    },
+    {
+      "front": "ぷ",
+      "back": "pu"
+    },
+    {
+      "front": "ぺ",
+      "back": "pe"
+    },
+    {
+      "front": "ぽ",
+      "back": "po"
+    },
+    {
+      "front": "きゃ",
+      "back": "kya"
+    },
+    {
+      "front": "きゅ",
+      "back": "kyu"
+    },
+    {
+      "front": "きょ",
+      "back": "kyo"
+    },
+    {
+      "front": "しゃ",
+      "back": "sha"
+    },
+    {
+      "front": "しゅ",
+      "back": "shu"
+    },
+    {
+      "front": "しょ",
+      "back": "sho"
+    },
+    {
+      "front": "にゃ",
+      "back": "nya"
+    },
+    {
+      "front": "にゅ",
+      "back": "nyu"
+    },
+    {
+      "front": "にょ",
+      "back": "nyo"
+    },
+    {
+      "front": "ひゃ",
+      "back": "hya"
+    },
+    {
+      "front": "ひゅ",
+      "back": "hyu"
+    },
+    {
+      "front": "ひょ",
+      "back": "hyo"
+    },
+    {
+      "front": "みゃ",
+      "back": "mya"
+    },
+    {
+      "front": "みゅ",
+      "back": "myu"
+    },
+    {
+      "front": "みょ",
+      "back": "myo"
+    },
+    {
+      "front": "りゃ",
+      "back": "rya"
+    },
+    {
+      "front": "りゅ",
+      "back": "ryu"
+    },
+    {
+      "front": "りょ",
+      "back": "ryo"
+    },
+    {
+      "front": "じゃ",
+      "back": "ja"
+    },
+    {
+      "front": "じゅ",
+      "back": "ju"
+    },
+    {
+      "front": "じょ",
+      "back": "jo"
+    },
+    {
+      "front": "ぎゃ",
+      "back": "gya"
+    },
+    {
+      "front": "ぎゅ",
+      "back": "gyu"
+    },
+    {
+      "front": "ぎょ",
+      "back": "gyo"
+    },
+    {
+      "front": "びゃ",
+      "back": "bya"
+    },
+    {
+      "front": "びゅ",
+      "back": "byu"
+    },
+    {
+      "front": "びょ",
+      "back": "byo"
+    },
+    {
+      "front": "ぴゃ",
+      "back": "pya"
+    },
+    {
+      "front": "ぴゅ",
+      "back": "pyu"
+    },
+    {
+      "front": "ぴょ",
+      "back": "pyo"
+    }
+  ]
+}

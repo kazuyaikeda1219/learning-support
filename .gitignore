@@ -52,3 +52,8 @@ Japanese lesson with Anne */
 *.mov
 *.m4a
 _anne_extract/
+
+# フラッシュカードの元データ（教材語彙の原本 / publicリポにコミットしない）
+# 変換は scripts/convert-flashcards-xlsx.py → content/*.json で再現可能。
+フラッシュカード.xlsx
+*.xlsx

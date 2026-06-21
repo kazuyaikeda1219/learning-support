@@ -9,17 +9,20 @@ import { getCurrentUser } from '@/utils/currentUser';
 import { DEFAULT_SUBJECT } from '@/utils/subject';
 import {
   Book, ArrowRight, Loader2, Zap, GraduationCap, Headphones,
-  Mic, BookOpen, ClipboardCheck, FolderOpen,
+  Mic, BookOpen, ClipboardCheck, FolderOpen, ChevronDown, Globe,
 } from 'lucide-react';
 
 // ── 大項目（ジャンル）ごとの見た目。未知のカテゴリはデフォルトにフォールバック ──
 const CATEGORY_STYLE: Record<string, { icon: React.ReactNode; ring: string }> = {
+  '英単語':   { icon: <Zap />,            ring: 'text-orange-500 bg-orange-50' },
+  '英文法':   { icon: <GraduationCap />,  ring: 'text-blue-500 bg-blue-50' },
   '単語':     { icon: <Zap />,            ring: 'text-orange-500 bg-orange-50' },
   '文法':     { icon: <GraduationCap />,  ring: 'text-blue-500 bg-blue-50' },
   'リスニング': { icon: <Headphones />,     ring: 'text-emerald-500 bg-emerald-50' },
   '発音':     { icon: <Mic />,            ring: 'text-pink-500 bg-pink-50' },
   '読解':     { icon: <BookOpen />,       ring: 'text-violet-500 bg-violet-50' },
   'チェック':  { icon: <ClipboardCheck />, ring: 'text-purple-500 bg-purple-50' },
+  '文化・知識 Japan FAQ': { icon: <Globe />, ring: 'text-teal-500 bg-teal-50' },
 };
 const DEFAULT_STYLE = { icon: <FolderOpen />, ring: 'text-gray-500 bg-gray-100' };
 
@@ -39,6 +42,14 @@ export default function TestPortal() {
   const [rows, setRows] = useState<Row[]>([]);
   const [qType, setQType] = useState<string>('all'); // 'all' | 'choice' | 'text' | ...
   const [loading, setLoading] = useState(true);
+  // 開いている教材（中項目）のキー集合。`大::中` 形式。複数同時に開けるので比較できる
+  const [openBooks, setOpenBooks] = useState<Set<string>>(new Set());
+  const toggleBook = (key: string) =>
+    setOpenBooks((prev) => {
+      const next = new Set(prev);
+      next.has(key) ? next.delete(key) : next.add(key);
+      return next;
+    });
 
   useEffect(() => {
     const load = async () => {
@@ -162,30 +173,47 @@ export default function TestPortal() {
                     <div className="space-y-6">
                       {Object.keys(books).sort(naturalSort).map((book) => {
                         const chapters = books[book];
+                        const bookKey = `${cat}::${book}`;
+                        const isOpen = openBooks.has(bookKey);
+                        const chapKeys = Object.keys(chapters).sort(naturalSort);
+                        const bookTotal = Object.values(chapters).reduce((a, b) => a + b, 0);
                         return (
                           <div key={book}>
-                            <div className="flex items-center gap-2 mb-3">
-                              <span className="text-sm font-black text-gray-700">{book}</span>
+                            {/* 中項目（教材）見出し = クリックで小項目を開閉 */}
+                            <button
+                              onClick={() => toggleBook(bookKey)}
+                              className="w-full flex items-center gap-2 mb-3 group/book"
+                            >
+                              <ChevronDown
+                                size={16}
+                                className={`text-gray-400 transition-transform shrink-0 ${isOpen ? 'rotate-180' : ''}`}
+                              />
+                              <span className="text-sm font-black text-gray-700 group-hover/book:text-indigo-600 transition-colors">{book}</span>
+                              <span className="text-xs font-bold text-gray-400">
+                                {chapKeys.length}テスト ・ {bookTotal}問
+                              </span>
                               <span className="h-px flex-1 bg-gray-100" />
-                            </div>
-                            {/* 小項目（章）ごと = クイズ */}
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                              {Object.keys(chapters).sort(naturalSort).map((chap) => (
-                                <Link
-                                  key={chap}
-                                  href={`/test/quiz?category=${encodeURIComponent(cat)}&book=${encodeURIComponent(book)}&chapter=${encodeURIComponent(chap)}${qType !== 'all' ? `&qtype=${encodeURIComponent(qType)}` : ''}`}
-                                  className="flex items-center justify-between p-4 bg-gray-50 hover:bg-indigo-50 hover:text-indigo-600 rounded-2xl transition-all group"
-                                >
-                                  <span className="font-bold text-sm">
-                                    {chap}
-                                    <span className="ml-2 text-xs font-medium text-gray-400 group-hover:text-indigo-400">
-                                      {chapters[chap]}問
+                            </button>
+                            {/* 小項目（章）ごと = クイズ。開いているときだけ表示 */}
+                            {isOpen && (
+                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-1">
+                                {chapKeys.map((chap) => (
+                                  <Link
+                                    key={chap}
+                                    href={`/test/quiz?category=${encodeURIComponent(cat)}&book=${encodeURIComponent(book)}&chapter=${encodeURIComponent(chap)}${qType !== 'all' ? `&qtype=${encodeURIComponent(qType)}` : ''}`}
+                                    className="flex items-center justify-between p-4 bg-gray-50 hover:bg-indigo-50 hover:text-indigo-600 rounded-2xl transition-all group"
+                                  >
+                                    <span className="font-bold text-sm">
+                                      {chap}
+                                      <span className="ml-2 text-xs font-medium text-gray-400 group-hover:text-indigo-400">
+                                        {chapters[chap]}問
+                                      </span>
                                     </span>
-                                  </span>
-                                  <ArrowRight size={18} className="text-gray-300 group-hover:text-indigo-600 group-hover:translate-x-1 transition-all" />
-                                </Link>
-                              ))}
-                            </div>
+                                    <ArrowRight size={18} className="text-gray-300 group-hover:text-indigo-600 group-hover:translate-x-1 transition-all" />
+                                  </Link>
+                                ))}
+                              </div>
+                            )}
                           </div>
                         );
                       })}

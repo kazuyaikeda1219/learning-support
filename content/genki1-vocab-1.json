@@ -1,0 +1,2087 @@
+{
+  "subject": "ja",
+  "category": "単語",
+  "deck_name": "Genki I 単語 ①",
+  "description": "Genki I vocabulary (first half).",
+  "cards": [
+    {
+      "front": "おはよう",
+      "back": "Good morning (casual)",
+      "reading": "ohayou"
+    },
+    {
+      "front": "おはようございます",
+      "back": "Good morning (polite)",
+      "reading": "ohayou gozaimasu"
+    },
+    {
+      "front": "こんにちは",
+      "back": "Hello",
+      "reading": "kon nichi wa"
+    },
+    {
+      "front": "こんばんは",
+      "back": "Good evening",
+      "reading": "kon ban wa"
+    },
+    {
+      "front": "さようなら",
+      "back": "good-bye (formal)",
+      "reading": "sayounara"
+    },
+    {
+      "front": "じゃあ、また (ね)",
+      "back": "See you.",
+      "reading": "jaa mata (ne)"
+    },
+    {
+      "front": "おやすみ",
+      "back": "good night (casual)",
+      "reading": "oyasumi"
+    },
+    {
+      "front": "おやすみなさい",
+      "back": "Good night (polite)",
+      "reading": "oyasumi nasai"
+    },
+    {
+      "front": "ありがとう",
+      "back": "Thank you (casual)",
+      "reading": "arigatou"
+    },
+    {
+      "front": "ありがとうございます",
+      "back": "Thank you (polite)",
+      "reading": "arigatou gozaimasu"
+    },
+    {
+      "front": "すみません",
+      "back": "sorry, excuse me, (thank you)",
+      "reading": "sumimasen"
+    },
+    {
+      "front": "はい",
+      "back": "Yes",
+      "reading": "hai"
+    },
+    {
+      "front": "いいえ",
+      "back": "No",
+      "reading": "iie"
+    },
+    {
+      "front": "はじめまして",
+      "back": "Nice to meet you",
+      "reading": "hajimemashite"
+    },
+    {
+      "front": "いただきます",
+      "back": "Thank you for the meal (before eating)",
+      "reading": "itadakimasu"
+    },
+    {
+      "front": "ごちそうさまでした",
+      "back": "Thank you for the meal (after eating)",
+      "reading": "gochisou sama deshita"
+    },
+    {
+      "front": "いってきます",
+      "back": "I'm off.",
+      "reading": "ittekimasu",
+      "example": "( I'll go and come back. )"
+    },
+    {
+      "front": "いってらっしゃい",
+      "back": "Have a nice day.",
+      "reading": "itterasshai",
+      "example": "( Please go and come back. )"
+    },
+    {
+      "front": "ただいま",
+      "back": "I'm home",
+      "reading": "tadaima"
+    },
+    {
+      "front": "おかえりなさい",
+      "back": "Welcome back home",
+      "reading": "okaerinasai"
+    },
+    {
+      "front": "だいがく",
+      "back": "university; college",
+      "reading": "daigaku"
+    },
+    {
+      "front": "こうこう",
+      "back": "high school",
+      "reading": "koukou"
+    },
+    {
+      "front": "わたしは、がくせいです。",
+      "back": "I am a student.",
+      "reading": "watashi wa gakusei desu"
+    },
+    {
+      "front": "りゅうがくせい",
+      "back": "international students",
+      "reading": "ryuugakusei"
+    },
+    {
+      "front": "せんせい",
+      "back": "teacher, professor",
+      "reading": "sensei"
+    },
+    {
+      "front": "１ねんせい",
+      "back": "first-year student",
+      "reading": "ichi nen sei"
+    },
+    {
+      "front": "せんこう",
+      "back": "major",
+      "reading": "senkou"
+    },
+    {
+      "front": "わたしの ともだち",
+      "back": "my friends",
+      "reading": "watashi no tomodachi"
+    },
+    {
+      "front": "たなかさん",
+      "back": "Mr./Ms. Tanaka",
+      "reading": "Tanaka san"
+    },
+    {
+      "front": "にほんじん",
+      "back": "Japanese people",
+      "reading": "nihon jin",
+      "example": "じんjin: nationality"
+    },
+    {
+      "front": "いま なんじ ですか？",
+      "back": "What time is it now?",
+      "reading": "ima nan ji desu ka?"
+    },
+    {
+      "front": "ごぜん",
+      "back": "a.m.",
+      "reading": "gozen"
+    },
+    {
+      "front": "ごご",
+      "back": "p.m.",
+      "reading": "gogo"
+    },
+    {
+      "front": "３じ５ふん",
+      "back": "3:05",
+      "reading": "san ji go hun",
+      "example": "☆じji: hour, time ／ ☆ふんhun: minute"
+    },
+    {
+      "front": "にほんご",
+      "back": "Japanese language",
+      "reading": "nihongo",
+      "example": "☆ごgo: language"
+    },
+    {
+      "front": "２じはん",
+      "back": "half past two",
+      "reading": "nijihan"
+    },
+    {
+      "front": "３さい",
+      "back": "3 years old",
+      "reading": "san sai",
+      "example": "☆さいsai: age"
+    },
+    {
+      "front": "はたち",
+      "back": "20 years old",
+      "reading": "hatachi"
+    },
+    {
+      "front": "１ばん",
+      "back": "Number 1",
+      "reading": "ichi ban",
+      "example": "☆ばんban: number..."
+    },
+    {
+      "front": "ばんごう",
+      "back": "number",
+      "reading": "ban gou"
+    },
+    {
+      "front": "なまえは、なんですか？",
+      "back": "What is your name",
+      "reading": "namae wa nan desu ka",
+      "example": "☆なまえnamae: name"
+    },
+    {
+      "front": "なん/なに",
+      "back": "what",
+      "reading": "nan/nani"
+    },
+    {
+      "front": "あのう/えっと/そうですね....",
+      "back": "um...",
+      "reading": "anou/etto/soudesune..."
+    },
+    {
+      "front": "そうです",
+      "back": "That's right.",
+      "reading": "soudesu"
+    },
+    {
+      "front": "そうですか",
+      "back": "I see/ Is that so?",
+      "reading": "soudesuka"
+    },
+    {
+      "front": "イギリス",
+      "back": "Britain",
+      "reading": "igirisu"
+    },
+    {
+      "front": "オーストラリア",
+      "back": "Australia",
+      "reading": "oosutoraria"
+    },
+    {
+      "front": "かんこく",
+      "back": "Korea, South",
+      "reading": "kankoku"
+    },
+    {
+      "front": "カナダ",
+      "back": "Canada",
+      "reading": "kanada"
+    },
+    {
+      "front": "アメリカ",
+      "back": "America (USA)",
+      "reading": "amerika"
+    },
+    {
+      "front": "ちゅうごく",
+      "back": "China",
+      "reading": "chuugoku"
+    },
+    {
+      "front": "インド",
+      "back": "India",
+      "reading": "indo"
+    },
+    {
+      "front": "エジプト",
+      "back": "Egypt",
+      "reading": "ejiputo"
+    },
+    {
+      "front": "フィリピン",
+      "back": "Philippines",
+      "reading": "firipin"
+    },
+    {
+      "front": "アジアけんきゅう",
+      "back": "Asian studies",
+      "reading": "azia kenkyuu"
+    },
+    {
+      "front": "こうがく",
+      "back": "engineering",
+      "reading": "kougaku"
+    },
+    {
+      "front": "けいざい",
+      "back": "economics",
+      "reading": "keizai"
+    },
+    {
+      "front": "こくさいかんけい",
+      "back": "international relations",
+      "reading": "kokusai kankei"
+    },
+    {
+      "front": "コンピューター",
+      "back": "computer",
+      "reading": "konpyuutaa"
+    },
+    {
+      "front": "せいじ",
+      "back": "politics",
+      "reading": "seiji"
+    },
+    {
+      "front": "せいぶつがく",
+      "back": "biology",
+      "reading": "seibutsugaku"
+    },
+    {
+      "front": "ビジネス",
+      "back": "business",
+      "reading": "bizinesu"
+    },
+    {
+      "front": "ぶんがく",
+      "back": "literature",
+      "reading": "bungaku"
+    },
+    {
+      "front": "れきし",
+      "back": "history",
+      "reading": "rekishi"
+    },
+    {
+      "front": "いしゃ",
+      "back": "doctor",
+      "reading": "isha"
+    },
+    {
+      "front": "かいしゃいん",
+      "back": "office worker",
+      "reading": "kaishain"
+    },
+    {
+      "front": "かんごし",
+      "back": "nurse",
+      "reading": "kangoshi"
+    },
+    {
+      "front": "こうこうせい",
+      "back": "high school student",
+      "reading": "koukousei"
+    },
+    {
+      "front": "しゅふ",
+      "back": "house wife",
+      "reading": "shu hu"
+    },
+    {
+      "front": "だいがくいんせい",
+      "back": "graduate student",
+      "reading": "daigakuin sei"
+    },
+    {
+      "front": "べんごし",
+      "back": "lawyer",
+      "reading": "bengoshi"
+    },
+    {
+      "front": "おかあさん",
+      "back": "mother",
+      "reading": "okaasan"
+    },
+    {
+      "front": "おとうさん",
+      "back": "father",
+      "reading": "otousan"
+    },
+    {
+      "front": "おねえさん",
+      "back": "older sister",
+      "reading": "oneesan"
+    },
+    {
+      "front": "おにいさん",
+      "back": "older brother",
+      "reading": "oniisan"
+    },
+    {
+      "front": "いもうと",
+      "back": "younger sister",
+      "reading": "imouto"
+    },
+    {
+      "front": "おとうと",
+      "back": "younger brother",
+      "reading": "otouto"
+    },
+    {
+      "front": "これ/それ/あれ/どれ",
+      "back": "this one/that one/ that one (over there)/ which one",
+      "reading": "kore/sore/are/dore"
+    },
+    {
+      "front": "この/その/あの/どの",
+      "back": "this.../that.../that....(over there)/which...+noun",
+      "reading": "kono/ sono/ ano/ dono",
+      "example": "☆used before nouns"
+    },
+    {
+      "front": "これは、ぺんです。",
+      "back": "This is a pen.",
+      "reading": "kore wa pen desu"
+    },
+    {
+      "front": "このぺんは、いいです。",
+      "back": "This pen is good.",
+      "reading": "kono pen wa iidesu."
+    },
+    {
+      "front": "ここ/そこ/あそこ/どこ",
+      "back": "here/there/over there/where",
+      "reading": "koko/soko/asoko/doko"
+    },
+    {
+      "front": "だれ",
+      "back": "who",
+      "reading": "dare"
+    },
+    {
+      "front": "おいしい",
+      "back": "delicious",
+      "reading": "oishii"
+    },
+    {
+      "front": "さかな",
+      "back": "fish",
+      "reading": "sakana"
+    },
+    {
+      "front": "とんかつ",
+      "back": "pork cutlet",
+      "reading": "tonkatsu"
+    },
+    {
+      "front": "にく",
+      "back": "meat",
+      "reading": "niku"
+    },
+    {
+      "front": "メニュー",
+      "back": "menu",
+      "reading": "menuu"
+    },
+    {
+      "front": "やさい",
+      "back": "vegetable",
+      "reading": "yasai"
+    },
+    {
+      "front": "かさ",
+      "back": "umbrella",
+      "reading": "kasa"
+    },
+    {
+      "front": "かばん",
+      "back": "bag",
+      "reading": "kaban"
+    },
+    {
+      "front": "くつ",
+      "back": "shoes",
+      "reading": "kutsu"
+    },
+    {
+      "front": "さいふ",
+      "back": "wallet",
+      "reading": "saihu"
+    },
+    {
+      "front": "ジーンズ",
+      "back": "jeans",
+      "reading": "jiinzu"
+    },
+    {
+      "front": "じてんしゃ",
+      "back": "bicycle",
+      "reading": "jitensha"
+    },
+    {
+      "front": "しんぶん",
+      "back": "newspaper",
+      "reading": "shinbun"
+    },
+    {
+      "front": "スマホ",
+      "back": "sumaho from smart phone; mobile phone",
+      "reading": "sumaho"
+    },
+    {
+      "front": "Tシャツ",
+      "back": "t-shirt",
+      "reading": "T shatsu"
+    },
+    {
+      "front": "とけい",
+      "back": "watch, clock",
+      "reading": "tokei"
+    },
+    {
+      "front": "ノート",
+      "back": "notebook",
+      "reading": "nooto"
+    },
+    {
+      "front": "ペン",
+      "back": "pen",
+      "reading": "pen"
+    },
+    {
+      "front": "ぼうし",
+      "back": "hat, cap",
+      "reading": "boushi"
+    },
+    {
+      "front": "ほん",
+      "back": "book",
+      "reading": "hon"
+    },
+    {
+      "front": "ぎんこう",
+      "back": "bank",
+      "reading": "ginkou"
+    },
+    {
+      "front": "コンビニ",
+      "back": "convenience store",
+      "reading": "konbini"
+    },
+    {
+      "front": "トイレ",
+      "back": "toilet, restroom",
+      "reading": "toire"
+    },
+    {
+      "front": "としょかん",
+      "back": "library",
+      "reading": "toshokan"
+    },
+    {
+      "front": "ゆうびんきょく",
+      "back": "post office",
+      "reading": "yuubinkyoku"
+    },
+    {
+      "front": "いくらですか？",
+      "back": "How much is it?",
+      "reading": "ikura desu ka"
+    },
+    {
+      "front": "なんえんですか？",
+      "back": "How much yen is it?",
+      "reading": "nan en desu ka"
+    },
+    {
+      "front": "やすい",
+      "back": "cheap",
+      "reading": "yasui"
+    },
+    {
+      "front": "たかい",
+      "back": "expensive",
+      "reading": "takai"
+    },
+    {
+      "front": "いらっしゃいませ",
+      "back": "Welcome (to our store)",
+      "reading": "irasshaimase"
+    },
+    {
+      "front": "おねがいします",
+      "back": "please",
+      "reading": "onegaishimasu"
+    },
+    {
+      "front": "ください",
+      "back": "Please give me.../ please",
+      "reading": "kudasai"
+    },
+    {
+      "front": "じゃあ",
+      "back": "then",
+      "reading": "jaa"
+    },
+    {
+      "front": "どうぞ",
+      "back": "Please.; Here it is.",
+      "reading": "douzo"
+    },
+    {
+      "front": "どうも",
+      "back": "thanks",
+      "reading": "doumo"
+    },
+    {
+      "front": "わたしも",
+      "back": "me too/me neither",
+      "reading": "watashi mo"
+    },
+    {
+      "front": "これも おいしいです。",
+      "back": "This is also tasty.",
+      "reading": "kore mo oishii desu"
+    },
+    {
+      "front": "これは ぺんじゃないです。",
+      "back": "This is not a pen.",
+      "reading": "kore wa pen janai desu",
+      "example": "☆じゃない: not"
+    },
+    {
+      "front": "じゃないです/じゃありません/ではありません",
+      "back": "is not, are not",
+      "reading": "janaidesu/jaarimasen/ dewa arimasen"
+    },
+    {
+      "front": "カーテン",
+      "back": "curtain",
+      "reading": "kaaten"
+    },
+    {
+      "front": "でんき",
+      "back": "electricity, light",
+      "reading": "denki"
+    },
+    {
+      "front": "ドア",
+      "back": "door",
+      "reading": "doa"
+    },
+    {
+      "front": "じしょ",
+      "back": "dictionary",
+      "reading": "jisho"
+    },
+    {
+      "front": "まど",
+      "back": "window",
+      "reading": "mado"
+    },
+    {
+      "front": "えんぴつ",
+      "back": "pencil",
+      "reading": "enpitsu"
+    },
+    {
+      "front": "こくばん",
+      "back": "blackboard",
+      "reading": "kokuban"
+    },
+    {
+      "front": "つくえ",
+      "back": "desk",
+      "reading": "tsukue"
+    },
+    {
+      "front": "けしゴム",
+      "back": "eraser",
+      "reading": "keshi gomu"
+    },
+    {
+      "front": "わかりました",
+      "back": "I understand",
+      "reading": "wakari mashita"
+    },
+    {
+      "front": "わかりません",
+      "back": "I don't understand",
+      "reading": "wakari masen"
+    },
+    {
+      "front": "ゆっくりいってください",
+      "back": "Please say it slowly",
+      "reading": "yukkuri itte kudasai"
+    },
+    {
+      "front": "もういちど いってください",
+      "back": "Please say it again.",
+      "reading": "mouichido itte kudasai"
+    },
+    {
+      "front": "ちょっとまってください",
+      "back": "Please wait a moment",
+      "reading": "chotto matte kudasai"
+    },
+    {
+      "front": "きいてください",
+      "back": "Please listen./Please ask.",
+      "reading": "kiitekudasai"
+    },
+    {
+      "front": "10ページをみてください",
+      "back": "Please look at page 10.",
+      "reading": "juppeeji wo mitekudasai"
+    },
+    {
+      "front": "えいがをみる",
+      "back": "watch movies",
+      "reading": "eiga wo miru",
+      "example": "☆えいがeiga: movies/ みるmiru: to watch"
+    },
+    {
+      "front": "おんがくをきく",
+      "back": "listen to music",
+      "reading": "ongaku wo kiku",
+      "example": "☆おんがくongaku: music"
+    },
+    {
+      "front": "ざっし",
+      "back": "magazine",
+      "reading": "zasshi"
+    },
+    {
+      "front": "スポーツ",
+      "back": "sports",
+      "reading": "supootsu"
+    },
+    {
+      "front": "デート",
+      "back": "date (romantic, not calendar)",
+      "reading": "deeto"
+    },
+    {
+      "front": "テニス",
+      "back": "tennis",
+      "reading": "tenisu"
+    },
+    {
+      "front": "テレビ",
+      "back": "TV",
+      "reading": "terebi"
+    },
+    {
+      "front": "アイスクリーム/アイス",
+      "back": "ice cream",
+      "reading": "aisu kuriimu/ aisu"
+    },
+    {
+      "front": "ハンバーガー",
+      "back": "hamburger",
+      "reading": "hanbaagaa"
+    },
+    {
+      "front": "おさけ",
+      "back": "sake; alcohol",
+      "reading": "osake"
+    },
+    {
+      "front": "おちゃ",
+      "back": "green tea",
+      "reading": "ocha"
+    },
+    {
+      "front": "コーヒー",
+      "back": "coffee",
+      "reading": "koohii"
+    },
+    {
+      "front": "みず",
+      "back": "water",
+      "reading": "mizu"
+    },
+    {
+      "front": "あさごはん/ひるごはん/よるごはん",
+      "back": "breakfast/lunch/dinner",
+      "reading": "asagohan/hirugohan/yorugohan"
+    },
+    {
+      "front": "ごはん",
+      "back": "(cooked) rice; meal",
+      "reading": "gohan"
+    },
+    {
+      "front": "いえ (家)",
+      "back": "house",
+      "reading": "ie"
+    },
+    {
+      "front": "うち",
+      "back": "home; house; my place",
+      "reading": "uchi"
+    },
+    {
+      "front": "がっこう",
+      "back": "school",
+      "reading": "gakkou"
+    },
+    {
+      "front": "カフェ",
+      "back": "cafe",
+      "reading": "kafe"
+    },
+    {
+      "front": "きのう/きょう/あした",
+      "back": "yesterday/today/tomorrow",
+      "reading": "kinou/kyou/ashita"
+    },
+    {
+      "front": "こんばん",
+      "back": "tonight",
+      "reading": "konban"
+    },
+    {
+      "front": "まいにち",
+      "back": "every day",
+      "reading": "mainichi"
+    },
+    {
+      "front": "まいばん",
+      "back": "every night",
+      "reading": "maiban"
+    },
+    {
+      "front": "しゅうまつ",
+      "back": "weekend",
+      "reading": "shuumatsu"
+    },
+    {
+      "front": "どようび",
+      "back": "Saturday",
+      "reading": "doyoubi"
+    },
+    {
+      "front": "なんようびですか",
+      "back": "What day is it?",
+      "reading": "nan youbi desu ka"
+    },
+    {
+      "front": "ようび",
+      "back": "day of the week",
+      "reading": "youbi"
+    },
+    {
+      "front": "いつ",
+      "back": "when",
+      "reading": "itsu"
+    },
+    {
+      "front": "1じごろ",
+      "back": "about 1 o'clock",
+      "reading": "ichi ji goro"
+    },
+    {
+      "front": "ごろ",
+      "back": "at about (time)",
+      "reading": "goro"
+    },
+    {
+      "front": "いく",
+      "back": "to go (dictionary form)",
+      "reading": "iku"
+    },
+    {
+      "front": "かえる",
+      "back": "to return (dictionary form)",
+      "reading": "kaeru"
+    },
+    {
+      "front": "きく",
+      "back": "to listen, hear (dictionary form)",
+      "reading": "kiku"
+    },
+    {
+      "front": "のむ",
+      "back": "to drink (dictionary form)",
+      "reading": "nomu"
+    },
+    {
+      "front": "はなす",
+      "back": "to speak, to talk (dictionary form)",
+      "reading": "hanasu"
+    },
+    {
+      "front": "よむ",
+      "back": "to read (dictionary form)",
+      "reading": "yomu"
+    },
+    {
+      "front": "おきる",
+      "back": "to get up, to wake up (dictionary form)",
+      "reading": "okiru"
+    },
+    {
+      "front": "たべる",
+      "back": "to eat (dictionary form)",
+      "reading": "taberu"
+    },
+    {
+      "front": "ねる",
+      "back": "to sleep (dictionary form)",
+      "reading": "neru"
+    },
+    {
+      "front": "みる",
+      "back": "to see; to look at; to watch (dictionary form)",
+      "reading": "miru"
+    },
+    {
+      "front": "くる",
+      "back": "to come (dictionary form)",
+      "reading": "kuru"
+    },
+    {
+      "front": "する",
+      "back": "to do (dictionary form)",
+      "reading": "suru"
+    },
+    {
+      "front": "べんきょうする",
+      "back": "to study (dictionary form)",
+      "reading": "benkyou suru"
+    },
+    {
+      "front": "いい/よい",
+      "back": "good",
+      "reading": "ii/yoi"
+    },
+    {
+      "front": "わるい",
+      "back": "bad",
+      "reading": "warui"
+    },
+    {
+      "front": "はやい",
+      "back": "early, fast",
+      "reading": "hayai"
+    },
+    {
+      "front": "あまり+negative",
+      "back": "not much",
+      "reading": "amari"
+    },
+    {
+      "front": "よく+affirmative",
+      "back": "often",
+      "reading": "yoku"
+    },
+    {
+      "front": "ぜんぜん+negative",
+      "back": "not at all",
+      "reading": "zenzen"
+    },
+    {
+      "front": "たいてい",
+      "back": "usually",
+      "reading": "taitei"
+    },
+    {
+      "front": "ちょっと",
+      "back": "a little bit",
+      "reading": "chotto"
+    },
+    {
+      "front": "ときどき",
+      "back": "sometimes",
+      "reading": "tokidoki"
+    },
+    {
+      "front": "いつも",
+      "back": "always",
+      "reading": "itsumo"
+    },
+    {
+      "front": "そうですね",
+      "back": "That's right.; Let me see.",
+      "reading": "soudesune"
+    },
+    {
+      "front": "でも",
+      "back": "but",
+      "reading": "demo"
+    },
+    {
+      "front": "どうですか",
+      "back": "How about...? How is...?",
+      "reading": "doudesu ka"
+    },
+    {
+      "front": "ええ/はい",
+      "back": "yes",
+      "reading": "ee/ hai"
+    },
+    {
+      "front": "いいえ/いえ",
+      "back": "no",
+      "reading": "iie/ie"
+    },
+    {
+      "front": "ゲーム",
+      "back": "game",
+      "reading": "geemu"
+    },
+    {
+      "front": "アルバイト",
+      "back": "part-timer/part-time worker/part-time job",
+      "reading": "arubaito"
+    },
+    {
+      "front": "かいもの",
+      "back": "shopping",
+      "reading": "kaimono"
+    },
+    {
+      "front": "クラス",
+      "back": "class",
+      "reading": "kurasu"
+    },
+    {
+      "front": "いぬ",
+      "back": "dog",
+      "reading": "inu"
+    },
+    {
+      "front": "ねこ",
+      "back": "cat",
+      "reading": "neko"
+    },
+    {
+      "front": "ひと",
+      "back": "person",
+      "reading": "hito"
+    },
+    {
+      "front": "あなた",
+      "back": "you",
+      "reading": "anata"
+    },
+    {
+      "front": "いす",
+      "back": "chair",
+      "reading": "isu"
+    },
+    {
+      "front": "しゃしん",
+      "back": "picture; photograph",
+      "reading": "shashin"
+    },
+    {
+      "front": "はな",
+      "back": "flower",
+      "reading": "hana"
+    },
+    {
+      "front": "レポート",
+      "back": "report",
+      "reading": "repooto"
+    },
+    {
+      "front": "パン",
+      "back": "bread",
+      "reading": "pan"
+    },
+    {
+      "front": "おてら",
+      "back": "temple",
+      "reading": "otera"
+    },
+    {
+      "front": "こうえん",
+      "back": "park",
+      "reading": "kouen"
+    },
+    {
+      "front": "スーパー",
+      "back": "supermarket",
+      "reading": "suupaa"
+    },
+    {
+      "front": "バスてい",
+      "back": "bus stop",
+      "reading": "basutei"
+    },
+    {
+      "front": "びょういん",
+      "back": "hospital, clinic",
+      "reading": "byouin"
+    },
+    {
+      "front": "ホテル",
+      "back": "hotel",
+      "reading": "hoteru"
+    },
+    {
+      "front": "ほんや",
+      "back": "bookstore",
+      "reading": "honya"
+    },
+    {
+      "front": "まち",
+      "back": "town",
+      "reading": "machi"
+    },
+    {
+      "front": "レストラン",
+      "back": "restaurant",
+      "reading": "resutoran"
+    },
+    {
+      "front": "１じかん",
+      "back": "for 1 hour",
+      "reading": "ichi ji kan"
+    },
+    {
+      "front": "じかん",
+      "back": "time, hour",
+      "reading": "jikan"
+    },
+    {
+      "front": "せんしゅう/こんしゅう/らいしゅう",
+      "back": "last week/ this week/ next week",
+      "reading": "senshuu/konshuu/raishuu"
+    },
+    {
+      "front": "あう",
+      "back": "to meet (dictionary form)",
+      "reading": "au"
+    },
+    {
+      "front": "ある",
+      "back": "to exist, there is(dictionary form)",
+      "reading": "aru"
+    },
+    {
+      "front": "かう",
+      "back": "to buy(dictionary form)",
+      "reading": "kau"
+    },
+    {
+      "front": "かく",
+      "back": "to write(dictionary form)",
+      "reading": "kaku"
+    },
+    {
+      "front": "とる",
+      "back": "to take(dictionary form)",
+      "reading": "toru"
+    },
+    {
+      "front": "まつ",
+      "back": "to wait",
+      "reading": "matsu"
+    },
+    {
+      "front": "わかる",
+      "back": "to understand(dictionary form)",
+      "reading": "wakaru"
+    },
+    {
+      "front": "いる",
+      "back": "There is for living things, like humans and animals.(dictionary form)",
+      "reading": "iru"
+    },
+    {
+      "front": "ぐらい/くらい",
+      "back": "about",
+      "reading": "gurai/kurai"
+    },
+    {
+      "front": "ごめんなさい",
+      "back": "sorry",
+      "reading": "gomen nasai"
+    },
+    {
+      "front": "それから",
+      "back": "and then",
+      "reading": "sorekara"
+    },
+    {
+      "front": "だから",
+      "back": "so, therefore",
+      "reading": "dakara"
+    },
+    {
+      "front": "たくさん",
+      "back": "many, a lot",
+      "reading": "takusan"
+    },
+    {
+      "front": "AとB",
+      "back": "A and B",
+      "reading": "A to B"
+    },
+    {
+      "front": "どうして",
+      "back": "How come?",
+      "reading": "doushite"
+    },
+    {
+      "front": "ひとりで",
+      "back": "alone",
+      "reading": "hitoride"
+    },
+    {
+      "front": "もしもし",
+      "back": "Hello? (on the phone)",
+      "reading": "moshimoshi"
+    },
+    {
+      "front": "みぎ",
+      "back": "right",
+      "reading": "migi"
+    },
+    {
+      "front": "ひだり",
+      "back": "left",
+      "reading": "hidari"
+    },
+    {
+      "front": "まえ",
+      "back": "front",
+      "reading": "mae"
+    },
+    {
+      "front": "うしろ",
+      "back": "back",
+      "reading": "ushiro"
+    },
+    {
+      "front": "なか",
+      "back": "inside",
+      "reading": "naka"
+    },
+    {
+      "front": "そと",
+      "back": "outside",
+      "reading": "soto"
+    },
+    {
+      "front": "うえ",
+      "back": "up",
+      "reading": "ue"
+    },
+    {
+      "front": "した",
+      "back": "down",
+      "reading": "shita"
+    },
+    {
+      "front": "ちかく",
+      "back": "near, nearby",
+      "reading": "chikaku"
+    },
+    {
+      "front": "となり",
+      "back": "next to",
+      "reading": "tonari"
+    },
+    {
+      "front": "あいだ",
+      "back": "between, among",
+      "reading": "aida"
+    },
+    {
+      "front": "おととい",
+      "back": "the day before yesterday",
+      "reading": "ototoi"
+    },
+    {
+      "front": "あさって",
+      "back": "the day after tomorrow",
+      "reading": "asatte"
+    },
+    {
+      "front": "たべもの",
+      "back": "food",
+      "reading": "tabemono"
+    },
+    {
+      "front": "のみもの",
+      "back": "drink, beverage",
+      "reading": "nomimono"
+    },
+    {
+      "front": "くだもの",
+      "back": "fruit",
+      "reading": "kudamono"
+    },
+    {
+      "front": "やすみ",
+      "back": "holiday; day off; absence",
+      "reading": "yasumi"
+    },
+    {
+      "front": "りょこう",
+      "back": "travel, trip (noun)",
+      "reading": "ryokou"
+    },
+    {
+      "front": "うみ",
+      "back": "sea",
+      "reading": "umi"
+    },
+    {
+      "front": "サーフィン",
+      "back": "surfing",
+      "reading": "safin"
+    },
+    {
+      "front": "おみやげ",
+      "back": "souvenir",
+      "reading": "omiyage"
+    },
+    {
+      "front": "バス",
+      "back": "bus",
+      "reading": "basu"
+    },
+    {
+      "front": "てんき",
+      "back": "weather",
+      "reading": "tenki"
+    },
+    {
+      "front": "しゅくだい",
+      "back": "homework",
+      "reading": "shukudai"
+    },
+    {
+      "front": "テスト",
+      "back": "test",
+      "reading": "tesuto"
+    },
+    {
+      "front": "たんじょうび",
+      "back": "birthday",
+      "reading": "tanjoubi"
+    },
+    {
+      "front": "へや",
+      "back": "room",
+      "reading": "heya"
+    },
+    {
+      "front": "ぼく/わたし",
+      "back": "I",
+      "reading": "boku/watashi"
+    },
+    {
+      "front": "Lサイズ",
+      "back": "size L",
+      "reading": "eru saizu"
+    },
+    {
+      "front": "あたらしい",
+      "back": "new",
+      "reading": "atarashii"
+    },
+    {
+      "front": "ふるい",
+      "back": "old",
+      "reading": "hurui"
+    },
+    {
+      "front": "あつい",
+      "back": "hot",
+      "reading": "atsui"
+    },
+    {
+      "front": "さむい",
+      "back": "cold (weather - not used for things)",
+      "reading": "samui"
+    },
+    {
+      "front": "いそがしい",
+      "back": "busy (people/days)",
+      "reading": "isogashii"
+    },
+    {
+      "front": "おおきい",
+      "back": "large, big",
+      "reading": "ookii"
+    },
+    {
+      "front": "ちいさい",
+      "back": "small, little",
+      "reading": "chiisai"
+    },
+    {
+      "front": "おもしろい",
+      "back": "interesting; funny",
+      "reading": "omoshiroi"
+    },
+    {
+      "front": "つまらない",
+      "back": "boring",
+      "reading": "tsumaranai"
+    },
+    {
+      "front": "やさしい",
+      "back": "kind",
+      "reading": "yasashii"
+    },
+    {
+      "front": "かんたん",
+      "back": "easy",
+      "reading": "kan tan"
+    },
+    {
+      "front": "むずかしい",
+      "back": "difficult",
+      "reading": "muzukashii"
+    },
+    {
+      "front": "こわい",
+      "back": "scary",
+      "reading": "kowai"
+    },
+    {
+      "front": "たのしい",
+      "back": "fun",
+      "reading": "tanoshii"
+    },
+    {
+      "front": "すき",
+      "back": "to like",
+      "reading": "suki"
+    },
+    {
+      "front": "きらい",
+      "back": "dislike",
+      "reading": "kirai"
+    },
+    {
+      "front": "だいすき",
+      "back": "to like very much; to love",
+      "reading": "daisuki"
+    },
+    {
+      "front": "だいきらい",
+      "back": "to hate",
+      "reading": "daikirai"
+    },
+    {
+      "front": "きれい",
+      "back": "beautiful; clean",
+      "reading": "kirei"
+    },
+    {
+      "front": "げんき",
+      "back": "fine, healthy",
+      "reading": "genki"
+    },
+    {
+      "front": "しずか",
+      "back": "quiet",
+      "reading": "shizuka"
+    },
+    {
+      "front": "にぎやか",
+      "back": "lively, bustling",
+      "reading": "nigiyaka"
+    },
+    {
+      "front": "ひま",
+      "back": "not busy; free (time)",
+      "reading": "hima"
+    },
+    {
+      "front": "およぐ",
+      "back": "to swim(dictionary form)",
+      "reading": "oyogu"
+    },
+    {
+      "front": "のる",
+      "back": "to ride; to board(dictionary form)",
+      "reading": "noru"
+    },
+    {
+      "front": "やる",
+      "back": "to do",
+      "reading": "yaru"
+    },
+    {
+      "front": "でかける",
+      "back": "to go out(dictionary form)",
+      "reading": "dekakeru"
+    },
+    {
+      "front": "いっしょに",
+      "back": "together",
+      "reading": "isshoni"
+    },
+    {
+      "front": "すごく/とても",
+      "back": "extremely/ very",
+      "reading": "sugoku/totemo"
+    },
+    {
+      "front": "どんな",
+      "back": "what kind of~",
+      "reading": "don na"
+    },
+    {
+      "front": "1まい",
+      "back": "counter for flat object",
+      "reading": "ichi mai"
+    },
+    {
+      "front": "かんじ",
+      "back": "kanji; Chinese character",
+      "reading": "kanji"
+    },
+    {
+      "front": "きょうかしょ",
+      "back": "textbook",
+      "reading": "kyoukasho"
+    },
+    {
+      "front": "ページ",
+      "back": "page",
+      "reading": "peeji"
+    },
+    {
+      "front": "つぎ",
+      "back": "next",
+      "reading": "tsugi"
+    },
+    {
+      "front": "おかね",
+      "back": "money",
+      "reading": "okane"
+    },
+    {
+      "front": "にもつ",
+      "back": "baggage, luggage",
+      "reading": "nimotsu"
+    },
+    {
+      "front": "パソコン",
+      "back": "personal computer/PC",
+      "reading": "pasokon"
+    },
+    {
+      "front": "シャワー",
+      "back": "shower",
+      "reading": "shawaa"
+    },
+    {
+      "front": "エアコン",
+      "back": "air conditioner",
+      "reading": "eakon"
+    },
+    {
+      "front": "でんしゃ",
+      "back": "train",
+      "reading": "densha"
+    },
+    {
+      "front": "くに",
+      "back": "country",
+      "reading": "kuni"
+    },
+    {
+      "front": "よる",
+      "back": "night",
+      "reading": "yoru"
+    },
+    {
+      "front": "たいへん",
+      "back": "tough (situation)",
+      "reading": "taihen"
+    },
+    {
+      "front": "あそぶ",
+      "back": "to play(dictionary form)",
+      "reading": "asobu"
+    },
+    {
+      "front": "いそぐ",
+      "back": "to hurry(dictionary form)",
+      "reading": "isogu"
+    },
+    {
+      "front": "かえす",
+      "back": "to return (a thing)(dictionary form)",
+      "reading": "kaesu"
+    },
+    {
+      "front": "けす",
+      "back": "to turn off; to erase(dictionary form)",
+      "reading": "kesu"
+    },
+    {
+      "front": "しぬ",
+      "back": "to die(dictionary form)",
+      "reading": "shinu"
+    },
+    {
+      "front": "すわる",
+      "back": "to sit down(dictionary form)",
+      "reading": "suwaru"
+    },
+    {
+      "front": "たつ",
+      "back": "to stand up(dictionary form)",
+      "reading": "tatsu"
+    },
+    {
+      "front": "たばこをすう",
+      "back": "to smoke",
+      "reading": "tabako wo suu"
+    },
+    {
+      "front": "つかう",
+      "back": "to use(dictionary form)",
+      "reading": "tsukau"
+    },
+    {
+      "front": "てつだう",
+      "back": "to help(dictionary form)",
+      "reading": "tetsudau"
+    },
+    {
+      "front": "はいる",
+      "back": "to enter(dictionary form)",
+      "reading": "hairu"
+    },
+    {
+      "front": "もつ",
+      "back": "to carry; to hold(dictionary form)",
+      "reading": "motsu"
+    },
+    {
+      "front": "やすむ",
+      "back": "to be absent (from...); to rest(dictionary form)",
+      "reading": "yasumu"
+    },
+    {
+      "front": "あける",
+      "back": "to open (something)(dictionary form)",
+      "reading": "akeru"
+    },
+    {
+      "front": "しめる",
+      "back": "to close(something)(dictionary form)",
+      "reading": "shimeru"
+    },
+    {
+      "front": "おしえる",
+      "back": "to teach(dictionary form)",
+      "reading": "oshieru"
+    },
+    {
+      "front": "わすれる",
+      "back": "to forget; to leave behind(dictionary form)",
+      "reading": "wasureru"
+    },
+    {
+      "front": "おりる",
+      "back": "to get off(dictionary form)",
+      "reading": "oriru"
+    },
+    {
+      "front": "かりる",
+      "back": "to borrow(dictionary form)",
+      "reading": "kariru"
+    },
+    {
+      "front": "シャワーをあびる",
+      "back": "to take a shower",
+      "reading": "shawaa wo abiru"
+    },
+    {
+      "front": "つける",
+      "back": "to turn on(dictionary form)",
+      "reading": "tsukeru"
+    },
+    {
+      "front": "でんわする",
+      "back": "to call(dictionary form)",
+      "reading": "denwa suru"
+    },
+    {
+      "front": "つれてくる",
+      "back": "to bring (a person)(dictionary form)",
+      "reading": "tsurete kuru"
+    },
+    {
+      "front": "もってくる",
+      "back": "to bring (a thing)(dictionary form)",
+      "reading": "mottekuru"
+    },
+    {
+      "front": "あとで",
+      "back": "later on",
+      "reading": "atode"
+    },
+    {
+      "front": "すぐ",
+      "back": "right away",
+      "reading": "sugu"
+    },
+    {
+      "front": "ゆっくり",
+      "back": "slowly",
+      "reading": "yukkuri"
+    },
+    {
+      "front": "けっこうです",
+      "back": "No, thank you.",
+      "reading": "kekkou desu"
+    },
+    {
+      "front": "ほんとう？",
+      "back": "Really?",
+      "reading": "hontou?"
+    },
+    {
+      "front": "まっすぐいく",
+      "back": "to go straight",
+      "reading": "massugu iku"
+    },
+    {
+      "front": "ひだりにまがる",
+      "back": "turn left",
+      "reading": "hidari ni magaru"
+    },
+    {
+      "front": "みぎにまがる",
+      "back": "turn right",
+      "reading": "migi ni magaru"
+    },
+    {
+      "front": "みちをわたる",
+      "back": "to cross the street",
+      "reading": "michi wo wataru"
+    },
+    {
+      "front": "ふたつめの かど",
+      "back": "the second corner",
+      "reading": "hutatsume no kado"
+    },
+    {
+      "front": "ひとつめの しんごう",
+      "back": "the first traffic light",
+      "reading": "hitotsume no shingou"
+    },
+    {
+      "front": "みちのみぎがわ",
+      "back": "right side of the street",
+      "reading": "michi no migigawa"
+    },
+    {
+      "front": "みちのひだりがわ",
+      "back": "left side of the street",
+      "reading": "michi no hidari gawa"
+    },
+    {
+      "front": "きた",
+      "back": "north",
+      "reading": "kita"
+    },
+    {
+      "front": "みなみ",
+      "back": "south",
+      "reading": "minami"
+    },
+    {
+      "front": "にし",
+      "back": "west",
+      "reading": "nishi"
+    },
+    {
+      "front": "ひがし",
+      "back": "east",
+      "reading": "higashi"
+    },
+    {
+      "front": "かぞく",
+      "back": "family",
+      "reading": "kazoku"
+    },
+    {
+      "front": "おじいさん",
+      "back": "grandfather; old man",
+      "reading": "ojiisan"
+    },
+    {
+      "front": "おばあさん",
+      "back": "grandmother; old woman",
+      "reading": "obaasan"
+    },
+    {
+      "front": "ちち",
+      "back": "(my) father",
+      "reading": "chichi"
+    },
+    {
+      "front": "はは",
+      "back": "(my)mother",
+      "reading": "haha"
+    },
+    {
+      "front": "あに",
+      "back": "(my) older brother",
+      "reading": "ani"
+    },
+    {
+      "front": "あね",
+      "back": "(my) sister",
+      "reading": "ane"
+    },
+    {
+      "front": "きょうだい",
+      "back": "siblings",
+      "reading": "kyoudai"
+    },
+    {
+      "front": "３にんきょうだい",
+      "back": "3 siblings (including me)",
+      "reading": "san nin kyoudai"
+    },
+    {
+      "front": "りょうしん",
+      "back": "parents",
+      "reading": "ryoushin"
+    },
+    {
+      "front": "おとこのひと",
+      "back": "man",
+      "reading": "otoko no hito"
+    },
+    {
+      "front": "おんなのひと",
+      "back": "woman",
+      "reading": "onna no hito"
+    },
+    {
+      "front": "かいしゃ",
+      "back": "company",
+      "reading": "kaisha"
+    },
+    {
+      "front": "しょくどう",
+      "back": "cafeteria",
+      "reading": "shokudou"
+    },
+    {
+      "front": "デパート",
+      "back": "department store",
+      "reading": "depaato"
+    },
+    {
+      "front": "かみ",
+      "back": "paper, god, hair",
+      "reading": "kami"
+    },
+    {
+      "front": "くち",
+      "back": "mouth",
+      "reading": "kuchi"
+    },
+    {
+      "front": "め",
+      "back": "eyes",
+      "reading": "me"
+    },
+    {
+      "front": "めがね",
+      "back": "glasses",
+      "reading": "megane"
+    },
+    {
+      "front": "うた",
+      "back": "song",
+      "reading": "uta"
+    },
+    {
+      "front": "サークル",
+      "back": "club activity",
+      "reading": "saakuru"
+    },
+    {
+      "front": "くるま",
+      "back": "car, vehicle",
+      "reading": "kuruma"
+    },
+    {
+      "front": "ながい",
+      "back": "long",
+      "reading": "nagai"
+    },
+    {
+      "front": "みじかい",
+      "back": "short",
+      "reading": "mijikai"
+    },
+    {
+      "front": "せがたかい",
+      "back": "tall (height)",
+      "reading": "se ga takai"
+    },
+    {
+      "front": "せがひくい",
+      "back": "short (height)",
+      "reading": "se ga hikui"
+    },
+    {
+      "front": "かわいい",
+      "back": "cute",
+      "reading": "kawaii"
+    },
+    {
+      "front": "しんせつ",
+      "back": "kind",
+      "reading": "shinsetsu"
+    },
+    {
+      "front": "べんり",
+      "back": "convenient",
+      "reading": "benri"
+    },
+    {
+      "front": "うたう",
+      "back": "to sing(dictionary form)",
+      "reading": "utau"
+    },
+    {
+      "front": "かぶる",
+      "back": "to put on (a hat)(dictionary form)",
+      "reading": "kaburu"
+    },
+    {
+      "front": "はく",
+      "back": "to put on (items below your waist)(dictionary form)",
+      "reading": "haku"
+    },
+    {
+      "front": "しる",
+      "back": "to know(dictionary form)",
+      "reading": "shiru"
+    },
+    {
+      "front": "しっています",
+      "back": "I know",
+      "reading": "shitteimasu"
+    },
+    {
+      "front": "しりません",
+      "back": "I don't know",
+      "reading": "shirimasen"
+    },
+    {
+      "front": "すむ",
+      "back": "to live(dictionary form)",
+      "reading": "sumu"
+    },
+    {
+      "front": "はたらく",
+      "back": "to work",
+      "reading": "hataraku"
+    },
+    {
+      "front": "ふとる",
+      "back": "to gain weight(dictionary form)",
+      "reading": "hutoru"
+    },
+    {
+      "front": "ふとっています",
+      "back": "to be on the heavy side; overweight",
+      "reading": "hutotte imasu",
+      "example": "(めがねを)かける ／ (megane wo)kakeru"
+    },
+    {
+      "front": "きる",
+      "back": "to wear(dictionary form)",
+      "reading": "kiru"
+    },
+    {
+      "front": "やせる",
+      "back": "to lose weight",
+      "reading": "yaseru"
+    },
+    {
+      "front": "やせています",
+      "back": "to be thin",
+      "reading": "yaseteimasu"
+    },
+    {
+      "front": "けっこんする",
+      "back": "to get married",
+      "reading": "kekkon suru"
+    },
+    {
+      "front": "～が、",
+      "back": "~ but, ~",
+      "reading": "～ga、"
+    },
+    {
+      "front": "なにも+negative",
+      "back": "not.......anything",
+      "reading": "nanimo+negative"
+    },
+    {
+      "front": "ひとり/ふたり",
+      "back": "one person/ two people",
+      "reading": "hitori/hutari"
+    },
+    {
+      "front": "～にん",
+      "back": "counter for people",
+      "reading": "～nin",
+      "example": "(only used for more than 3 people)"
+    },
+    {
+      "front": "とくに+negative",
+      "back": "nothing in particular",
+      "reading": "tokuni+negative"
+    },
+    {
+      "front": "もちろん",
+      "back": "of course",
+      "reading": "mochiron"
+    },
+    {
+      "front": "よかったら",
+      "back": "if you like",
+      "reading": "yokattara"
+    },
+    {
+      "front": "ゆび",
+      "back": "fingers, toes",
+      "reading": "yubi"
+    },
+    {
+      "front": "は",
+      "back": "tooth, teeth",
+      "reading": "ha"
+    },
+    {
+      "front": "て",
+      "back": "hand",
+      "reading": "te"
+    },
+    {
+      "front": "まゆげ",
+      "back": "eyebrow",
+      "reading": "mayuge"
+    },
+    {
+      "front": "あたま",
+      "back": "head",
+      "reading": "atama"
+    },
+    {
+      "front": "かお",
+      "back": "face",
+      "reading": "kao"
+    },
+    {
+      "front": "かた",
+      "back": "shoulder",
+      "reading": "kata"
+    },
+    {
+      "front": "むね",
+      "back": "chest, breast",
+      "reading": "mune"
+    },
+    {
+      "front": "せなか",
+      "back": "back of body",
+      "reading": "senaka"
+    },
+    {
+      "front": "おしり",
+      "back": "butt",
+      "reading": "oshiri"
+    },
+    {
+      "front": "おなか",
+      "back": "stomach",
+      "reading": "onaka"
+    }
+  ]
+}

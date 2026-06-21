@@ -1,0 +1,408 @@
+{
+  "subject": "ja",
+  "category": "漢字",
+  "deck_name": "N5 漢字",
+  "description": "JLPT N5 kanji — readings and meaning.",
+  "cards": [
+    {
+      "front": "日",
+      "back": "day, sun, Japan, counter for days",
+      "reading": "にち、じつ、ひ、び、か"
+    },
+    {
+      "front": "一",
+      "back": "one",
+      "reading": "いち"
+    },
+    {
+      "front": "国",
+      "back": "country",
+      "reading": "こく、くに"
+    },
+    {
+      "front": "人",
+      "back": "person",
+      "reading": "じん、にん、ひと"
+    },
+    {
+      "front": "年",
+      "back": "year, counter for years",
+      "reading": "ねん、とし"
+    },
+    {
+      "front": "大",
+      "back": "large, big",
+      "reading": "だい、たい、おお（きい）"
+    },
+    {
+      "front": "十",
+      "back": "ten, 10",
+      "reading": "じゅう、とお、と"
+    },
+    {
+      "front": "ニ",
+      "back": "two, 2",
+      "reading": "に、じ、ふた（つ）"
+    },
+    {
+      "front": "本",
+      "back": "book, present, true, counter for long cylindrical things",
+      "reading": "ほん、もと"
+    },
+    {
+      "front": "中",
+      "back": "in, inside, middle, mean, center",
+      "reading": "ちゅう、うち、あた（る）"
+    },
+    {
+      "front": "長",
+      "back": "long, leader, superior, senior",
+      "reading": "ちょう、なが（い）、おさ"
+    },
+    {
+      "front": "出",
+      "back": "exit, leave, go out",
+      "reading": "しゅつ、すい、で（る）、だ（す）、い（でる）"
+    },
+    {
+      "front": "三",
+      "back": "three, 3",
+      "reading": "さん、み（っつ）"
+    },
+    {
+      "front": "時",
+      "back": "time, hour",
+      "reading": "じ、とき、どき"
+    },
+    {
+      "front": "行",
+      "back": "going, journey, carry out, line, row",
+      "reading": "こう、ぎょう、あん、い（く）、ゆ（く）、おこな（う）"
+    },
+    {
+      "front": "見",
+      "back": "see, hopes, chances, idea, opinion, look at, visible",
+      "reading": "けん、み（る）"
+    },
+    {
+      "front": "月",
+      "back": "month, moon",
+      "reading": "げつ、がつ、つき"
+    },
+    {
+      "front": "分",
+      "back": "part, minute of time, understand",
+      "reading": "ぶん、ふん、ぶ、わ（ける）"
+    },
+    {
+      "front": "後",
+      "back": "behind, back, later",
+      "reading": "ご、こう、のち、うし（ろ）、あと"
+    },
+    {
+      "front": "前",
+      "back": "in front, before",
+      "reading": "ぜん、まえ"
+    },
+    {
+      "front": "生",
+      "back": "life, genuine, birth",
+      "reading": "せい、しょう、い（きる）、う（む）、お（う）、は（える）、なま"
+    },
+    {
+      "front": "五",
+      "back": "five, 5",
+      "reading": "ご"
+    },
+    {
+      "front": "間",
+      "back": "interval, space",
+      "reading": "かん、けん、あいだ、ま、あい"
+    },
+    {
+      "front": "上",
+      "back": "above, up",
+      "reading": "じょう、しょう、しゃん、うえ、うわ、かみ、あ（げる）、のぼ（る）、たてまつ（る）"
+    },
+    {
+      "front": "東",
+      "back": "east",
+      "reading": "とう、ひがし"
+    },
+    {
+      "front": "四",
+      "back": "four, 4",
+      "reading": "し、よ（っつ）、よん"
+    },
+    {
+      "front": "今",
+      "back": "now; the present",
+      "reading": "こん、きん、いま"
+    },
+    {
+      "front": "金",
+      "back": "gold",
+      "reading": "きん、こん、ごん、かね、かな~、~がね"
+    },
+    {
+      "front": "九",
+      "back": "nine, 9",
+      "reading": "きゅう、く、ここの（つ）"
+    },
+    {
+      "front": "入",
+      "back": "enter, insert",
+      "reading": "にゅう、い（る）、はい（る）"
+    },
+    {
+      "front": "学",
+      "back": "study, learning, science",
+      "reading": "がく、まな（ぶ）"
+    },
+    {
+      "front": "高",
+      "back": "tall, high, expensive",
+      "reading": "こう、たか（い）"
+    },
+    {
+      "front": "円",
+      "back": "circle, yen, round",
+      "reading": "えん、まる（い）"
+    },
+    {
+      "front": "子",
+      "back": "child",
+      "reading": "し、す、つ、こ、ね"
+    },
+    {
+      "front": "外",
+      "back": "outside",
+      "reading": "がい、げ、そと、ほか、はず（す）、と~"
+    },
+    {
+      "front": "八",
+      "back": "eight, 8",
+      "reading": "はち、や（っつ）、よう"
+    },
+    {
+      "front": "六",
+      "back": "six, 6",
+      "reading": "ろく、む（っつ）、むい"
+    },
+    {
+      "front": "下",
+      "back": "below, down, descend, give, low, inferior",
+      "reading": "か、げ、した、しも、さ（げる）、くだ（る）、お（ろす）"
+    },
+    {
+      "front": "来",
+      "back": "come, due, next, cause, become",
+      "reading": "らい、たい、く（る）、きた（る）、き、こ"
+    },
+    {
+      "front": "気",
+      "back": "spirit, mind, air, atmosphere, mood",
+      "reading": "き、け、いき"
+    },
+    {
+      "front": "小",
+      "back": "little, small",
+      "reading": "しょう、ちい（さい）、こ~、お~、さ~"
+    },
+    {
+      "front": "七",
+      "back": "seven, 7",
+      "reading": "しち、なな（つ）なの"
+    },
+    {
+      "front": "山",
+      "back": "mountain",
+      "reading": "さん、せん、やま"
+    },
+    {
+      "front": "話",
+      "back": "tale, talk",
+      "reading": "わ、はな（す）、はなし"
+    },
+    {
+      "front": "女",
+      "back": "woman, female",
+      "reading": "じょ、おんな、め"
+    },
+    {
+      "front": "北",
+      "back": "north",
+      "reading": "ほく、きた"
+    },
+    {
+      "front": "午",
+      "back": "noon, sign of the horse",
+      "reading": "ご、うま"
+    },
+    {
+      "front": "百",
+      "back": "hundred",
+      "reading": "ひゃく、びゃく、もも"
+    },
+    {
+      "front": "書",
+      "back": "write",
+      "reading": "しょ、か（く）"
+    },
+    {
+      "front": "先",
+      "back": "before, ahead, previous, future, precedence",
+      "reading": "せん、さき、ま（ず）"
+    },
+    {
+      "front": "名",
+      "back": "name, noted, distinguished, reputation",
+      "reading": "めい、みょう、な"
+    },
+    {
+      "front": "川",
+      "back": "river, stream",
+      "reading": "せん、かわ"
+    },
+    {
+      "front": "千",
+      "back": "thousand",
+      "reading": "せん、ち"
+    },
+    {
+      "front": "水",
+      "back": "water",
+      "reading": "すい、みず"
+    },
+    {
+      "front": "半",
+      "back": "half, middle, odd number, semi-",
+      "reading": "はん、なか（ば）"
+    },
+    {
+      "front": "男",
+      "back": "male; man",
+      "reading": "だん、なん、おとこ、お"
+    },
+    {
+      "front": "西",
+      "back": "west",
+      "reading": "せい、さい、にし"
+    },
+    {
+      "front": "電",
+      "back": "electricity; electric powered",
+      "reading": "でん"
+    },
+    {
+      "front": "校",
+      "back": "school, exam",
+      "reading": "こう"
+    },
+    {
+      "front": "語",
+      "back": "word, speech, language",
+      "reading": "ご、かた（る）"
+    },
+    {
+      "front": "土",
+      "back": "soil, earth, ground",
+      "reading": "ど、と、つち"
+    },
+    {
+      "front": "木",
+      "back": "tree, wood",
+      "reading": "もく、ぼく、き、こ~"
+    },
+    {
+      "front": "聞",
+      "back": "to hear; to listen; to ask",
+      "reading": "ぶん、もん、き（く）"
+    },
+    {
+      "front": "食",
+      "back": "eat, food",
+      "reading": "しょく、じき、た（べる）、く（う）、は（む）"
+    },
+    {
+      "front": "車",
+      "back": "car, wheel",
+      "reading": "しゃ、くるま"
+    },
+    {
+      "front": "何",
+      "back": "what",
+      "reading": "か、なに、なん"
+    },
+    {
+      "front": "南",
+      "back": "south",
+      "reading": "なん、な、みなみ"
+    },
+    {
+      "front": "万",
+      "back": "ten thousand, 10,000",
+      "reading": "まん、ばん"
+    },
+    {
+      "front": "毎",
+      "back": "every",
+      "reading": "まい、ごと（に）"
+    },
+    {
+      "front": "白",
+      "back": "white",
+      "reading": "はく、びゃく、しろ"
+    },
+    {
+      "front": "天",
+      "back": "heavens, sky, imperial",
+      "reading": "てん、あまつ"
+    },
+    {
+      "front": "母",
+      "back": "mother",
+      "reading": "ぼ、はは、かあ"
+    },
+    {
+      "front": "火",
+      "back": "fire",
+      "reading": "か、ひ、~び、ほ~"
+    },
+    {
+      "front": "右",
+      "back": "right (direction)",
+      "reading": "う、ゆう、みぎ"
+    },
+    {
+      "front": "読",
+      "back": "to read",
+      "reading": "どく、とく、とう、よ（む）"
+    },
+    {
+      "front": "友",
+      "back": "friend",
+      "reading": "ゆう、とも"
+    },
+    {
+      "front": "左",
+      "back": "left",
+      "reading": "さ、しゃ、ひだり"
+    },
+    {
+      "front": "休",
+      "back": "rest, day off, retire, sleep",
+      "reading": "きゅう、やす（む）"
+    },
+    {
+      "front": "父",
+      "back": "father",
+      "reading": "ふ、ちち、とう"
+    },
+    {
+      "front": "雨",
+      "back": "rain",
+      "reading": "う、あめ、あま"
+    }
+  ]
+}

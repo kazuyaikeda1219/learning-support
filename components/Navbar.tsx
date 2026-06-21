@@ -5,11 +5,13 @@ import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 import { getCurrentUser, clearCurrentUser } from '@/utils/currentUser';
 import { BookOpen, LogOut, ShieldCheck, LogIn } from 'lucide-react';
-import { PRIMARY_NAV, isNavActive } from '@/components/navItems';
+import { navItemsForSubject, isNavActive } from '@/components/navItems';
+import type { Subject } from '@/utils/subject';
 
 export default function Navbar() {
   const [userName, setUserName] = useState<string>('');
   const [hasUser, setHasUser] = useState(false);
+  const [subject, setSubject] = useState<Subject | null>(null);
   const router = useRouter();
   const pathname = usePathname();
 
@@ -18,8 +20,11 @@ export default function Navbar() {
     if (cu) {
       setHasUser(true);
       setUserName(cu.name || 'User');
+      setSubject(cu.subject);
     }
   }, []);
+
+  const navItems = navItemsForSubject(subject);
 
   const handleLogout = () => {
     clearCurrentUser();
@@ -33,7 +38,7 @@ export default function Navbar() {
     <nav className="hidden md:block bg-white border-b border-gray-100 px-6 py-3 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center gap-6">
         {/* ── ロゴ ── */}
-        <Link href="/dashboard" className="flex items-center gap-2 group shrink-0">
+        <Link href="/mypage" className="flex items-center gap-2 group shrink-0">
           <div className="w-9 h-9 bg-blue-600 rounded-xl flex items-center justify-center group-hover:rotate-6 transition-transform">
             <BookOpen size={20} className="text-white" />
           </div>
@@ -45,7 +50,7 @@ export default function Navbar() {
         {/* ── 主要ナビ（上下で共通。スマホ下バーと同じ並び） ── */}
         {hasUser && (
           <div className="flex items-center gap-1">
-            {PRIMARY_NAV.map((item) => {
+            {navItems.map((item) => {
               const isActive = isNavActive(pathname, item.href);
               const Icon = item.icon;
               return (

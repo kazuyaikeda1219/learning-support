@@ -1,0 +1,507 @@
+{
+  "subject": "ja",
+  "category": "かな",
+  "deck_name": "カタカナ語 100",
+  "description": "Common loanwords written in katakana.",
+  "cards": [
+    {
+      "front": "テレビ",
+      "back": "television",
+      "reading": "てれび"
+    },
+    {
+      "front": "コンピューター",
+      "back": "computer",
+      "reading": "こんぴゅーたー"
+    },
+    {
+      "front": "スマホ",
+      "back": "smartphone",
+      "reading": "すまほ"
+    },
+    {
+      "front": "バス",
+      "back": "bus",
+      "reading": "ばす"
+    },
+    {
+      "front": "タクシー",
+      "back": "taxi",
+      "reading": "たくしー"
+    },
+    {
+      "front": "レストラン",
+      "back": "restaurant",
+      "reading": "れすとらん"
+    },
+    {
+      "front": "カメラ",
+      "back": "camera",
+      "reading": "かめら"
+    },
+    {
+      "front": "カード",
+      "back": "card",
+      "reading": "かーど"
+    },
+    {
+      "front": "パソコン",
+      "back": "personal computer",
+      "reading": "ぱそこん"
+    },
+    {
+      "front": "メール",
+      "back": "email",
+      "reading": "めーる"
+    },
+    {
+      "front": "アイス",
+      "back": "ice / ice cream",
+      "reading": "あいす"
+    },
+    {
+      "front": "ケーキ",
+      "back": "cake",
+      "reading": "けーき"
+    },
+    {
+      "front": "パン",
+      "back": "bread",
+      "reading": "ぱん"
+    },
+    {
+      "front": "ジュース",
+      "back": "juice",
+      "reading": "じゅーす"
+    },
+    {
+      "front": "コーヒー",
+      "back": "coffee",
+      "reading": "こーひー"
+    },
+    {
+      "front": "テーブル",
+      "back": "table",
+      "reading": "てーぶる"
+    },
+    {
+      "front": "チョコレート",
+      "back": "chocolate",
+      "reading": "ちょこれーと"
+    },
+    {
+      "front": "サラダ",
+      "back": "salad",
+      "reading": "さらだ"
+    },
+    {
+      "front": "スープ",
+      "back": "soup",
+      "reading": "すーぷ"
+    },
+    {
+      "front": "サンドイッチ",
+      "back": "sandwich",
+      "reading": "さんどいっち"
+    },
+    {
+      "front": "ホテル",
+      "back": "hotel",
+      "reading": "ほてる"
+    },
+    {
+      "front": "エレベーター",
+      "back": "elevator",
+      "reading": "えれべーたー"
+    },
+    {
+      "front": "トイレ",
+      "back": "toilet",
+      "reading": "といれ"
+    },
+    {
+      "front": "バイク",
+      "back": "motorcycle / bike",
+      "reading": "ばいく"
+    },
+    {
+      "front": "スーツ",
+      "back": "suit",
+      "reading": "すーつ"
+    },
+    {
+      "front": "シャツ",
+      "back": "shirt",
+      "reading": "しゃつ"
+    },
+    {
+      "front": "ジーンズ",
+      "back": "jeans",
+      "reading": "じーんず"
+    },
+    {
+      "front": "コート",
+      "back": "coat",
+      "reading": "こーと"
+    },
+    {
+      "front": "バッグ",
+      "back": "bag",
+      "reading": "ばっぐ"
+    },
+    {
+      "front": "シューズ",
+      "back": "shoes",
+      "reading": "しゅーず"
+    },
+    {
+      "front": "スニーカー",
+      "back": "sneakers",
+      "reading": "すにーかー"
+    },
+    {
+      "front": "サンダル",
+      "back": "sandals",
+      "reading": "さんだる"
+    },
+    {
+      "front": "スカート",
+      "back": "skirt",
+      "reading": "すかーと"
+    },
+    {
+      "front": "ドレス",
+      "back": "dress",
+      "reading": "どれす"
+    },
+    {
+      "front": "ネクタイ",
+      "back": "necktie",
+      "reading": "ねくたい"
+    },
+    {
+      "front": "ソックス",
+      "back": "socks",
+      "reading": "そっくす"
+    },
+    {
+      "front": "カップ",
+      "back": "cup",
+      "reading": "かっぷ"
+    },
+    {
+      "front": "ボール",
+      "back": "ball",
+      "reading": "ぼーる"
+    },
+    {
+      "front": "ペン",
+      "back": "pen",
+      "reading": "ぺん"
+    },
+    {
+      "front": "ノート",
+      "back": "notebook",
+      "reading": "のーと"
+    },
+    {
+      "front": "ホワイトボード",
+      "back": "whiteboard",
+      "reading": "ほわいとぼーど"
+    },
+    {
+      "front": "クラス",
+      "back": "class",
+      "reading": "くらす"
+    },
+    {
+      "front": "ラジオ",
+      "back": "radio",
+      "reading": "らじお"
+    },
+    {
+      "front": "インターネット",
+      "back": "internet",
+      "reading": "いんたーねっと"
+    },
+    {
+      "front": "メニュー",
+      "back": "menu",
+      "reading": "めにゅー"
+    },
+    {
+      "front": "フォーク",
+      "back": "fork",
+      "reading": "ふぉーく"
+    },
+    {
+      "front": "ナイフ",
+      "back": "knife",
+      "reading": "ないふ"
+    },
+    {
+      "front": "スプーン",
+      "back": "spoon",
+      "reading": "すぷーん"
+    },
+    {
+      "front": "ビール",
+      "back": "beer",
+      "reading": "びーる"
+    },
+    {
+      "front": "ワイン",
+      "back": "wine",
+      "reading": "わいん"
+    },
+    {
+      "front": "サッカー",
+      "back": "soccer",
+      "reading": "さっかー"
+    },
+    {
+      "front": "バスケットボール",
+      "back": "basketball",
+      "reading": "ばすけっとぼーる"
+    },
+    {
+      "front": "テニス",
+      "back": "tennis",
+      "reading": "てにす"
+    },
+    {
+      "front": "ゴルフ",
+      "back": "golf",
+      "reading": "ごるふ"
+    },
+    {
+      "front": "スキー",
+      "back": "ski",
+      "reading": "すきー"
+    },
+    {
+      "front": "スケート",
+      "back": "skate",
+      "reading": "すけーと"
+    },
+    {
+      "front": "プール",
+      "back": "pool",
+      "reading": "ぷーる"
+    },
+    {
+      "front": "ビーチ",
+      "back": "beach",
+      "reading": "びーち"
+    },
+    {
+      "front": "マンション",
+      "back": "apartment / condominium",
+      "reading": "まんしょん"
+    },
+    {
+      "front": "アパート",
+      "back": "apartment",
+      "reading": "あぱーと"
+    },
+    {
+      "front": "オフィス",
+      "back": "office",
+      "reading": "おふぃす"
+    },
+    {
+      "front": "スーパー",
+      "back": "supermarket",
+      "reading": "すーぱー"
+    },
+    {
+      "front": "コンビニ",
+      "back": "convenience store",
+      "reading": "こんびに"
+    },
+    {
+      "front": "デパート",
+      "back": "department store",
+      "reading": "でぱーと"
+    },
+    {
+      "front": "モール",
+      "back": "shopping mall",
+      "reading": "もーる"
+    },
+    {
+      "front": "レジ",
+      "back": "cash register / checkout",
+      "reading": "れじ"
+    },
+    {
+      "front": "クレジットカード",
+      "back": "credit card",
+      "reading": "くれじっとかーど"
+    },
+    {
+      "front": "チケット",
+      "back": "ticket",
+      "reading": "ちけっと"
+    },
+    {
+      "front": "パスポート",
+      "back": "passport",
+      "reading": "ぱすぽーと"
+    },
+    {
+      "front": "ホームページ",
+      "back": "homepage / website",
+      "reading": "ほーむぺーじ"
+    },
+    {
+      "front": "アプリ",
+      "back": "app / application",
+      "reading": "あぷり"
+    },
+    {
+      "front": "ゲーム",
+      "back": "game",
+      "reading": "げーむ"
+    },
+    {
+      "front": "ビデオ",
+      "back": "video",
+      "reading": "びでお"
+    },
+    {
+      "front": "カレンダー",
+      "back": "calendar",
+      "reading": "かれんだー"
+    },
+    {
+      "front": "ノートパソコン",
+      "back": "laptop",
+      "reading": "のーとぱそこん"
+    },
+    {
+      "front": "タブレット",
+      "back": "tablet",
+      "reading": "たぶれっと"
+    },
+    {
+      "front": "スマートウォッチ",
+      "back": "smartwatch",
+      "reading": "すまーとうぉっち"
+    },
+    {
+      "front": "ヘッドフォン",
+      "back": "headphones",
+      "reading": "へっどふぉん"
+    },
+    {
+      "front": "マイク",
+      "back": "microphone",
+      "reading": "まいく"
+    },
+    {
+      "front": "スピーカー",
+      "back": "speaker",
+      "reading": "すぴーかー"
+    },
+    {
+      "front": "プリンター",
+      "back": "printer",
+      "reading": "ぷりんたー"
+    },
+    {
+      "front": "スキャナー",
+      "back": "scanner",
+      "reading": "すきゃなー"
+    },
+    {
+      "front": "コピー",
+      "back": "こぴーcopy"
+    },
+    {
+      "front": "カフェ",
+      "back": "cafe",
+      "reading": "かふぇ"
+    },
+    {
+      "front": "サービス",
+      "back": "service",
+      "reading": "さーびす"
+    },
+    {
+      "front": "レシート",
+      "back": "receipt",
+      "reading": "れしーと"
+    },
+    {
+      "front": "チェック",
+      "back": "check",
+      "reading": "ちぇっく"
+    },
+    {
+      "front": "アルバイト",
+      "back": "part-time job",
+      "reading": "あるばいと"
+    },
+    {
+      "front": "パーティー",
+      "back": "party",
+      "reading": "ぱーてぃー"
+    },
+    {
+      "front": "イベント",
+      "back": "event",
+      "reading": "いべんと"
+    },
+    {
+      "front": "コンサート",
+      "back": "concert",
+      "reading": "こんさーと"
+    },
+    {
+      "front": "フェスティバル",
+      "back": "festival",
+      "reading": "ふぇすてぃばる"
+    },
+    {
+      "front": "バンド",
+      "back": "band",
+      "reading": "ばんど"
+    },
+    {
+      "front": "ミュージック",
+      "back": "music",
+      "reading": "みゅーじっく"
+    },
+    {
+      "front": "アーティスト",
+      "back": "artist",
+      "reading": "あーてぃすと"
+    },
+    {
+      "front": "ショッピング",
+      "back": "shopping",
+      "reading": "しょっぴんぐ"
+    },
+    {
+      "front": "デザイン",
+      "back": "design",
+      "reading": "でざいん"
+    },
+    {
+      "front": "プロジェクト",
+      "back": "project",
+      "reading": "ぷろじぇくと"
+    },
+    {
+      "front": "コミュニケーション",
+      "back": "communication",
+      "reading": "こみゅにけーしょん"
+    },
+    {
+      "front": "ミーティング",
+      "back": "meeting",
+      "reading": "みーてぃんぐ"
+    }
+  ]
+}

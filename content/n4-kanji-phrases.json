@@ -1,0 +1,1382 @@
+{
+  "subject": "ja",
+  "category": "漢字フレーズ",
+  "deck_name": "N4 漢字フレーズ",
+  "description": "Example sentences using N4 kanji.",
+  "cards": [
+    {
+      "front": "朝ご飯を食べます。",
+      "back": "I eat breakfast.",
+      "reading": "あさごはんを たべます。",
+      "example": "Asagohan o tabemasu."
+    },
+    {
+      "front": "昼に友だちと会います。",
+      "back": "I meet my friend at noon.",
+      "reading": "ひるに ともだちと あいます。",
+      "example": "Hiru ni tomodachi to aimasu."
+    },
+    {
+      "front": "晩ご飯はカレーです。",
+      "back": "Dinner is curry.",
+      "reading": "ばんごはんは かれーです。",
+      "example": "Bangohan wa karee desu."
+    },
+    {
+      "front": "夜勉強します。",
+      "back": "I study at night.",
+      "reading": "よる べんきょうします。",
+      "example": "Yoru benkyou shimasu."
+    },
+    {
+      "front": "駅の前で待ちます。",
+      "back": "I wait in front of the station.",
+      "reading": "えきの まえで まちます。",
+      "example": "Eki no mae de machimasu."
+    },
+    {
+      "front": "学校の後で買い物します。",
+      "back": "I go shopping after school.",
+      "reading": "がっこうの あとで かいものします。",
+      "example": "Gakkou no ato de kaimono shimasu."
+    },
+    {
+      "front": "正しい答えを書いてください。",
+      "back": "Please write the correct answer.",
+      "reading": "ただしい こたえを かいてください。",
+      "example": "Tadashii kotae o kaite kudasai."
+    },
+    {
+      "front": "午後三時です。",
+      "back": "It is 3 p.m.",
+      "reading": "ごご さんじです。",
+      "example": "Gogo sanji desu."
+    },
+    {
+      "front": "毎日日本語を勉強します。",
+      "back": "I study Japanese every day.",
+      "reading": "まいにち にほんごを べんきょうします。",
+      "example": "Mainichi nihongo o benkyou shimasu."
+    },
+    {
+      "front": "毎週テニスをします。",
+      "back": "I play tennis every week.",
+      "reading": "まいしゅう てにすをします。",
+      "example": "Maishuu tenisu o shimasu."
+    },
+    {
+      "front": "去年日本へ行きました。",
+      "back": "I went to Japan last year.",
+      "reading": "きょねん にほんへ いきました。",
+      "example": "Kyonen Nihon e ikimashita."
+    },
+    {
+      "front": "家に帰ります。",
+      "back": "I go home.",
+      "reading": "いえに かえります。",
+      "example": "Ie ni kaerimasu."
+    },
+    {
+      "front": "父は会社員です。",
+      "back": "My father is a company employee.",
+      "reading": "ちちは かいしゃいんです。",
+      "example": "Chichi wa kaishain desu."
+    },
+    {
+      "front": "母は料理が上手です。",
+      "back": "My mother is good at cooking.",
+      "reading": "ははは りょうりが じょうずです。",
+      "example": "Haha wa ryouri ga jouzu desu."
+    },
+    {
+      "front": "兄は東京に住んでいます。",
+      "back": "My older brother lives in Tokyo.",
+      "reading": "あには とうきょうに すんでいます。",
+      "example": "Ani wa Toukyou ni sundeimasu."
+    },
+    {
+      "front": "姉は先生です。",
+      "back": "My older sister is a teacher.",
+      "reading": "あねは せんせいです。",
+      "example": "Ane wa sensei desu."
+    },
+    {
+      "front": "弟は高校生です。",
+      "back": "My younger brother is a high school student.",
+      "reading": "おとうとは こうこうせいです。",
+      "example": "Otouto wa koukousei desu."
+    },
+    {
+      "front": "妹は音楽が好きです。",
+      "back": "My younger sister likes music.",
+      "reading": "いもうとは おんがくが すきです。",
+      "example": "Imouto wa ongaku ga suki desu."
+    },
+    {
+      "front": "夫は今仕事中です。",
+      "back": "My husband is working now.",
+      "reading": "おっとは いま しごとちゅうです。",
+      "example": "Otto wa ima shigotochuu desu."
+    },
+    {
+      "front": "妻は買い物に行きました。",
+      "back": "My wife went shopping.",
+      "reading": "つまは かいものに いきました。",
+      "example": "Tsuma wa kaimono ni ikimashita."
+    },
+    {
+      "front": "親と電話しました。",
+      "back": "I talked with my parents on the phone.",
+      "reading": "おやと でんわしました。",
+      "example": "Oya to denwa shimashita."
+    },
+    {
+      "front": "友だちと旅行します。",
+      "back": "I travel with my friend.",
+      "reading": "ともだちと りょこうします。",
+      "example": "Tomodachi to ryokou shimasu."
+    },
+    {
+      "front": "自分で作りました。",
+      "back": "I made it myself.",
+      "reading": "じぶんで つくりました。",
+      "example": "Jibun de tsukurimashita."
+    },
+    {
+      "front": "体が少し痛いです。",
+      "back": "My body hurts a little.",
+      "reading": "からだが すこし いたいです。",
+      "example": "Karada ga sukoshi itai desu."
+    },
+    {
+      "front": "頭がいいですね。",
+      "back": "You are smart.",
+      "reading": "あたまが いいですね。",
+      "example": "Atama ga ii desu ne."
+    },
+    {
+      "front": "顔を洗いました。",
+      "back": "I washed my face.",
+      "reading": "かおを あらいました。",
+      "example": "Kao o araimashita."
+    },
+    {
+      "front": "声が聞こえます。",
+      "back": "I can hear a voice.",
+      "reading": "こえが きこえます。",
+      "example": "Koe ga kikoemasu."
+    },
+    {
+      "front": "心配しないでください。",
+      "back": "Don't worry.",
+      "reading": "しんぱいしないでください。",
+      "example": "Shinpai shinai de kudasai."
+    },
+    {
+      "front": "首が痛いです。",
+      "back": "My neck hurts.",
+      "reading": "くびが いたいです。",
+      "example": "Kubi ga itai desu."
+    },
+    {
+      "front": "病院へ行きます。",
+      "back": "I will go to the hospital.",
+      "reading": "びょういんへ いきます。",
+      "example": "Byouin e ikimasu."
+    },
+    {
+      "front": "病気ではありません。",
+      "back": "I am not sick.",
+      "reading": "びょうきでは ありません。",
+      "example": "Byouki de wa arimasen."
+    },
+    {
+      "front": "薬を飲みました。",
+      "back": "I took medicine.",
+      "reading": "くすりを のみました。",
+      "example": "Kusuri o nomimashita."
+    },
+    {
+      "front": "元気ですか。",
+      "back": "How are you?",
+      "reading": "げんきですか。",
+      "example": "Genki desu ka."
+    },
+    {
+      "front": "有名な店です。",
+      "back": "It is a famous shop.",
+      "reading": "ゆうめいな みせです。",
+      "example": "Yuumei na mise desu."
+    },
+    {
+      "front": "便利な場所です。",
+      "back": "It is a convenient place.",
+      "reading": "べんりな ばしょです。",
+      "example": "Benri na basho desu."
+    },
+    {
+      "front": "不便ですね。",
+      "back": "It is inconvenient.",
+      "reading": "ふべんですね。",
+      "example": "Fuben desu ne."
+    },
+    {
+      "front": "必要です。",
+      "back": "It is necessary.",
+      "reading": "ひつようです。",
+      "example": "Hitsuyou desu."
+    },
+    {
+      "front": "特にありません。",
+      "back": "Not particularly.",
+      "reading": "とくに ありません。",
+      "example": "Toku ni arimasen."
+    },
+    {
+      "front": "同じです。",
+      "back": "It is the same.",
+      "reading": "おなじです。",
+      "example": "Onaji desu."
+    },
+    {
+      "front": "別の店に行きます。",
+      "back": "I will go to another shop.",
+      "reading": "べつの みせに いきます。",
+      "example": "Betsu no mise ni ikimasu."
+    },
+    {
+      "front": "若い先生です。",
+      "back": "He is a young teacher.",
+      "reading": "わかい せんせいです。",
+      "example": "Wakai sensei desu."
+    },
+    {
+      "front": "古い本です。",
+      "back": "It is an old book.",
+      "reading": "ふるい ほんです。",
+      "example": "Furui hon desu."
+    },
+    {
+      "front": "短い休みでした。",
+      "back": "It was a short vacation.",
+      "reading": "みじかい やすみでした。",
+      "example": "Mijikai yasumi deshita."
+    },
+    {
+      "front": "長い映画でした。",
+      "back": "It was a long movie.",
+      "reading": "ながい えいがでした。",
+      "example": "Nagai eiga deshita."
+    },
+    {
+      "front": "明るい部屋です。",
+      "back": "It is a bright room.",
+      "reading": "あかるい へやです。",
+      "example": "Akarui heya desu."
+    },
+    {
+      "front": "暗いですね。",
+      "back": "It is dark.",
+      "reading": "くらいですね。",
+      "example": "Kurai desu ne."
+    },
+    {
+      "front": "強い人です。",
+      "back": "He is a strong person.",
+      "reading": "つよい ひとです。",
+      "example": "Tsuyoi hito desu."
+    },
+    {
+      "front": "弱い犬です。",
+      "back": "It is a weak dog.",
+      "reading": "よわい いぬです。",
+      "example": "Yowai inu desu."
+    },
+    {
+      "front": "軽いかばんです。",
+      "back": "It is a light bag.",
+      "reading": "かるい かばんです。",
+      "example": "Karui kaban desu."
+    },
+    {
+      "front": "重い荷物です。",
+      "back": "It is heavy luggage.",
+      "reading": "おもい にもつです。",
+      "example": "Omoi nimotsu desu."
+    },
+    {
+      "front": "暑いので水を飲みます。",
+      "back": "I drink water because it's hot.",
+      "reading": "あついので みずを のみます。",
+      "example": "Atsui node mizu o nomimasu."
+    },
+    {
+      "front": "寒いですね。",
+      "back": "It is cold.",
+      "reading": "さむいですね。",
+      "example": "Samui desu ne."
+    },
+    {
+      "front": "熱いコーヒーが好きです。",
+      "back": "I like hot coffee.",
+      "reading": "あつい こーひーが すきです。",
+      "example": "Atsui koohii ga suki desu."
+    },
+    {
+      "front": "冷たいお茶をください。",
+      "back": "Please give me cold tea.",
+      "reading": "つめたい おちゃを ください。",
+      "example": "Tsumetai ocha o kudasai."
+    },
+    {
+      "front": "温かいスープです。",
+      "back": "It is warm soup.",
+      "reading": "あたたかい すーぷです。",
+      "example": "Atatakai suupu desu."
+    },
+    {
+      "front": "新しい車を買いました。",
+      "back": "I bought a new car.",
+      "reading": "あたらしい くるまを かいました。",
+      "example": "Atarashii kuruma o kaimashita."
+    },
+    {
+      "front": "古い家に住んでいます。",
+      "back": "I live in an old house.",
+      "reading": "ふるい いえに すんでいます。",
+      "example": "Furui ie ni sundeimasu."
+    },
+    {
+      "front": "広い公園があります。",
+      "back": "There is a large park.",
+      "reading": "ひろい こうえんが あります。",
+      "example": "Hiroi kouen ga arimasu."
+    },
+    {
+      "front": "狭い部屋です。",
+      "back": "It is a small room.",
+      "reading": "せまい へやです。",
+      "example": "Semai heya desu."
+    },
+    {
+      "front": "近くにスーパーがあります。",
+      "back": "There is a supermarket nearby.",
+      "reading": "ちかくに すーぱーが あります。",
+      "example": "Chikaku ni suupaa ga arimasu."
+    },
+    {
+      "front": "遠いので電車で行きます。",
+      "back": "It is far, so I go by train.",
+      "reading": "とおいので でんしゃで いきます。",
+      "example": "Tooi node densha de ikimasu."
+    },
+    {
+      "front": "高いですね。",
+      "back": "It is expensive.",
+      "reading": "たかいですね。",
+      "example": "Takai desu ne."
+    },
+    {
+      "front": "安い店を知っています。",
+      "back": "I know a cheap shop.",
+      "reading": "やすい みせを しっています。",
+      "example": "Yasui mise o shitteimasu."
+    },
+    {
+      "front": "多くの人が来ました。",
+      "back": "Many people came.",
+      "reading": "おおくの ひとが きました。",
+      "example": "Ooku no hito ga kimashita."
+    },
+    {
+      "front": "少し休みます。",
+      "back": "I will rest a little.",
+      "reading": "すこし やすみます。",
+      "example": "Sukoshi yasumimasu."
+    },
+    {
+      "front": "早く起きました。",
+      "back": "I woke up early.",
+      "reading": "はやく おきました。",
+      "example": "Hayaku okimashita."
+    },
+    {
+      "front": "遅く帰りました。",
+      "back": "I came home late.",
+      "reading": "おそく かえりました。",
+      "example": "Osoku kaerimashita."
+    },
+    {
+      "front": "速く走れます。",
+      "back": "I can run fast.",
+      "reading": "はやく はしれます。",
+      "example": "Hayaku hashiremasu."
+    },
+    {
+      "front": "遅い電車でした。",
+      "back": "It was a slow train.",
+      "reading": "おそい でんしゃでした。",
+      "example": "Osoi densha deshita."
+    },
+    {
+      "front": "忙しい一日でした。",
+      "back": "It was a busy day.",
+      "reading": "いそがしい いちにちでした。",
+      "example": "Isogashii ichinichi deshita."
+    },
+    {
+      "front": "暇な時は本を読みます。",
+      "back": "I read books when I have free time.",
+      "reading": "ひまな ときは ほんを よみます。",
+      "example": "Hima na toki wa hon o yomimasu."
+    },
+    {
+      "front": "楽しい旅行でした。",
+      "back": "It was a fun trip.",
+      "reading": "たのしい りょこうでした。",
+      "example": "Tanoshii ryokou deshita."
+    },
+    {
+      "front": "悲しい映画でした。",
+      "back": "It was a sad movie.",
+      "reading": "かなしい えいがでした。",
+      "example": "Kanashii eiga deshita."
+    },
+    {
+      "front": "笑ってください。",
+      "back": "Please smile.",
+      "reading": "わらってください。",
+      "example": "Waratte kudasai."
+    },
+    {
+      "front": "泣かないでください。",
+      "back": "Please don't cry.",
+      "reading": "なかないでください。",
+      "example": "Nakanaide kudasai."
+    },
+    {
+      "front": "歌を歌います。",
+      "back": "I sing a song.",
+      "reading": "うたを うたいます。",
+      "example": "Uta o utaimasu."
+    },
+    {
+      "front": "音が聞こえます。",
+      "back": "I can hear a sound.",
+      "reading": "おとが きこえます。",
+      "example": "Oto ga kikoemasu."
+    },
+    {
+      "front": "音楽を聞くのが好きです。",
+      "back": "I like listening to music.",
+      "reading": "おんがくを きくのが すきです。",
+      "example": "Ongaku o kiku no ga suki desu."
+    },
+    {
+      "front": "写真を撮りました。",
+      "back": "I took a picture.",
+      "reading": "しゃしんを とりました。",
+      "example": "Shashin o torimashita."
+    },
+    {
+      "front": "絵を描くのが好きです。",
+      "back": "I like drawing pictures.",
+      "reading": "えを かくのが すきです。",
+      "example": "E o kaku no ga suki desu."
+    },
+    {
+      "front": "色は何ですか。",
+      "back": "What color is it?",
+      "reading": "いろは なんですか。",
+      "example": "Iro wa nan desu ka."
+    },
+    {
+      "front": "青い空ですね。",
+      "back": "The sky is blue.",
+      "reading": "あおい そらですね。",
+      "example": "Aoi sora desu ne."
+    },
+    {
+      "front": "赤い花です。",
+      "back": "It is a red flower.",
+      "reading": "あかい はなです。",
+      "example": "Akai hana desu."
+    },
+    {
+      "front": "白い犬です。",
+      "back": "It is a white dog.",
+      "reading": "しろい いぬです。",
+      "example": "Shiroi inu desu."
+    },
+    {
+      "front": "黒いねこです。",
+      "back": "It is a black cat.",
+      "reading": "くろい ねこです。",
+      "example": "Kuroi neko desu."
+    },
+    {
+      "front": "茶色のかばんです。",
+      "back": "It is a brown bag.",
+      "reading": "ちゃいろの かばんです。",
+      "example": "Chairo no kaban desu."
+    },
+    {
+      "front": "緑が好きです。",
+      "back": "I like green.",
+      "reading": "みどりが すきです。",
+      "example": "Midori ga suki desu."
+    },
+    {
+      "front": "春に桜を見ます。",
+      "back": "I see cherry blossoms in spring.",
+      "reading": "はるに さくらを みます。",
+      "example": "Haru ni sakura o mimasu."
+    },
+    {
+      "front": "夏は暑いです。",
+      "back": "Summer is hot.",
+      "reading": "なつは あついです。",
+      "example": "Natsu wa atsui desu."
+    },
+    {
+      "front": "秋が一番好きです。",
+      "back": "I like autumn the most.",
+      "reading": "あきが いちばん すきです。",
+      "example": "Aki ga ichiban suki desu."
+    },
+    {
+      "front": "冬は雪が降ります。",
+      "back": "It snows in winter.",
+      "reading": "ふゆは ゆきが ふります。",
+      "example": "Fuyu wa yuki ga furimasu."
+    },
+    {
+      "front": "天気がいいですね。",
+      "back": "The weather is nice.",
+      "reading": "てんきが いいですね。",
+      "example": "Tenki ga ii desu ne."
+    },
+    {
+      "front": "雨が降っています。",
+      "back": "It is raining.",
+      "reading": "あめが ふっています。",
+      "example": "Ame ga futteimasu."
+    },
+    {
+      "front": "雪を見たいです。",
+      "back": "I want to see snow.",
+      "reading": "ゆきを みたいです。",
+      "example": "Yuki o mitai desu."
+    },
+    {
+      "front": "風が強いです。",
+      "back": "The wind is strong.",
+      "reading": "かぜが つよいです。",
+      "example": "Kaze ga tsuyoi desu."
+    },
+    {
+      "front": "空がきれいです。",
+      "back": "The sky is beautiful.",
+      "reading": "そらが きれいです。",
+      "example": "Sora ga kirei desu."
+    },
+    {
+      "front": "海へ行きましょう。",
+      "back": "Let's go to the sea.",
+      "reading": "うみへ いきましょう。",
+      "example": "Umi e ikimashou."
+    },
+    {
+      "front": "島に住んでいます。",
+      "back": "I live on an island.",
+      "reading": "しまに すんでいます。",
+      "example": "Shima ni sundeimasu."
+    },
+    {
+      "front": "森を歩きました。",
+      "back": "I walked through the forest.",
+      "reading": "もりを あるきました。",
+      "example": "Mori o arukimashita."
+    },
+    {
+      "front": "湖の近くです。",
+      "back": "It is near a lake.",
+      "reading": "みずうみの ちかくです。",
+      "example": "Mizuumi no chikaku desu."
+    },
+    {
+      "front": "道をまっすぐ行ってください。",
+      "back": "Please go straight on this road.",
+      "reading": "みちを まっすぐ いってください。",
+      "example": "Michi o massugu itte kudasai."
+    },
+    {
+      "front": "橋を渡ります。",
+      "back": "I cross the bridge.",
+      "reading": "はしを わたります。",
+      "example": "Hashi o watarimasu."
+    },
+    {
+      "front": "角を右に曲がります。",
+      "back": "Turn right at the corner.",
+      "reading": "かどを みぎに まがります。",
+      "example": "Kado o migi ni magarimasu."
+    },
+    {
+      "front": "交差点で待ちます。",
+      "back": "I wait at the intersection.",
+      "reading": "こうさてんで まちます。",
+      "example": "Kousaten de machimasu."
+    },
+    {
+      "front": "公園で遊びました。",
+      "back": "I played in the park.",
+      "reading": "こうえんで あそびました。",
+      "example": "Kouen de asobimashita."
+    },
+    {
+      "front": "市役所へ行きます。",
+      "back": "I will go to city hall.",
+      "reading": "しやくしょへ いきます。",
+      "example": "Shiyakusho e ikimasu."
+    },
+    {
+      "front": "町は静かです。",
+      "back": "The town is quiet.",
+      "reading": "まちは しずかです。",
+      "example": "Machi wa shizuka desu."
+    },
+    {
+      "front": "村に住んでいます。",
+      "back": "I live in a village.",
+      "reading": "むらに すんでいます。",
+      "example": "Mura ni sundeimasu."
+    },
+    {
+      "front": "国へ帰ります。",
+      "back": "I will return to my country.",
+      "reading": "くにへ かえります。",
+      "example": "Kuni e kaerimasu."
+    },
+    {
+      "front": "外国へ行きたいです。",
+      "back": "I want to go abroad.",
+      "reading": "がいこくへ いきたいです。",
+      "example": "Gaikoku e ikitai desu."
+    },
+    {
+      "front": "地図を見てください。",
+      "back": "Please look at the map.",
+      "reading": "ちずを みてください。",
+      "example": "Chizu o mite kudasai."
+    },
+    {
+      "front": "住所を書いてください。",
+      "back": "Please write your address.",
+      "reading": "じゅうしょを かいてください。",
+      "example": "Juusho o kaite kudasai."
+    },
+    {
+      "front": "銀行でお金を下ろします。",
+      "back": "I withdraw money at the bank.",
+      "reading": "ぎんこうで おかねを おろします。",
+      "example": "Ginkou de okane o oroshimasu."
+    },
+    {
+      "front": "郵便局へ行きます。",
+      "back": "I will go to the post office.",
+      "reading": "ゆうびんきょくへ いきます。",
+      "example": "Yuubinkyoku e ikimasu."
+    },
+    {
+      "front": "店でパンを買いました。",
+      "back": "I bought bread at the store.",
+      "reading": "みせで ぱんを かいました。",
+      "example": "Mise de pan o kaimashita."
+    },
+    {
+      "front": "会社で働いています。",
+      "back": "I work at a company.",
+      "reading": "かいしゃで はたらいています。",
+      "example": "Kaisha de hataraiteimasu."
+    },
+    {
+      "front": "工場で働いています。",
+      "back": "I work at a factory.",
+      "reading": "こうじょうで はたらいています。",
+      "example": "Koujou de hataraiteimasu."
+    },
+    {
+      "front": "図書館で勉強します。",
+      "back": "I study at the library.",
+      "reading": "としょかんで べんきょうします。",
+      "example": "Toshokan de benkyou shimasu."
+    },
+    {
+      "front": "教室に先生がいます。",
+      "back": "The teacher is in the classroom.",
+      "reading": "きょうしつに せんせいが います。",
+      "example": "Kyoushitsu ni sensei ga imasu."
+    },
+    {
+      "front": "部屋を掃除しました。",
+      "back": "I cleaned my room.",
+      "reading": "へやを そうじしました。",
+      "example": "Heya o souji shimashita."
+    },
+    {
+      "front": "台所で料理します。",
+      "back": "I cook in the kitchen.",
+      "reading": "だいどころで りょうりします。",
+      "example": "Daidokoro de ryouri shimasu."
+    },
+    {
+      "front": "玄関に靴があります。",
+      "back": "There are shoes in the entrance.",
+      "reading": "げんかんに くつが あります。",
+      "example": "Genkan ni kutsu ga arimasu."
+    },
+    {
+      "front": "窓を開けてください。",
+      "back": "Please open the window.",
+      "reading": "まどを あけてください。",
+      "example": "Mado o akete kudasai."
+    },
+    {
+      "front": "戸を閉めました。",
+      "back": "I closed the door.",
+      "reading": "とを しめました。",
+      "example": "To o shimemashita."
+    },
+    {
+      "front": "階段を上ります。",
+      "back": "I go up the stairs.",
+      "reading": "かいだんを のぼります。",
+      "example": "Kaidan o noborimasu."
+    },
+    {
+      "front": "部長は会議中です。",
+      "back": "The manager is in a meeting.",
+      "reading": "ぶちょうは かいぎちゅうです。",
+      "example": "Buchou wa kaigichuu desu."
+    },
+    {
+      "front": "会議は三時からです。",
+      "back": "The meeting starts at 3.",
+      "reading": "かいぎは さんじからです。",
+      "example": "Kaigi wa sanji kara desu."
+    },
+    {
+      "front": "仕事が終わりました。",
+      "back": "My work has finished.",
+      "reading": "しごとが おわりました。",
+      "example": "Shigoto ga owarimashita."
+    },
+    {
+      "front": "残業しました。",
+      "back": "I worked overtime.",
+      "reading": "ざんぎょうしました。",
+      "example": "Zangyou shimashita."
+    },
+    {
+      "front": "給料をもらいました。",
+      "back": "I received my salary.",
+      "reading": "きゅうりょうを もらいました。",
+      "example": "Kyuuryou o moraimashita."
+    },
+    {
+      "front": "試験は来週です。",
+      "back": "The exam is next week.",
+      "reading": "しけんは らいしゅうです。",
+      "example": "Shiken wa raishuu desu."
+    },
+    {
+      "front": "宿題をしましたか。",
+      "back": "Did you do your homework?",
+      "reading": "しゅくだいを しましたか。",
+      "example": "Shukudai o shimashita ka."
+    },
+    {
+      "front": "問題が難しいです。",
+      "back": "The question is difficult.",
+      "reading": "もんだいが むずかしいです。",
+      "example": "Mondai ga muzukashii desu."
+    },
+    {
+      "front": "答えが分かりました。",
+      "back": "I understood the answer.",
+      "reading": "こたえが わかりました。",
+      "example": "Kotae ga wakarimashita."
+    },
+    {
+      "front": "質問があります。",
+      "back": "I have a question.",
+      "reading": "しつもんが あります。",
+      "example": "Shitsumon ga arimasu."
+    },
+    {
+      "front": "意味を教えてください。",
+      "back": "Please tell me the meaning.",
+      "reading": "いみを おしえてください。",
+      "example": "Imi o oshiete kudasai."
+    },
+    {
+      "front": "漢字を書いてください。",
+      "back": "Please write the kanji.",
+      "reading": "かんじを かいてください。",
+      "example": "Kanji o kaite kudasai."
+    },
+    {
+      "front": "文章を読みます。",
+      "back": "I read the passage.",
+      "reading": "ぶんしょうを よみます。",
+      "example": "Bunshou o yomimasu."
+    },
+    {
+      "front": "英語を話せます。",
+      "back": "I can speak English.",
+      "reading": "えいごを はなせます。",
+      "example": "Eigo o hanasemasu."
+    },
+    {
+      "front": "日本語を勉強しています。",
+      "back": "I am studying Japanese.",
+      "reading": "にほんごを べんきょうしています。",
+      "example": "Nihongo o benkyou shiteimasu."
+    },
+    {
+      "front": "料理を作りました。",
+      "back": "I cooked a meal.",
+      "reading": "りょうりを つくりました。",
+      "example": "Ryouri o tsukurimashita."
+    },
+    {
+      "front": "野菜を食べます。",
+      "back": "I eat vegetables.",
+      "reading": "やさいを たべます。",
+      "example": "Yasai o tabemasu."
+    },
+    {
+      "front": "肉が好きです。",
+      "back": "I like meat.",
+      "reading": "にくが すきです。",
+      "example": "Niku ga suki desu."
+    },
+    {
+      "front": "魚を買いました。",
+      "back": "I bought fish.",
+      "reading": "さかなを かいました。",
+      "example": "Sakana o kaimashita."
+    },
+    {
+      "front": "牛乳を飲みます。",
+      "back": "I drink milk.",
+      "reading": "ぎゅうにゅうを のみます。",
+      "example": "Gyuunyuu o nomimasu."
+    },
+    {
+      "front": "卵を二つください。",
+      "back": "Please give me two eggs.",
+      "reading": "たまごを ふたつください。",
+      "example": "Tamago o futatsu kudasai."
+    },
+    {
+      "front": "果物が好きです。",
+      "back": "I like fruit.",
+      "reading": "くだものが すきです。",
+      "example": "Kudamono ga suki desu."
+    },
+    {
+      "front": "米を買いました。",
+      "back": "I bought rice.",
+      "reading": "こめを かいました。",
+      "example": "Kome o kaimashita."
+    },
+    {
+      "front": "茶を飲みましょう。",
+      "back": "Let's drink tea.",
+      "reading": "ちゃを のみましょう。",
+      "example": "Cha o nomimashou."
+    },
+    {
+      "front": "酒はあまり飲みません。",
+      "back": "I don't drink much alcohol.",
+      "reading": "さけは あまり のみません。",
+      "example": "Sake wa amari nomimasen."
+    },
+    {
+      "front": "店員に聞きました。",
+      "back": "I asked the store clerk.",
+      "reading": "てんいんに ききました。",
+      "example": "Ten'in ni kikimashita."
+    },
+    {
+      "front": "お客さんが来ました。",
+      "back": "A customer came.",
+      "reading": "おきゃくさんが きました。",
+      "example": "Okyakusan ga kimashita."
+    },
+    {
+      "front": "商品を見ています。",
+      "back": "I am looking at the product.",
+      "reading": "しょうひんを みています。",
+      "example": "Shouhin o miteimasu."
+    },
+    {
+      "front": "値段が高いです。",
+      "back": "The price is high.",
+      "reading": "ねだんが たかいです。",
+      "example": "Nedan ga takai desu."
+    },
+    {
+      "front": "料金はいくらですか。",
+      "back": "How much is the fee?",
+      "reading": "りょうきんは いくらですか。",
+      "example": "Ryoukin wa ikura desu ka."
+    },
+    {
+      "front": "切符を買いました。",
+      "back": "I bought a ticket.",
+      "reading": "きっぷを かいました。",
+      "example": "Kippu o kaimashita."
+    },
+    {
+      "front": "予約をしました。",
+      "back": "I made a reservation.",
+      "reading": "よやくを しました。",
+      "example": "Yoyaku o shimashita."
+    },
+    {
+      "front": "旅館に泊まります。",
+      "back": "I will stay at a Japanese inn.",
+      "reading": "りょかんに とまります。",
+      "example": "Ryokan ni tomarimasu."
+    },
+    {
+      "front": "ホテルは駅の近くです。",
+      "back": "The hotel is near the station.",
+      "reading": "ほてるは えきの ちかくです。",
+      "example": "Hoteru wa eki no chikaku desu."
+    },
+    {
+      "front": "旅行が楽しみです。",
+      "back": "I am looking forward to the trip.",
+      "reading": "りょこうが たのしみです。",
+      "example": "Ryokou ga tanoshimi desu."
+    },
+    {
+      "front": "電車が来ました。",
+      "back": "The train arrived.",
+      "reading": "でんしゃが きました。",
+      "example": "Densha ga kimashita."
+    },
+    {
+      "front": "急行に乗ります。",
+      "back": "I will take the express train.",
+      "reading": "きゅうこうに のります。",
+      "example": "Kyuukou ni norimasu."
+    },
+    {
+      "front": "特急は速いです。",
+      "back": "The limited express is fast.",
+      "reading": "とっきゅうは はやいです。",
+      "example": "Tokkyuu wa hayai desu."
+    },
+    {
+      "front": "駅員に聞いてください。",
+      "back": "Please ask the station staff.",
+      "reading": "えきいんに きいてください。",
+      "example": "Ekiin ni kiite kudasai."
+    },
+    {
+      "front": "運転が上手です。",
+      "back": "He is good at driving.",
+      "reading": "うんてんが じょうずです。",
+      "example": "Unten ga jouzu desu."
+    },
+    {
+      "front": "自転車で行きます。",
+      "back": "I go by bicycle.",
+      "reading": "じてんしゃで いきます。",
+      "example": "Jitensha de ikimasu."
+    },
+    {
+      "front": "飛行機で北海道へ行きました。",
+      "back": "I went to Hokkaido by plane.",
+      "reading": "ひこうきで ほっかいどうへ いきました。",
+      "example": "Hikouki de Hokkaidou e ikimashita."
+    },
+    {
+      "front": "空港は広いです。",
+      "back": "The airport is large.",
+      "reading": "くうこうは ひろいです。",
+      "example": "Kuukou wa hiroi desu."
+    },
+    {
+      "front": "船に乗ったことがあります。",
+      "back": "I have ridden a boat.",
+      "reading": "ふねに のったことがあります。",
+      "example": "Fune ni notta koto ga arimasu."
+    },
+    {
+      "front": "道が込んでいます。",
+      "back": "The road is crowded.",
+      "reading": "みちが こんでいます。",
+      "example": "Michi ga kondeimasu."
+    },
+    {
+      "front": "電話番号を書いてください。",
+      "back": "Please write your phone number.",
+      "reading": "でんわばんごうを かいてください。",
+      "example": "Denwa bangou o kaite kudasai."
+    },
+    {
+      "front": "手紙を送りました。",
+      "back": "I sent a letter.",
+      "reading": "てがみを おくりました。",
+      "example": "Tegami o okurimashita."
+    },
+    {
+      "front": "新聞を読みます。",
+      "back": "I read the newspaper.",
+      "reading": "しんぶんを よみます。",
+      "example": "Shinbun o yomimasu."
+    },
+    {
+      "front": "雑誌を買いました。",
+      "back": "I bought a magazine.",
+      "reading": "ざっしを かいました。",
+      "example": "Zasshi o kaimashita."
+    },
+    {
+      "front": "番組を見ています。",
+      "back": "I am watching a program.",
+      "reading": "ばんぐみを みています。",
+      "example": "Bangumi o miteimasu."
+    },
+    {
+      "front": "映画館へ行きました。",
+      "back": "I went to the movie theater.",
+      "reading": "えいがかんへ いきました。",
+      "example": "Eigakan e ikimashita."
+    },
+    {
+      "front": "音楽会に行きます。",
+      "back": "I will go to a concert.",
+      "reading": "おんがくかいに いきます。",
+      "example": "Ongakukai ni ikimasu."
+    },
+    {
+      "front": "有名な歌手です。",
+      "back": "He is a famous singer.",
+      "reading": "ゆうめいな かしゅです。",
+      "example": "Yuumei na kashu desu."
+    },
+    {
+      "front": "練習を続けます。",
+      "back": "I continue practicing.",
+      "reading": "れんしゅうを つづけます。",
+      "example": "Renshuu o tsuzukemasu."
+    },
+    {
+      "front": "試合を見ました。",
+      "back": "I watched the match.",
+      "reading": "しあいを みました。",
+      "example": "Shiai o mimashita."
+    },
+    {
+      "front": "運動が好きです。",
+      "back": "I like exercise.",
+      "reading": "うんどうが すきです。",
+      "example": "Undou ga suki desu."
+    },
+    {
+      "front": "泳ぐことができます。",
+      "back": "I can swim.",
+      "reading": "およぐことが できます。",
+      "example": "Oyogu koto ga dekimasu."
+    },
+    {
+      "front": "走るのが速いです。",
+      "back": "I run fast.",
+      "reading": "はしるのが はやいです。",
+      "example": "Hashiru no ga hayai desu."
+    },
+    {
+      "front": "歩いて帰ります。",
+      "back": "I will walk home.",
+      "reading": "あるいて かえります。",
+      "example": "Aruite kaerimasu."
+    },
+    {
+      "front": "休みの日は寝ます。",
+      "back": "I sleep on my days off.",
+      "reading": "やすみの ひは ねます。",
+      "example": "Yasumi no hi wa nemasu."
+    },
+    {
+      "front": "起きるのが早いです。",
+      "back": "I wake up early.",
+      "reading": "おきるのが はやいです。",
+      "example": "Okiru no ga hayai desu."
+    },
+    {
+      "front": "働きたいです。",
+      "back": "I want to work.",
+      "reading": "はたらきたいです。",
+      "example": "Hatarakitai desu."
+    },
+    {
+      "front": "結婚しています。",
+      "back": "I am married.",
+      "reading": "けっこんしています。",
+      "example": "Kekkon shiteimasu."
+    },
+    {
+      "front": "誕生日は五月です。",
+      "back": "My birthday is in May.",
+      "reading": "たんじょうびは ごがつです。",
+      "example": "Tanjoubi wa gogatsu desu."
+    },
+    {
+      "front": "用事があります。",
+      "back": "I have something to do.",
+      "reading": "ようじが あります。",
+      "example": "Youji ga arimasu."
+    },
+    {
+      "front": "約束を忘れました。",
+      "back": "I forgot the appointment.",
+      "reading": "やくそくを わすれました。",
+      "example": "Yakusoku o wasuremashita."
+    },
+    {
+      "front": "心が落ち着きました。",
+      "back": "I felt calm.",
+      "reading": "こころが おちつきました。",
+      "example": "Kokoro ga ochitsukimashita."
+    },
+    {
+      "front": "気をつけてください。",
+      "back": "Please be careful.",
+      "reading": "きを つけてください。",
+      "example": "Ki o tsukete kudasai."
+    },
+    {
+      "front": "理由を教えてください。",
+      "back": "Please tell me the reason.",
+      "reading": "りゆうを おしえてください。",
+      "example": "Riyuu o oshiete kudasai."
+    },
+    {
+      "front": "経験があります。",
+      "back": "I have experience.",
+      "reading": "けいけんが あります。",
+      "example": "Keiken ga arimasu."
+    },
+    {
+      "front": "決定しました。",
+      "back": "It has been decided.",
+      "reading": "けっていしました。",
+      "example": "Kettei shimashita."
+    },
+    {
+      "front": "説明を聞きました。",
+      "back": "I listened to the explanation.",
+      "reading": "せつめいを ききました。",
+      "example": "Setsumei o kikimashita."
+    },
+    {
+      "front": "連絡してください。",
+      "back": "Please contact me.",
+      "reading": "れんらくしてください。",
+      "example": "Renraku shite kudasai."
+    },
+    {
+      "front": "準備はできましたか。",
+      "back": "Are you ready?",
+      "reading": "じゅんびは できましたか。",
+      "example": "Junbi wa dekimashita ka."
+    },
+    {
+      "front": "注意してください。",
+      "back": "Please be careful.",
+      "reading": "ちゅういしてください。",
+      "example": "Chuui shite kudasai."
+    },
+    {
+      "front": "研究しています。",
+      "back": "I am doing research.",
+      "reading": "けんきゅうしています。",
+      "example": "Kenkyuu shiteimasu."
+    },
+    {
+      "front": "発表は明日です。",
+      "back": "The presentation is tomorrow.",
+      "reading": "はっぴょうは あしたです。",
+      "example": "Happyou wa ashita desu."
+    },
+    {
+      "front": "選んでください。",
+      "back": "Please choose.",
+      "reading": "えらんでください。",
+      "example": "Erande kudasai."
+    },
+    {
+      "front": "相談したいことがあります。",
+      "back": "I have something I'd like to discuss.",
+      "reading": "そうだんしたいことが あります。",
+      "example": "Soudan shitai koto ga arimasu."
+    },
+    {
+      "front": "協力ありがとうございます。",
+      "back": "Thank you for your cooperation.",
+      "reading": "きょうりょく ありがとうございます。",
+      "example": "Kyouryoku arigatou gozaimasu."
+    },
+    {
+      "front": "確認してください。",
+      "back": "Please confirm.",
+      "reading": "かくにんしてください。",
+      "example": "Kakunin shite kudasai."
+    },
+    {
+      "front": "参加したいです。",
+      "back": "I would like to participate.",
+      "reading": "さんかしたいです。",
+      "example": "Sanka shitai desu."
+    },
+    {
+      "front": "利用できます。",
+      "back": "You can use it.",
+      "reading": "りようできます。",
+      "example": "Riyou dekimasu."
+    },
+    {
+      "front": "連続で三日勉強しました。",
+      "back": "I studied for three days in a row.",
+      "reading": "れんぞくで みっか べんきょうしました。",
+      "example": "Renzoku de mikka benkyou shimashita."
+    },
+    {
+      "front": "毎朝コーヒーを飲みます。",
+      "back": "I drink coffee every morning.",
+      "reading": "まいあさ こーひーを のみます。",
+      "example": "Maiasa koohii o nomimasu."
+    },
+    {
+      "front": "昼休みに散歩します。",
+      "back": "I take a walk during lunch break.",
+      "reading": "ひるやすみに さんぽします。",
+      "example": "Hiruyasumi ni sanpo shimasu."
+    },
+    {
+      "front": "夜遅くまで働きました。",
+      "back": "I worked until late at night.",
+      "reading": "よるおそくまで はたらきました。",
+      "example": "Yoru osoku made hatarakimashita."
+    },
+    {
+      "front": "去年の夏に旅行しました。",
+      "back": "I traveled last summer.",
+      "reading": "きょねんの なつに りょこうしました。",
+      "example": "Kyonen no natsu ni ryokou shimashita."
+    },
+    {
+      "front": "来週試験があります。",
+      "back": "I have an exam next week.",
+      "reading": "らいしゅう しけんが あります。",
+      "example": "Raishuu shiken ga arimasu."
+    },
+    {
+      "front": "家族と食事しました。",
+      "back": "I had a meal with my family.",
+      "reading": "かぞくと しょくじしました。",
+      "example": "Kazoku to shokuji shimashita."
+    },
+    {
+      "front": "友だちに手紙を書きました。",
+      "back": "I wrote a letter to my friend.",
+      "reading": "ともだちに てがみを かきました。",
+      "example": "Tomodachi ni tegami o kakimashita."
+    },
+    {
+      "front": "病院で薬をもらいました。",
+      "back": "I received medicine at the hospital.",
+      "reading": "びょういんで くすりを もらいました。",
+      "example": "Byouin de kusuri o moraimashita."
+    },
+    {
+      "front": "駅の近くに銀行があります。",
+      "back": "There is a bank near the station.",
+      "reading": "えきの ちかくに ぎんこうが あります。",
+      "example": "Eki no chikaku ni ginkou ga arimasu."
+    },
+    {
+      "front": "地図を見ながら歩きました。",
+      "back": "I walked while looking at a map.",
+      "reading": "ちずを みながら あるきました。",
+      "example": "Chizu o minagara arukimashita."
+    },
+    {
+      "front": "写真をたくさん撮りました。",
+      "back": "I took many pictures.",
+      "reading": "しゃしんを たくさん とりました。",
+      "example": "Shashin o takusan torimashita."
+    },
+    {
+      "front": "音楽を聞きながら勉強します。",
+      "back": "I study while listening to music.",
+      "reading": "おんがくを ききながら べんきょうします。",
+      "example": "Ongaku o kikinagara benkyou shimasu."
+    },
+    {
+      "front": "空港で友だちを迎えました。",
+      "back": "I picked up my friend at the airport.",
+      "reading": "くうこうで ともだちを むかえました。",
+      "example": "Kuukou de tomodachi o mukaemashita."
+    },
+    {
+      "front": "飛行機は少し遅れました。",
+      "back": "The plane was a little late.",
+      "reading": "ひこうきは すこし おくれました。",
+      "example": "Hikouki wa sukoshi okuremashita."
+    },
+    {
+      "front": "会議の前に資料を読みました。",
+      "back": "I read the materials before the meeting.",
+      "reading": "かいぎの まえに しりょうを よみました。",
+      "example": "Kaigi no mae ni shiryou o yomimashita."
+    },
+    {
+      "front": "予約の確認をお願いします。",
+      "back": "Please confirm the reservation.",
+      "reading": "よやくの かくにんを おねがいします。",
+      "example": "Yoyaku no kakunin o onegaishimasu."
+    },
+    {
+      "front": "試合に参加しました。",
+      "back": "I participated in the match.",
+      "reading": "しあいに さんかしました。",
+      "example": "Shiai ni sanka shimashita."
+    },
+    {
+      "front": "経験から学びました。",
+      "back": "I learned from experience.",
+      "reading": "けいけんから まなびました。",
+      "example": "Keiken kara manabimashita."
+    },
+    {
+      "front": "理由が分かりました。",
+      "back": "I understood the reason.",
+      "reading": "りゆうが わかりました。",
+      "example": "Riyuu ga wakarimashita."
+    },
+    {
+      "front": "準備が終わりました。",
+      "back": "The preparations are finished.",
+      "reading": "じゅんびが おわりました。",
+      "example": "Junbi ga owarimashita."
+    }
+  ]
+}

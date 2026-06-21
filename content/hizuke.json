@@ -1,0 +1,163 @@
+{
+  "subject": "ja",
+  "category": "基礎",
+  "deck_name": "日付",
+  "description": "Days of the month (1st–31st).",
+  "cards": [
+    {
+      "front": "ついたち",
+      "back": "一日 1st",
+      "reading": "tsuitachi"
+    },
+    {
+      "front": "ふつか",
+      "back": "二日 2nd",
+      "reading": "futsuka"
+    },
+    {
+      "front": "みっか",
+      "back": "三日 3rd",
+      "reading": "mikka"
+    },
+    {
+      "front": "よっか",
+      "back": "四日 4th",
+      "reading": "yokka"
+    },
+    {
+      "front": "いつか",
+      "back": "itsuka 五日 5th",
+      "reading": "itsuka"
+    },
+    {
+      "front": "むいか",
+      "back": "muika 六日 6th",
+      "reading": "muika"
+    },
+    {
+      "front": "なのか",
+      "back": "nanoka 七日 7th",
+      "reading": "nanoka"
+    },
+    {
+      "front": "ようか",
+      "back": "八日 8th",
+      "reading": "youka"
+    },
+    {
+      "front": "ここのか",
+      "back": "九日 9th",
+      "reading": "kokonoka"
+    },
+    {
+      "front": "とおか",
+      "back": "十日 10th",
+      "reading": "tooka"
+    },
+    {
+      "front": "じゅういちにち",
+      "back": "十一日 11th",
+      "reading": "juuichinichi"
+    },
+    {
+      "front": "じゅうににち",
+      "back": "十二日 12th",
+      "reading": "juuninichi"
+    },
+    {
+      "front": "じゅうさんにち",
+      "back": "十三日 13th",
+      "reading": "juusannichi"
+    },
+    {
+      "front": "じゅうよっか",
+      "back": "十四日 14th",
+      "reading": "juuyokka"
+    },
+    {
+      "front": "じゅうごにち",
+      "back": "十五日 15th",
+      "reading": "juugonichi"
+    },
+    {
+      "front": "じゅうろくにち",
+      "back": "十六日 16th",
+      "reading": "juurokunichi"
+    },
+    {
+      "front": "じゅうしちにち",
+      "back": "十七日 17th",
+      "reading": "juushichinichi"
+    },
+    {
+      "front": "じゅうはちにち",
+      "back": "十八日 18th",
+      "reading": "juuhachinichi"
+    },
+    {
+      "front": "じゅうくにち",
+      "back": "十九日 19th",
+      "reading": "juukunichi"
+    },
+    {
+      "front": "はつか",
+      "back": "二十日 20th",
+      "reading": "hatsuka"
+    },
+    {
+      "front": "にじゅういちにち",
+      "back": "二十一日 21st",
+      "reading": "nijuuichinichi"
+    },
+    {
+      "front": "にじゅうににち",
+      "back": "二十二日 22nd",
+      "reading": "nijuuninichi"
+    },
+    {
+      "front": "にじゅうさんにち",
+      "back": "二十三日 23rd",
+      "reading": "nijuusannichi"
+    },
+    {
+      "front": "にじゅうよっか",
+      "back": "二十四日 24th",
+      "reading": "nijuuyokka"
+    },
+    {
+      "front": "にじゅうごにち",
+      "back": "二十五日 25th",
+      "reading": "nijuugonichi"
+    },
+    {
+      "front": "にじゅうろくにち",
+      "back": "二十六日 26th",
+      "reading": "nijuurokunichi"
+    },
+    {
+      "front": "にじゅうしちにち",
+      "back": "二十七日 27th",
+      "reading": "nijuushichinichi"
+    },
+    {
+      "front": "にじゅうはちにち",
+      "back": "二十八日 28th",
+      "reading": "nijuuhachinichi"
+    },
+    {
+      "front": "にじゅうくにち",
+      "back": "二十九日 29th",
+      "reading": "nijuukunichi"
+    },
+    {
+      "front": "さんじゅうにち",
+      "back": "三十日 30th",
+      "reading": "sanjuunichi"
+    },
+    {
+      "front": "さんじゅういちにち",
+      "back": "三十一日 31st",
+      "reading": "sanjuuichinichi"
+    }
+  ]
+}

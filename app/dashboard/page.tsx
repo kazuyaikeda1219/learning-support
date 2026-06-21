@@ -1,12 +1,11 @@
 'use client';
 
 import React, { useState, useEffect, useMemo, Suspense } from 'react';
-import { Flame, Clock, BarChart3, PlusCircle, PieChart as PieIcon, TrendingUp, BookOpen, Trash2, Map, CheckCircle2 } from 'lucide-react';
+import { Flame, Clock, BarChart3, PlusCircle, PieChart as PieIcon, TrendingUp, BookOpen, Trash2, ChevronDown } from 'lucide-react';
 import { createClient } from '@/utils/supabase/client';
 import { getCurrentUser } from '@/utils/currentUser';
 import { STUDY_CATEGORIES, normalizeSubject } from '@/utils/subject';
-import Link from 'next/link';
-import { useSearchParams, useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { 
   PieChart, Pie, Cell, ResponsiveContainer, Tooltip, 
   BarChart, Bar, XAxis, YAxis, CartesianGrid 
@@ -20,9 +19,8 @@ function DashboardContent() {
   const [logs, setLogs] = useState<any[]>([]);
   const [totalProgress, setTotalProgress] = useState(0);
   const [user, setUser] = useState<any>(null);
-  const [showToast, setShowToast] = useState(false);
+  const [logOpen, setLogOpen] = useState(false);
   const supabase = createClient();
-  const searchParams = useSearchParams();
   const router = useRouter();
 
   const TOTAL_ROADMAP_ITEMS = 145;
@@ -34,14 +32,6 @@ function DashboardContent() {
     fetchLogs();
     fetchRoadmapProgress();
   }, []);
-
-  useEffect(() => {
-    if (searchParams.get('loggedIn') === 'true') {
-      setShowToast(true);
-      const timer = setTimeout(() => setShowToast(false), 3000);
-      return () => clearTimeout(timer);
-    }
-  }, [searchParams]);
 
   const fetchLogs = async () => {
     const cu = getCurrentUser();
@@ -131,29 +121,63 @@ function DashboardContent() {
     <div className="min-h-screen bg-[#f8fafc]">
       <Navbar />
 
-      {/* ログイン完了トースト */}
-      <div className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ${
-        showToast ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'
-      }`}>
-        <div className="flex items-center gap-3 bg-gray-900 text-white px-6 py-4 rounded-2xl shadow-2xl">
-          <CheckCircle2 size={20} className="text-green-400 shrink-0" />
-          <p className="font-bold text-sm">ログインが完了しました 🎉</p>
-        </div>
-      </div>
-
       <div className="p-6 text-gray-800">
         <div className="max-w-2xl mx-auto">
-          <header className="mb-8 flex flex-col md:flex-row justify-between items-center gap-4 mt-4">
-            <div className="text-center md:text-left">
-              <h1 className="text-3xl font-black text-gray-900 tracking-tight">学習ダッシュボード</h1>
-              <p className="text-gray-500 font-medium">継続は力なり！</p>
-            </div>
-            <div className="flex flex-wrap justify-center gap-3">
-              <Link href="/roadmap" className="flex items-center gap-2 px-5 py-3 bg-indigo-600 text-white rounded-2xl text-sm font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-100 active:scale-95">
-                <Map size={18} /> ロードマップ
-              </Link>
-            </div>
+          <header className="mb-6 text-center md:text-left mt-4">
+            <h1 className="text-3xl font-black text-gray-900 tracking-tight">学習ダッシュボード</h1>
+            <p className="text-gray-500 font-medium">継続は力なり！</p>
           </header>
+
+          {/* 今日の学習を記録（タップで入力フォームを展開） */}
+          <div className="mb-10">
+            <button
+              onClick={() => setLogOpen((o) => !o)}
+              className="w-full flex items-center justify-between gap-4 bg-indigo-600 text-white rounded-3xl px-6 py-5 shadow-lg shadow-indigo-100 hover:bg-indigo-700 active:scale-[0.99] transition-all"
+            >
+              <span className="flex items-center gap-3">
+                <PlusCircle size={22} />
+                <span className="font-black">今日の学習を記録する</span>
+              </span>
+              <ChevronDown size={22} className={`shrink-0 transition-transform duration-300 ${logOpen ? 'rotate-180' : ''}`} />
+            </button>
+
+            {logOpen && (
+              <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-200 mt-3">
+                <form onSubmit={handleSubmit} className="flex flex-wrap items-end gap-4">
+                  <div className="flex flex-col gap-1">
+                    <label className="text-[10px] font-bold text-gray-400 ml-1 uppercase">日付</label>
+                    <input name="date" type="date" defaultValue={new Date().toISOString().split('T')[0]} className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none" />
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <label className="text-[10px] font-bold text-gray-400 ml-1 uppercase">学習時間</label>
+                    <div className="flex items-center gap-1">
+                      <select name="hours" className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none">
+                        {Array.from({ length: 7 }, (_, i) => (<option key={i} value={i}>{i} 時間</option>))}
+                      </select>
+                      <select name="mins" className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none">
+                        {[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55].map((m) => (<option key={m} value={m}>{m} 分</option>))}
+                      </select>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-1 flex-1 min-w-[200px]">
+                    <label className="text-[10px] font-bold text-gray-400 ml-1 uppercase">教材</label>
+                    <select name="category" className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none w-full" required>
+                      {STUDY_CATEGORIES[normalizeSubject(user?.subject)].map((c) => (
+                        <option key={c} value={c}>{c}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div className="flex flex-col gap-1 flex-1 min-w-[200px]">
+                    <label className="text-[10px] font-bold text-gray-400 ml-1 uppercase">メモ</label>
+                    <input name="note" type="text" placeholder="Ch.3など" className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none" />
+                  </div>
+                  <button type="submit" className="bg-blue-600 text-white px-8 py-2.5 rounded-xl text-sm font-bold hover:bg-blue-700 transition-all shadow-md">
+                    追加
+                  </button>
+                </form>
+              </div>
+            )}
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             <StatCard icon={<Flame className="text-orange-500" />} label="学習日数" value={`${totalDays} 日`} />
@@ -195,44 +219,6 @@ function DashboardContent() {
                 </ResponsiveContainer>
               </div>
             </div>
-          </div>
-
-          <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-200 mb-10">
-            <h3 className="text-xs font-bold mb-5 flex items-center gap-2 text-gray-400 uppercase tracking-widest">
-              <PlusCircle size={18} /> 学習ログを追加
-            </h3>
-            <form onSubmit={handleSubmit} className="flex flex-wrap items-end gap-4">
-              <div className="flex flex-col gap-1">
-                <label className="text-[10px] font-bold text-gray-400 ml-1 uppercase">日付</label>
-                <input name="date" type="date" defaultValue={new Date().toISOString().split('T')[0]} className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none" />
-              </div>
-              <div className="flex flex-col gap-1">
-                <label className="text-[10px] font-bold text-gray-400 ml-1 uppercase">学習時間</label>
-                <div className="flex items-center gap-1">
-                  <select name="hours" className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none">
-                    {Array.from({ length: 7 }, (_, i) => (<option key={i} value={i}>{i} 時間</option>))}
-                  </select>
-                  <select name="mins" className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none">
-                    {[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55].map((m) => (<option key={m} value={m}>{m} 分</option>))}
-                  </select>
-                </div>
-              </div>
-              <div className="flex flex-col gap-1 flex-1 min-w-[200px]">
-                <label className="text-[10px] font-bold text-gray-400 ml-1 uppercase">教材</label>
-                <select name="category" className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none w-full" required>
-                  {STUDY_CATEGORIES[normalizeSubject(user?.subject)].map((c) => (
-                    <option key={c} value={c}>{c}</option>
-                  ))}
-                </select>
-              </div>
-              <div className="flex flex-col gap-1 flex-1 min-w-[200px]">
-                <label className="text-[10px] font-bold text-gray-400 ml-1 uppercase">メモ</label>
-                <input name="note" type="text" placeholder="Ch.3など" className="border border-gray-200 p-2.5 rounded-xl text-sm bg-white outline-none" />
-              </div>
-              <button type="submit" className="bg-blue-600 text-white px-8 py-2.5 rounded-xl text-sm font-bold hover:bg-blue-700 transition-all shadow-md">
-                追加
-              </button>
-            </form>
           </div>
 
           <div className="bg-white rounded-3xl shadow-sm border border-gray-200 overflow-hidden mb-4">

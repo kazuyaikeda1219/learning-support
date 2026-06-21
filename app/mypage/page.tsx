@@ -9,7 +9,7 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import BottomNav from '@/components/BottomNav';
 import {
-  Award, BookOpen, TrendingUp, Loader2, Clock, Pencil,
+  Award, BookOpen, TrendingUp, Loader2, Clock, Pencil, PlusCircle,
   X, Save, CheckCircle2, Mic, Languages, ChevronRight,
   ShieldCheck, LogOut,
 } from 'lucide-react';
@@ -63,6 +63,7 @@ export default function MyPage() {
   const [totalMinutes, setTotalMinutes] = useState(0);
   const [weeklyMinutes, setWeeklyMinutes] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [showToast, setShowToast] = useState(false);
 　const [surveyDone, setSurveyDone] = useState(true);
 
   // モーダル
@@ -113,6 +114,16 @@ export default function MyPage() {
     };
     initialize();
   }, []);
+
+  // ログイン直後（/login → /mypage?loggedIn=true）に完了トーストを表示。
+  // ローディング完了後に出す（読み込み中に3秒が経過して消えるのを防ぐ）。
+  useEffect(() => {
+    if (!loading && new URLSearchParams(window.location.search).get('loggedIn') === 'true') {
+      setShowToast(true);
+      const timer = setTimeout(() => setShowToast(false), 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [loading]);
 
   // セクションごとの完了数を計算
   const getSectionProgress = (sectionKey: string, total: number) => {
@@ -192,6 +203,17 @@ export default function MyPage() {
   return (
     <div className="min-h-screen bg-[#f8fafc]">
       <Navbar />
+
+      {/* ログイン完了トースト */}
+      {showToast && (
+        <div className="fixed top-6 left-1/2 -translate-x-1/2 z-50">
+          <div className="flex items-center gap-3 bg-gray-900 text-white px-6 py-4 rounded-2xl shadow-2xl">
+            <CheckCircle2 size={20} className="text-green-400 shrink-0" />
+            <p className="font-bold text-sm">ログインが完了しました 🎉</p>
+          </div>
+        </div>
+      )}
+
       <main className="max-w-2xl mx-auto p-6 mt-4 space-y-8">
 
         {/* ── アンケート未回答アラート ── */}
@@ -231,6 +253,18 @@ export default function MyPage() {
           </button>
         </div>
 
+        {/* ── 今日の学習を記録 CTA（学習記録ページへ） ── */}
+        <Link
+          href="/dashboard"
+          className="flex items-center justify-between gap-4 bg-indigo-600 text-white rounded-3xl px-6 py-5 shadow-lg shadow-indigo-100 hover:bg-indigo-700 active:scale-[0.99] transition-all"
+        >
+          <span className="flex items-center gap-3">
+            <PlusCircle size={22} />
+            <span className="font-black">今日の学習を記録する</span>
+          </span>
+          <ChevronRight size={20} className="shrink-0" />
+        </Link>
+
         {/* ── 統計カード ── */}
         <div>
           <p className="text-xs font-bold uppercase tracking-widest text-indigo-600 mb-3">学習統計</p>
@@ -243,7 +277,8 @@ export default function MyPage() {
           </div>
         </div>
 
-        {/* ── ロードマップ進捗サマリー ── */}
+        {/* ── ロードマップ進捗サマリー（英語学習者のみ。ロードマップは英語向けの内容） ── */}
+        {user?.subject !== 'ja' && (
         <div>
           <p className="text-xs font-bold uppercase tracking-widest text-indigo-600 mb-3">ロードマップ進捗</p>
           <div className="bg-white rounded-3xl p-6 shadow-sm border border-gray-100 space-y-4">
@@ -269,6 +304,7 @@ export default function MyPage() {
             )}
           </div>
         </div>
+        )}
 
         {/* ── 受験履歴 ── */}
         <div>

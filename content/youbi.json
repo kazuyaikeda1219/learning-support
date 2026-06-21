@@ -1,0 +1,73 @@
+{
+  "subject": "ja",
+  "category": "基礎",
+  "deck_name": "曜日",
+  "description": "Days of the week.",
+  "cards": [
+    {
+      "front": "月曜日",
+      "back": "Monday",
+      "reading": "げつようび"
+    },
+    {
+      "front": "火曜日",
+      "back": "Tuesday",
+      "reading": "かようび"
+    },
+    {
+      "front": "水曜日",
+      "back": "Wednesday",
+      "reading": "すいようび"
+    },
+    {
+      "front": "木曜日",
+      "back": "Thursday",
+      "reading": "もくようび"
+    },
+    {
+      "front": "金曜日",
+      "back": "Friday",
+      "reading": "きんようび"
+    },
+    {
+      "front": "土曜日",
+      "back": "Saturday",
+      "reading": "どようび"
+    },
+    {
+      "front": "日曜日",
+      "back": "Sunday",
+      "reading": "にちようび"
+    },
+    {
+      "front": "週",
+      "back": "week",
+      "reading": "しゅう"
+    },
+    {
+      "front": "一週間",
+      "back": "for 1 week",
+      "reading": "いっしゅうかん"
+    },
+    {
+      "front": "１週",
+      "back": "1 week",
+      "reading": "いっしゅう"
+    },
+    {
+      "front": "今週",
+      "back": "this week",
+      "reading": "こんしゅう"
+    },
+    {
+      "front": "先週",
+      "back": "last week",
+      "reading": "せんしゅう"
+    },
+    {
+      "front": "来週",
+      "back": "next week",
+      "reading": "らいしゅう"
+    }
+  ]
+}

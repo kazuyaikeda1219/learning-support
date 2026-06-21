@@ -117,25 +117,35 @@ export default function FlashcardStudy() {
                 <div className="bg-indigo-600 h-full transition-all duration-300" style={{ width: `${((pos + 1) / total) * 100}%` }} />
               </div>
 
-              {/* カード本体（クリックで反転）*/}
-              <button
-                onClick={() => setFlipped(f => !f)}
-                className="relative w-full aspect-[3/2] bg-white rounded-3xl shadow-sm border border-gray-100 hover:border-indigo-200 transition-all flex flex-col items-center justify-center p-8 text-center select-none active:scale-[0.99]"
-              >
-                <span className="absolute top-4 left-1/2 -translate-x-1/2 text-[10px] font-black text-gray-300 uppercase tracking-widest">
-                  {flipped ? '裏 BACK' : '表 FRONT'}
-                </span>
-                {!flipped ? (
-                  <p className="text-4xl md:text-5xl font-black text-gray-900 break-words">{card!.front}</p>
-                ) : (
-                  <div className="space-y-3">
-                    <p className="text-3xl md:text-4xl font-black text-indigo-600 break-words">{card!.back}</p>
-                    {card!.reading && <p className="text-base font-bold text-gray-400">{card!.reading}</p>}
-                    {card!.example && <p className="text-sm text-gray-500 italic mt-2">{card!.example}</p>}
+              {/* カード本体（クリックで3D反転）*/}
+              <div className={`flip-card w-full aspect-[3/2] ${flipped ? 'is-flipped' : ''}`}>
+                <button
+                  onClick={() => setFlipped(f => !f)}
+                  className="flip-card-inner block text-center select-none active:scale-[0.99] transition-transform"
+                  aria-label="カードをめくる"
+                >
+                  {/* 表 */}
+                  <div className="flip-face bg-white rounded-3xl shadow-sm border border-gray-100 hover:border-indigo-200 p-8">
+                    <span className="absolute top-4 left-1/2 -translate-x-1/2 text-[10px] font-black text-gray-300 uppercase tracking-widest">
+                      表 FRONT
+                    </span>
+                    <p className="text-4xl md:text-5xl font-black text-gray-900 break-words">{card!.front}</p>
+                    <span className="absolute bottom-4 left-1/2 -translate-x-1/2 text-xs font-medium text-gray-300">タップ / Space で反転</span>
                   </div>
-                )}
-                <span className="absolute bottom-4 left-1/2 -translate-x-1/2 text-xs font-medium text-gray-300">タップ / Space で反転</span>
-              </button>
+                  {/* 裏 */}
+                  <div className="flip-face flip-face-back bg-white rounded-3xl shadow-sm border border-indigo-100 p-8">
+                    <span className="absolute top-4 left-1/2 -translate-x-1/2 text-[10px] font-black text-gray-300 uppercase tracking-widest">
+                      裏 BACK
+                    </span>
+                    <div className="space-y-3">
+                      <p className="text-3xl md:text-4xl font-black text-indigo-600 break-words">{card!.back}</p>
+                      {card!.reading && <p className="text-base font-bold text-gray-400">{card!.reading}</p>}
+                      {card!.example && <p className="text-sm text-gray-500 italic mt-2">{card!.example}</p>}
+                    </div>
+                    <span className="absolute bottom-4 left-1/2 -translate-x-1/2 text-xs font-medium text-gray-300">タップ / Space で反転</span>
+                  </div>
+                </button>
+              </div>
 
               {/* 操作 */}
               <div className="flex items-center justify-center gap-4 mt-8">

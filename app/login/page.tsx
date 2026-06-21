@@ -76,7 +76,7 @@ export default function SelectUserPage() {
       name: selected.display_name || '名称未設定',
       subject: normalizeSubject(selected.subject),
     });
-    router.push('/dashboard?loggedIn=true');
+    router.push('/mypage?loggedIn=true');
   };
 
   const filtered = profiles.filter(p => {

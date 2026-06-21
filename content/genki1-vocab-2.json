@@ -1,0 +1,1956 @@
+{
+  "subject": "ja",
+  "category": "単語",
+  "deck_name": "Genki I 単語 ②",
+  "description": "Genki I vocabulary (second half).",
+  "cards": [
+    {
+      "front": "はれ",
+      "back": "sunny",
+      "reading": "hare"
+    },
+    {
+      "front": "あめ",
+      "back": "rain, rainy, candy",
+      "reading": "ame"
+    },
+    {
+      "front": "くもり",
+      "back": "cloudy",
+      "reading": "kumori"
+    },
+    {
+      "front": "ゆき",
+      "back": "snow",
+      "reading": "yuki"
+    },
+    {
+      "front": "てんきよほう",
+      "back": "weather forecast",
+      "reading": "tenki yohou"
+    },
+    {
+      "front": "きおん",
+      "back": "temperature",
+      "reading": "kion"
+    },
+    {
+      "front": "なつ",
+      "back": "summer",
+      "reading": "natsu"
+    },
+    {
+      "front": "ふゆ",
+      "back": "winter",
+      "reading": "huyu"
+    },
+    {
+      "front": "つき",
+      "back": "month in general, moon",
+      "reading": "tsuki"
+    },
+    {
+      "front": "こんげつ",
+      "back": "this month",
+      "reading": "kongetsu"
+    },
+    {
+      "front": "せんげつ",
+      "back": "last month",
+      "reading": "sengetsu"
+    },
+    {
+      "front": "らいげつ",
+      "back": "next month",
+      "reading": "raigetsu"
+    },
+    {
+      "front": "しごと",
+      "back": "work, job",
+      "reading": "shigoto"
+    },
+    {
+      "front": "カメラ",
+      "back": "camera",
+      "reading": "kamera"
+    },
+    {
+      "front": "カラオケ",
+      "back": "karaoke",
+      "reading": "karaoke"
+    },
+    {
+      "front": "ところ",
+      "back": "place",
+      "reading": "tokoro"
+    },
+    {
+      "front": "トマト",
+      "back": "tomato",
+      "reading": "tomato"
+    },
+    {
+      "front": "はし",
+      "back": "chopsticks, bridge",
+      "reading": "hashi"
+    },
+    {
+      "front": "パーティー",
+      "back": "party",
+      "reading": "paatii"
+    },
+    {
+      "front": "バーベキュー",
+      "back": "barbecue (BBQ)",
+      "reading": "baabekyuu"
+    },
+    {
+      "front": "ホームステイ",
+      "back": "homestay",
+      "reading": "hoomusutei"
+    },
+    {
+      "front": "おふろ",
+      "back": "bath",
+      "reading": "ohuro"
+    },
+    {
+      "front": "スペイン",
+      "back": "Spain",
+      "reading": "supein"
+    },
+    {
+      "front": "なにか",
+      "back": "something",
+      "reading": "nanika"
+    },
+    {
+      "front": "じょうずな",
+      "back": "skillful; good at...",
+      "reading": "jouzuna"
+    },
+    {
+      "front": "へたな",
+      "back": "clumsy; poor at...",
+      "reading": "hetana"
+    },
+    {
+      "front": "ゆうめい",
+      "back": "famous",
+      "reading": "yuumei"
+    },
+    {
+      "front": "あらう",
+      "back": "to wash (dictionary form)",
+      "reading": "arau"
+    },
+    {
+      "front": "いう",
+      "back": "to say, to tell(dictionary form)",
+      "reading": "iu"
+    },
+    {
+      "front": "おそくなる",
+      "back": "to be late",
+      "reading": "osoku naru"
+    },
+    {
+      "front": "おふろにはいる",
+      "back": "to take a bath",
+      "reading": "ohuroni hairu"
+    },
+    {
+      "front": "おもう",
+      "back": "to think(dictionary form)",
+      "reading": "omou"
+    },
+    {
+      "front": "きる",
+      "back": "to cut(dictionary form)",
+      "reading": "kiru"
+    },
+    {
+      "front": "つくる",
+      "back": "to make(dictionary form)",
+      "reading": "tsukuru",
+      "example": "(あめ/ゆきが)ふる ／ (ame/yuki ga) huru"
+    },
+    {
+      "front": "もっていく",
+      "back": "to take (a thing)(dictionary form)",
+      "reading": "moteiku"
+    },
+    {
+      "front": "すてる",
+      "back": "to throw away(dictionary form)",
+      "reading": "suteru"
+    },
+    {
+      "front": "はじめる",
+      "back": "to begin",
+      "reading": "hajimeru"
+    },
+    {
+      "front": "うんてんする",
+      "back": "to drive",
+      "reading": "unten suru"
+    },
+    {
+      "front": "せんたくする",
+      "back": "to do laundry",
+      "reading": "sentaku suru"
+    },
+    {
+      "front": "そうじする",
+      "back": "to clean",
+      "reading": "soujisuru"
+    },
+    {
+      "front": "りょうりする",
+      "back": "to cook",
+      "reading": "ryouri suru"
+    },
+    {
+      "front": "うん",
+      "back": "uh-huh; yes(casual)",
+      "reading": "un"
+    },
+    {
+      "front": "ううん",
+      "back": "no (casual)",
+      "reading": "uun"
+    },
+    {
+      "front": "いつも",
+      "back": "always",
+      "reading": "itsumo"
+    },
+    {
+      "front": "かんぱい",
+      "back": "Cheers!",
+      "reading": "kanpai"
+    },
+    {
+      "front": "みんなで",
+      "back": "all (of the people) together",
+      "reading": "minna de"
+    },
+    {
+      "front": "ざんねん（ですね）",
+      "back": "That's too bad.",
+      "reading": "zan nen (desune)"
+    },
+    {
+      "front": "まだ+negative",
+      "back": "not...yet",
+      "reading": "mada+negative"
+    },
+    {
+      "front": "について",
+      "back": "about",
+      "reading": "ni tsuite"
+    },
+    {
+      "front": "１０ど",
+      "back": "10 degrees",
+      "reading": "juu do"
+    },
+    {
+      "front": "どう",
+      "back": "how",
+      "reading": "dou"
+    },
+    {
+      "front": "アボカドは ありますか",
+      "back": "Do you have avocado?",
+      "reading": "abokado wa arimasu ka"
+    },
+    {
+      "front": "このなかに おさけが はいっていますか",
+      "back": "Is there alcohol in this?*",
+      "reading": "kono naka ni osake ga haitte imasu ka"
+    },
+    {
+      "front": "これはハラルフードですか",
+      "back": "Is this halal?",
+      "reading": "korewa hararu huudo desu ka"
+    },
+    {
+      "front": "ピーナッツアレルギーがあります",
+      "back": "I have an allergy to peanuts.",
+      "reading": "piinattsu arerugii ga arimasu"
+    },
+    {
+      "front": "ふくろを おねがいします。",
+      "back": "Can I have a bag, please?",
+      "reading": "hukuro wo onegai shimasu"
+    },
+    {
+      "front": "いちご",
+      "back": "strawberry",
+      "reading": "ichigo"
+    },
+    {
+      "front": "すいか",
+      "back": "watermelon",
+      "reading": "suika"
+    },
+    {
+      "front": "みかん",
+      "back": "oranges",
+      "reading": "mikan"
+    },
+    {
+      "front": "りんご",
+      "back": "apple",
+      "reading": "ringo"
+    },
+    {
+      "front": "もも",
+      "back": "peach",
+      "reading": "momo"
+    },
+    {
+      "front": "ぶどう",
+      "back": "grapes",
+      "reading": "budou"
+    },
+    {
+      "front": "くだもの",
+      "back": "fruit",
+      "reading": "kudamono"
+    },
+    {
+      "front": "やさい",
+      "back": "vegetable",
+      "reading": "yasai"
+    },
+    {
+      "front": "にんじん",
+      "back": "carrots",
+      "reading": "ninjin"
+    },
+    {
+      "front": "たまねぎ",
+      "back": "onion",
+      "reading": "tamanegi"
+    },
+    {
+      "front": "じゃがいも",
+      "back": "potato",
+      "reading": "jagaimo"
+    },
+    {
+      "front": "なす",
+      "back": "eggplant",
+      "reading": "nasu"
+    },
+    {
+      "front": "きゅうり",
+      "back": "cucumber",
+      "reading": "kyuuri"
+    },
+    {
+      "front": "きゃべつ",
+      "back": "cabbage",
+      "reading": "kyabetsu"
+    },
+    {
+      "front": "ぎゅうにく",
+      "back": "beef",
+      "reading": "gyuuniku"
+    },
+    {
+      "front": "ぶたにく",
+      "back": "pork",
+      "reading": "butaku"
+    },
+    {
+      "front": "とりにく",
+      "back": "chicken",
+      "reading": "toriniku"
+    },
+    {
+      "front": "たんご",
+      "back": "word; vocabulary",
+      "reading": "tango"
+    },
+    {
+      "front": "さくぶん",
+      "back": "essay; composition",
+      "reading": "sakubun"
+    },
+    {
+      "front": "しけん",
+      "back": "examination, test",
+      "reading": "shiken"
+    },
+    {
+      "front": "てがみ",
+      "back": "letter",
+      "reading": "tegami"
+    },
+    {
+      "front": "メール",
+      "back": "email",
+      "reading": "meeru"
+    },
+    {
+      "front": "ピアノ",
+      "back": "piano",
+      "reading": "piano"
+    },
+    {
+      "front": "コンサート",
+      "back": "concert",
+      "reading": "konsaato"
+    },
+    {
+      "front": "チケット",
+      "back": "ticket",
+      "reading": "chiketto"
+    },
+    {
+      "front": "かぶき",
+      "back": "Kabuki; traditional Japanese theatrical art",
+      "reading": "kabuki"
+    },
+    {
+      "front": "スキー",
+      "back": "ski",
+      "reading": "sukii"
+    },
+    {
+      "front": "おべんとう",
+      "back": "lunch box",
+      "reading": "obentou"
+    },
+    {
+      "front": "ピザ",
+      "back": "pizza",
+      "reading": "piza"
+    },
+    {
+      "front": "びょうき",
+      "back": "illness, sickness",
+      "reading": "byouki"
+    },
+    {
+      "front": "くすり",
+      "back": "medicine/drug/pill/tablet",
+      "reading": "kusuri"
+    },
+    {
+      "front": "いいこ",
+      "back": "good child",
+      "reading": "iiko"
+    },
+    {
+      "front": "いろ",
+      "back": "color",
+      "reading": "iro"
+    },
+    {
+      "front": "こんど",
+      "back": "near future",
+      "reading": "kondo"
+    },
+    {
+      "front": "きょねん",
+      "back": "last year",
+      "reading": "kyonen"
+    },
+    {
+      "front": "ことし",
+      "back": "this year",
+      "reading": "kotoshi"
+    },
+    {
+      "front": "らいねん",
+      "back": "next year",
+      "reading": "rainen"
+    },
+    {
+      "front": "あおい",
+      "back": "blue",
+      "reading": "aoi"
+    },
+    {
+      "front": "あかい",
+      "back": "red",
+      "reading": "akai"
+    },
+    {
+      "front": "くろい",
+      "back": "black",
+      "reading": "kuroi"
+    },
+    {
+      "front": "しろい",
+      "back": "white",
+      "reading": "shiroi"
+    },
+    {
+      "front": "さびしい",
+      "back": "lonely",
+      "reading": "sabishii"
+    },
+    {
+      "front": "わかい",
+      "back": "young",
+      "reading": "wakai"
+    },
+    {
+      "front": "いじわる",
+      "back": "mean-spirited",
+      "reading": "ijiwaru"
+    },
+    {
+      "front": "おどる",
+      "back": "to dance(dictionary form)",
+      "reading": "odoru"
+    },
+    {
+      "front": "おわる",
+      "back": "(something) ends(dictionary form)",
+      "reading": "owaru"
+    },
+    {
+      "front": "くすりを のむ",
+      "back": "to take medicine",
+      "reading": "kusuri wo nomu"
+    },
+    {
+      "front": "にんきがある",
+      "back": "to be popular",
+      "reading": "ninki ga aru"
+    },
+    {
+      "front": "はじまる",
+      "back": "(something) begins (dictionary form)",
+      "reading": "hajimaru"
+    },
+    {
+      "front": "ひく",
+      "back": "to play (a string instrument or piano)(dictionary form)",
+      "reading": "hiku"
+    },
+    {
+      "front": "もらう",
+      "back": "to get (from somebody)(dictionary form)",
+      "reading": "morau"
+    },
+    {
+      "front": "おぼえる",
+      "back": "to memorize, to remember(dictionary form)",
+      "reading": "oboeru"
+    },
+    {
+      "front": "でる",
+      "back": "to appear; to attend; to exit(dictionary form)",
+      "reading": "deru"
+    },
+    {
+      "front": "うんどうする",
+      "back": "to exercise",
+      "reading": "undou suru"
+    },
+    {
+      "front": "さんぽする",
+      "back": "to take a walk",
+      "reading": "sanpo suru"
+    },
+    {
+      "front": "そう",
+      "back": "(I think) so",
+      "reading": "sou"
+    },
+    {
+      "front": "Aから",
+      "back": "from A",
+      "reading": "A kara"
+    },
+    {
+      "front": "Bまで",
+      "back": "to B (a place/ a time)",
+      "reading": "B made"
+    },
+    {
+      "front": "ぜひ",
+      "back": "by all means",
+      "reading": "zehi"
+    },
+    {
+      "front": "ところで",
+      "back": "by the way",
+      "reading": "tokorode"
+    },
+    {
+      "front": "みんな",
+      "back": "all",
+      "reading": "minna"
+    },
+    {
+      "front": "もう",
+      "back": "already",
+      "reading": "mou"
+    },
+    {
+      "front": "ひとつ",
+      "back": "one thing",
+      "reading": "hitotsu"
+    },
+    {
+      "front": "ふたつ",
+      "back": "two things",
+      "reading": "hutatsu"
+    },
+    {
+      "front": "みっつ",
+      "back": "three things",
+      "reading": "mittsu"
+    },
+    {
+      "front": "よっつ",
+      "back": "four things",
+      "reading": "yottsu"
+    },
+    {
+      "front": "いつつ",
+      "back": "five things",
+      "reading": "itsutsu"
+    },
+    {
+      "front": "むっつ",
+      "back": "six things",
+      "reading": "muttsu"
+    },
+    {
+      "front": "ななつ",
+      "back": "seven things",
+      "reading": "nanatsu"
+    },
+    {
+      "front": "やっつ",
+      "back": "eight things",
+      "reading": "yattsu"
+    },
+    {
+      "front": "ここのつ",
+      "back": "nine things",
+      "reading": "kokonotsu"
+    },
+    {
+      "front": "とお",
+      "back": "ten things",
+      "reading": "too"
+    },
+    {
+      "front": "きいろ",
+      "back": "yellow",
+      "reading": "kiiro"
+    },
+    {
+      "front": "ちゃいろ",
+      "back": "brown",
+      "reading": "chairo"
+    },
+    {
+      "front": "みどり",
+      "back": "green",
+      "reading": "midori"
+    },
+    {
+      "front": "こんいろ",
+      "back": "navy blue",
+      "reading": "kon iro"
+    },
+    {
+      "front": "みずいろ",
+      "back": "light blue",
+      "reading": "mizuiro"
+    },
+    {
+      "front": "ぎんいろ/シルバー",
+      "back": "silver",
+      "reading": "giniro/ sirubaa"
+    },
+    {
+      "front": "むらさき",
+      "back": "purple",
+      "reading": "murasaki"
+    },
+    {
+      "front": "はいいろ",
+      "back": "grey",
+      "reading": "haiiro"
+    },
+    {
+      "front": "きんいろ/ゴールド",
+      "back": "gold",
+      "reading": "kiniro/goorudo"
+    },
+    {
+      "front": "ベージュ",
+      "back": "beige",
+      "reading": "beeju"
+    },
+    {
+      "front": "セーター",
+      "back": "sweater",
+      "reading": "seetaa"
+    },
+    {
+      "front": "しろくろのしゃしん",
+      "back": "black and white picture",
+      "reading": "shirokuro no shashin"
+    },
+    {
+      "front": "あおしんごう",
+      "back": "green light",
+      "reading": "aoshingou"
+    },
+    {
+      "front": "きせつ",
+      "back": "season",
+      "reading": "kisetsu"
+    },
+    {
+      "front": "はる",
+      "back": "spring",
+      "reading": "haru"
+    },
+    {
+      "front": "あき",
+      "back": "autumn",
+      "reading": "aki"
+    },
+    {
+      "front": "ぎゅうにゅう",
+      "back": "milk",
+      "reading": "gyuunyuu"
+    },
+    {
+      "front": "ケーキ",
+      "back": "cake",
+      "reading": "keeki"
+    },
+    {
+      "front": "りょうり",
+      "back": "cooking, cuisine",
+      "reading": "ryouri"
+    },
+    {
+      "front": "サッカー",
+      "back": "soccer (football)",
+      "reading": "sakka"
+    },
+    {
+      "front": "やきゅう",
+      "back": "baseball",
+      "reading": "yakyuu"
+    },
+    {
+      "front": "いしゃ/おいしゃさん",
+      "back": "doctor",
+      "reading": "isha/oisha san"
+    },
+    {
+      "front": "おかねもち",
+      "back": "rich person",
+      "reading": "okanemochi"
+    },
+    {
+      "front": "ゆうめいじん",
+      "back": "a famous person",
+      "reading": "yuumeijin"
+    },
+    {
+      "front": "かお",
+      "back": "face",
+      "reading": "kao"
+    },
+    {
+      "front": "としうえ",
+      "back": "someone older",
+      "reading": "toshiue"
+    },
+    {
+      "front": "えき",
+      "back": "station",
+      "reading": "eki"
+    },
+    {
+      "front": "しんかんせん",
+      "back": "Shinkansen; \"Bullet Train\"",
+      "reading": "shinkansen"
+    },
+    {
+      "front": "ちかてつ",
+      "back": "subway",
+      "reading": "chikatetsu"
+    },
+    {
+      "front": "ふね",
+      "back": "ship, boat",
+      "reading": "hune"
+    },
+    {
+      "front": "ひこうき",
+      "back": "airplane",
+      "reading": "hikouki"
+    },
+    {
+      "front": "よやく",
+      "back": "reservation/booking",
+      "reading": "yoyaku"
+    },
+    {
+      "front": "じかん",
+      "back": "time",
+      "reading": "zikan"
+    },
+    {
+      "front": "せかい",
+      "back": "world",
+      "reading": "sekai"
+    },
+    {
+      "front": "びよういん",
+      "back": "beauty parlor",
+      "reading": "biyouin"
+    },
+    {
+      "front": "てぶくろ",
+      "back": "gloves",
+      "reading": "tegukuro"
+    },
+    {
+      "front": "せいかつ",
+      "back": "life, living",
+      "reading": "seikatsu"
+    },
+    {
+      "front": "あたたかい",
+      "back": "warm",
+      "reading": "atatakai"
+    },
+    {
+      "front": "すずしい",
+      "back": "cool",
+      "reading": "suzushii"
+    },
+    {
+      "front": "おそい",
+      "back": "slow, late",
+      "reading": "osoi"
+    },
+    {
+      "front": "ねむい",
+      "back": "sleepy",
+      "reading": "nemui"
+    },
+    {
+      "front": "かんたん",
+      "back": "easy",
+      "reading": "kantan"
+    },
+    {
+      "front": "かかる",
+      "back": "to take (amount of time/money)(dictionary form)",
+      "reading": "kakaru",
+      "example": "☆no particle"
+    },
+    {
+      "front": "とまる",
+      "back": "to stop, to stay",
+      "reading": "tomaru"
+    },
+    {
+      "front": "なる",
+      "back": "to become",
+      "reading": "naru"
+    },
+    {
+      "front": "きめる",
+      "back": "to decide (dictionary form)",
+      "reading": "kimeru"
+    },
+    {
+      "front": "ごろごろする",
+      "back": "to chill out at home; to stay home and do nothing(dictionary form)",
+      "reading": "gorogoro suru"
+    },
+    {
+      "front": "りょこうする",
+      "back": "to travel (dictionary form)",
+      "reading": "ryokousuru"
+    },
+    {
+      "front": "れんしゅうする",
+      "back": "to practice(dictionary form)",
+      "reading": "renshuu suru"
+    },
+    {
+      "front": "いちばん",
+      "back": "the best/the most/number one",
+      "reading": "ichiban"
+    },
+    {
+      "front": "どっち/どちら",
+      "back": "which",
+      "reading": "docchi/dochira"
+    },
+    {
+      "front": "あるいて",
+      "back": "on foot",
+      "reading": "aruite"
+    },
+    {
+      "front": "～で",
+      "back": "by (means of transportation); with (a tool)",
+      "reading": "~de"
+    },
+    {
+      "front": "どうやって",
+      "back": "How, in what way, by what means",
+      "reading": "douyatte"
+    },
+    {
+      "front": "2しゅうかん",
+      "back": "for 2 weeks",
+      "reading": "ni nishuu kan"
+    },
+    {
+      "front": "2かげつ",
+      "back": "for 2 months",
+      "reading": "ni kagetsu"
+    },
+    {
+      "front": "2ねん",
+      "back": "for 2 years",
+      "reading": "ni nen"
+    },
+    {
+      "front": "このごろ",
+      "back": "these days",
+      "reading": "konogoro"
+    },
+    {
+      "front": "～ご",
+      "back": "in ... time; after ...",
+      "reading": "~go"
+    },
+    {
+      "front": "ＡかＢ",
+      "back": "ＡorＢ",
+      "reading": "ＡkaＢ"
+    },
+    {
+      "front": "ふつうでんしゃ",
+      "back": "local train",
+      "reading": "hutsuu densha"
+    },
+    {
+      "front": "きゅうこうでんしゃ",
+      "back": "express train",
+      "reading": "kyuukou densha"
+    },
+    {
+      "front": "とっきゅう でんしゃ",
+      "back": "super express train",
+      "reading": "tokkyuu densha"
+    },
+    {
+      "front": "～いき",
+      "back": "bound for~",
+      "reading": "~iki"
+    },
+    {
+      "front": "～ほうめん",
+      "back": "serving.....areas",
+      "reading": "~houmen"
+    },
+    {
+      "front": "じょうしゃけん",
+      "back": "(boarding) ticket",
+      "reading": "joushaken"
+    },
+    {
+      "front": "ていきけん",
+      "back": "commuter's pass",
+      "reading": "teikiken"
+    },
+    {
+      "front": "がくわり",
+      "back": "student discount",
+      "reading": "gakuwari"
+    },
+    {
+      "front": "していせき",
+      "back": "reserved seat",
+      "reading": "shiteiseki"
+    },
+    {
+      "front": "じゆうせき",
+      "back": "general admission seat",
+      "reading": "jiyuuseki"
+    },
+    {
+      "front": "いちごうしゃ",
+      "back": "Car No.1",
+      "reading": "ichi gousha"
+    },
+    {
+      "front": "おうふく",
+      "back": "round trip",
+      "reading": "ouhuku"
+    },
+    {
+      "front": "かたみち",
+      "back": "one way",
+      "reading": "katamichi"
+    },
+    {
+      "front": "こうつうけいICカード",
+      "back": "rechargeable card such as Suica, Icoca, Pasmo, etc.",
+      "reading": "koutsuukei IC kaado"
+    },
+    {
+      "front": "～ばんせん",
+      "back": "track number",
+      "reading": "~bansen"
+    },
+    {
+      "front": "きっぷうりば",
+      "back": "ticket vending machine",
+      "reading": "kippu uriba"
+    },
+    {
+      "front": "かいさつ",
+      "back": "gate",
+      "reading": "kaisatsu"
+    },
+    {
+      "front": "ホーム",
+      "back": "platform",
+      "reading": "hoomu"
+    },
+    {
+      "front": "ばいてん",
+      "back": "snack bar, kiosk",
+      "reading": "baiten"
+    },
+    {
+      "front": "でぐち",
+      "back": "exit; gateway; way out",
+      "reading": "deguchi"
+    },
+    {
+      "front": "いりぐち",
+      "back": "entrance",
+      "reading": "iriguchi"
+    },
+    {
+      "front": "かいだん",
+      "back": "stairs",
+      "reading": "kaidan"
+    },
+    {
+      "front": "のりかえ",
+      "back": "transfer",
+      "reading": "norikae"
+    },
+    {
+      "front": "つぎは～",
+      "back": "next (stop)....",
+      "reading": "tsugi wa~"
+    },
+    {
+      "front": "せんぱつ",
+      "back": "departing first",
+      "reading": "senpatsu"
+    },
+    {
+      "front": "じはつ",
+      "back": "departing second",
+      "reading": "jihatsu"
+    },
+    {
+      "front": "しゅうでん",
+      "back": "last train",
+      "reading": "shuuden"
+    },
+    {
+      "front": "がいこく",
+      "back": "foreign country",
+      "reading": "gaikoku"
+    },
+    {
+      "front": "かわ",
+      "back": "river",
+      "reading": "kawa"
+    },
+    {
+      "front": "おんせん",
+      "back": "hot spring",
+      "reading": "onsen"
+    },
+    {
+      "front": "つり",
+      "back": "fishing",
+      "reading": "tsuri"
+    },
+    {
+      "front": "みずうみ",
+      "back": "lake",
+      "reading": "mizuumi"
+    },
+    {
+      "front": "やま",
+      "back": "mountain",
+      "reading": "yama"
+    },
+    {
+      "front": "キャンプ",
+      "back": "camping",
+      "reading": "kyanpu"
+    },
+    {
+      "front": "びじゅつかん",
+      "back": "art museum, art gallery",
+      "reading": "bijutsukan"
+    },
+    {
+      "front": "しゃちょう",
+      "back": "company president; CEO",
+      "reading": "shachou"
+    },
+    {
+      "front": "歌手",
+      "back": "singer",
+      "reading": "kashu"
+    },
+    {
+      "front": "ルームメイト",
+      "back": "roommate",
+      "reading": "ruumu meito"
+    },
+    {
+      "front": "ホストファミリー",
+      "back": "host family",
+      "reading": "hosuto famirii"
+    },
+    {
+      "front": "しょうらい",
+      "back": "future",
+      "reading": "shourai"
+    },
+    {
+      "front": "ゆめ",
+      "back": "dream",
+      "reading": "yume"
+    },
+    {
+      "front": "おまつり",
+      "back": "festival",
+      "reading": "omatsuri"
+    },
+    {
+      "front": "おかし",
+      "back": "snack; sweets",
+      "reading": "okashi"
+    },
+    {
+      "front": "ビール",
+      "back": "beer",
+      "reading": "biiru"
+    },
+    {
+      "front": "おもちゃ",
+      "back": "toy",
+      "reading": "omocha"
+    },
+    {
+      "front": "こんがっき",
+      "back": "this semester",
+      "reading": "kongakki"
+    },
+    {
+      "front": "がっき",
+      "back": "semester, instrument",
+      "reading": "gakki"
+    },
+    {
+      "front": "らいがっき",
+      "back": "next semester",
+      "reading": "raigakki"
+    },
+    {
+      "front": "じゅぎょう",
+      "back": "class, lesson",
+      "reading": "jugyou"
+    },
+    {
+      "front": "こちら",
+      "back": "this person(polite)",
+      "reading": "kochira"
+    },
+    {
+      "front": "うそをつく",
+      "back": "to tell a lie",
+      "reading": "uso wo tsuku"
+    },
+    {
+      "front": "おなかがすく",
+      "back": "to become hungry",
+      "reading": "onaka ga suku"
+    },
+    {
+      "front": "かう",
+      "back": "to own (a pet)",
+      "reading": "kau"
+    },
+    {
+      "front": "サボる",
+      "back": "to cut (classes)",
+      "reading": "saboru"
+    },
+    {
+      "front": "とる",
+      "back": "to take (a class); to get (a grade)",
+      "reading": "toru"
+    },
+    {
+      "front": "ならう",
+      "back": "to learn",
+      "reading": "narau"
+    },
+    {
+      "front": "のぼる",
+      "back": "to climb",
+      "reading": "noboru"
+    },
+    {
+      "front": "はしる",
+      "back": "to run",
+      "reading": "hashiru"
+    },
+    {
+      "front": "つかれる",
+      "back": "to get tired",
+      "reading": "tsukareru"
+    },
+    {
+      "front": "やめる",
+      "back": "to quit",
+      "reading": "yameru"
+    },
+    {
+      "front": "けんかする",
+      "back": "to have a fight; to quarrel",
+      "reading": "kenka suru"
+    },
+    {
+      "front": "しょうかいする",
+      "back": "to introduce",
+      "reading": "shoukai suru"
+    },
+    {
+      "front": "ダイエットする",
+      "back": "to go on a diet",
+      "reading": "daietto suru"
+    },
+    {
+      "front": "ちこくする",
+      "back": "to be late (for an appointment)",
+      "reading": "chikoku suru"
+    },
+    {
+      "front": "りゅうがくする",
+      "back": "to study abroad",
+      "reading": "ryuugaku suru"
+    },
+    {
+      "front": "しゅっしん",
+      "back": "hometown; where you are from",
+      "reading": "shusshin"
+    },
+    {
+      "front": "ひさしぶり",
+      "back": "it has been a long time",
+      "reading": "hisashiburi"
+    },
+    {
+      "front": "まあまあ",
+      "back": "Ok, not bad",
+      "reading": "maamaa"
+    },
+    {
+      "front": "もっと",
+      "back": "more",
+      "reading": "motto"
+    },
+    {
+      "front": "あと",
+      "back": "after (an event)",
+      "reading": "ato"
+    },
+    {
+      "front": "そして",
+      "back": "and then",
+      "reading": "soshite"
+    },
+    {
+      "front": "～だけ",
+      "back": "just, only",
+      "reading": "~dake"
+    },
+    {
+      "front": "～てん",
+      "back": "points",
+      "reading": "~ten"
+    },
+    {
+      "front": "さっか",
+      "back": "writer",
+      "reading": "sakka"
+    },
+    {
+      "front": "ジャーナリスト",
+      "back": "journalist",
+      "reading": "jaanarisuto"
+    },
+    {
+      "front": "けいさつかん",
+      "back": "police officer",
+      "reading": "keisatsukan"
+    },
+    {
+      "front": "しょうぼうし",
+      "back": "firefighter",
+      "reading": "shouboushi"
+    },
+    {
+      "front": "きょうし",
+      "back": "a schoolteacher",
+      "reading": "kyoushi"
+    },
+    {
+      "front": "けんきゅうしゃ",
+      "back": "researcher",
+      "reading": "kenkyuusha"
+    },
+    {
+      "front": "うちゅうひこうし",
+      "back": "astronaut",
+      "reading": "uchuu hikoushi"
+    },
+    {
+      "front": "スポーツせんしゅ",
+      "back": "athlete",
+      "reading": "supootsu senshu"
+    },
+    {
+      "front": "だいとうりょう",
+      "back": "president of a country",
+      "reading": "daitouryou"
+    },
+    {
+      "front": "はいゆう",
+      "back": "actor/actress",
+      "reading": "haiyuu"
+    },
+    {
+      "front": "かんごし",
+      "back": "nurse",
+      "reading": "kangoshi"
+    },
+    {
+      "front": "シェフ",
+      "back": "chef",
+      "reading": "shehu"
+    },
+    {
+      "front": "まんがか",
+      "back": "cartoonist",
+      "reading": "mangaka"
+    },
+    {
+      "front": "どちらでもいいです",
+      "back": "Both are fine.",
+      "reading": "dochira demo iidesu"
+    },
+    {
+      "front": "おなじです",
+      "back": "same thing",
+      "reading": "onaji desu"
+    },
+    {
+      "front": "だいたい おなじです",
+      "back": "More or less the same.",
+      "reading": "daitai onaji desu"
+    },
+    {
+      "front": "ちょっとちがいます",
+      "back": "A little different.",
+      "reading": "chotto chigaimasu"
+    },
+    {
+      "front": "つかえません",
+      "back": "Can't use it.",
+      "reading": "tsukaemasen"
+    },
+    {
+      "front": "だめです",
+      "back": "No good.",
+      "reading": "dame desu"
+    },
+    {
+      "front": "てをあげてください",
+      "back": "please raise your hand",
+      "reading": "te wo agete kudasai"
+    },
+    {
+      "front": "よんできてください",
+      "back": "Read it before coming to class.",
+      "reading": "yonde kite kudasai"
+    },
+    {
+      "front": "しゅくだいを だしてきてください",
+      "back": "Hand in the homework",
+      "reading": "shukudai wo dashite kitekudasai"
+    },
+    {
+      "front": "10ページをひらいてください",
+      "back": "Open the book to page 10.",
+      "reading": "10peeji wo hiraite kudasai"
+    },
+    {
+      "front": "きょうかしょを とじてください",
+      "back": "Close the textbook.",
+      "reading": "kyoukasho wo tojite kudasai"
+    },
+    {
+      "front": "となりのひとに きいてください",
+      "back": "Ask the person sitting next to you.",
+      "reading": "tonarino hitoni kiite kudasai"
+    },
+    {
+      "front": "やめてください",
+      "back": "Please stop",
+      "reading": "yametekudasai"
+    },
+    {
+      "front": "きょうは これで おわります",
+      "back": "That's it for today.",
+      "reading": "kyou wa korede owarimasu"
+    },
+    {
+      "front": "しめきり",
+      "back": "deadline",
+      "reading": "shimekiri"
+    },
+    {
+      "front": "くだけた いいかた",
+      "back": "colloquial expression",
+      "reading": "kudaketa iikata"
+    },
+    {
+      "front": "れんしゅう",
+      "back": "practice, exercise",
+      "reading": "renshuu"
+    },
+    {
+      "front": "いみ",
+      "back": "meaning",
+      "reading": "imi"
+    },
+    {
+      "front": "はつおん",
+      "back": "pronunciation",
+      "reading": "hatsuon"
+    },
+    {
+      "front": "ぶんぽう",
+      "back": "grammar",
+      "reading": "bunpou"
+    },
+    {
+      "front": "しつもん",
+      "back": "question",
+      "reading": "shitsumon"
+    },
+    {
+      "front": "こたえ",
+      "back": "answer",
+      "reading": "kotae"
+    },
+    {
+      "front": "れい",
+      "back": "example",
+      "reading": "rei"
+    },
+    {
+      "front": "かっこ",
+      "back": "（） parentheses",
+      "reading": "kakko"
+    },
+    {
+      "front": "まる",
+      "back": "〇 correct",
+      "reading": "maru"
+    },
+    {
+      "front": "ばつ",
+      "back": "✖ wrong",
+      "reading": "batsu"
+    },
+    {
+      "front": "かたい いいかた",
+      "back": "bookish expression",
+      "reading": "katai iikata"
+    },
+    {
+      "front": "ていねいな いいかた",
+      "back": "polite expression",
+      "reading": "teinai na iikata"
+    },
+    {
+      "front": "ほうげん",
+      "back": "dialect",
+      "reading": "hougen"
+    },
+    {
+      "front": "きょうつうご",
+      "back": "common language",
+      "reading": "kyoutsuugo"
+    },
+    {
+      "front": "たとえば",
+      "back": "for example",
+      "reading": "tatoeba"
+    },
+    {
+      "front": "ほかに",
+      "back": "Anything else",
+      "reading": "hokani"
+    },
+    {
+      "front": "～ばん",
+      "back": "number~",
+      "reading": "~ban"
+    },
+    {
+      "front": "～ぎょうめ",
+      "back": "line number~",
+      "reading": "~gyoume"
+    },
+    {
+      "front": "ふたりずつ",
+      "back": "two people each",
+      "reading": "hutari zutsu"
+    },
+    {
+      "front": "おなか",
+      "back": "stomach",
+      "reading": "onaka"
+    },
+    {
+      "front": "あし",
+      "back": "foot, leg",
+      "reading": "ashi"
+    },
+    {
+      "front": "は",
+      "back": "tooth, teeth",
+      "reading": "ha"
+    },
+    {
+      "front": "インフルエンザ",
+      "back": "influenza",
+      "reading": "inhuruenza"
+    },
+    {
+      "front": "かぜ",
+      "back": "cold",
+      "reading": "kaze"
+    },
+    {
+      "front": "せき",
+      "back": "cough",
+      "reading": "seki"
+    },
+    {
+      "front": "ふつかよい",
+      "back": "hangover",
+      "reading": "hutsukayoi"
+    },
+    {
+      "front": "ホームシック",
+      "back": "homesickness",
+      "reading": "hoomushikku"
+    },
+    {
+      "front": "アレルギー",
+      "back": "allergy",
+      "reading": "arerugii"
+    },
+    {
+      "front": "ジュース",
+      "back": "juice, soft drink",
+      "reading": "juusu"
+    },
+    {
+      "front": "たまご",
+      "back": "egg",
+      "reading": "tamago"
+    },
+    {
+      "front": "ふく",
+      "back": "clothes",
+      "reading": "huku"
+    },
+    {
+      "front": "もの",
+      "back": "thing (concrete object)",
+      "reading": "mono"
+    },
+    {
+      "front": "プレゼント",
+      "back": "present, gift",
+      "reading": "purezento"
+    },
+    {
+      "front": "きっぷ",
+      "back": "train ticket",
+      "reading": "kippu"
+    },
+    {
+      "front": "～だい",
+      "back": "charge, fee",
+      "reading": "~dai"
+    },
+    {
+      "front": "ようじ",
+      "back": "business to take care of",
+      "reading": "youji"
+    },
+    {
+      "front": "おてあらい",
+      "back": "restroom",
+      "reading": "otearai"
+    },
+    {
+      "front": "しあい",
+      "back": "match, game",
+      "reading": "shiai"
+    },
+    {
+      "front": "せいじ",
+      "back": "politics",
+      "reading": "seiji"
+    },
+    {
+      "front": "せいせき",
+      "back": "grade (on a test, etc.)",
+      "reading": "seiseki"
+    },
+    {
+      "front": "かのじょ",
+      "back": "girlfriend; she",
+      "reading": "kanojo"
+    },
+    {
+      "front": "かれ",
+      "back": "boyfriend; he",
+      "reading": "kare"
+    },
+    {
+      "front": "かれし",
+      "back": "boyfriend",
+      "reading": "kareshi"
+    },
+    {
+      "front": "せまい",
+      "back": "narrow; not spacious",
+      "reading": "semai"
+    },
+    {
+      "front": "ひろい",
+      "back": "wide, spacious",
+      "reading": "hiroi"
+    },
+    {
+      "front": "わるい",
+      "back": "bad",
+      "reading": "warui"
+    },
+    {
+      "front": "いたい",
+      "back": "hurt; painful",
+      "reading": "itai"
+    },
+    {
+      "front": "あまい",
+      "back": "sweet",
+      "reading": "amai"
+    },
+    {
+      "front": "おおい",
+      "back": "there are many...",
+      "reading": "ooi"
+    },
+    {
+      "front": "すてきな",
+      "back": "nice",
+      "reading": "sutekina"
+    },
+    {
+      "front": "あるく",
+      "back": "to walk",
+      "reading": "aruku"
+    },
+    {
+      "front": "かぜをひく",
+      "back": "to catch a cold",
+      "reading": "kaze wo hiku"
+    },
+    {
+      "front": "ねつがある",
+      "back": "to have a fever",
+      "reading": "netsu ga aru"
+    },
+    {
+      "front": "のどがかわく",
+      "back": "to become thirsty",
+      "reading": "nodo ga kawaku"
+    },
+    {
+      "front": "はらう",
+      "back": "to pay",
+      "reading": "harau"
+    },
+    {
+      "front": "なくす",
+      "back": "to lose",
+      "reading": "nakusu"
+    },
+    {
+      "front": "きょうみがある",
+      "back": "to be interested (in...)",
+      "reading": "kyoumi ga aru"
+    },
+    {
+      "front": "せきがでる",
+      "back": "to cough",
+      "reading": "seki ga deru"
+    },
+    {
+      "front": "わかれる",
+      "back": "to break up; to separate",
+      "reading": "wakareru"
+    },
+    {
+      "front": "きんちょうする",
+      "back": "to get nervous",
+      "reading": "kinchou suru"
+    },
+    {
+      "front": "しんぱいする",
+      "back": "to worry",
+      "reading": "shinpai suru"
+    },
+    {
+      "front": "おだいじに",
+      "back": "Get well soon",
+      "reading": "odaiji ni"
+    },
+    {
+      "front": "げんきがない",
+      "back": "don't look well",
+      "reading": "genki ga nai"
+    },
+    {
+      "front": "できるだけ",
+      "back": "as much as possible",
+      "reading": "dekiru dake"
+    },
+    {
+      "front": "たぶん",
+      "back": "probably; maybe",
+      "reading": "tabun"
+    },
+    {
+      "front": "もうすぐ",
+      "back": "very soon; in a few moments/days",
+      "reading": "mousugu"
+    },
+    {
+      "front": "はじめて",
+      "back": "for the first time",
+      "reading": "hajimete"
+    },
+    {
+      "front": "にさんにち",
+      "back": "for two to three days",
+      "reading": "nisannichi"
+    },
+    {
+      "front": "それに",
+      "back": "moreover",
+      "reading": "soreni"
+    },
+    {
+      "front": "おなじ",
+      "back": "same",
+      "reading": "onaji"
+    },
+    {
+      "front": "げりです",
+      "back": "I have diarrhea",
+      "reading": "geri desu"
+    },
+    {
+      "front": "べんぴです",
+      "back": "I am constipated.",
+      "reading": "benpi desu"
+    },
+    {
+      "front": "せいりです",
+      "back": "I have my period",
+      "reading": "seiri desu"
+    },
+    {
+      "front": "かふんしょうです",
+      "back": "I have hay fever",
+      "reading": "kahunshou desu",
+      "example": "（～に）アレルギーがあります"
+    },
+    {
+      "front": "むしばがあります",
+      "back": "I have a bad tooth",
+      "reading": "mushiba ga arimasu"
+    },
+    {
+      "front": "くしゃみがでます",
+      "back": "I sneeze",
+      "reading": "kushami ga demasu"
+    },
+    {
+      "front": "はなみずがでます",
+      "back": "I have a runny nose",
+      "reading": "hanamizu ga demasu"
+    },
+    {
+      "front": "せなかが かゆいです",
+      "back": "My back itches",
+      "reading": "senaka ga kayui desu"
+    },
+    {
+      "front": "ほっしんが あります",
+      "back": "I have rashes",
+      "reading": "hosshin ga arimasu"
+    },
+    {
+      "front": "めまいがします",
+      "back": "I feel dizzy",
+      "reading": "memai ga shimasu"
+    },
+    {
+      "front": "はきました",
+      "back": "I threw up",
+      "reading": "hakimashita"
+    },
+    {
+      "front": "きぶんが わるいです",
+      "back": "I am not feeling well",
+      "reading": "kibun ga warui desui desu"
+    },
+    {
+      "front": "やけどをしました",
+      "back": "I burned myself",
+      "reading": "yakedo wo shimashita"
+    },
+    {
+      "front": "あしを こっせつしました",
+      "back": "I broke my leg",
+      "reading": "ashi wo kossetsu shimashita"
+    },
+    {
+      "front": "けがをしました",
+      "back": "I hurt myself",
+      "reading": "kega wo shimashita"
+    },
+    {
+      "front": "ないか",
+      "back": "physician",
+      "reading": "naika"
+    },
+    {
+      "front": "ひふか",
+      "back": "dermatologist",
+      "reading": "hihuka"
+    },
+    {
+      "front": "げか",
+      "back": "surgeon",
+      "reading": "geka"
+    },
+    {
+      "front": "さんふじんか",
+      "back": "obstetrician and gynecologist",
+      "reading": "sanhujinka"
+    },
+    {
+      "front": "せいけいげか",
+      "back": "orthopedic surgeon",
+      "reading": "seikeigeka"
+    },
+    {
+      "front": "がんか",
+      "back": "ophthalmologist",
+      "reading": "ganka"
+    },
+    {
+      "front": "しか",
+      "back": "dentist",
+      "reading": "shika"
+    },
+    {
+      "front": "じびか",
+      "back": "otorhinolaryngologist; ENT doctor",
+      "reading": "jibika"
+    },
+    {
+      "front": "こうせいぶっしつ",
+      "back": "antibiotic",
+      "reading": "kouseibusshitsu"
+    },
+    {
+      "front": "れんとげん",
+      "back": "X-ray",
+      "reading": "rentogen"
+    },
+    {
+      "front": "しゅじゅつ",
+      "back": "operation",
+      "reading": "shujutsu"
+    },
+    {
+      "front": "ちゅうしゃ",
+      "back": "injection",
+      "reading": "chuusha"
+    },
+    {
+      "front": "たいおんけい",
+      "back": "thermometer",
+      "reading": "taioneki"
+    },
+    {
+      "front": "てんてき",
+      "back": "intravenous feeding",
+      "reading": "tenteki"
+    }
+  ]
+}
