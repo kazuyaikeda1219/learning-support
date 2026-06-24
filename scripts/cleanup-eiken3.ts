@@ -10,25 +10,19 @@ if (!supabaseUrl || !supabaseKey) {
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 async function cleanup() {
-  try {
-    console.log("🗑️  古い「英検3級」データを削除中...");
+  // book_name が「英検3級」で始まる全レコードを削除（誤投入の掃除）
+  const { data, error } = await supabase
+    .from("questions")
+    .delete()
+    .like("book_name", "英検3級%")
+    .select("id");
 
-    // 「英検3級」というbook_nameのすべてのレコードを削除
-    const { count, error } = await supabase
-      .from("questions")
-      .delete()
-      .eq("book_name", "英検3級");
-
-    if (error) {
-      console.error("❌ エラー:", error);
-      process.exit(1);
-    }
-
-    console.log(`✅ ${count}件削除完了`);
-  } catch (err) {
-    console.error("❌ 予期しないエラー:", err);
+  if (error) {
+    console.error("❌ エラー:", error);
     process.exit(1);
   }
+
+  console.log(`✅ 削除完了: ${data?.length ?? 0}件`);
 }
 
 cleanup();
