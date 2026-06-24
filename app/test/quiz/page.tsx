@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, Suspense } from 'react';
+import React, { useState, useEffect, useRef, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { createClient } from '@/utils/supabase/client';
 import { getCurrentUser } from '@/utils/currentUser';
@@ -28,6 +28,15 @@ function QuizContent() {
   const [isSaved, setIsSaved] = useState(false);
   const [isJa, setIsJa] = useState(false);
   const [readings, setReadings] = useState<Record<string, JaReading> | null>(null);
+
+  // 1問ごとの解答ログ（D-8）。回答時に push し、終了時にまとめて quiz_answers へ保存する。
+  type AnswerLog = {
+    question_id: string;
+    selected_option: number | null;
+    answer_text: string | null;
+    is_correct: boolean;
+  };
+  const answersRef = useRef<AnswerLog[]>([]);
 
   const supabase = createClient();
 
@@ -99,20 +108,41 @@ function QuizContent() {
         return;
       }
 
-      const { error } = await supabase.from('quiz_results').insert({
-        user_id: user.id,
-        category,
-        book_name: book,
-        chapter,
-        score: finalScore,
-        total,
-      });
+      // 合計点を保存し、採番された id を受け取る（明細の紐付けに使う）
+      const { data: resultRow, error } = await supabase
+        .from('quiz_results')
+        .insert({
+          user_id: user.id,
+          category,
+          book_name: book,
+          chapter,
+          score: finalScore,
+          total,
+        })
+        .select('id')
+        .single();
 
       if (error) {
         console.error('結果の保存に失敗:', error);
       } else {
         console.log('【Success】結果を保存しました:', { finalScore, total });
         setIsSaved(true);
+
+        // 1問ごとの明細を保存（D-8）。失敗しても合計点保存は成功扱いのまま続行。
+        if (answersRef.current.length > 0) {
+          const rows = answersRef.current.map((a) => ({
+            user_id: user.id,
+            quiz_result_id: resultRow?.id ?? null,
+            question_id: a.question_id,
+            category,
+            chapter,
+            selected_option: a.selected_option,
+            answer_text: a.answer_text,
+            is_correct: a.is_correct,
+          }));
+          const { error: detailError } = await supabase.from('quiz_answers').insert(rows);
+          if (detailError) console.error('解答明細の保存に失敗:', detailError);
+        }
       }
     } catch (err) {
       console.error('【Fatal Error】保存処理に失敗:', err);
@@ -124,11 +154,17 @@ function QuizContent() {
   // 🔘 4択形式用の回答処理
   const handleAnswerChoice = (index: number) => {
     if (isAnswered) return;
+    const q = questions[currentIndex];
+    const correct = index === q.correct_option;
     setSelectedOption(index);
     setIsAnswered(true);
-    if (index === questions[currentIndex].correct_option) {
-      setScore(prev => prev + 1);
-    }
+    if (correct) setScore(prev => prev + 1);
+    answersRef.current.push({
+      question_id: q.id,
+      selected_option: index,
+      answer_text: null,
+      is_correct: correct,
+    });
   };
 
   // 📝 記述形式用の回答処理
@@ -136,12 +172,18 @@ function QuizContent() {
     if (isAnswered || userInput.trim() === '') return;
     setIsAnswered(true);
 
+    const q = questions[currentIndex];
     const formattedInput = userInput.trim().toLowerCase();
-    const formattedCorrect = (questions[currentIndex].correct_text || '').trim().toLowerCase();
+    const formattedCorrect = (q.correct_text || '').trim().toLowerCase();
+    const correct = formattedInput === formattedCorrect;
 
-    if (formattedInput === formattedCorrect) {
-      setScore(prev => prev + 1);
-    }
+    if (correct) setScore(prev => prev + 1);
+    answersRef.current.push({
+      question_id: q.id,
+      selected_option: null,
+      answer_text: userInput.trim(),
+      is_correct: correct,
+    });
   };
 
   const nextQuestion = () => {

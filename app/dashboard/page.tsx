@@ -1,10 +1,11 @@
 'use client';
 
 import React, { useState, useEffect, useMemo, Suspense } from 'react';
-import { Flame, Clock, BarChart3, PlusCircle, PieChart as PieIcon, TrendingUp, BookOpen, Trash2, ChevronDown } from 'lucide-react';
+import { Flame, Clock, BarChart3, PlusCircle, PieChart as PieIcon, TrendingUp, BookOpen, Trash2, ChevronDown, CalendarDays, Target } from 'lucide-react';
 import { createClient } from '@/utils/supabase/client';
 import { getCurrentUser } from '@/utils/currentUser';
 import { STUDY_CATEGORIES, normalizeSubject } from '@/utils/subject';
+import { computeStreak, toDateKey } from '@/utils/streak';
 import { useRouter } from 'next/navigation';
 import { 
   PieChart, Pie, Cell, ResponsiveContainer, Tooltip, 
@@ -20,6 +21,7 @@ function DashboardContent() {
   const [totalProgress, setTotalProgress] = useState(0);
   const [user, setUser] = useState<any>(null);
   const [logOpen, setLogOpen] = useState(false);
+  const [weeklyGoal, setWeeklyGoal] = useState(150);
   const supabase = createClient();
   const router = useRouter();
 
@@ -31,7 +33,19 @@ function DashboardContent() {
     setUser(cu);
     fetchLogs();
     fetchRoadmapProgress();
+    fetchGoal();
   }, []);
+
+  const fetchGoal = async () => {
+    const cu = getCurrentUser();
+    if (!cu) return;
+    const { data } = await supabase
+      .from('profiles')
+      .select('weekly_goal_minutes')
+      .eq('id', cu.id)
+      .single();
+    if (data?.weekly_goal_minutes != null) setWeeklyGoal(data.weekly_goal_minutes);
+  };
 
   const fetchLogs = async () => {
     const cu = getCurrentUser();
@@ -94,6 +108,20 @@ function DashboardContent() {
   const totalMinutes = logs.reduce((acc, log) => acc + (Number(log.study_time_minutes) || 0), 0);
   const totalHours = (totalMinutes / 60).toFixed(1);
 
+  // 連続学習日数（ストリーク）
+  const streak = useMemo(() => computeStreak(logs.map(l => l.study_date)), [logs]);
+
+  // 今週（直近7日）の学習時間と目標達成率
+  const weeklyMinutes = useMemo(() => {
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 6); // 今日を含む7日間
+    const cutoffKey = toDateKey(cutoff);
+    return logs
+      .filter(l => l.study_date >= cutoffKey)
+      .reduce((sum, l) => sum + (Number(l.study_time_minutes) || 0), 0);
+  }, [logs]);
+  const goalPercent = weeklyGoal > 0 ? Math.min(100, Math.round((weeklyMinutes / weeklyGoal) * 100)) : 0;
+
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const currentUser = user ?? getCurrentUser();
@@ -127,6 +155,30 @@ function DashboardContent() {
             <h1 className="text-3xl font-black text-gray-900 tracking-tight">学習ダッシュボード</h1>
             <p className="text-gray-500 font-medium">継続は力なり！</p>
           </header>
+
+          {/* 今日の未記録ナッジ / 継続中バナー */}
+          {logs.length > 0 && (
+            streak.studiedToday ? (
+              <div className="mb-4 flex items-center gap-3 bg-orange-50 border border-orange-100 rounded-2xl px-5 py-3.5">
+                <Flame className="text-orange-500 shrink-0" size={20} />
+                <p className="text-sm font-bold text-orange-700">
+                  今日も学習しました！ <span className="font-black">{streak.current}日連続</span>です 🔥
+                </p>
+              </div>
+            ) : streak.current > 0 ? (
+              <div className="mb-4 flex items-center gap-3 bg-amber-50 border border-amber-200 rounded-2xl px-5 py-3.5">
+                <Flame className="text-amber-500 shrink-0" size={20} />
+                <p className="text-sm font-bold text-amber-700">
+                  <span className="font-black">{streak.current}日連続</span>を継続中。今日記録すると伸びます！
+                </p>
+              </div>
+            ) : (
+              <div className="mb-4 flex items-center gap-3 bg-indigo-50 border border-indigo-100 rounded-2xl px-5 py-3.5">
+                <CalendarDays className="text-indigo-500 shrink-0" size={20} />
+                <p className="text-sm font-bold text-indigo-700">今日の学習を記録して、連続記録を始めましょう！</p>
+              </div>
+            )
+          )}
 
           {/* 今日の学習を記録（タップで入力フォームを展開） */}
           <div className="mb-10">
@@ -179,10 +231,34 @@ function DashboardContent() {
             )}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-            <StatCard icon={<Flame className="text-orange-500" />} label="学習日数" value={`${totalDays} 日`} />
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-6">
+            <StatCard icon={<Flame className="text-orange-500" />} label="連続学習" value={`${streak.current} 日`} />
+            <StatCard icon={<CalendarDays className="text-purple-500" />} label="学習日数" value={`${totalDays} 日`} />
             <StatCard icon={<Clock className="text-blue-500" />} label="累計学習時間" value={`${totalHours} 時間`} />
             <StatCard icon={<BarChart3 className="text-green-500" />} label="習熟度" value={`${totalProgress}%`} />
+          </div>
+
+          {/* 今週の目標 */}
+          <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 mb-10">
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="text-xs font-bold flex items-center gap-2 text-gray-400 uppercase tracking-widest">
+                <Target size={16} /> 今週の目標
+              </h3>
+              <p className="text-sm font-black text-gray-700">
+                {weeklyMinutes} <span className="text-gray-400 font-bold">/ {weeklyGoal} 分</span>
+              </p>
+            </div>
+            <div className="w-full bg-gray-100 h-3 rounded-full overflow-hidden">
+              <div
+                className={`h-full rounded-full transition-all duration-500 ${goalPercent >= 100 ? 'bg-emerald-500' : 'bg-indigo-500'}`}
+                style={{ width: `${goalPercent}%` }}
+              />
+            </div>
+            <p className="text-xs font-bold text-gray-400 mt-2">
+              {goalPercent >= 100
+                ? '🎉 今週の目標を達成しました！'
+                : `達成率 ${goalPercent}% ・ あと ${Math.max(0, weeklyGoal - weeklyMinutes)} 分`}
+            </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">

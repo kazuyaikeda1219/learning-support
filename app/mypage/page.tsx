@@ -11,8 +11,12 @@ import BottomNav from '@/components/BottomNav';
 import {
   Award, BookOpen, TrendingUp, Loader2, Clock, Pencil, PlusCircle,
   X, Save, CheckCircle2, Mic, Languages, ChevronRight,
-  ShieldCheck, LogOut,
+  ShieldCheck, LogOut, Flame, Target,
 } from 'lucide-react';
+import { computeStreak } from '@/utils/streak';
+import { evaluateBadges } from '@/utils/badges';
+
+const TOTAL_ROADMAP_ITEMS = 145;
 
 // ── ロードマップのセクション定義（roadmap/page.tsx と同期） ──
 const ROADMAP_SECTIONS = [
@@ -53,6 +57,7 @@ type Profile = {
   display_name: string | null;
   avatar_url: string | null;
   role: string | null;
+  weekly_goal_minutes: number | null;
 };
 
 export default function MyPage() {
@@ -62,6 +67,8 @@ export default function MyPage() {
   const [completedIds, setCompletedIds] = useState<Set<string>>(new Set());
   const [totalMinutes, setTotalMinutes] = useState(0);
   const [weeklyMinutes, setWeeklyMinutes] = useState(0);
+  const [weeklyGoal, setWeeklyGoal] = useState(150);
+  const [streak, setStreak] = useState({ current: 0, longest: 0, studiedToday: false });
   const [loading, setLoading] = useState(true);
   const [showToast, setShowToast] = useState(false);
 　const [surveyDone, setSurveyDone] = useState(true);
@@ -69,6 +76,7 @@ export default function MyPage() {
   // モーダル
   const [modalOpen, setModalOpen] = useState(false);
   const [editName, setEditName] = useState('');
+  const [editGoal, setEditGoal] = useState(150);
   const [newPassword, setNewPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [pwError, setPwError] = useState('');
@@ -87,6 +95,7 @@ export default function MyPage() {
       // プロフィール
       const { data: prof } = await supabase.from('profiles').select('*').eq('id', user.id).single();
       setProfile(prof);
+      if (prof?.weekly_goal_minutes != null) setWeeklyGoal(prof.weekly_goal_minutes);
 
       // 受験履歴
       const { data: qr } = await supabase.from('quiz_results').select('*').eq('user_id', user.id).order('taken_at', { ascending: false });
@@ -109,6 +118,7 @@ export default function MyPage() {
       const weekly = logs?.filter(l => l.study_date >= cutoff).reduce((a, l) => a + (l.study_time_minutes || 0), 0) || 0;
       setTotalMinutes(total);
       setWeeklyMinutes(weekly);
+      setStreak(computeStreak((logs ?? []).map(l => l.study_date)));
 
       setLoading(false);
     };
@@ -147,6 +157,7 @@ export default function MyPage() {
 
   const openModal = () => {
     setEditName(profile?.display_name || '');
+    setEditGoal(profile?.weekly_goal_minutes ?? weeklyGoal);
     setNewPassword('');
     setConfirmPassword('');
     setPwError('');
@@ -165,11 +176,16 @@ export default function MyPage() {
     }
 
     setSaving(true);
-    const update: { display_name: string; password_hash?: string } = { display_name: editName.trim() };
+    const goal = Math.max(0, Math.round(editGoal));
+    const update: { display_name: string; weekly_goal_minutes: number; password_hash?: string } = {
+      display_name: editName.trim(),
+      weekly_goal_minutes: goal,
+    };
     if (newPassword) update.password_hash = await hashPassword(newPassword);
 
     await supabase.from('profiles').update(update).eq('id', user.id);
-    setProfile(p => p ? { ...p, display_name: editName.trim() } : p);
+    setProfile(p => p ? { ...p, display_name: editName.trim(), weekly_goal_minutes: goal } : p);
+    setWeeklyGoal(goal);
     setSaving(false);
     setSaved(true);
     setTimeout(() => setModalOpen(false), 800);
@@ -196,6 +212,18 @@ export default function MyPage() {
     ? Math.round(results.reduce((s, r) => s + (r.score / r.total) * 100, 0) / totalAttempts) : 0;
   const bestPct = totalAttempts > 0
     ? Math.max(...results.map(r => Math.round((r.score / r.total) * 100))) : 0;
+
+  const roadmapPercent = Math.round((completedIds.size / TOTAL_ROADMAP_ITEMS) * 100);
+  const goalPercent = weeklyGoal > 0 ? Math.min(100, Math.round((weeklyMinutes / weeklyGoal) * 100)) : 0;
+  const badges = evaluateBadges({
+    totalMinutes,
+    currentStreak: streak.current,
+    longestStreak: streak.longest,
+    roadmapPercent,
+    quizAttempts: totalAttempts,
+    avgQuizPercent: avgPct,
+  });
+  const earnedBadges = badges.filter(b => b.earned);
 
   const displayName = profile?.display_name || user?.email?.split('@')[0] || 'Student';
   const avatarUrl = user?.user_metadata?.avatar_url || profile?.avatar_url || null;
@@ -269,11 +297,69 @@ export default function MyPage() {
         <div>
           <p className="text-xs font-bold uppercase tracking-widest text-indigo-600 mb-3">学習統計</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <StatCard icon={<Flame size={16} className="text-orange-400" />}      value={`${streak.current}日`}  label="連続学習" valueColor="text-orange-500" />
             <StatCard icon={<BookOpen size={16} className="text-indigo-400" />} value={`${totalAttempts}`}    label="受験回数" />
             <StatCard icon={<TrendingUp size={16} className="text-indigo-400" />} value={`${avgPct}%`}        label="平均正答率" />
             <StatCard icon={<Award size={16} className="text-yellow-400" />}      value={`${bestPct}%`}       label="最高正答率" valueColor="text-yellow-500" />
             <StatCard icon={<Clock size={16} className="text-blue-400" />}        value={`${(totalMinutes/60).toFixed(1)}h`}  label="総学習時間" />
             <StatCard icon={<Clock size={16} className="text-green-400" />}       value={`${(weeklyMinutes/60).toFixed(1)}h`} label="今週の学習時間" valueColor="text-green-600" />
+          </div>
+        </div>
+
+        {/* ── 今週の目標 ── */}
+        <div>
+          <p className="text-xs font-bold uppercase tracking-widest text-indigo-600 mb-3">今週の目標</p>
+          <div className="bg-white rounded-3xl p-6 shadow-sm border border-gray-100">
+            <div className="flex items-center justify-between mb-3">
+              <span className="flex items-center gap-2 text-sm font-bold text-gray-700">
+                <Target size={16} className="text-indigo-500" /> 週 {weeklyGoal} 分
+              </span>
+              <span className="text-sm font-black text-gray-700">
+                {weeklyMinutes}<span className="text-gray-400 font-bold"> / {weeklyGoal} 分</span>
+              </span>
+            </div>
+            <div className="w-full bg-gray-100 h-3 rounded-full overflow-hidden">
+              <div
+                className={`h-full rounded-full transition-all duration-500 ${goalPercent >= 100 ? 'bg-emerald-500' : 'bg-indigo-500'}`}
+                style={{ width: `${goalPercent}%` }}
+              />
+            </div>
+            <div className="flex items-center justify-between mt-2">
+              <p className="text-xs font-bold text-gray-400">
+                {goalPercent >= 100 ? '🎉 目標達成！' : `達成率 ${goalPercent}% ・ あと ${Math.max(0, weeklyGoal - weeklyMinutes)} 分`}
+              </p>
+              <button onClick={openModal} className="text-xs font-bold text-indigo-500 hover:text-indigo-700 transition-colors">
+                目標を変更
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* ── バッジ ── */}
+        <div>
+          <p className="text-xs font-bold uppercase tracking-widest text-indigo-600 mb-3">
+            獲得バッジ <span className="text-gray-400">{earnedBadges.length} / {badges.length}</span>
+          </p>
+          <div className="bg-white rounded-3xl p-6 shadow-sm border border-gray-100">
+            <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
+              {badges.map((b) => (
+                <div
+                  key={b.key}
+                  title={`${b.label}：${b.desc}${b.earned ? '' : `（達成率 ${b.progress}%）`}`}
+                  className={`flex flex-col items-center text-center rounded-2xl p-3 border transition-all ${
+                    b.earned
+                      ? 'bg-yellow-50 border-yellow-200'
+                      : 'bg-gray-50 border-gray-100'
+                  }`}
+                >
+                  <span className={`text-3xl leading-none mb-1.5 ${b.earned ? '' : 'grayscale opacity-30'}`}>{b.emoji}</span>
+                  <span className={`text-[11px] font-bold leading-tight ${b.earned ? 'text-gray-700' : 'text-gray-400'}`}>{b.label}</span>
+                  {!b.earned && b.progress > 0 && (
+                    <span className="text-[10px] font-bold text-gray-300 mt-0.5">{b.progress}%</span>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -409,6 +495,38 @@ export default function MyPage() {
                 className="w-full border border-gray-200 rounded-2xl px-4 py-3 text-sm font-medium outline-none focus:ring-2 focus:ring-indigo-400 transition-all"
                 placeholder="表示名を入力"
               />
+            </div>
+
+            {/* ── 週の学習目標 ── */}
+            <div className="mb-5">
+              <label className="text-xs font-black text-gray-400 uppercase tracking-widest block mb-2">週の学習目標</label>
+              <div className="flex flex-wrap gap-2">
+                {[90, 150, 300, 600].map((m) => (
+                  <button
+                    key={m}
+                    type="button"
+                    onClick={() => setEditGoal(m)}
+                    className={`px-3 py-2 rounded-xl text-sm font-bold border transition-all ${
+                      editGoal === m
+                        ? 'bg-indigo-600 text-white border-indigo-600'
+                        : 'bg-white text-gray-600 border-gray-200 hover:border-indigo-300'
+                    }`}
+                  >
+                    {m < 60 ? `${m}分` : `${m / 60}時間`}
+                  </button>
+                ))}
+              </div>
+              <div className="flex items-center gap-2 mt-2">
+                <input
+                  type="number"
+                  min={0}
+                  step={30}
+                  value={editGoal}
+                  onChange={e => setEditGoal(Number(e.target.value))}
+                  className="w-24 border border-gray-200 rounded-xl px-3 py-2 text-sm font-bold outline-none focus:ring-2 focus:ring-indigo-400 transition-all"
+                />
+                <span className="text-sm font-medium text-gray-400">分 / 週</span>
+              </div>
             </div>
 
             {/* ── パスワード変更（任意） ── */}
