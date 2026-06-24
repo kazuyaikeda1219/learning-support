@@ -110,7 +110,16 @@ export default function TestPortal() {
     return t;
   }, [rows, qType]);
 
-  const categories = Object.keys(tree).sort();
+  // 大項目（ジャンル）の表示順。ここに無いカテゴリは後ろに自然順で続く
+  const CATEGORY_ORDER = ['英単語', '英文法', '英検', 'TOEIC'];
+  const categories = Object.keys(tree).sort((a, b) => {
+    const ia = CATEGORY_ORDER.indexOf(a);
+    const ib = CATEGORY_ORDER.indexOf(b);
+    if (ia !== -1 && ib !== -1) return ia - ib; // 両方とも指定順 → 指定順
+    if (ia !== -1) return -1; // a だけ指定 → a を前へ
+    if (ib !== -1) return 1; // b だけ指定 → b を前へ
+    return naturalSort(a, b); // どちらも未指定 → 自然順
+  });
 
   return (
     <div className="min-h-screen bg-[#f8fafc]">
