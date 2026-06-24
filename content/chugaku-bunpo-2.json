@@ -1,0 +1,1207 @@
+{
+  "subject": "en",
+  "category": "英文法",
+  "book_name": "中学英文法",
+  "questions": [
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "Tom ___ soccer every Sunday.（トムは毎週日曜日にサッカーをします）",
+      "options": [
+        "play",
+        "playing",
+        "plays",
+        "played"
+      ],
+      "correct": 3,
+      "explanation": "主語が Tom（三人称単数）なので、一般動詞に -s を付けて plays にします。play はI/you/複数に使う形。playing は進行形で be動詞が必要。played は過去形です。"
+    },
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "She ___ breakfast every morning.（彼女は毎朝朝食を食べます）",
+      "options": [
+        "eats",
+        "eat",
+        "eating",
+        "are eating"
+      ],
+      "correct": 1,
+      "explanation": "She は三人称単数なので eat に -s を付けて eats。eat + s は eat → eats（発音は [iːts]）。eating は進行形で be動詞が必要。are eating は She には合いません。"
+    },
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "My sister ___ a piano lesson on Fridays.（私の姉は金曜日にピアノのレッスンがあります）",
+      "options": [
+        "have",
+        "has",
+        "having",
+        "had"
+      ],
+      "correct": 2,
+      "explanation": "My sister は三人称単数。have の三単現は has（不規則変化）。have はI/you/we/they に使います。having は進行形。had は過去形です。"
+    },
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "Ken and Yuki ___ in the same class.（ケンとユキは同じクラスにいます）",
+      "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "correct": 4,
+      "explanation": "Ken and Yuki は2人（複数）なので be動詞は are。is は三人称単数、am は I、be はそのままでは文中に使いません。"
+    },
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "Our dog ___ very fast.（私たちの犬はとても速く走ります）",
+      "options": [
+        "runs",
+        "running",
+        "run",
+        "are running"
+      ],
+      "correct": 1,
+      "explanation": "Our dog は三人称単数（1匹の犬）なので run に -s を付けて runs。run はI/you/複数形の主語に使います。running と are running は進行形です。"
+    },
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "The train ___ at nine o'clock.（その電車は9時に出発します）",
+      "options": [
+        "leave",
+        "leaves",
+        "leaving",
+        "left"
+      ],
+      "correct": 2,
+      "explanation": "The train は三人称単数なので leave に -s を付けて leaves。leave → leaves（語尾 e + s）。leaving は進行形、left は過去形です。"
+    },
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "I ___ math, but my brother ___ it. （私は数学が好きですが、兄は好きではありません）",
+      "options": [
+        "likes / doesn't like",
+        "like / don't like",
+        "likes / don't like",
+        "like / doesn't like"
+      ],
+      "correct": 4,
+      "explanation": "I が主語のときは like（三単現の -s は不要）。my brother は三人称単数なので doesn't like（don't ではない）。主語によって動詞の形が変わることに注意しましょう。"
+    },
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "Does Emma ___ tennis?（エマはテニスをしますか）",
+      "options": [
+        "plays",
+        "playing",
+        "played",
+        "play"
+      ],
+      "correct": 4,
+      "explanation": "Does を使う疑問文では、動詞は必ず原形（play）にします。Does が三単現を表しているので、動詞に -s は付けません。"
+    },
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "Mr. Sato ___ English at our school.（佐藤先生は私たちの学校で英語を教えています）",
+      "options": [
+        "teach",
+        "teaching",
+        "teaches",
+        "taught"
+      ],
+      "correct": 3,
+      "explanation": "Mr. Sato は三人称単数。teach の三単現は teaches（ch で終わる語には -es を付ける）。taught は過去形です。"
+    },
+    {
+      "chapter": "L07 主語と動詞【中1】",
+      "question_text": "My parents ___ in Osaka.（私の両親は大阪に住んでいます）",
+      "options": [
+        "lives",
+        "is living",
+        "live",
+        "lived"
+      ],
+      "correct": 3,
+      "explanation": "My parents は複数（parents = 父+母など）なので、動詞に -s を付けない live を使います。lives は三人称単数の形。is living は単数主語に使う進行形です。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "That bag is ___.（あのかばんは私のものです）",
+      "options": [
+        "me",
+        "mine",
+        "my",
+        "I"
+      ],
+      "correct": 2,
+      "explanation": "「〜のもの」は所有代名詞を使います。mine = my bag の代わり。my は「私の」で名詞の前に置く形。me は目的格、I は主格です。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "I know ___ very well.（私は彼女をよく知っています）",
+      "options": [
+        "she",
+        "hers",
+        "her",
+        "he"
+      ],
+      "correct": 3,
+      "explanation": "know の目的語（〜を）には目的格を使います。her = 彼女を・彼女に。she は主格（主語の位置）、hers は所有代名詞「彼女のもの」、he は男性の主格です。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "___ is my new English teacher.（この人が私の新しい英語の先生です）",
+      "options": [
+        "That",
+        "These",
+        "Those",
+        "This"
+      ],
+      "correct": 4,
+      "explanation": "目の前にいる1人を指すときは This（この人・これ）。That は遠くにある1つ、These は近くの複数、Those は遠くの複数を指します。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "There are two ___ in my family.（私の家族には犬が2匹います）",
+      "options": [
+        "dogs",
+        "dog",
+        "a dog",
+        "the dog"
+      ],
+      "correct": 1,
+      "explanation": "two という数詞があるので名詞は複数形 dogs にします。two の後は必ず複数形。a dog は不定冠詞＋単数、the dog は定冠詞＋単数です。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "Is this ___ bike?（これはあなたの自転車ですか）",
+      "options": [
+        "your",
+        "you",
+        "yours",
+        "her"
+      ],
+      "correct": 1,
+      "explanation": "bike という名詞の前に置く「あなたの」は所有格 your。you は主格・目的格、yours は所有代名詞「あなたのもの」で名詞の前には使いません。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "I gave ___ the book yesterday.（私は昨日彼にその本を渡しました）",
+      "options": [
+        "he",
+        "his",
+        "himself",
+        "him"
+      ],
+      "correct": 4,
+      "explanation": "gave（give）の目的語「彼に」は目的格 him。he は主格（主語の位置）、his は所有格「彼の」または所有代名詞「彼のもの」、himself は再帰代名詞です。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "Those ___ are very cute.（あれらの猫はとてもかわいいです）",
+      "options": [
+        "cat",
+        "a cat",
+        "the cat",
+        "cats"
+      ],
+      "correct": 4,
+      "explanation": "Those は複数を指す指示形容詞なので、後の名詞は複数形 cats にします。Those の後に単数形は使いません。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "Our school is old, but ___ is new.（私たちの学校は古いですが、彼らのは新しい）",
+      "options": [
+        "they",
+        "theirs",
+        "their",
+        "them"
+      ],
+      "correct": 2,
+      "explanation": "「彼らのもの（=学校）」は所有代名詞 theirs。their は「彼らの」で名詞の前に使う形。they は主格、them は目的格です。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "We need three ___ for the party.（パーティーには椅子が3脚必要です）",
+      "options": [
+        "chair",
+        "a chair",
+        "chairs",
+        "chairies"
+      ],
+      "correct": 3,
+      "explanation": "three があるので複数形 chairs。chair は規則変化で s を付けるだけ。chairies は誤りで、chair + s が正しい形です。"
+    },
+    {
+      "chapter": "L08 名詞と代名詞【中1】",
+      "question_text": "___ pencil is on the desk.（あの鉛筆は机の上にあります）",
+      "options": [
+        "This",
+        "Those",
+        "These",
+        "That"
+      ],
+      "correct": 4,
+      "explanation": "pencil は単数で、遠くにある1つを指すときは That。This は近くの1つ、These は近くの複数、Those は遠くの複数を指します。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "___ you play the guitar?（あなたはギターを弾きますか）",
+      "options": [
+        "Do",
+        "Are",
+        "Does",
+        "Is"
+      ],
+      "correct": 1,
+      "explanation": "一般動詞 play を使った疑問文で主語が you なので Do を使います。Are/Is は be動詞の疑問文。Does は三人称単数（he/she/it）に使います。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "I ___ like spicy food.（私は辛い食べ物が好きではありません）",
+      "options": [
+        "don't",
+        "am not",
+        "doesn't",
+        "not"
+      ],
+      "correct": 1,
+      "explanation": "I が主語の一般動詞の否定文は don't + 動詞の原形。am not は be動詞の否定。doesn't は三人称単数に使います。not だけでは否定文になりません。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "Does she ___ a pet?（彼女はペットを飼っていますか）",
+      "options": [
+        "has",
+        "having",
+        "had",
+        "have"
+      ],
+      "correct": 4,
+      "explanation": "Does を使う疑問文では動詞は原形（have）にします。has は Does なしで三単現を表すとき、having は進行形、had は過去形です。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "___ your brother a student?（あなたのお兄さんは学生ですか）",
+      "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+      ],
+      "correct": 3,
+      "explanation": "your brother は三人称単数で、be動詞 is を使っているので疑問文は Is。Do/Does は一般動詞の疑問文に使います。Are は you/複数の場合に使います。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "He ___ come to school today.（彼は今日学校に来ませんでした）",
+      "options": [
+        "don't",
+        "doesn't",
+        "didn't",
+        "isn't"
+      ],
+      "correct": 3,
+      "explanation": "今日来なかったという過去の否定なので didn't + 動詞の原形。don't/doesn't は現在の否定。isn't は be動詞の否定です。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "Are you from Tokyo? — No, ___.（あなたは東京出身ですか — いいえ、違います）",
+      "options": [
+        "I don't",
+        "I isn't",
+        "I'm not",
+        "I not am"
+      ],
+      "correct": 3,
+      "explanation": "Are you ...? への否定の答えは No, I'm not.。be動詞の疑問に be動詞で答えます。I don't は一般動詞の答え方です。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "Does he study English? — Yes, ___.（彼は英語を勉強しますか — はい、します）",
+      "options": [
+        "he is",
+        "he does",
+        "he do",
+        "he studies"
+      ],
+      "correct": 2,
+      "explanation": "Does ...? への肯定の答えは Yes, he does.。does を繰り返して答えます。he is は be動詞の答え、he do は文法的に誤り、he studies は文全体を繰り返す形で答え方として使いません。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "My father ___ drink coffee.（私の父はコーヒーを飲みません）",
+      "options": [
+        "don't",
+        "isn't",
+        "not",
+        "doesn't"
+      ],
+      "correct": 4,
+      "explanation": "My father は三人称単数なので、一般動詞の否定は doesn't + 原形。don't は I/you/複数に使います。isn't は be動詞の否定です。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "___ they in the library now?（彼らは今図書館にいますか）",
+      "options": [
+        "Are",
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correct": 1,
+      "explanation": "they を主語とする be動詞の疑問文は Are で始めます。Do/Does は一般動詞の疑問文。Is は he/she/it などの単数に使います。"
+    },
+    {
+      "chapter": "L09 否定文と疑問文【中1】",
+      "question_text": "I ___ play video games on weekdays.（私は平日にテレビゲームをしません）",
+      "options": [
+        "am not",
+        "don't",
+        "doesn't",
+        "can't not"
+      ],
+      "correct": 2,
+      "explanation": "I が主語の一般動詞（play）の否定は don't + 原形。am not は be動詞の否定。doesn't は三人称単数に使う形。can't not は二重否定で誤りです。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "She ___ to the park yesterday.（彼女は昨日公園に行きました）",
+      "options": [
+        "go",
+        "went",
+        "goes",
+        "going"
+      ],
+      "correct": 2,
+      "explanation": "yesterday があるので過去形。go の過去形は went（不規則変化）。goes は三単現の現在形、going は進行形です。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "I ___ this song last week.（私は先週この曲を聞きました）",
+      "options": [
+        "listen",
+        "listened",
+        "was listen",
+        "listening"
+      ],
+      "correct": 2,
+      "explanation": "last week があるので過去形。listen は規則動詞なので -ed を付けて listened。was listen は正しくない形（進行形なら was listening）です。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "They ___ at home last Sunday.（彼らは先週の日曜日、家にいました）",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "was"
+      ],
+      "correct": 2,
+      "explanation": "they の過去の be動詞は were。last Sunday があるので過去形。are は現在形（複数）、is は現在形（三単現）、was は三人称単数・I の過去形です。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "We didn't ___ dinner together.（私たちは一緒に夕食を食べませんでした）",
+      "options": [
+        "ate",
+        "eating",
+        "eats",
+        "eat"
+      ],
+      "correct": 4,
+      "explanation": "didn't の後の動詞は必ず原形（eat）にします。didn't はすでに過去を表しているので、動詞に -ed や過去形を付けません。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "My mother ___ a new bag last month.（母は先月新しいかばんを買いました）",
+      "options": [
+        "bought",
+        "buy",
+        "buys",
+        "buyed"
+      ],
+      "correct": 1,
+      "explanation": "last month があるので過去形。buy の過去形は bought（不規則変化）。buyed という形は存在しません。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "Did you ___ TV last night?（昨夜テレビを見ましたか）",
+      "options": [
+        "watched",
+        "watching",
+        "watch",
+        "watches"
+      ],
+      "correct": 3,
+      "explanation": "Did を使う疑問文では動詞は原形（watch）にします。watched は過去形（Did なしで使う形）、watching は進行形です。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "He ___ in Tokyo two years ago.（彼は2年前に東京に住んでいました）",
+      "options": [
+        "lived",
+        "live",
+        "lives",
+        "living"
+      ],
+      "correct": 1,
+      "explanation": "two years ago があるので過去形。live は規則動詞なので -d を付けて lived（e で終わる語は -d だけ）。lives は三単現の現在形です。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "___ it rain yesterday?（昨日、雨が降りましたか）",
+      "options": [
+        "Did",
+        "Was",
+        "Were",
+        "Does"
+      ],
+      "correct": 1,
+      "explanation": "rain は一般動詞なので過去の疑問文は Did を使います。Was/Were は be動詞の過去の疑問文。Does は現在の一般動詞疑問文です。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "Ken ___ his homework after dinner.（ケンは夕食後、宿題をしました）",
+      "options": [
+        "does",
+        "do",
+        "doing",
+        "did"
+      ],
+      "correct": 4,
+      "explanation": "文末に after dinner という過去の状況を示す副詞句があり、過去の出来事を表す文。do の過去形は did（不規則変化）。does は三単現の現在形です。"
+    },
+    {
+      "chapter": "L10 過去形【中1】",
+      "question_text": "I ___ the movie three times.（私はその映画を3回見ました）",
+      "options": [
+        "see",
+        "seen",
+        "saw",
+        "sees"
+      ],
+      "correct": 3,
+      "explanation": "過去の出来事を表す文。see の過去形は saw（不規則変化）。seen は過去分詞（現在完了で使う形）、sees は三単現の現在形です。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "I want ___ orange after lunch.（昼食後にオレンジが1つ食べたいです）",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "correct": 2,
+      "explanation": "orange は母音（o）で始まるので、不定冠詞は an を使います。a は子音で始まる語の前。the は特定のものを指すとき。some は複数や不可算名詞に使います。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "Please close ___ window. It's cold.（その窓を閉めてください。寒いので）",
+      "options": [
+        "a",
+        "an",
+        "any",
+        "the"
+      ],
+      "correct": 4,
+      "explanation": "話し手と聞き手の両方がどの窓か分かっているとき（目の前にある窓）は the を使います。a/an は初めて話題に出すときに使う不定冠詞です。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "Can I have ___ water?（水をいただけますか）",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "correct": 4,
+      "explanation": "water は数えられない名詞（不可算名詞）なので a/an は付けられません。some は不可算名詞や複数名詞に付けて「いくらか・少し」を表します。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "There is ___ cat on the sofa.（ソファの上に猫が1匹います）",
+      "options": [
+        "an",
+        "the",
+        "---",
+        "a"
+      ],
+      "correct": 4,
+      "explanation": "初めて登場する、特定していない1匹の猫なので不定冠詞 a（子音で始まる cat の前）を使います。an は母音の前、the は特定のものに使います。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "I need ___ chairs for the meeting.（会議用に椅子がいくつか必要です）",
+      "options": [
+        "some",
+        "a",
+        "an",
+        "any"
+      ],
+      "correct": 1,
+      "explanation": "chairs は複数形なので a/an は使えません。肯定文でいくつかの数を表すときは some を使います。any は否定文や疑問文で「いくらかの」を表します。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "I don't have ___ money today.（今日はお金を全く持っていません）",
+      "options": [
+        "some",
+        "any",
+        "a",
+        "the"
+      ],
+      "correct": 2,
+      "explanation": "money は不可算名詞。否定文の「（少しも）〜ない」には any を使います。some は肯定文で使うのが基本。a は可算名詞の前に使います。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "She plays ___ violin very well.（彼女はバイオリンをとても上手に弾きます）",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "---"
+      ],
+      "correct": 3,
+      "explanation": "楽器を演奏する表現では the を付けます（play the violin）。これは英語の慣習的な使い方です。a/an は特定していないものに使いますが、楽器名には the を使います。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "He drinks two ___ of milk every morning.（彼は毎朝牛乳を2杯飲みます）",
+      "options": [
+        "cup",
+        "a cup",
+        "cups",
+        "the cup"
+      ],
+      "correct": 3,
+      "explanation": "two という数詞があるので cups と複数形にします。milk は不可算名詞なので a glass/cup of milk のように容器で数えます。two cups of milk = 牛乳2杯分。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "A: Look at that dog! B: Oh, ___ dog is so cute!（あの犬を見て！ 本当にかわいい犬ですね）",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "some"
+      ],
+      "correct": 1,
+      "explanation": "A が that dog と言った後に B が同じ犬について話しているので、お互いにどの犬かが分かっています。2回目に登場する特定の名詞には the を使います。"
+    },
+    {
+      "chapter": "L11 冠詞と名詞【中1・2】",
+      "question_text": "Is there ___ hospital near here?（この近くに病院はありますか）",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "correct": 2,
+      "explanation": "hospital は母音（h の後に母音音 ɒ）で始まる発音なので an を使います（a hospital でも可ですが an hospital とする場合もあります）。疑問文でも不定冠詞は使えます。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "She is ___ a book now.（彼女は今、本を読んでいます）",
+      "options": [
+        "reading",
+        "read",
+        "reads",
+        "readed"
+      ],
+      "correct": 1,
+      "explanation": "is + -ing で現在進行形を作ります。read の -ing 形は reading。readed という形は存在しません。reads は三単現の現在形です。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "The boys ___ soccer in the park.（男の子たちは公園でサッカーをしています）",
+      "options": [
+        "is playing",
+        "was playing",
+        "were play",
+        "are playing"
+      ],
+      "correct": 4,
+      "explanation": "The boys は複数なので be動詞は are。現在進行形は are + playing。is playing は三人称単数に使う形。were play は -ing が必要です。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "I ___ dinner when you called me.（あなたが電話してきたとき、私は夕食を作っていました）",
+      "options": [
+        "cook",
+        "was cooking",
+        "am cooking",
+        "cooked"
+      ],
+      "correct": 2,
+      "explanation": "when you called（過去の出来事）のとき、何かをしていた最中（進行中の動作）を表すには過去進行形 was + -ing を使います。am cooking は現在進行形です。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "Look! It ___ outside.（見て！外で雪が降っています）",
+      "options": [
+        "is snowing",
+        "snow",
+        "snows",
+        "snowed"
+      ],
+      "correct": 1,
+      "explanation": "Look! と今起きていることを表す文なので現在進行形 is snowing を使います。snow/snows は現在形で習慣・事実を表し、「今降っている」には進行形が適切です。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "I ___ this town. I moved here last year.（私はこの町が好きです。去年ここに引っ越してきました）",
+      "options": [
+        "am liking",
+        "like",
+        "is liking",
+        "liking"
+      ],
+      "correct": 2,
+      "explanation": "like（好む）は感情・状態を表す動詞で進行形にしません（非進行動詞）。状態動詞は現在形を使います。am liking のような形は原則として作りません。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "___ you studying English right now?（あなたは今、英語を勉強していますか）",
+      "options": [
+        "Do",
+        "Does",
+        "Are",
+        "Is"
+      ],
+      "correct": 3,
+      "explanation": "you を主語とする現在進行形の疑問文は Are で始めます。Do/Does は一般動詞の現在形疑問文。Is は三人称単数の現在進行形疑問文です。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "My father was ___ the newspaper at 7 p.m.（父は午後7時に新聞を読んでいました）",
+      "options": [
+        "reading",
+        "read",
+        "reads",
+        "readed"
+      ],
+      "correct": 1,
+      "explanation": "was + -ing で過去進行形を作ります。at 7 p.m. という過去のある時点で進行中だったことを表します。read の -ing 形は reading です。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "She doesn't ___ coffee. She prefers tea.（彼女はコーヒーが好きではありません。紅茶の方が好きです）",
+      "options": [
+        "liking",
+        "is liking",
+        "like",
+        "liked"
+      ],
+      "correct": 3,
+      "explanation": "like は感情を表す状態動詞なので進行形にしません。否定文では doesn't like（三単現の否定）。liking は -ing 形で、状態動詞には使いません。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "The children ___ in the pool yesterday afternoon.（子どもたちは昨日の午後、プールで泳いでいました）",
+      "options": [
+        "swim",
+        "are swimming",
+        "was swimming",
+        "were swimming"
+      ],
+      "correct": 4,
+      "explanation": "yesterday afternoon（昨日の午後）に進行中だった動作は過去進行形。The children は複数なので were + swimming。was swimming は単数主語に使う形です。"
+    },
+    {
+      "chapter": "L12 進行形【中1・2】",
+      "question_text": "What ___ you doing at noon?（正午に何をしていましたか）",
+      "options": [
+        "were",
+        "do",
+        "did",
+        "are"
+      ],
+      "correct": 1,
+      "explanation": "過去のある時点で何をしていたかを尋ねる過去進行形の疑問文。you が主語なので were を使います。What were you doing? が正しい形。are は現在進行形の疑問文です。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "I ___ visit my grandmother next week.（来週、祖母に会いに行くつもりです）",
+      "options": [
+        "am",
+        "will",
+        "do",
+        "was"
+      ],
+      "correct": 2,
+      "explanation": "next week（来週）という未来の予定。will + 動詞の原形で未来を表します。am だけでは未来を表せません。do は現在形、was は過去形です。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "She is ___ to study abroad next year.（彼女は来年留学する予定です）",
+      "options": [
+        "going",
+        "will",
+        "go",
+        "gone"
+      ],
+      "correct": 1,
+      "explanation": "be going to + 動詞の原形で「〜する予定だ」を表します。She is going to study... の形。will の後には going は不要。gone は go の過去分詞です。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "It ___ rain tomorrow.（明日は雨が降るでしょう）",
+      "options": [
+        "go to",
+        "is going",
+        "will",
+        "going to"
+      ],
+      "correct": 3,
+      "explanation": "will + 動詞の原形で未来を表します。will rain が正しい形。is going to rain でも正しいですが、選択肢の中では will のみが単独で使えます。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "We ___ not go to the beach if it rains.（雨が降れば、私たちは海に行きません）",
+      "options": [
+        "will",
+        "are",
+        "do",
+        "going"
+      ],
+      "correct": 1,
+      "explanation": "will not（= won't）+ 動詞の原形で未来の否定を表します。will not go = won't go。are not go や do not go は文法的に不完全です。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "___ you be at home this evening?（今夜、家にいますか）",
+      "options": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "correct": 1,
+      "explanation": "未来のことを尋ねる疑問文は Will + 主語 + 動詞の原形。Will you be ...? が正しい形。Are you ...? は現在の状況、Do you ...? は一般動詞の現在形疑問文です。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "I am going ___ see a movie tonight.（今夜、映画を見る予定です）",
+      "options": [
+        "for",
+        "to",
+        "and",
+        "at"
+      ],
+      "correct": 2,
+      "explanation": "be going to + 動詞の原形で予定を表します。going の後は to を付けます。I am going to see a movie. が正しい形です。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "My brother ___ not join us for dinner.（兄は私たちと夕食を共にしません）",
+      "options": [
+        "will",
+        "is",
+        "does",
+        "did"
+      ],
+      "correct": 1,
+      "explanation": "will not（won't）+ 動詞の原形で未来の否定。My brother will not join us. が正しい形。is not join は文法的に誤り（is not joining なら可）。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "Are they going to ___ the party?（彼らはパーティーに来る予定ですか）",
+      "options": [
+        "come",
+        "came",
+        "comes",
+        "coming"
+      ],
+      "correct": 1,
+      "explanation": "be going to の後は動詞の原形。Are they going to come ...? が正しい形。came は過去形、comes は三単現、coming は -ing 形です。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "She ___ probably be late for class.（彼女はおそらく授業に遅れるでしょう）",
+      "options": [
+        "is",
+        "will",
+        "does",
+        "was"
+      ],
+      "correct": 2,
+      "explanation": "推量の意味で「〜でしょう」は will を使います。probably（おそらく）という副詞があります。is late は現在形で確定した状況、was late は過去形です。"
+    },
+    {
+      "chapter": "L13 未来の表現【中2】",
+      "question_text": "Look at those clouds. It ___ rain soon.（あの雲を見て。すぐに雨が降りそうです）",
+      "options": [
+        "wills",
+        "does",
+        "did",
+        "is going to"
+      ],
+      "correct": 4,
+      "explanation": "目に見える根拠（あの雲）があって「〜になりそう」という予測には be going to を使います。wills という形は存在しません。will rain でも可ですが、根拠があるときは is going to が自然です。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "You ___ wear a seatbelt in a car.（車の中ではシートベルトを着用しなければなりません）",
+      "options": [
+        "must",
+        "may",
+        "can",
+        "should"
+      ],
+      "correct": 1,
+      "explanation": "義務・命令を表すときは must を使います。「〜しなければならない」= must。may は許可・推量、can は能力・可能性、should は「〜すべき」（義務より軽い勧め）を表します。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "___ I use your pen?（あなたのペンを使ってもいいですか）",
+      "options": [
+        "Must",
+        "Should",
+        "Can",
+        "Will"
+      ],
+      "correct": 3,
+      "explanation": "許可を求めるときは Can I ...? または May I ...? を使います。May I ...? の方がより丁寧。Must は義務、Should は勧め、Will は意志や依頼に使います。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "She ___ speak three languages.（彼女は3つの言語を話すことができます）",
+      "options": [
+        "must",
+        "may",
+        "should",
+        "can"
+      ],
+      "correct": 4,
+      "explanation": "能力・可能を表すのは can。「〜することができる」= can + 動詞の原形。must は義務、may は許可・推量、should は勧め・義務を表します。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "You ___ eat too much sugar. It's bad for you.（砂糖を食べすぎてはいけません。体に悪いです）",
+      "options": [
+        "should",
+        "may not",
+        "must not",
+        "cannot"
+      ],
+      "correct": 3,
+      "explanation": "「〜してはいけない」という禁止は must not（mustn't）。should not は「すべきでない」という勧め、may not は許可しないこと、cannot は能力・不可能を表します。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "It's getting cold. You ___ wear a coat.（寒くなってきています。コートを着た方がいいですよ）",
+      "options": [
+        "should",
+        "must",
+        "will",
+        "may"
+      ],
+      "correct": 1,
+      "explanation": "「〜した方がよい」というアドバイス・勧めには should を使います。must は強い義務、will は意志・未来、may は許可・推量を表します。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "___ you open the window?（窓を開けてもらえますか）",
+      "options": [
+        "Should",
+        "Must",
+        "Could",
+        "May"
+      ],
+      "correct": 3,
+      "explanation": "依頼を丁寧に言うときは Could you ...? を使います。Can you ...? より丁寧な表現。Should は勧め、Must は義務、May I ...? は自分が許可を求める形です。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "He ___ be at work. I saw his car outside.（彼は仕事中かもしれません。車が外にありました）",
+      "options": [
+        "must",
+        "may",
+        "can",
+        "will"
+      ],
+      "correct": 2,
+      "explanation": "「〜かもしれない」という推量には may を使います。must は「〜に違いない」という強い確信、can は能力・可能性、will は未来・強い意志を表します。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "She can ___ play the piano at the age of five.（彼女は5歳のときにピアノを弾くことができました）",
+      "options": [
+        "---",
+        "not",
+        "to",
+        "didn't"
+      ],
+      "correct": 1,
+      "explanation": "can の過去形は could。She could play the piano at five. が正しい文です（この問題では could play の could の位置を問うもの）。ここでは「can の前に何も入らない」が正解で、could 単独で過去の能力を表します。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "You ___ not worry about it. It's not a big deal.（それについて心配する必要はありません。大したことではないです）",
+      "options": [
+        "must",
+        "should",
+        "need",
+        "will"
+      ],
+      "correct": 3,
+      "explanation": "need not（needn't）は「〜する必要はない」という不必要を表します。must not は「してはいけない（禁止）」、should not は「すべきでない（軽い禁止・勧め）」です。"
+    },
+    {
+      "chapter": "L14 助動詞【中2】",
+      "question_text": "Students ___ use their phones during the exam.（生徒たちは試験中に携帯電話を使ってはいけません）",
+      "options": [
+        "should",
+        "must not",
+        "may",
+        "need not"
+      ],
+      "correct": 2,
+      "explanation": "禁止（してはいけない）を表すのは must not（mustn't）。should not は「すべきでない」という弱い禁止、may は許可・推量、need not は「必要ない」です。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ is your favorite subject?（あなたの好きな教科は何ですか）",
+      "options": [
+        "Who",
+        "What",
+        "Where",
+        "When"
+      ],
+      "correct": 2,
+      "explanation": "「何」を尋ねるときは What を使います。Who は「誰」、Where は「どこ」、When は「いつ」を尋ねる疑問詞です。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ did you go last weekend?（先週末はどこに行きましたか）",
+      "options": [
+        "What",
+        "Who",
+        "When",
+        "Where"
+      ],
+      "correct": 4,
+      "explanation": "「どこ」を尋ねるときは Where を使います。What は「何」、Who は「誰」、When は「いつ」を尋ねる疑問詞です。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ is your birthday?（あなたの誕生日はいつですか）",
+      "options": [
+        "Where",
+        "What",
+        "When",
+        "How"
+      ],
+      "correct": 3,
+      "explanation": "「いつ」を尋ねるときは When を使います。Where は「どこ」、What は「何」、How は「どのように・どのくらい」を尋ねる疑問詞です。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ is that tall boy? — He's my classmate.（あの背の高い男の子は誰ですか — 私のクラスメートです）",
+      "options": [
+        "What",
+        "Whose",
+        "Who",
+        "Which"
+      ],
+      "correct": 3,
+      "explanation": "「誰」を尋ねるときは Who を使います。What は「何」、Whose は「誰の」、Which は「どちら」を尋ねる疑問詞です。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ many students are in your class?（あなたのクラスには何人の生徒がいますか）",
+      "options": [
+        "What",
+        "Why",
+        "Who",
+        "How"
+      ],
+      "correct": 4,
+      "explanation": "「何人」という数を尋ねるときは How many + 複数名詞。How much は数えられないものの量を尋ねます。What many という形はありません。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ didn't you come to school yesterday?（なぜ昨日学校に来なかったのですか）",
+      "options": [
+        "When",
+        "Why",
+        "Where",
+        "How"
+      ],
+      "correct": 2,
+      "explanation": "「なぜ」理由を尋ねるときは Why を使います。When は「いつ」、Where は「どこ」、How は「どのように」を尋ねる疑問詞です。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ old is your grandfather?（あなたのおじいさんは何歳ですか）",
+      "options": [
+        "What",
+        "Which",
+        "How",
+        "Who"
+      ],
+      "correct": 3,
+      "explanation": "年齢を尋ねるときは How old ...? を使います。How + 形容詞/副詞で「どのくらい〜か」を表します。What old という形はありません。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ do you go to school? — By bus.（どうやって学校に行きますか — バスで行きます）",
+      "options": [
+        "What",
+        "How",
+        "Where",
+        "Why"
+      ],
+      "correct": 2,
+      "explanation": "手段・方法を尋ねるときは How を使います。By bus という答えも手段を表しています。What は「何」、Where は「どこ」、Why は「なぜ」です。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ bag is this? — It's mine.（これは誰のかばんですか — 私のです）",
+      "options": [
+        "Who",
+        "Which",
+        "Whose",
+        "What"
+      ],
+      "correct": 3,
+      "explanation": "「誰の」という所有を尋ねるときは Whose を使います。Whose bag ...? は「誰のかばん」。Who は「誰」（人を主語として聞く）、Which は「どちら」です。"
+    },
+    {
+      "chapter": "L15 疑問詞の疑問文【中2】",
+      "question_text": "___ much is this T-shirt?（このTシャツはいくらですか）",
+      "options": [
+        "What",
+        "How",
+        "How many",
+        "Which"
+      ],
+      "correct": 2,
+      "explanation": "値段を尋ねるときは How much ...? を使います。How many は可算名詞の数を尋ねます。What price ...? とも言えますが、How much が最も一般的な表現です。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "I wake up ___ six o'clock every morning.（私は毎朝6時に起きます）",
+      "options": [
+        "in",
+        "on",
+        "by",
+        "at"
+      ],
+      "correct": 4,
+      "explanation": "時刻の前には at を使います。at six o'clock。on は曜日・日付の前、in は月・年・季節の前に使います。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "My birthday is ___ March 15.（私の誕生日は3月15日です）",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "for"
+      ],
+      "correct": 3,
+      "explanation": "特定の日付の前には on を使います。on March 15。in は月・年・季節、at は時刻・特定の場所・短い期間に使います。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "We have a school festival ___ autumn.（私たちは秋に学校祭があります）",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "correct": 2,
+      "explanation": "季節・月・年などの前には in を使います。in autumn（秋に）。at は時刻、on は日付・曜日の前に使います。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "There is a convenience store ___ the corner.（角にコンビニがあります）",
+      "options": [
+        "in",
+        "on",
+        "for",
+        "at"
+      ],
+      "correct": 4,
+      "explanation": "「角」という特定の地点（ポイント）には at を使います。at the corner = 角のところに。on the corner も可（通りに面して）ですが、特定の地点として at が一般的です。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "Please put the book ___ the shelf.（本を棚に置いてください）",
+      "options": [
+        "at",
+        "in",
+        "to",
+        "on"
+      ],
+      "correct": 4,
+      "explanation": "表面に接して置かれているものには on を使います。on the shelf = 棚の上に（棚の表面に）。in は「〜の中に」、at は地点・場所、to は方向を表します。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "The cat is ___ the box.（猫は箱の中にいます）",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "by"
+      ],
+      "correct": 3,
+      "explanation": "「〜の中に」という場所を表すときは in を使います。in the box = 箱の中に。on は表面に接している場所、at は特定の地点を指します。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "I go to school ___ foot.（私は歩いて学校に行きます）",
+      "options": [
+        "by",
+        "in",
+        "with",
+        "on"
+      ],
+      "correct": 4,
+      "explanation": "on foot = 徒歩で（慣用表現）。by car/bus/train（交通手段の前は by）と違い、徒歩は on foot を使います。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "She studies English ___ Monday evenings.（彼女は毎週月曜の夜に英語を勉強します）",
+      "options": [
+        "in",
+        "at",
+        "for",
+        "on"
+      ],
+      "correct": 4,
+      "explanation": "曜日の前には on を使います。on Monday evenings = 月曜の夜に（毎週）。in は月・季節・年、at は時刻や特定の地点に使います。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "The train goes ___ the tunnel.（電車はトンネルを通り抜けます）",
+      "options": [
+        "through",
+        "in",
+        "at",
+        "on"
+      ],
+      "correct": 1,
+      "explanation": "「〜を通り抜けて」という方向・経路を表すときは through を使います。go through the tunnel = トンネルを通り抜ける。in は「中にいる状態」を表し、「通り抜ける動作」ではありません。"
+    },
+    {
+      "chapter": "L16 前置詞と名詞【中2】",
+      "question_text": "Ken was born ___ 2010.（ケンは2010年に生まれました）",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "correct": 2,
+      "explanation": "年（year）の前には in を使います。in 2010 = 2010年に。at は時刻や短い期間、on は日付・曜日の前に使います。"
+    }
+  ]
+}

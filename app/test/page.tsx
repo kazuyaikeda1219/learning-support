@@ -10,6 +10,7 @@ import { DEFAULT_SUBJECT } from '@/utils/subject';
 import {
   Book, ArrowRight, Loader2, Zap, GraduationCap, Headphones,
   Mic, BookOpen, ClipboardCheck, FolderOpen, ChevronDown, Globe,
+  Award, Target,
 } from 'lucide-react';
 
 // ── 大項目（ジャンル）ごとの見た目。未知のカテゴリはデフォルトにフォールバック ──
@@ -23,6 +24,8 @@ const CATEGORY_STYLE: Record<string, { icon: React.ReactNode; ring: string }> = 
   '読解':     { icon: <BookOpen />,       ring: 'text-violet-500 bg-violet-50' },
   'チェック':  { icon: <ClipboardCheck />, ring: 'text-purple-500 bg-purple-50' },
   '文化・知識 Japan FAQ': { icon: <Globe />, ring: 'text-teal-500 bg-teal-50' },
+  '英検':     { icon: <Award />,          ring: 'text-rose-500 bg-rose-50' },
+  'TOEIC':    { icon: <Target />,         ring: 'text-sky-500 bg-sky-50' },
 };
 const DEFAULT_STYLE = { icon: <FolderOpen />, ring: 'text-gray-500 bg-gray-100' };
 
@@ -55,18 +58,28 @@ export default function TestPortal() {
     const load = async () => {
       setLoading(true);
       const subject = getCurrentUser()?.subject ?? DEFAULT_SUBJECT;
-      const { data, error } = await supabase
-        .from('questions')
-        .select('category, book_name, chapter, q_type')
-        .eq('subject', subject);
 
-      if (error) {
-        console.error('【Supabase Error】questions 取得失敗:', error.message);
-        setLoading(false);
-        return;
+      // PostgREST は1リクエスト最大1000行。教材が増えて総数が1000を超えても
+      // 全件そろうよう range でページングして取得する（取りこぼし防止）。
+      const PAGE = 1000;
+      const all: any[] = [];
+      for (let from = 0; ; from += PAGE) {
+        const { data, error } = await supabase
+          .from('questions')
+          .select('category, book_name, chapter, q_type')
+          .eq('subject', subject)
+          .range(from, from + PAGE - 1);
+
+        if (error) {
+          console.error('【Supabase Error】questions 取得失敗:', error.message);
+          setLoading(false);
+          return;
+        }
+        all.push(...(data || []));
+        if (!data || data.length < PAGE) break;
       }
 
-      setRows((data || []).map((q: any) => ({
+      setRows(all.map((q: any) => ({
         category: q.category || '未分類',
         book_name: q.book_name || 'その他',
         chapter: q.chapter || '一般',

@@ -1,0 +1,1207 @@
+{
+  "subject": "en",
+  "category": "英検",
+  "book_name": "英検2級 単語",
+  "questions": [
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "The government must ___ the growing problem of income inequality before it gets worse.（政府は所得格差の拡大問題が悪化する前に取り組まなければならない）",
+      "options": [
+        "tangle",
+        "tackle",
+        "tamper",
+        "transfer"
+      ],
+      "correct": 2,
+      "explanation": "tackle=（問題に）取り組む。tackle a problem=問題に取り組む。tangle=絡まる、tamper=不正に手を加える、transfer=移す。"
+    },
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "There is a growing sense of ___ between the wealthy and the poor in urban areas.（都市部では富裕層と貧困層の間に高まる不平等感がある）",
+      "options": [
+        "instability",
+        "insecurity",
+        "inconsistency",
+        "inequality"
+      ],
+      "correct": 4,
+      "explanation": "inequality=不平等。income inequality=所得格差。instability=不安定、insecurity=不安感、inconsistency=矛盾。"
+    },
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "Many children living in ___ do not have access to proper education or healthcare.（貧困の中に生きる多くの子どもたちは適切な教育や医療を受けられない）",
+      "options": [
+        "pursuit",
+        "poverty",
+        "privacy",
+        "prosperity"
+      ],
+      "correct": 2,
+      "explanation": "poverty=貧困。live in poverty=貧困の中に暮らす。pursuit=追求、privacy=プライバシー、prosperity=繁栄。"
+    },
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "Everyone has an ___ to obey the laws of the country they live in.（誰でも自分が住む国の法律に従う義務がある）",
+      "options": [
+        "ambition",
+        "operation",
+        "obligation",
+        "objection"
+      ],
+      "correct": 3,
+      "explanation": "obligation=義務。have an obligation to do=〜する義務がある。ambition=野心、operation=操作・手術、objection=異議。"
+    },
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "Racial ___ against minorities remains a serious social issue in many countries.（少数民族への人種的偏見は多くの国で深刻な社会問題として残っている）",
+      "options": [
+        "propaganda",
+        "prejudice",
+        "preference",
+        "procedure"
+      ],
+      "correct": 2,
+      "explanation": "prejudice=偏見。racial prejudice=人種的偏見。propaganda=宣伝活動、preference=好み、procedure=手順。"
+    },
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "The ___ of the new policy on local communities will be studied over the next five years.（新政策の地域社会への影響は今後5年間にわたって調査される）",
+      "options": [
+        "atmosphere",
+        "consequence",
+        "confidence",
+        "convenience"
+      ],
+      "correct": 3,
+      "explanation": "consequence=結果・影響。the consequence of a policy=政策の結果。atmosphere=雰囲気、confidence=自信、convenience=便利さ。"
+    },
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "Access to quality education is often seen as a ___ enjoyed mostly by the wealthy.（質の高い教育を受けることは、裕福な人々だけが享受できる特権と見なされることが多い）",
+      "options": [
+        "profession",
+        "provision",
+        "privilege",
+        "principal"
+      ],
+      "correct": 1,
+      "explanation": "privilege=特権・恵まれた立場。enjoy a privilege=特権を享受する。provision=規定・供給、principal=校長・主要な、profession=職業。"
+    },
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "The proposal to shorten working hours sparked a great deal of ___ among politicians.（労働時間短縮の提案は政界に大きな論争を引き起こした）",
+      "options": [
+        "controversy",
+        "conversion",
+        "convention",
+        "conviction"
+      ],
+      "correct": 3,
+      "explanation": "controversy=論争・議論。spark a controversy=論争を引き起こす。convention=慣例・大会、conversion=変換、conviction=確信・有罪判決。"
+    },
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "Support services for ___ of domestic violence have been expanded across the country.（家庭内暴力の被害者に対する支援サービスが全国で拡充されてきた）",
+      "options": [
+        "versions",
+        "visitors",
+        "veterans",
+        "victims"
+      ],
+      "correct": 4,
+      "explanation": "victim=被害者。victim of violence=暴力の被害者。version=版、visitor=訪問者、veteran=退役軍人・ベテラン。"
+    },
+    {
+      "chapter": "英検2級 単語 ① 社会・社会問題",
+      "question_text": "The government announced a major ___ of the healthcare system to improve services for elderly people.（政府は高齢者向けサービスを改善するため、医療制度の大規模な改革を発表した）",
+      "options": [
+        "reform",
+        "relief",
+        "refund",
+        "regard"
+      ],
+      "correct": 1,
+      "explanation": "reform=改革。announce a reform=改革を発表する。relief=安堵・救済、refund=払い戻し、regard=考慮・敬意。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "Scientists are working to ___ the cause of the strange phenomenon observed in the ocean.（科学者たちは海で観察された奇妙な現象の原因を調査しようとしている）",
+      "options": [
+        "illustrate",
+        "illuminate",
+        "investigate",
+        "indicate"
+      ],
+      "correct": 3,
+      "explanation": "investigate=調査する。investigate the cause=原因を調査する。illustrate=説明する・描く、illuminate=照らす、indicate=示す。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "The researcher proposed a new ___ to explain why birds migrate south in winter.（研究者は鳥が冬に南に渡る理由を説明する新しい仮説を提唱した）",
+      "options": [
+        "heritage",
+        "hierarchy",
+        "hypothesis",
+        "headline"
+      ],
+      "correct": 3,
+      "explanation": "hypothesis=仮説。propose a hypothesis=仮説を提唱する。heritage=文化遺産、hierarchy=階層、headline=見出し。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "The development of AI is expected to ___ economic growth in many industries over the next decade.（AIの発展は今後10年間で多くの産業における経済成長を加速させると期待されている）",
+      "options": [
+        "anticipate",
+        "accelerate",
+        "accumulate",
+        "allocate"
+      ],
+      "correct": 2,
+      "explanation": "accelerate=加速する。accelerate growth=成長を加速させる。anticipate=予期する、accumulate=蓄積する、allocate=割り当てる。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "The northern lights are a natural ___ that attracts tourists from around the world.（オーロラは世界中から観光客を引き寄せる自然現象だ）",
+      "options": [
+        "maintenance",
+        "measurement",
+        "phenomenon",
+        "mechanism"
+      ],
+      "correct": 1,
+      "explanation": "phenomenon=現象（複数形はphenomena）。a natural phenomenon=自然現象。measurement=測定、mechanism=仕組み、maintenance=維持管理。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "Species ___ over millions of years in response to changes in their environment.（種は環境の変化に応じて何百万年もかけて進化する）",
+      "options": [
+        "extend",
+        "evolve",
+        "exclude",
+        "exhaust"
+      ],
+      "correct": 2,
+      "explanation": "evolve=進化する。species evolve=種が進化する。extend=延ばす、exclude=除く、exhaust=消耗させる。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "Recent advances in ___ engineering have made it possible to treat some inherited diseases.（遺伝子工学の最近の進歩により、いくつかの遺伝性疾患を治療できるようになった）",
+      "options": [
+        "global",
+        "genetic",
+        "graphic",
+        "gradual"
+      ],
+      "correct": 2,
+      "explanation": "genetic=遺伝子の。genetic engineering=遺伝子工学。global=世界規模の、graphic=グラフィックの、gradual=徐々の。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "People living near the nuclear plant were exposed to high levels of ___.（原子力発電所の近くに住む人々は高レベルの放射線を浴びた）",
+      "options": [
+        "radiation",
+        "rotation",
+        "reduction",
+        "reaction"
+      ],
+      "correct": 4,
+      "explanation": "radiation=放射線・放射能。exposure to radiation=放射線被曝。rotation=回転、reduction=削減、reaction=反応。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "Researchers developed an ___ method of producing energy that uses far less fuel.（研究者たちははるかに少ない燃料で電力を生産する効率的な方法を開発した）",
+      "options": [
+        "effective",
+        "eligible",
+        "efficient",
+        "elaborate"
+      ],
+      "correct": 3,
+      "explanation": "efficient=効率的な。an efficient method=効率的な方法。effective=効果的な（目的を達成するという意味が強い）、eligible=資格のある、elaborate=精巧な。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "Scientists have created an ___ intelligence system that can write poetry and compose music.（科学者たちは詩を書き、音楽を作ることができる人工知能システムを作り出した）",
+      "options": [
+        "alternative",
+        "accurate",
+        "adequate",
+        "artificial"
+      ],
+      "correct": 4,
+      "explanation": "artificial=人工の。artificial intelligence=人工知能（AI）。alternative=代替の、accurate=正確な、adequate=十分な。"
+    },
+    {
+      "chapter": "英検2級 単語 ② 科学・技術",
+      "question_text": "The lab technician examined the bacteria under a ___ to identify the species.（実験室の技術者は種を特定するために顕微鏡で細菌を調べた）",
+      "options": [
+        "microwave",
+        "microscope",
+        "microphone",
+        "micrometer"
+      ],
+      "correct": 2,
+      "explanation": "microscope=顕微鏡。examine under a microscope=顕微鏡で調べる。microwave=電子レンジ・マイクロ波、microphone=マイク、micrometer=マイクロメーター。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "In Japan, elementary education is ___, meaning all children must attend school.（日本では初等教育は義務制で、すべての子どもが通学しなければならない）",
+      "options": [
+        "compulsory",
+        "comparable",
+        "competitive",
+        "comprehensive"
+      ],
+      "correct": 1,
+      "explanation": "compulsory=義務の・強制的な。compulsory education=義務教育。comparable=匹敵する、competitive=競争的な、comprehensive=包括的な。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "The professor ___ the students to think critically about the issues raised in the text.（教授は学生たちにテキストで提起された問題について批判的に考えるよう促した）",
+      "options": [
+        "suspected",
+        "supplied",
+        "stimulated",
+        "supervised"
+      ],
+      "correct": 3,
+      "explanation": "stimulated=刺激した・促した。stimulate A to think=Aが考えるよう刺激する。suspected=疑った、supplied=供給した、supervised=監督した。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "A strong ___ in mathematics is necessary before moving on to advanced topics.（高度なトピックに進む前に数学の強固な基礎知識が必要だ）",
+      "options": [
+        "foundation",
+        "formula",
+        "formation",
+        "fortune"
+      ],
+      "correct": 2,
+      "explanation": "foundation=基礎・土台。a solid foundation in=〜の確固たる基礎。formation=形成、fortune=財産・運、formula=公式・方式。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "The new educational ___ places more emphasis on practical skills than on memorization.（新しい教育課程は記憶よりも実用的なスキルをより重視している）",
+      "options": [
+        "curriculum",
+        "calendar",
+        "catalog",
+        "criteria"
+      ],
+      "correct": 1,
+      "explanation": "curriculum=教育課程・カリキュラム。a school curriculum=学校の教育課程。calendar=カレンダー、catalog=カタログ、criteria=基準（complexの複数形）。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "The scientist gave a lecture to ___ how the vaccine was developed to the public.（その科学者はワクチンがどのように開発されたかを一般に示すための講義を行った）",
+      "options": [
+        "demonstrate",
+        "deliberate",
+        "designate",
+        "deteriorate"
+      ],
+      "correct": 4,
+      "explanation": "demonstrate=実演して示す。demonstrate how=どのように〜するかを示す。deteriorate=悪化する、deliberate=熟考する、designate=指定する。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "The school library gives students ___ to a wide range of digital and printed resources.（学校図書館は生徒たちに幅広いデジタル・印刷資料へのアクセスを提供している）",
+      "options": [
+        "account",
+        "access",
+        "aspect",
+        "action"
+      ],
+      "correct": 2,
+      "explanation": "access=アクセス・利用する手段。give access to=〜へのアクセスを与える。account=口座・説明、aspect=側面、action=行動。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "Teachers should ___ students by showing them the practical value of what they are learning.（教師は学んでいることの実用的な価値を示すことで生徒のやる気を引き出すべきだ）",
+      "options": [
+        "manipulate",
+        "moderate",
+        "monitor",
+        "motivate"
+      ],
+      "correct": 4,
+      "explanation": "motivate=動機づける・やる気にさせる。motivate students=生徒のやる気を引き出す。manipulate=操る、moderate=和らげる、monitor=監視する。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "The ability to ___ information from multiple sources is an important skill in the digital age.（複数の情報源から情報を評価・判断する能力はデジタル時代における重要なスキルだ）",
+      "options": [
+        "evaluate",
+        "eliminate",
+        "escalate",
+        "elaborate"
+      ],
+      "correct": 2,
+      "explanation": "evaluate=評価する・判断する。evaluate information=情報を評価する。escalate=エスカレートする、elaborate=精巧にする・詳述する、eliminate=排除する。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "The professor was well known for her ___ approach to teaching, which connected theory to real-world issues.（その教授は理論を現実の問題に結びつける知的なアプローチで有名だった）",
+      "options": [
+        "intellectual",
+        "influential",
+        "interactive",
+        "informative"
+      ],
+      "correct": 1,
+      "explanation": "intellectual=知的な。an intellectual approach=知的なアプローチ。influential=影響力のある、interactive=双方向の、informative=有益な。"
+    },
+    {
+      "chapter": "英検2級 単語 ③ 教育・学問",
+      "question_text": "Students who are ___ of learning independently tend to achieve higher academic results.（自立して学ぶことができる生徒は学業成績が高い傾向がある）",
+      "options": [
+        "capable",
+        "cautious",
+        "careful",
+        "casual"
+      ],
+      "correct": 3,
+      "explanation": "capable（of）=〜できる能力がある。be capable of learning independently=自主的に学べる。careful=注意深い、cautious=慎重な、casual=気軽な。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "The two companies began to ___ the terms of the new contract last month.（2社は先月、新契約の条件について交渉を始めた）",
+      "options": [
+        "negotiate",
+        "navigate",
+        "nominate",
+        "normalize"
+      ],
+      "correct": 1,
+      "explanation": "negotiate=交渉する。negotiate the terms=条件を交渉する。navigate=進む・操る、nominate=指名する、normalize=正常化する。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "The company developed a new marketing ___ to attract younger customers.（同社は若い顧客を引き付けるための新しいマーケティング戦略を開発した）",
+      "options": [
+        "strategy",
+        "standard",
+        "storage",
+        "strength"
+      ],
+      "correct": 1,
+      "explanation": "strategy=戦略。develop a marketing strategy=マーケティング戦略を開発する。standard=基準、storage=保管、strength=強さ。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "The company's annual ___ from online sales exceeded two billion dollars last year.（その会社の昨年のオンライン販売による年間収益は20億ドルを超えた）",
+      "options": [
+        "requirement",
+        "reminder",
+        "resolve",
+        "revenue"
+      ],
+      "correct": 4,
+      "explanation": "revenue=収益・歳入。annual revenue=年間収益。requirement=要件、reminder=リマインダー・催促、resolve=解決する。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "Currency exchange rates tend to ___ based on economic conditions and political events.（為替レートは経済状況や政治的出来事によって変動する傾向がある）",
+      "options": [
+        "fulfil",
+        "fluctuate",
+        "facilitate",
+        "formulate"
+      ],
+      "correct": 2,
+      "explanation": "fluctuate=変動する・上下する。rates fluctuate=レートが変動する。fulfil=満たす、facilitate=促進する、formulate=策定する。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "To stay ___, businesses must constantly improve their products and reduce costs.（競争力を維持するために、企業は絶えず製品を改善し、コストを削減しなければならない）",
+      "options": [
+        "conservative",
+        "constructive",
+        "competitive",
+        "considerate"
+      ],
+      "correct": 2,
+      "explanation": "competitive=競争力のある。stay competitive=競争力を維持する。conservative=保守的な、considerate=思いやりのある、constructive=建設的な。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "The startup aims to ___ profits by cutting unnecessary costs and improving efficiency.（そのスタートアップは不要なコストを削減し効率を上げることで利益を最大化することを目指している）",
+      "options": [
+        "manipulate",
+        "maintain",
+        "maximize",
+        "manifest"
+      ],
+      "correct": 1,
+      "explanation": "maximize=最大化する。maximize profits=利益を最大化する。maintain=維持する、manipulate=操作する、manifest=明示する。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "The bank processes millions of financial ___ every day through its online platform.（銀行はオンラインプラットフォームを通じて毎日何百万件もの金融取引を処理する）",
+      "options": [
+        "impressions",
+        "interactions",
+        "transactions",
+        "transformations"
+      ],
+      "correct": 3,
+      "explanation": "transactions=取引。financial transactions=金融取引。impressions=印象、interactions=相互作用・交流、transformations=変容。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "The two rival firms decided to ___ on a joint research project instead of competing.（2つのライバル企業は競争する代わりに共同研究プロジェクトで協力することにした）",
+      "options": [
+        "collapse",
+        "confront",
+        "comment",
+        "collaborate"
+      ],
+      "correct": 3,
+      "explanation": "collaborate=協力する・共同作業する。collaborate on a project=プロジェクトで協力する。collapse=崩壊する、confront=直面する、comment=論評する。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "Consumer spending ___ sharply during the economic recession, causing many businesses to close.（景気後退中に消費者支出が急激に落ち込み、多くの企業が閉鎖した）",
+      "options": [
+        "distributed",
+        "declined",
+        "demanded",
+        "doubled"
+      ],
+      "correct": 2,
+      "explanation": "declined=落ち込んだ・減少した。consumer spending declined=消費者支出が減少した。distributed=分配した、demanded=要求した、doubled=2倍になった。"
+    },
+    {
+      "chapter": "英検2級 単語 ④ ビジネス・経済",
+      "question_text": "The government introduced new regulations to ___ the financial market and prevent fraud.（政府は金融市場を規制し、詐欺を防ぐための新しい規制を導入した）",
+      "options": [
+        "operate",
+        "overcome",
+        "overlook",
+        "oversee"
+      ],
+      "correct": 4,
+      "explanation": "oversee=監督する・統括する。oversee the financial market=金融市場を監督する。operate=運営する、overcome=乗り越える、overlook=見落とす・見渡す。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "The old castle is an important part of the national ___ that should be protected for future generations.（その古い城は将来の世代のために守られるべき国の重要な文化遺産の一部だ）",
+      "options": [
+        "harvest",
+        "highway",
+        "humidity",
+        "heritage"
+      ],
+      "correct": 4,
+      "explanation": "heritage=文化遺産。national heritage=国の遺産。harvest=収穫、highway=幹線道路、humidity=湿度。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "The annual music festival ___ the rich cultural traditions of the indigenous people.（毎年の音楽祭は先住民族の豊かな文化的伝統を象徴している）",
+      "options": [
+        "specifies",
+        "stabilizes",
+        "stimulates",
+        "symbolizes"
+      ],
+      "correct": 4,
+      "explanation": "symbolizes=象徴する。symbolize traditions=伝統を象徴する。specifies=明記する、stabilizes=安定させる、stimulates=刺激する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "The city is known for its ___ population, with residents from over eighty different countries.（その都市は80か国以上からの住民が集まる多様な人口で知られている）",
+      "options": [
+        "dominant",
+        "diverse",
+        "devoted",
+        "dramatic"
+      ],
+      "correct": 2,
+      "explanation": "diverse=多様な。a diverse population=多様な人口構成。dominant=支配的な、devoted=献身的な、dramatic=劇的な。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "Art critics often ___ a painting differently depending on their cultural background.（美術批評家は文化的背景によって絵画を異なる方法で解釈することが多い）",
+      "options": [
+        "interpret",
+        "interfere",
+        "interrupt",
+        "intervene"
+      ],
+      "correct": 3,
+      "explanation": "interpret=解釈する。interpret a painting=絵画を解釈する。interfere=干渉する、intervene=介入する、interrupt=遮る。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "The young artist was greatly ___ by the works of Renaissance painters she saw in Florence.（若い芸術家はフィレンツェで見たルネサンスの画家たちの作品に大いに刺激を受けた）",
+      "options": [
+        "isolated",
+        "inherited",
+        "intended",
+        "inspired"
+      ],
+      "correct": 4,
+      "explanation": "inspired=刺激を受けた・インスパイアされた。be inspired by=〜に刺激を受ける。isolated=孤立した、inherited=受け継いだ、intended=意図した。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "The novelist ___ her book to her late grandmother, who first sparked her love of reading.（小説家は彼女に読書への愛を最初に芽生えさせた亡き祖母に本を捧げた）",
+      "options": [
+        "donated",
+        "distributed",
+        "dedicated",
+        "demanded"
+      ],
+      "correct": 3,
+      "explanation": "dedicated=捧げた。dedicate a book to=本を〜に捧げる。donated=寄付した、distributed=配布した、demanded=要求した。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "The museum will ___ a collection of photographs documenting daily life in the 1960s.（美術館は1960年代の日常生活を記録した写真のコレクションを展示する予定だ）",
+      "options": [
+        "expand",
+        "exhaust",
+        "exhibit",
+        "exclude"
+      ],
+      "correct": 3,
+      "explanation": "exhibit=展示する。exhibit a collection=コレクションを展示する。expand=拡大する、exhaust=消耗させる、exclude=排除する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "The film features a ___ style of storytelling that blends traditional folklore with modern themes.（その映画は伝統的な民話と現代的なテーマを融合させた独特の語り方のスタイルをもつ）",
+      "options": [
+        "uncertain",
+        "universal",
+        "unique",
+        "urban"
+      ],
+      "correct": 3,
+      "explanation": "unique=独特の・唯一の。a unique style=独特のスタイル。uncertain=不確かな、universal=普遍的な、urban=都市の。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "The painting ___ the daily struggles of farmers living in poverty in the early twentieth century.（その絵画は20世紀初頭に貧困の中で生きる農民たちの日常の苦労を描いている）",
+      "options": [
+        "perceives",
+        "prevents",
+        "portrays",
+        "presents"
+      ],
+      "correct": 3,
+      "explanation": "portrays=描く・表現する。portray the struggles=苦労を描く。perceives=知覚する、prevents=防ぐ、presents=提示する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑤ 文化・芸術",
+      "question_text": "Many young people are attracted to ___ art forms such as digital art and street photography.（多くの若者はデジタルアートやストリート写真といった現代的な芸術形式に惹かれている）",
+      "options": [
+        "continent",
+        "content",
+        "convenient",
+        "contemporary"
+      ],
+      "correct": 3,
+      "explanation": "contemporary=現代の・同時代の。contemporary art=現代芸術。continent=大陸、content=内容、convenient=便利な。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "Reducing carbon ___ from factories and vehicles is essential to slowing down climate change.（工場や車からの炭素排出量を削減することが気候変動を遅らせるために不可欠だ）",
+      "options": [
+        "erosion",
+        "emission",
+        "extension",
+        "exception"
+      ],
+      "correct": 2,
+      "explanation": "emission=排出（量）。carbon emissions=炭素排出量。erosion=侵食、extension=延長、exception=例外。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "The country has set a goal of using only ___ energy sources such as wind and solar power by 2050.（その国は2050年までに風力や太陽光などの再生可能エネルギー源のみを使うという目標を設定した）",
+      "options": [
+        "removable",
+        "remarkable",
+        "reliable",
+        "renewable"
+      ],
+      "correct": 4,
+      "explanation": "renewable=再生可能な。renewable energy=再生可能エネルギー。removable=取り外し可能な、remarkable=注目すべき、reliable=信頼できる。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "Industrial waste has ___ several rivers in the region, making the water unsafe to drink.（産業廃棄物がその地域のいくつかの川を汚染し、水が飲料に適さない状態にした）",
+      "options": [
+        "constructed",
+        "contaminated",
+        "concentrated",
+        "contributed"
+      ],
+      "correct": 2,
+      "explanation": "contaminated=汚染した。contaminate rivers=川を汚染する。constructed=建設した、concentrated=集中した、contributed=貢献した。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "Scientists warn that continued deforestation may lead to an environmental ___ within this century.（科学者たちは継続的な森林破壊が今世紀中に環境大惨事につながる可能性があると警告している）",
+      "options": [
+        "catastrophe",
+        "calculation",
+        "celebration",
+        "circulation"
+      ],
+      "correct": 3,
+      "explanation": "catastrophe=大惨事・壊滅的な出来事。an environmental catastrophe=環境の大惨事。calculation=計算、circulation=循環、celebration=祝典。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "Governments need to ___ the amount of plastic packaging that companies are allowed to use.（政府は企業が使用を認められるプラスチック包装の量を規制する必要がある）",
+      "options": [
+        "relocate",
+        "regulate",
+        "represent",
+        "recognize"
+      ],
+      "correct": 2,
+      "explanation": "regulate=規制する。regulate the amount=量を規制する。relocate=移転する、represent=代表する、recognize=認識する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "Overuse of groundwater has caused natural water resources to ___ in many parts of the world.（地下水の過剰使用により、世界の多くの地域で天然水資源が枯渇している）",
+      "options": [
+        "deposit",
+        "deplete",
+        "decrease",
+        "derive"
+      ],
+      "correct": 2,
+      "explanation": "deplete=枯渇させる。water resources are depleted=水資源が枯渇する。deposit=蓄積する、decrease=減少する（より一般的）、derive=引き出す。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "The organization is promoting ___ farming methods that protect the environment for future generations.（その団体は将来の世代のために環境を守る持続可能な農業方法を推進している）",
+      "options": [
+        "sufficient",
+        "substantial",
+        "suspicious",
+        "sustainable"
+      ],
+      "correct": 1,
+      "explanation": "sustainable=持続可能な。sustainable farming=持続可能な農業。substantial=かなりの・実質的な、suspicious=疑わしい、sufficient=十分な。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "The tropical rainforest serves as the lungs of the Earth by ___ vast amounts of carbon dioxide.（熱帯雨林は膨大な量の二酸化炭素を吸収することで地球の肺の役割を果たしている）",
+      "options": [
+        "approving",
+        "abandoning",
+        "achieving",
+        "absorbing"
+      ],
+      "correct": 4,
+      "explanation": "absorbing=吸収する。absorb carbon dioxide=二酸化炭素を吸収する。approving=承認する、abandoning=放棄する、achieving=達成する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "Heavy use of chemical fertilizers has made farmland less ___ over time.（化学肥料の過度な使用が農地を時間とともに不毛にしてきた）",
+      "options": [
+        "federal",
+        "feasible",
+        "fierce",
+        "fertile"
+      ],
+      "correct": 4,
+      "explanation": "fertile=肥沃な。fertile farmland=肥沃な農地。federal=連邦の、feasible=実現可能な、fierce=激しい。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑥ 環境・エネルギー",
+      "question_text": "Air pollution is particularly ___ in densely populated cities with heavy traffic.（大気汚染は交通量の多い人口密集都市で特に深刻だ）",
+      "options": [
+        "severe",
+        "senior",
+        "serial",
+        "secure"
+      ],
+      "correct": 3,
+      "explanation": "severe=深刻な・激しい。severe pollution=深刻な汚染。senior=年上の・上級の、serial=連続の、secure=安全な。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "The doctor was able to ___ the disease early, which greatly improved the patient's chance of recovery.（医師は病気を早期に診断でき、それが患者の回復の可能性を大きく高めた）",
+      "options": [
+        "diagnose",
+        "discount",
+        "disrupt",
+        "dispute"
+      ],
+      "correct": 1,
+      "explanation": "diagnose=診断する。diagnose a disease early=病気を早期に診断する。discount=値引きする、disrupt=混乱させる、dispute=議論する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "The patient was given a ___ for antibiotics after being diagnosed with a bacterial infection.（患者は細菌感染症と診断された後、抗生物質の処方箋を受け取った）",
+      "options": [
+        "prescription",
+        "persecution",
+        "participation",
+        "perception"
+      ],
+      "correct": 4,
+      "explanation": "prescription=処方箋・処方薬。give a prescription for=〜の処方箋を出す。perception=知覚、persecution=迫害、participation=参加。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "He has ___ back pain that requires regular physiotherapy to manage.（彼は慢性的な腰痛を抱えており、管理のために定期的な理学療法が必要だ）",
+      "options": [
+        "creative",
+        "chronic",
+        "critical",
+        "criminal"
+      ],
+      "correct": 2,
+      "explanation": "chronic=慢性的な。chronic pain=慢性的な痛み。creative=創造的な、critical=批判的な・重大な、criminal=犯罪の。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "After the surgery, he went through six months of ___ to recover full movement in his knee.（手術後、彼は膝の完全な動きを回復するために6か月のリハビリを行った）",
+      "options": [
+        "restriction",
+        "rehabilitation",
+        "recognition",
+        "regulation"
+      ],
+      "correct": 2,
+      "explanation": "rehabilitation=リハビリテーション。go through rehabilitation=リハビリを受ける。restriction=制限、recognition=認識・表彰、regulation=規制。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "Cognitive behavioral ___ is a common treatment for anxiety and depression.（認知行動療法は不安や抑うつに対する一般的な治療法だ）",
+      "options": [
+        "therapy",
+        "theory",
+        "theology",
+        "territory"
+      ],
+      "correct": 1,
+      "explanation": "therapy=療法・治療。cognitive behavioral therapy（CBT）=認知行動療法。theory=理論、theology=神学、territory=領域。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "The flu ___ was developed to match the most common strains expected each winter season.（インフルエンザワクチンは毎冬に予想される最も一般的な株に合わせて開発された）",
+      "options": [
+        "vitamin",
+        "verdict",
+        "venture",
+        "vaccine"
+      ],
+      "correct": 4,
+      "explanation": "vaccine=ワクチン。develop a vaccine=ワクチンを開発する。vitamin=ビタミン、verdict=評決・判断、venture=冒険的な事業。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "Health authorities are concerned about the ___ spread of a new respiratory virus.（保健当局は新しい呼吸器系ウイルスの感染性の広がりを懸念している）",
+      "options": [
+        "informative",
+        "infectious",
+        "innovative",
+        "intensive"
+      ],
+      "correct": 3,
+      "explanation": "infectious=感染性の。infectious disease=感染症。informative=有益な、innovative=革新的な、intensive=集中的な。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "Childhood ___ is a growing public health problem linked to poor diet and lack of physical activity.（小児肥満は不健康な食事と運動不足に関連した増大する公衆衛生の問題だ）",
+      "options": [
+        "obesity",
+        "anxiety",
+        "accuracy",
+        "ambiguity"
+      ],
+      "correct": 4,
+      "explanation": "obesity=肥満。childhood obesity=小児肥満。anxiety=不安、accuracy=正確さ、ambiguity=あいまいさ。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "Good ___ during pregnancy is crucial for the healthy development of the baby.（妊娠中の適切な栄養は赤ちゃんの健全な発育に欠かせない）",
+      "options": [
+        "narration",
+        "nomination",
+        "navigation",
+        "nutrition"
+      ],
+      "correct": 4,
+      "explanation": "nutrition=栄養（摂取）。good nutrition=適切な栄養。narration=語り、nomination=指名、navigation=航行。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑦ 医療・健康",
+      "question_text": "She ___ from the rare blood disorder after receiving a bone marrow transplant.（彼女は骨髄移植を受けた後、その稀な血液疾患から回復した）",
+      "options": [
+        "returned",
+        "recovered",
+        "received",
+        "resolved"
+      ],
+      "correct": 4,
+      "explanation": "recovered（from）=〜から回復した。recover from a disorder=疾患から回復する。returned=戻った、resolved=解決した、received=受け取った。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "She felt ___ before the presentation, fearing that she might forget what she had prepared.（彼女はプレゼン前に不安を感じ、準備したことを忘れてしまうかもしれないと心配していた）",
+      "options": [
+        "astonished",
+        "arrogant",
+        "anxious",
+        "amused"
+      ],
+      "correct": 3,
+      "explanation": "anxious=不安な・心配している。feel anxious before=〜の前に不安を感じる。astonished=驚いた、arrogant=傲慢な、amused=楽しんでいる。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "His constant ___ with the project made it hard for him to accept any criticism from his team.（プロジェクトへの彼のこだわりが、チームからの批判を受け入れることを難しくした）",
+      "options": [
+        "obsession",
+        "objection",
+        "occupation",
+        "obligation"
+      ],
+      "correct": 1,
+      "explanation": "obsession=強迫的なこだわり。obsession with a project=プロジェクトへの執着。objection=異議、occupation=職業・占領、obligation=義務。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "After failing the exam twice, she felt great ___ and considered giving up on her dream.（試験に2度失敗した後、彼女は大きな挫折感を覚え、夢を諦めることを考えた）",
+      "options": [
+        "fluctuation",
+        "frustration",
+        "fascination",
+        "fabrication"
+      ],
+      "correct": 1,
+      "explanation": "frustration=欲求不満・挫折感。feel frustration=挫折感を覚える。fascination=魅力、fluctuation=変動、fabrication=捏造。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "People often ___ their own feelings differently from the way others do.（人々は自分自身の感情を他者とは異なる方法で認識することが多い）",
+      "options": [
+        "preserve",
+        "perform",
+        "perceive",
+        "persuade"
+      ],
+      "correct": 3,
+      "explanation": "perceive=認識する・知覚する。perceive one's feelings=自分の感情を認識する。preserve=保存する、perform=実行する、persuade=説得する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "The counselor encouraged students to build ___ by learning from difficult experiences rather than avoiding them.（カウンセラーは生徒たちに、困難な経験を避けるのではなく、そこから学ぶことで精神的回復力を築くよう促した）",
+      "options": [
+        "resilience",
+        "resistance",
+        "resentment",
+        "resemblance"
+      ],
+      "correct": 1,
+      "explanation": "resilience=回復力・レジリエンス。build resilience=回復力を養う。resistance=抵抗、resentment=憤り、resemblance=類似。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "A person who lacks ___ may struggle to understand why others feel hurt by their words.（共感力を欠く人は、自分の言葉がなぜ他者を傷つけるのかを理解するのに苦労するかもしれない）",
+      "options": [
+        "encounter",
+        "empathy",
+        "empire",
+        "emphasis"
+      ],
+      "correct": 1,
+      "explanation": "empathy=共感力・感情移入。lack empathy=共感力を欠く。empire=帝国、emphasis=強調、encounter=出会い。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "Long working hours and constant pressure can cause employees to feel completely ___.（長時間労働と絶え間ないプレッシャーにより、従業員が完全に燃え尽きてしまうことがある）",
+      "options": [
+        "broken",
+        "bored",
+        "burned out",
+        "backed up"
+      ],
+      "correct": 3,
+      "explanation": "burned out=燃え尽きた・疲弊した。feel burned out=燃え尽き症候群になる。broken=壊れた、bored=退屈した、backed up=詰まった。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "After years of feeling ___ from society, she finally found a community that accepted her.（何年もの間、社会から孤立していると感じた後、彼女はついに自分を受け入れてくれるコミュニティを見つけた）",
+      "options": [
+        "illustrated",
+        "inspired",
+        "informed",
+        "isolated"
+      ],
+      "correct": 4,
+      "explanation": "isolated=孤立した。feel isolated from society=社会から孤立していると感じる。illustrated=描かれた、inspired=鼓舞された、informed=知らされた。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "Children from unstable home environments may be more ___ to emotional problems later in life.（不安定な家庭環境の子どもは後の人生で精神的な問題を抱えやすい）",
+      "options": [
+        "voluntary",
+        "vulnerable",
+        "variable",
+        "virtuous"
+      ],
+      "correct": 1,
+      "explanation": "vulnerable=傷つきやすい・影響を受けやすい。vulnerable to emotional problems=精神的問題を抱えやすい。voluntary=自発的な、variable=変わりやすい、virtuous=高潔な。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑧ 心理・感情",
+      "question_text": "It takes great courage to ___ one's own mistakes in public rather than making excuses.（言い訳をするのではなく、自分の過ちを公の場で認めるのには大きな勇気が必要だ）",
+      "options": [
+        "account",
+        "acquire",
+        "achieve",
+        "acknowledge"
+      ],
+      "correct": 2,
+      "explanation": "acknowledge=認める。acknowledge one's mistakes=自分の過ちを認める。account=説明する、achieve=達成する、acquire=習得する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "The citizens of the nation voted to ___ their country's constitution for the first time in fifty years.（国民は50年ぶりに国の憲法を改正するための投票を行った）",
+      "options": [
+        "amend",
+        "attempt",
+        "attend",
+        "assign"
+      ],
+      "correct": 1,
+      "explanation": "amend=改正する・修正する。amend the constitution=憲法を改正する。attempt=試みる、attend=出席する、assign=割り当てる。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "The two nations signed a peace ___ that officially ended twenty years of armed conflict.（2か国は20年に及ぶ武力紛争を公式に終結させる平和条約に調印した）",
+      "options": [
+        "trial",
+        "treaty",
+        "triumph",
+        "tribute"
+      ],
+      "correct": 2,
+      "explanation": "treaty=条約。sign a peace treaty=平和条約に調印する。trial=裁判・試み、triumph=勝利・大成功、tribute=称賛・貢ぎ物。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "The parliament passed new ___ to restrict the use of social media by children under twelve.（議会は12歳未満の子どものソーシャルメディア利用を制限する新しい法律を可決した）",
+      "options": [
+        "logistics",
+        "legislation",
+        "legitimacy",
+        "liberation"
+      ],
+      "correct": 3,
+      "explanation": "legislation=法律・立法。pass legislation=法律を可決する。logistics=兵站・物流、legitimacy=正当性、liberation=解放。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "The economic ___ imposed on the country had a significant impact on its trade and daily life.（その国に課された経済制裁は貿易と日常生活に大きな影響を与えた）",
+      "options": [
+        "sections",
+        "sessions",
+        "stations",
+        "sanctions"
+      ],
+      "correct": 4,
+      "explanation": "sanctions=制裁。economic sanctions=経済制裁。sections=節・区画、sessions=会期・セッション、stations=駅・ポスト。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "The UN urged the two countries to reach a ___ and avoid further military confrontation.（国連は2か国が妥協に達し、それ以上の軍事的衝突を避けるよう促した）",
+      "options": [
+        "compliment",
+        "confidence",
+        "combination",
+        "compromise"
+      ],
+      "correct": 4,
+      "explanation": "compromise=妥協・折り合い。reach a compromise=妥協に至る。compliment=褒め言葉、confidence=自信、combination=組み合わせ。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "Freedom of speech is considered a fundamental ___ in most democratic societies.（言論の自由はほとんどの民主主義社会で基本的権利と見なされている）",
+      "options": [
+        "right",
+        "ritual",
+        "route",
+        "ratio"
+      ],
+      "correct": 1,
+      "explanation": "right=権利。a fundamental right=基本的権利。ritual=儀式、route=路線・経路、ratio=比率。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "The new government promised to ___ the rights of all citizens regardless of race or religion.（新政府は人種や宗教に関係なくすべての市民の権利を守ると約束した）",
+      "options": [
+        "upgrade",
+        "abandon",
+        "uphold",
+        "undermine"
+      ],
+      "correct": 1,
+      "explanation": "uphold=守る・支持する。uphold the rights=権利を守る。abandon=放棄する、undermine=弱体化させる、upgrade=グレードアップする。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "The journalist was arrested for allegedly ___ the national security law.（そのジャーナリストは国家安全保障法に違反したとして逮捕された）",
+      "options": [
+        "violating",
+        "voicing",
+        "varying",
+        "verifying"
+      ],
+      "correct": 1,
+      "explanation": "violating=違反している。violate a law=法律を違反する。voicing=声に出す、varying=変える、verifying=確認する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "The conflict between the two neighboring countries over ___ resources has lasted for decades.（天然資源をめぐる2つの隣国間の紛争は数十年続いてきた）",
+      "options": [
+        "national",
+        "natural",
+        "neutral",
+        "nominal"
+      ],
+      "correct": 2,
+      "explanation": "natural（resources）=天然（資源）。natural resources=天然資源。national=国家の、neutral=中立の、nominal=名目上の。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑨ 政治・法律・国際",
+      "question_text": "In a ___, the power to govern comes from the will of the people through free elections.（民主主義では、統治する権力は自由選挙を通じた国民の意志から生まれる）",
+      "options": [
+        "democracy",
+        "dictatorship",
+        "diplomacy",
+        "dynasty"
+      ],
+      "correct": 1,
+      "explanation": "democracy=民主主義。In a democracy=民主主義においては。dictatorship=独裁政治、diplomacy=外交、dynasty=王朝。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "The government decided to ___ a large amount of the budget for environmental protection programs.（政府は環境保護プログラムのために予算の大部分を確保することにした）",
+      "options": [
+        "set back",
+        "set off",
+        "set up",
+        "set aside"
+      ],
+      "correct": 4,
+      "explanation": "set aside=〜のために取り置く・確保する。set aside budget=予算を確保する。set back=後退させる、set off=出発する・引き起こす、set up=設立する。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "The introduction of smartphones ___ a dramatic change in the way people communicate.（スマートフォンの登場は人々のコミュニケーション方法に劇的な変化をもたらした）",
+      "options": [
+        "gave rise to",
+        "gave way to",
+        "gave back to",
+        "gave up on"
+      ],
+      "correct": 1,
+      "explanation": "gave rise to=〜を引き起こした・もたらした。give rise to a change=変化を引き起こす。gave way to=〜に道を譲った、gave back to=〜に返した、gave up on=〜を諦めた。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "The increase in crime in the area is ___ the lack of employment opportunities for young people.（その地域の犯罪増加は若者の雇用機会の少なさによるものとされている）",
+      "options": [
+        "attributed to",
+        "adjusted to",
+        "attached to",
+        "applied to"
+      ],
+      "correct": 3,
+      "explanation": "attributed to=〜のせいとされている。be attributed to=〜に起因するとされる。adjusted to=〜に適応した、attached to=〜に取り付けられた、applied to=〜に適用された。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "Poor communication between team members often ___ misunderstandings and project delays.（チームメンバー間のコミュニケーション不足はしばしば誤解やプロジェクトの遅延につながる）",
+      "options": [
+        "results in",
+        "turns in",
+        "takes in",
+        "brings in"
+      ],
+      "correct": 1,
+      "explanation": "results in=〜という結果になる。result in misunderstandings=誤解を招く。turns in=提出する、takes in=受け入れる、brings in=持ち込む。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "The report compares the two methods ___ cost, effectiveness, and environmental impact.（報告書はコスト・効果・環境への影響という観点から2つの方法を比較している）",
+      "options": [
+        "in spite of",
+        "in place of",
+        "in favor of",
+        "in terms of"
+      ],
+      "correct": 4,
+      "explanation": "in terms of=〜の観点から・〜に関して言えば。compare in terms of cost=コストの観点から比較する。in spite of=〜にもかかわらず、in place of=〜の代わりに、in favor of=〜を支持して。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "___ the weather conditions, the outdoor ceremony will continue as planned.（天候に関係なく、屋外の式典は予定通りに続けられます）",
+      "options": [
+        "Because of",
+        "Ahead of",
+        "Regardless of",
+        "As part of"
+      ],
+      "correct": 3,
+      "explanation": "Regardless of=〜に関係なく。regardless of the weather=天候に関係なく。because of=〜のために（理由）、ahead of=〜に先立って、as part of=〜の一部として。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "All employees must complete the required training ___ their annual review in March.（すべての従業員は3月の年次評価に先立って必要なトレーニングを修了しなければならない）",
+      "options": [
+        "prior to",
+        "owing to",
+        "according to",
+        "close to"
+      ],
+      "correct": 1,
+      "explanation": "prior to=〜の前に。prior to the review=評価の前に。owing to=〜のために（原因）、according to=〜によれば、close to=〜に近い。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "___ the other candidates, her qualifications were far more impressive.（他の候補者と比べると、彼女の資格はずっと印象的だった）",
+      "options": [
+        "In comparison with",
+        "In response to",
+        "In addition to",
+        "In exchange for"
+      ],
+      "correct": 2,
+      "explanation": "In comparison with=〜と比較すると。in comparison with other candidates=他の候補者と比べると。in addition to=〜に加えて、in exchange for=〜の代わりに、in response to=〜に応えて。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "The researcher's analysis helps ___ the differences between urban and rural education systems.（研究者の分析は都市と地方の教育制度の違いを説明するのに役立っている）",
+      "options": [
+        "apply for",
+        "allow for",
+        "ask for",
+        "account for"
+      ],
+      "correct": 4,
+      "explanation": "account for=説明する・〜を占める。account for the differences=違いを説明する。apply for=申請する、allow for=考慮する、ask for=求める。"
+    },
+    {
+      "chapter": "英検2級 単語 ⑩ 熟語（2級頻出イディオム・句動詞）",
+      "question_text": "You should always ___ the long-term effects of a decision before acting.（行動する前に常に決断の長期的な影響を考慮に入れるべきだ）",
+      "options": [
+        "take into account",
+        "take for granted",
+        "take part in",
+        "take place at"
+      ],
+      "correct": 2,
+      "explanation": "take into account=考慮に入れる。take the effects into account=影響を考慮する。take for granted=当然と見なす、take part in=参加する、take place at=〜で行われる。"
+    }
+  ]
+}

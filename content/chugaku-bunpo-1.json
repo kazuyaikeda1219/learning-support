@@ -1,0 +1,847 @@
+{
+  "subject": "en",
+  "category": "英文法",
+  "book_name": "中学英文法",
+  "questions": [
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "She plays the piano every day.（彼女は毎日ピアノを弾きます）下線部 the piano の文の要素は？",
+      "options": [
+        "S（主語）",
+        "V（動詞）",
+        "C（補語）",
+        "O（目的語）"
+      ],
+      "correct": 4,
+      "explanation": "「ピアノを」は動作の対象なので O（目的語）。S は動作をする人（She）、V は動作そのもの（plays）、C は主語の状態を補う語で S＝C の関係が成り立つ。"
+    },
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "My father is a teacher.（私の父は先生です）この文の文型は？",
+      "options": [
+        "第2文型 SVC",
+        "第1文型 SV",
+        "第3文型 SVO",
+        "第4文型 SVOO"
+      ],
+      "correct": 1,
+      "explanation": "「父＝先生」という関係が成り立ち、a teacher が My father の状態を補うので C（補語）。S＋V＋C の第2文型（SVC）。O を使う第3文型ではない。"
+    },
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "Tom gave ___ a book.（トムは私に本をくれました）の空所に入る語は？",
+      "options": [
+        "my",
+        "me",
+        "I",
+        "mine"
+      ],
+      "correct": 2,
+      "explanation": "give＋人＋物の形で、「人」の位置には目的格を使う。me が目的格で正解。I は主格（〜が）、my は所有格（私の）、mine は所有代名詞（私のもの）でここには使えない。"
+    },
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "The dog runs fast.（その犬は速く走る）この文の文型は？",
+      "options": [
+        "第2文型 SVC",
+        "第3文型 SVO",
+        "第4文型 SVOO",
+        "第1文型 SV"
+      ],
+      "correct": 4,
+      "explanation": "runs が自動詞で目的語も補語もない。fast は修飾語（M）。S＋V だけで成り立つ第1文型（SV）。C があれば第2文型、O があれば第3文型。"
+    },
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "We call ___ Hana.（私たちは彼女をハナと呼ぶ）の空所に入る語は？",
+      "options": [
+        "she",
+        "her",
+        "hers",
+        "herself"
+      ],
+      "correct": 2,
+      "explanation": "call＋O＋C の第5文型。O（目的語）には目的格の her を使う。she は主格、hers は所有代名詞、herself は再帰代名詞なので O の位置には使えない。"
+    },
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "I like music.（私は音楽が好きです）S・V・O を正しく分けたものは？",
+      "options": [
+        "S=music / V=like / O=I",
+        "S=I / V=music / O=like",
+        "S=I / V=like / O=music",
+        "S=like / V=I / O=music"
+      ],
+      "correct": 3,
+      "explanation": "S は文の主体（I＝私）、V は動詞（like＝好きだ）、O は動詞の対象（music＝音楽）。英語は基本的に S→V→O の語順。"
+    },
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "She looks ___.（彼女は幸せそうです）の空所に入る語は？",
+      "options": [
+        "happily",
+        "happiness",
+        "happy",
+        "happening"
+      ],
+      "correct": 3,
+      "explanation": "look＋C の第2文型では、C に形容詞を使う。happy（形容詞）が正解。happily は副詞で C にはなれない。happiness は名詞、happening は「起きていること」で意味が合わない。"
+    },
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "He made ___ angry.（彼は私を怒らせた）の空所に入る語は？",
+      "options": [
+        "I",
+        "my",
+        "mine",
+        "me"
+      ],
+      "correct": 4,
+      "explanation": "make＋O＋C の第5文型。O には目的格の me を使う。I は主格、my は所有格、mine は所有代名詞なので O の位置には使えない。"
+    },
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "She sent him a letter.（彼女は彼に手紙を送った）この文の文型は？",
+      "options": [
+        "第1文型 SV",
+        "第2文型 SVC",
+        "第5文型 SVOC",
+        "第4文型 SVOO"
+      ],
+      "correct": 4,
+      "explanation": "sent＋him（人）＋a letter（物）の形。目的語が2つある第4文型（SVOO）。O が1つなら第3文型、補語があれば第5文型。"
+    },
+    {
+      "chapter": "L00 5文型の基礎【中1】",
+      "question_text": "The movie made us ___.（その映画は私たちを感動させた）の空所に入る語は？",
+      "options": [
+        "moved",
+        "movement",
+        "move",
+        "moving"
+      ],
+      "correct": 1,
+      "explanation": "make＋O＋C の第5文型で、C には形容詞または過去分詞が入る。moved（感動した）が正解。move は動詞の原形で C にはなれない。moving は「感動させる」側の形容詞、movement は名詞。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "Birds ___ in the sky.（鳥たちは空を飛ぶ）の空所に入る語は？",
+      "options": [
+        "are",
+        "fly",
+        "make",
+        "have"
+      ],
+      "correct": 2,
+      "explanation": "fly（飛ぶ）は自動詞で目的語なしに使える。「空の中を」は修飾語（M）。are は be 動詞で状態を表し文意が合わない。make・have は他動詞なので目的語が必要。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "My cat ___ on the sofa every afternoon.（私の猫は毎午後ソファで眠る）の空所に入る語は？",
+      "options": [
+        "sleeps",
+        "sleep",
+        "is sleep",
+        "sleeping"
+      ],
+      "correct": 1,
+      "explanation": "主語が My cat（三人称単数）なので、現在形の動詞に -s をつけて sleeps。sleep は I/you/複数のとき。is sleep・sleeping は正しい形でない。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "He runs ___ in the park every morning.（彼は毎朝公園を速く走ります）の空所に入る語は？",
+      "options": [
+        "faster than",
+        "fast",
+        "fastly",
+        "the fastest"
+      ],
+      "correct": 2,
+      "explanation": "副詞 fast（速く）が動詞 runs を修飾する。fastly という語は英語に存在しない。faster than は比較級で単独修飾には不自然。the fastest は最上級で文脈に合わない。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "The children ___ in the pool.（子どもたちはプールで泳いだ）の空所に入る語は？",
+      "options": [
+        "swam",
+        "swim",
+        "swum",
+        "swimming"
+      ],
+      "correct": 1,
+      "explanation": "過去の出来事なので過去形 swam が正解。swim は現在形、swum は過去分詞（完了形で使う）、swimming は -ing 形なので文として完成しない。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "The baby ___ loudly last night.（赤ちゃんは昨夜大声で泣いた）の空所に入る語は？",
+      "options": [
+        "cried",
+        "cry",
+        "cries",
+        "crying"
+      ],
+      "correct": 1,
+      "explanation": "last night（昨夜）があるので過去形 cried が正解。cry は現在形、cries は三人称単数現在形、crying は -ing 形で単独では述語にならない。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "She ___ to school by bike every day.（彼女は毎日自転車で学校へ行く）の空所に入る語は？",
+      "options": [
+        "goes",
+        "go",
+        "went",
+        "going"
+      ],
+      "correct": 1,
+      "explanation": "every day は習慣を表す現在形。She は三人称単数なので goes が正解。go は I/you/複数のとき。went は過去形、going は -ing 形で単独では使えない。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "The stars ___ brightly at night.（星は夜に明るく輝く）の空所に入る語は？",
+      "options": [
+        "shines",
+        "shine",
+        "shining",
+        "shone"
+      ],
+      "correct": 2,
+      "explanation": "主語 The stars は複数なので動詞に -s はつけない。shine が正解。shines は三人称単数現在形、shining は -ing 形、shone は過去形。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "My dog ___ under the table right now.（私の犬は今テーブルの下で眠っている）の空所に入る語は？",
+      "options": [
+        "is sleeping",
+        "sleeps",
+        "sleep",
+        "slept"
+      ],
+      "correct": 1,
+      "explanation": "right now（今まさに）があるので進行中の動作には現在進行形（be 動詞＋-ing）を使う。is sleeping が正解。sleeps は習慣、sleep は複数主語のとき、slept は過去形。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "The train ___ at nine o'clock every morning.（電車は毎朝9時に出発する）の空所に入る語は？",
+      "options": [
+        "leaves",
+        "leave",
+        "leaving",
+        "left"
+      ],
+      "correct": 1,
+      "explanation": "The train は三人称単数で、時刻表の習慣には現在形を使う。leaves が正解。leave は I/you/複数のとき、leaving は -ing 形で単独では使えない、left は過去形。"
+    },
+    {
+      "chapter": "L01 SV文型【中1】",
+      "question_text": "The students ___ quietly in the library now.（生徒たちは今図書館で静かに座っている）の空所に入る語は？",
+      "options": [
+        "sit",
+        "sat",
+        "sitting",
+        "are sitting"
+      ],
+      "correct": 4,
+      "explanation": "now（今）があるので進行中の動作を表す現在進行形 are sitting。sit は習慣・事実（現在形）、sat は過去形、sitting は助動詞なしでは述語にならない。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "She ___ a doctor in the future.（彼女は将来医者になるつもりだ）の空所に入る語は？",
+      "options": [
+        "becomes",
+        "is",
+        "will become",
+        "look"
+      ],
+      "correct": 3,
+      "explanation": "in the future（将来）があるので未来形 will become が正解。becomes は現在形で未来のことが言えない。is も現在形で文意に合わない。look は「〜に見える」で文脈が違う。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "He looks ___ today.（彼は今日疲れているように見える）の空所に入る語は？",
+      "options": [
+        "tiredly",
+        "tiring",
+        "tire",
+        "tired"
+      ],
+      "correct": 4,
+      "explanation": "look（〜に見える）は SVC 文型の動詞で、C には形容詞を使う。tired（疲れている）が正解。tiredly は副詞で C にはなれない。tire は動詞、tiring は「疲れさせる」という意味の形容詞。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "The soup ___ good.（スープはおいしそうなにおいがする）の空所に入る語は？",
+      "options": [
+        "feels",
+        "smells",
+        "tastes",
+        "looks"
+      ],
+      "correct": 2,
+      "explanation": "においを感じるのは smell（においがする）。smells good で「いいにおいがする」が正解。feels はさわり心地、tastes は味、looks は見た目に関する動詞なので文脈に合わない。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "I ___ happy when I heard the news.（そのニュースを聞いたとき、私はうれしかった）の空所に入る語は？",
+      "options": [
+        "felt",
+        "looked",
+        "was",
+        "got"
+      ],
+      "correct": 3,
+      "explanation": "be 動詞の過去形 was（was happy）で「うれしい状態だった」を表す。felt は「感じた」で was の方が自然。looked は「見えた」、got は「なった（変化）」で一時的な感情の表現には was が最も適切。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "The weather ___ cold in winter.（冬は天気が寒くなる）の空所に入る語は？",
+      "options": [
+        "is",
+        "gets",
+        "looks",
+        "sounds"
+      ],
+      "correct": 2,
+      "explanation": "get（なる）は変化を表す動詞で SVC 文型に使う。gets cold で「寒くなる」。is は状態（ずっと寒い）、looks は見た目、sounds は聞こえ方で文意が違う。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "This music ___ relaxing.（この音楽はリラックスできるように聞こえる）の空所に入る語は？",
+      "options": [
+        "looks",
+        "feels",
+        "tastes",
+        "sounds"
+      ],
+      "correct": 4,
+      "explanation": "音楽に対して使う知覚動詞は sound（聞こえる）。sounds relaxing で「リラックスできるように聞こえる」。looks は視覚、feels は触感・感情、tastes は味覚に関する動詞。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "He ___ nervous before the speech.（彼はスピーチの前に緊張しているように見えた）の空所に入る語は？",
+      "options": [
+        "sounded",
+        "looked",
+        "became",
+        "smelled"
+      ],
+      "correct": 2,
+      "explanation": "見た目から判断するときは look（〜に見える）の過去形 looked が正解。sounded は「〜に聞こえた」、became は「〜になった（変化）」、smelled は「〜のにおいがした」で文脈に合わない。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "The cake ___ delicious!（そのケーキはとてもおいしい！）の空所に入る語は？",
+      "options": [
+        "sounds",
+        "looks",
+        "tastes",
+        "feels"
+      ],
+      "correct": 3,
+      "explanation": "食べて味を確認する場合は taste（味がする）。tastes delicious で「おいしい味がする」が正解。sounds は音、looks は見た目、feels は触感・感情の動詞なので食べ物の味には不適切。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "She ___ a famous singer someday.（彼女はいつか有名な歌手になるだろう）の空所に入る語は？",
+      "options": [
+        "is",
+        "looks",
+        "will be",
+        "seems"
+      ],
+      "correct": 3,
+      "explanation": "someday（いつか）は未来を示すので will be が正解。is は現在形、looks は「見える」で名詞を補語にとる使い方が不自然、seems は「〜のようだ」で推量のニュアンスになり文意に合わない。"
+    },
+    {
+      "chapter": "L02 SVC文型【中1】",
+      "question_text": "My sister ___ kind to everyone.（私の姉はみんなに対して親切だ）の空所に入る語は？",
+      "options": [
+        "is",
+        "look",
+        "get",
+        "become"
+      ],
+      "correct": 1,
+      "explanation": "恒常的な性質・状態を表すには be 動詞を使う。My sister は三人称単数なので is が正解。look・get・become は変化や見た目に使う動詞で、恒常的な性質には is が最も自然。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "I ___ tennis every weekend.（私は毎週末テニスをします）の空所に入る語は？",
+      "options": [
+        "am",
+        "go",
+        "play",
+        "run"
+      ],
+      "correct": 3,
+      "explanation": "play（プレーする）は他動詞で tennis を目的語にとる。am は be 動詞（状態）、go は自動詞で目的語不要、run は「走る」で tennis とつながらない。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "She ___ her room every Saturday.（彼女は毎週土曜日に部屋を掃除する）の空所に入る語は？",
+      "options": [
+        "goes",
+        "looks",
+        "cleans",
+        "becomes"
+      ],
+      "correct": 3,
+      "explanation": "clean（掃除する）は他動詞で her room を目的語にとる。cleans は三人称単数現在形で正解。goes・looks・becomes は自動詞または SVC 文型の動詞で her room を目的語にとれない。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "He ___ English at school.（彼は学校で英語を勉強する）の空所に入る語は？",
+      "options": [
+        "study",
+        "is study",
+        "studies",
+        "studying"
+      ],
+      "correct": 3,
+      "explanation": "He は三人称単数なので現在形は -s をつけて studies が正解。study は I/you/複数のとき。is study は文法的に誤り、studying は助動詞なしでは単独で述語にならない。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "We ___ lunch at noon.（私たちは正午に昼食をとる）の空所に入る語は？",
+      "options": [
+        "has",
+        "have",
+        "are",
+        "go"
+      ],
+      "correct": 2,
+      "explanation": "have（食べる）は他動詞で lunch を目的語にとる。We は複数なので have が正解。has は三人称単数現在形、are は be 動詞、go は自動詞で lunch を目的語にとれない。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "My mother ___ vegetables every morning.（私の母は毎朝野菜を買う）の空所に入る語は？",
+      "options": [
+        "buy",
+        "buys",
+        "buying",
+        "bought"
+      ],
+      "correct": 2,
+      "explanation": "My mother は三人称単数、習慣なので現在形の buys が正解。buy は複数主語のとき、buying は -ing 形（助動詞が必要）、bought は過去形。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "I ___ a new bag last week.（私は先週新しいバッグを買った）の空所に入る語は？",
+      "options": [
+        "buy",
+        "buys",
+        "bought",
+        "buying"
+      ],
+      "correct": 3,
+      "explanation": "last week（先週）があるので過去形 bought が正解。buy は現在形（複数/I/you）、buys は三単現、buying は -ing 形で述語になれない。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "She ___ her dog every day.（彼女は毎日犬を散歩させる）の空所に入る語は？",
+      "options": [
+        "runs",
+        "plays",
+        "sees",
+        "walks"
+      ],
+      "correct": 4,
+      "explanation": "walk は他動詞として「（犬などを）散歩させる」という意味がある。walks her dog で「犬を散歩させる」が正解。runs・plays は dog と自然につながらない。sees は「見る」で文意が合わない。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "He ___ a letter to his friend yesterday.（彼は昨日友人に手紙を書いた）の空所に入る語は？",
+      "options": [
+        "wrote",
+        "writes",
+        "write",
+        "written"
+      ],
+      "correct": 1,
+      "explanation": "yesterday（昨日）があるので過去形 wrote が正解。writes は三人称単数現在形、write は現在形（複数/I/you）、written は過去分詞で受動態などで使う。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "They ___ soccer in the park yesterday.（彼らは昨日公園でサッカーをした）の空所に入る語は？",
+      "options": [
+        "played",
+        "play",
+        "plays",
+        "playing"
+      ],
+      "correct": 1,
+      "explanation": "yesterday（昨日）があるので過去形 played が正解。play は現在形（複数主語）、plays は三単現、playing は -ing 形で述語にならない。"
+    },
+    {
+      "chapter": "L03 SVO文型【中1】",
+      "question_text": "I ___ my homework before dinner.（私は夕食前に宿題をした）の空所に入る語は？",
+      "options": [
+        "do",
+        "does",
+        "did",
+        "doing"
+      ],
+      "correct": 3,
+      "explanation": "before dinner という過去の出来事なので過去形 did が正解。do は現在形（複数/I/you）、does は三単現、doing は -ing 形で述語として使えない。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "She runs ___.（彼女は速く走ります）の空所に入る語は？",
+      "options": [
+        "quick",
+        "fastly",
+        "quickly",
+        "fast"
+      ],
+      "correct": 4,
+      "explanation": "fast は形容詞としても副詞としても使え、動詞 runs を修飾する副詞として正解。quick は形容詞（速い）で副詞では使わない。fastly という語は英語に存在しない。quickly も「速く」だが、runs quickly は「きびきびと走る」のニュアンスで fast が最も自然。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "He is a ___ student.（彼は努力家の生徒です）の空所に入る語は？",
+      "options": [
+        "hardly",
+        "hard",
+        "hardness",
+        "harder"
+      ],
+      "correct": 2,
+      "explanation": "名詞 student を直接修飾するのは形容詞。hard（熱心な）が限定用法の形容詞として正解。hardly は副詞（ほとんど〜ない）で名詞を修飾できない。hardness は名詞（硬さ）、harder は比較級。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "This box is ___.（この箱は重い）の空所に入る語は？",
+      "options": [
+        "heavily",
+        "heavier",
+        "heavy",
+        "heaviness"
+      ],
+      "correct": 3,
+      "explanation": "be 動詞の後ろで S（this box）の状態を説明するのは形容詞（叙述用法）。heavy（重い）が正解。heavily は副詞で C にはなれない。heavier は比較級で than が必要、heaviness は名詞。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "Please speak ___.（もっとゆっくり話してください）の空所に入る語は？",
+      "options": [
+        "slowly",
+        "slow",
+        "slowness",
+        "slower"
+      ],
+      "correct": 1,
+      "explanation": "動詞 speak を修飾するのは副詞。slowly（ゆっくりと）が正解。slow は形容詞（a slow speaker のように名詞修飾）、slowness は名詞、slower は比較級で than が必要。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "She has a ___ voice.（彼女はきれいな声をしている）の空所に入る語は？",
+      "options": [
+        "beautifully",
+        "beauty",
+        "more beautiful",
+        "beautiful"
+      ],
+      "correct": 4,
+      "explanation": "名詞 voice を直接修飾する（限定用法）のは形容詞。beautiful（美しい）が正解。beautifully は副詞、beauty は名詞、more beautiful は比較級で than が必要。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "He always works ___.（彼はいつも一生懸命働く）の空所に入る語は？",
+      "options": [
+        "hardly",
+        "hard",
+        "hardly ever",
+        "hardness"
+      ],
+      "correct": 2,
+      "explanation": "hard は「一生懸命に」という副詞の用法がある。works hard で「一生懸命働く」が正解。hardly は「ほとんど〜ない」という否定の副詞で意味が逆になる。hardly ever は「めったに〜ない」、hardness は名詞。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "It is ___ today.（今日はとても暑い）の空所に入る語は？",
+      "options": [
+        "very hotly",
+        "very heat",
+        "very hot",
+        "much hot"
+      ],
+      "correct": 3,
+      "explanation": "very は形容詞・副詞を強調する副詞。hot（形容詞）を修飾して very hot（とても暑い）が正解。hotly は副詞（熱心に）で意味が違う。heat は名詞。much は比較級を強調するときに使い、原級の形容詞には使わない。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "She sang the song ___.（彼女は美しくその歌を歌った）の空所に入る語は？",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "correct": 1,
+      "explanation": "動詞 sang を修飾するのは副詞。beautifully（美しく）が正解。beautiful は形容詞（名詞修飾や C として使う）、beauty は名詞、more beautiful は比較級。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "I have a ___ dog.（私はかわいい犬を飼っている）の空所に入る語は？",
+      "options": [
+        "cute",
+        "cutely",
+        "cuteness",
+        "more cute"
+      ],
+      "correct": 1,
+      "explanation": "名詞 dog を限定修飾するのは形容詞。cute（かわいい）が正解。cutely は副詞で名詞を修飾できない。cuteness は名詞（かわいさ）、more cute は比較級で than が必要。"
+    },
+    {
+      "chapter": "L04 形容詞と副詞【中1】",
+      "question_text": "He answered the question ___.（彼は正しくその質問に答えた）の空所に入る語は？",
+      "options": [
+        "correct",
+        "correctly",
+        "correction",
+        "more correct"
+      ],
+      "correct": 2,
+      "explanation": "動詞 answered を修飾するのは副詞。correctly（正確に）が正解。correct は形容詞（C や名詞修飾で使う）、correction は名詞（訂正）、more correct は比較級。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "He gave ___ a present.（彼は私にプレゼントをくれた）の空所に入る語は？",
+      "options": [
+        "I",
+        "my",
+        "mine",
+        "me"
+      ],
+      "correct": 4,
+      "explanation": "give＋O1（人）＋O2（物）の第4文型。O1は目的格の me。I は主格（〜が）、my は所有格（私の）、mine は所有代名詞（私のもの）で、目的語の位置には me を使う。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "She showed ___ the photos.（彼女は私に写真を見せてくれた）の空所に入る語は？",
+      "options": [
+        "I",
+        "my",
+        "myself",
+        "me"
+      ],
+      "correct": 4,
+      "explanation": "show＋O1（人）＋O2（物）の第4文型。O1は目的格の me。I は主格、my は所有格、myself は再帰代名詞（自分自身を）で文意が違う。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "My teacher told ___ an interesting story.（先生は私たちに面白い話を聞かせてくれた）の空所に入る語は？",
+      "options": [
+        "us",
+        "we",
+        "our",
+        "ours"
+      ],
+      "correct": 1,
+      "explanation": "tell＋O1（人）＋O2（物）の第4文型。O1には目的格の us を使う。we は主格（私たちが）、our は所有格（私たちの）、ours は所有代名詞（私たちのもの）。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "He gave a book ___ me.（彼は私に本をくれた）の空所に入る語は？",
+      "options": [
+        "for",
+        "to",
+        "of",
+        "with"
+      ],
+      "correct": 2,
+      "explanation": "「give＋物＋to＋人」は第4文型（SVOO）を第3文型（SVO）に書き換えた形。give には to を使う。for を使うのは buy・make など「相手のために作る・買う」系の動詞。of・with は不適切な前置詞。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "She made a cake ___ her mother.（彼女はお母さんのためにケーキを作った）の空所に入る語は？",
+      "options": [
+        "to",
+        "for",
+        "of",
+        "from"
+      ],
+      "correct": 2,
+      "explanation": "「make＋物＋for＋人」は第4文型（SVOO）を書き換えた形。make・buy・cook など「相手のために作る・行動する」動詞は for を使う。to を使うのは give・send・show・tell など「渡す」系の動詞。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "He ___ me a letter every week.（彼は毎週私に手紙を送ってくる）の空所に入る語は？",
+      "options": [
+        "tells",
+        "gives",
+        "makes",
+        "sends"
+      ],
+      "correct": 4,
+      "explanation": "a letter（手紙）を人に「送る」のは send。sends me a letter（私に手紙を送る）が正解。tells は「話す」で a letter は不自然、gives は「あげる」（送るの意味はない）、makes は「作る」で文意が違う。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "My father bought a bike ___ me.（父は私に自転車を買ってくれた）の空所に入る語は？",
+      "options": [
+        "to",
+        "at",
+        "with",
+        "for"
+      ],
+      "correct": 4,
+      "explanation": "buy は「相手のために買う」動詞なので for を使う。bought a bike for me が正解。to は give・send など「〜に渡す」系の動詞に使う。at・with は前置詞としてここには不適切。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "She taught ___ math last year.（彼女は去年私たちに数学を教えてくれた）の空所に入る語は？",
+      "options": [
+        "we",
+        "our",
+        "ours",
+        "us"
+      ],
+      "correct": 4,
+      "explanation": "teach＋O1（人）＋O2（物）の第4文型。O1には目的格の us を使う。we は主格、our は所有格、ours は所有代名詞で、動詞の目的語には目的格を使う。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "He showed the picture to ___.（彼は私にその絵を見せた）の空所に入る語は？",
+      "options": [
+        "I",
+        "me",
+        "my",
+        "mine"
+      ],
+      "correct": 2,
+      "explanation": "「show＋物＋to＋人」の第3文型書き換え。to の後ろには目的格の me を使う。I は主格、my は所有格、mine は所有代名詞で、前置詞の後ろには目的格を使う。"
+    },
+    {
+      "chapter": "L05 SVOO文型【中1】",
+      "question_text": "She ___ us a song.（彼女は私たちに歌を歌ってくれた）の空所に入る語は？",
+      "options": [
+        "told",
+        "gave",
+        "sang",
+        "showed"
+      ],
+      "correct": 3,
+      "explanation": "「歌を歌ってくれた」は sing＋人＋歌の形。sang us a song が正解。told は「話した」、gave は「あげた」（a song は不自然）、showed は「見せた」で歌には合わない。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "We call ___ Tom.（私たちは彼をトムと呼ぶ）の空所に入る語は？",
+      "options": [
+        "he",
+        "him",
+        "his",
+        "himself"
+      ],
+      "correct": 2,
+      "explanation": "call＋O＋C の第5文型。O には目的格の him を使う。he は主格、his は所有格・形容詞、himself は再帰代名詞（彼自身を）で O の位置には使えない。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "The news made me ___.（そのニュースは私を悲しくさせた）の空所に入る語は？",
+      "options": [
+        "sadly",
+        "sadness",
+        "sad",
+        "sadden"
+      ],
+      "correct": 3,
+      "explanation": "make＋O＋C の第5文型。C には形容詞を使う。sad（悲しい）が正解。sadly は副詞で C にはなれない。sadness は名詞、sadden は動詞（悲しませる）。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "The cold weather kept us ___ indoors.（寒い天気のせいで私たちは家の中にいた）の空所に入る語は？",
+      "options": [
+        "staying",
+        "stay",
+        "to stay",
+        "stayed"
+      ],
+      "correct": 1,
+      "explanation": "keep＋O＋C の第5文型。C には形容詞や現在分詞（-ing）を使う。staying（いる状態を続けている）が正解。stay は原形、to stay は不定詞、stayed は過去形でここでは C の役割を果たせない。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "My friends call me ___.（友達は私をマコと呼ぶ）この文の O（目的語）にあたる語は？",
+      "options": [
+        "I",
+        "my",
+        "mine",
+        "me"
+      ],
+      "correct": 4,
+      "explanation": "call＋O＋C の形で、O の位置には目的格の me を使う。I は主格（〜が）、my は所有格（私の）、mine は所有代名詞（私のもの）で、動詞の目的語には目的格を使う。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "She made the room ___.（彼女は部屋をきれいにした）の空所に入る語は？",
+      "options": [
+        "cleanly",
+        "cleaning",
+        "cleaned",
+        "clean"
+      ],
+      "correct": 4,
+      "explanation": "make＋O＋C の第5文型。C には形容詞を使う。clean（形容詞：清潔な）が正解。cleanly は副詞、cleaning は現在分詞（「掃除中の」の意味になる）、cleaned は過去分詞（受動の意）。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "Everyone calls ___ the star player.（みんなは彼を花形選手と呼ぶ）の空所に入る語は？",
+      "options": [
+        "he",
+        "his",
+        "him",
+        "himself"
+      ],
+      "correct": 3,
+      "explanation": "call＋O＋C の第5文型で O は目的格 him。he は主格、his は所有格・形容詞、himself は再帰代名詞。目的語の位置では必ず目的格を使う。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "The music kept me ___ all night.（その音楽は私を一晩中目覚めた状態にした）の空所に入る語は？",
+      "options": [
+        "awaking",
+        "awake",
+        "awaken",
+        "awoke"
+      ],
+      "correct": 2,
+      "explanation": "keep＋O＋C の C には形容詞を使う。awake（目が覚めている）が形容詞で正解。awaking は動詞（目覚めつつある）、awaken は動詞（目覚めさせる）、awoke は動詞の過去形でいずれも C には使えない。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "We elected ___ class president.（私たちは彼女をクラス委員長に選んだ）の空所に入る語は？",
+      "options": [
+        "she",
+        "hers",
+        "her",
+        "herself"
+      ],
+      "correct": 3,
+      "explanation": "elect＋O＋C の第5文型で O は目的格 her。she は主格（〜が）、hers は所有代名詞（彼女のもの）、herself は再帰代名詞（彼女自身を）で O の位置には使えない。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "The sunshine made the flowers ___.（太陽の光が花を美しくした）の空所に入る語は？",
+      "options": [
+        "beautiful",
+        "beautifully",
+        "beauty",
+        "beautify"
+      ],
+      "correct": 1,
+      "explanation": "make＋O＋C の第5文型で C には形容詞を使う。beautiful（美しい）が正解。beautifully は副詞、beauty は名詞（美しさ）、beautify は動詞（美しくする）で C の位置には使えない。"
+    },
+    {
+      "chapter": "L06 SVOC文型【中1】",
+      "question_text": "I found the movie ___.（私はその映画がとてもおもしろいとわかった）の空所に入る語は？",
+      "options": [
+        "interesting",
+        "interestingly",
+        "interest",
+        "interested"
+      ],
+      "correct": 1,
+      "explanation": "find+O+C（第5文型）。Cには形容詞が入り「OがCだとわかる」。the movie=おもしろい主体なので現在分詞由来の形容詞 interesting。interestingly=副詞でCになれない、interest=名詞/動詞、interested=「（人が）興味を持って」で人を主語にするときに使う。"
+    }
+  ]
+}

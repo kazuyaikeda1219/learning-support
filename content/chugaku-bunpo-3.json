@@ -1,0 +1,1567 @@
+{
+  "subject": "en",
+  "category": "英文法",
+  "book_name": "中学英文法",
+  "questions": [
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "She wants ___ a nurse in the future.（彼女は将来、看護師になりたいと思っています）",
+      "options": [
+        "become",
+        "becoming",
+        "to become",
+        "became"
+      ],
+      "correct": 3,
+      "explanation": "want to +動詞の原形（〜したい）が正しい形。to become が名詞的用法の不定詞で「なること」。become は原形のみで不可、becoming は動名詞（want は動名詞を目的語にとらない）、came は過去形で意味が通じません。"
+    },
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "I need something ___ now.（私は今、飲むものが必要です）",
+      "options": [
+        "drink",
+        "drank",
+        "to drink",
+        "drinking"
+      ],
+      "correct": 3,
+      "explanation": "something to drink は「形容詞的用法の不定詞」で something を後ろから修飾し「飲むべき何か」。drink は原形のみで名詞 something の直後では不可、drank は過去形、drinking は現在分詞でここでは不適切です。"
+    },
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "He went to the library ___ some books.（彼は本を何冊か借りるために図書館に行きました）",
+      "options": [
+        "borrow",
+        "borrowing",
+        "borrowed",
+        "to borrow"
+      ],
+      "correct": 4,
+      "explanation": "to borrow は「副詞的用法の不定詞」で went の目的（〜するために）を表します。borrow は原形のみでは目的を示せません。borrowing は現在分詞、borrowed は過去分詞や過去形で文脈に合いません。"
+    },
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "It is important ___ every day.（毎日練習することは大切です）",
+      "options": [
+        "to practice",
+        "practice",
+        "practicing",
+        "practiced"
+      ],
+      "correct": 1,
+      "explanation": "It is ... to +動詞の原形 は形式主語構文。to practice が真の主語（〜すること）。この形では practice（原形のみ）や practicing（動名詞）は形式主語構文に使えません。practiced は過去形・過去分詞です。"
+    },
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "My dream is ___ around the world.（私の夢は世界中を旅することです）",
+      "options": [
+        "to travel",
+        "travel",
+        "traveled",
+        "traveling"
+      ],
+      "correct": 1,
+      "explanation": "be動詞の後ろに不定詞（名詞的用法）を置き「〜することだ」と補語になります。to travel が正解。travel は原形のみで補語には不適、traveled は過去形・過去分詞、traveling も不可ではありませんが不定詞が主流です。"
+    },
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "We were happy ___ your good news.（私たちはあなたの良い知らせを聞いてうれしかったです）",
+      "options": [
+        "hearing",
+        "heard",
+        "hear",
+        "to hear"
+      ],
+      "correct": 4,
+      "explanation": "感情の形容詞（happy）の後に to +動詞の原形を続けると「〜して（うれしい）」という副詞的用法（感情の原因）になります。hearing は現在分詞、heard は過去形・過去分詞、hear は原形のみで不適です。"
+    },
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "Do you have time ___ me?（私を手伝ってくれる時間はありますか）",
+      "options": [
+        "help",
+        "to help",
+        "helps",
+        "helped"
+      ],
+      "correct": 2,
+      "explanation": "名詞 time を後ろから to +動詞の原形（形容詞的用法）が修飾し「〜する時間」となります。help は原形のみ、helps は三単現の -s 付き、helped は過去形でいずれも不適です。"
+    },
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "She decided ___ a new language.（彼女は新しい言語を学ぶことを決めました）",
+      "options": [
+        "to learn",
+        "learning",
+        "learned",
+        "learn"
+      ],
+      "correct": 1,
+      "explanation": "decide は to +動詞の原形を目的語にとる動詞（decide to do）。to learn が正解。learning は動名詞（decide は動名詞を目的語にとりません）。learned は過去形・過去分詞、learn は原形のみです。"
+    },
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "There are many places ___ in Kyoto.（京都には訪れるべき場所がたくさんあります）",
+      "options": [
+        "visit",
+        "visited",
+        "visiting",
+        "to visit"
+      ],
+      "correct": 4,
+      "explanation": "places to visit は「形容詞的用法の不定詞」で名詞 places を後置修飾し「訪れるべき場所」の意味。visit は原形のみ不可、visited は過去形・過去分詞、visiting は現在分詞でここでは意味が変わります。"
+    },
+    {
+      "chapter": "L17 不定詞【中2】",
+      "question_text": "Ken tried hard ___ the test.（ケンはテストに合格しようと一生懸命努力しました）",
+      "options": [
+        "passing",
+        "to pass",
+        "passed",
+        "passes"
+      ],
+      "correct": 2,
+      "explanation": "try hard to +動詞の原形で「〜しようと一生懸命努力する」という副詞的用法（目的）。to pass が正解。passing は動名詞（try +動名詞だと「試しに〜する」で意味が変わる）、passed は過去形、passes は三単現です。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "He enjoys ___ soccer with his friends.（彼は友達とサッカーをするのを楽しんでいます）",
+      "options": [
+        "play",
+        "to play",
+        "playing",
+        "played"
+      ],
+      "correct": 3,
+      "explanation": "enjoy は動名詞（-ing形）だけを目的語にとる動詞。playing が正解。play は原形のみ、to play は不定詞（enjoy は不定詞を目的語にとりません）、played は過去形・過去分詞です。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "My hobby is ___ photos outdoors.（私の趣味は屋外で写真を撮ることです）",
+      "options": [
+        "took",
+        "take",
+        "to take",
+        "taking"
+      ],
+      "correct": 4,
+      "explanation": "be動詞の後に動名詞を置き補語にすることができます（〜することだ）。taking が動名詞として自然。to take（不定詞）も文法上は可ですが、趣味を述べる文では動名詞の taking が慣用的に使われます。take は原形のみ、took は過去形です。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "She stopped ___ and listened carefully.（彼女は話すのをやめて注意深く聞きました）",
+      "options": [
+        "to talk",
+        "talk",
+        "talked",
+        "talking"
+      ],
+      "correct": 4,
+      "explanation": "stop +動名詞で「〜するのをやめる」。talking が正解。stop to talk だと「話すために立ち止まる」という別の意味になってしまいます。talk は原形のみ、talked は過去形です。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "I finished ___ my homework before dinner.（私は夕食前に宿題を終わらせました）",
+      "options": [
+        "do",
+        "done",
+        "doing",
+        "to do"
+      ],
+      "correct": 3,
+      "explanation": "finish は動名詞（-ing形）だけを目的語にとる動詞。doing が正解。do は原形のみ、to do は不定詞（finish は不定詞を目的語にとりません）、done は過去分詞です。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "Would you mind ___ the window?（窓を開けていただけますか）",
+      "options": [
+        "open",
+        "to open",
+        "opening",
+        "opened"
+      ],
+      "correct": 3,
+      "explanation": "Would you mind +動名詞？は「〜していただけますか」の丁寧表現。opening が正解。mind は動名詞を目的語にとります。open は原形のみ、to open は不定詞（mind の後には使えません）、opened は過去形・過去分詞です。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "He practices ___ the piano every evening.（彼は毎晩ピアノを弾く練習をしています）",
+      "options": [
+        "playing",
+        "play",
+        "plays",
+        "to play"
+      ],
+      "correct": 1,
+      "explanation": "practice は動名詞（-ing形）だけを目的語にとります。playing が正解。to play（不定詞）は practice の目的語になれません。plays は三単現、play は原形のみです。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "We gave up ___ for the train.（私たちは電車を待つのをあきらめました）",
+      "options": [
+        "waiting",
+        "wait",
+        "to wait",
+        "waited"
+      ],
+      "correct": 1,
+      "explanation": "give up は動名詞（-ing形）を続ける表現。waiting が正解。wait は原形のみ、to wait は不定詞（give up の後には動名詞が来ます）、waited は過去形・過去分詞です。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "I hope ___ you again someday.（いつかまたあなたに会えることを望んでいます）",
+      "options": [
+        "to see",
+        "see",
+        "seeing",
+        "seen"
+      ],
+      "correct": 1,
+      "explanation": "hope は不定詞（to +動詞の原形）を目的語にとる動詞。to see が正解。hope は動名詞を目的語にとりません（hope seeing は誤り）。see は原形のみ、seen は過去分詞です。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "___ foreign languages is a lot of fun.（外国語を学ぶことはとても楽しいです）",
+      "options": [
+        "Learn",
+        "To learn",
+        "Learned",
+        "Learns"
+      ],
+      "correct": 2,
+      "explanation": "文頭で動名詞か不定詞が主語になれます。ここでは To learn（不定詞の名詞的用法）が正解。Learn は命令文になってしまいます。Learned は過去形・過去分詞、Learns は三単現です。"
+    },
+    {
+      "chapter": "L18 動名詞と不定詞【中2】",
+      "question_text": "I remember ___ this movie when I was young.（私は若いときにこの映画を見たことを覚えています）",
+      "options": [
+        "watch",
+        "to watch",
+        "watches",
+        "watching"
+      ],
+      "correct": 4,
+      "explanation": "remember +動名詞で「（過去に）〜したことを覚えている」。watching が正解。remember to +動詞の原形は「（これから）〜することを忘れずに覚えている」という別の意味になります。watch は原形のみ、watches は三単現です。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "I like math, ___ I don't like science.（私は数学が好きですが、理科は好きではありません）",
+      "options": [
+        "and",
+        "or",
+        "so",
+        "but"
+      ],
+      "correct": 4,
+      "explanation": "but は「しかし・でも」という逆接の接続詞で前後が対照的な内容をつなぎます。and は「そして」（並列）、or は「または」（選択）、so は「だから」（結果）でいずれも文脈に合いません。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "I think ___ this movie is very interesting.（私はこの映画はとてもおもしろいと思います）",
+      "options": [
+        "that",
+        "when",
+        "because",
+        "if"
+      ],
+      "correct": 1,
+      "explanation": "think that +文節で「〜だと思う」。that は名詞節を作る接続詞で、ここでは目的語になっています。when は「〜するとき」、because は「〜なので」、if は「〜かどうか／もし〜なら」で文脈に合いません。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "___ you are tired, you should rest.（疲れているなら、休んだほうがいいですよ）",
+      "options": [
+        "When",
+        "Because",
+        "If",
+        "That"
+      ],
+      "correct": 3,
+      "explanation": "If は「もし〜なら」という条件を表す接続詞。提案の場面では条件のif が自然です。When は「〜するとき」（時)、Because は「〜なので」（理由）、That は名詞節を作りますが文頭では文意が通じません。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "She was absent ___ she had a cold.（彼女は風邪をひいていたので欠席しました）",
+      "options": [
+        "if",
+        "but",
+        "because",
+        "when"
+      ],
+      "correct": 3,
+      "explanation": "because は「〜なので・〜だから」という理由を表す接続詞。欠席の理由を述べる文なので because が正解。if は条件、but は逆接、when は時を表します。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "Please call me ___ you arrive at the station.（駅に着いたら電話してください）",
+      "options": [
+        "that",
+        "when",
+        "because",
+        "but"
+      ],
+      "correct": 2,
+      "explanation": "when は「〜するとき・〜したら」という時を表す接続詞。「着いたら」という時点を示すので when が正解。that は名詞節、because は理由、but は逆接です。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "You can take a bus ___ a train to the airport.（空港へはバスか電車で行けます）",
+      "options": [
+        "or",
+        "and",
+        "but",
+        "so"
+      ],
+      "correct": 1,
+      "explanation": "or は「または・あるいは」という選択を表す接続詞。2つの選択肢（バスか電車か）をつなぐので or が正解。and は並列（どちらも）、but は逆接、so は結果です。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "I know ___ she lives near the park.（彼女が公園の近くに住んでいることを私は知っています）",
+      "options": [
+        "that",
+        "if",
+        "when",
+        "because"
+      ],
+      "correct": 1,
+      "explanation": "know that +文節で「〜ということを知っている」。that は名詞節を導く接続詞で目的語になります。if は「〜かどうか」（疑問）、when は時、because は理由で文意が変わります。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "Hurry up, ___ you will miss the bus.（急ぎなさい、さもないとバスに乗り遅れますよ）",
+      "options": [
+        "and",
+        "or",
+        "but",
+        "so"
+      ],
+      "correct": 2,
+      "explanation": "命令文 + or で「〜しなさい、さもないと…」という警告の表現になります。命令文 + and だと「〜しなさい、そうすれば…」という良い結果になり逆です。but は逆接、so は結果です。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "___ it rains tomorrow, we will cancel the picnic.（明日雨が降ったら、ピクニックを中止します）",
+      "options": [
+        "If",
+        "Because",
+        "When",
+        "That"
+      ],
+      "correct": 1,
+      "explanation": "If は「もし〜なら」という仮定・条件を表します。まだ雨が降っていない（未来の仮定）なので If が最適です。Because は確定した理由、When は時（確実に起きること）、That は名詞節です。"
+    },
+    {
+      "chapter": "L19 接続詞【中2】",
+      "question_text": "My father is strict, ___ kind.（私の父は厳しいですが、親切です）",
+      "options": [
+        "or",
+        "so",
+        "because",
+        "but"
+      ],
+      "correct": 4,
+      "explanation": "but は前後に対照的な内容をつなぐ逆接の接続詞。「厳しい、でも親切」という文は but が自然です。or は選択、so は結果、because は理由です。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "This mountain is ___ than that one.（この山はあの山より高いです）",
+      "options": [
+        "high",
+        "highest",
+        "more high",
+        "higher"
+      ],
+      "correct": 4,
+      "explanation": "than があるので比較級を使います。high は1音節なので -er をつけて higher が正解。highest は最上級（the が必要）、more high は2音節以上の語に使う形（high には不要）、high は原級です。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "This is the ___ cake I have ever eaten.（これは私が今まで食べた中で一番おいしいケーキです）",
+      "options": [
+        "delicious",
+        "more delicious",
+        "most delicious",
+        "deliciouser"
+      ],
+      "correct": 3,
+      "explanation": "the と I have ever eaten（経験の最上級）があるので最上級。delicious は3音節なので the most delicious が正解。more delicious は比較級（than が必要）、deliciouser は誤った形です。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "Tom runs ___ than Ken.（トムはケンより速く走ります）",
+      "options": [
+        "fast",
+        "fastest",
+        "more fast",
+        "faster"
+      ],
+      "correct": 4,
+      "explanation": "than があるので比較級。fast は副詞で1音節なので -er をつけて faster が正解。fastest は最上級（the が必要）、more fast は誤り（fast は -er 形）、fast は原級です。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "This problem is ___ difficult than the last one.（この問題は前回のものより難しいです）",
+      "options": [
+        "most",
+        "very",
+        "much",
+        "more"
+      ],
+      "correct": 4,
+      "explanation": "difficult は2音節以上なので比較級は more difficult + than。more が正解。most は最上級（the が必要）、very と much は強調語として使いますが、比較形を作るには more を使います。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "She is the ___ student in our class.（彼女はクラスで一番背が高い生徒です）",
+      "options": [
+        "tallest",
+        "tall",
+        "taller",
+        "most tall"
+      ],
+      "correct": 1,
+      "explanation": "the と in our class があるので最上級。tall は1音節なので -est をつけて tallest が正解。taller は比較級（than が必要）、most tall は誤り（tall には -est 形を使う）、tall は原級です。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "This shirt is ___ expensive than that one.（このシャツはあちらのものより高価です）",
+      "options": [
+        "most",
+        "more",
+        "very",
+        "much more"
+      ],
+      "correct": 2,
+      "explanation": "expensive は3音節なので比較級は more expensive + than。more が正解。most は最上級（the が必要）、very は比較形を作れません。much more も文法的には可（「ずっとより」）ですが、選択肢の中では more が最適です。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "January is the ___ month of the year.（1月は1年で一番寒い月です）",
+      "options": [
+        "cold",
+        "coldest",
+        "colder",
+        "most cold"
+      ],
+      "correct": 2,
+      "explanation": "the と of the year があるので最上級。cold は1音節なので -est をつけて coldest が正解。colder は比較級（than が必要）、most cold は誤り（cold には -est 形）、cold は原級です。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "Ken is ___ than his brother.（ケンは兄より若いです）",
+      "options": [
+        "young",
+        "younger",
+        "most young",
+        "youngest"
+      ],
+      "correct": 2,
+      "explanation": "than があるので比較級。young は1音節なので -er をつけて younger が正解。youngest は最上級（the が必要）、most young は誤り（young には -er/-est 形）、young は原級です。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "This is the ___ popular song in Japan now.（これは今、日本で一番人気のある曲です）",
+      "options": [
+        "most",
+        "more",
+        "very",
+        "much"
+      ],
+      "correct": 1,
+      "explanation": "the と in Japan があるので最上級。popular は3音節なので the most popular。most が正解。more は比較級（than が必要）、very と much は最上級を作りません。"
+    },
+    {
+      "chapter": "L20 比較1 比較級・最上級【中2】",
+      "question_text": "My bag is ___ than yours.（私のかばんはあなたのよりも重いです）",
+      "options": [
+        "heaviest",
+        "heavier",
+        "heavy",
+        "more heavy"
+      ],
+      "correct": 2,
+      "explanation": "than があるので比較級。heavy は y を i に変えて -er をつけ heavier が正解。heaviest は最上級（the が必要）、heavy は原級、more heavy は誤り（heavy は -er/-est 形を使う）です。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "She can swim as ___ as Ken.（彼女はケンと同じくらい速く泳げます）",
+      "options": [
+        "faster",
+        "fastest",
+        "fast",
+        "more fast"
+      ],
+      "correct": 3,
+      "explanation": "as ... as の構文（原級比較）では形容詞・副詞の原形を使います。fast が正解。faster は比較級（than が必要）、fastest は最上級（the が必要）、more fast は誤りです。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "This book is not as ___ as that one.（この本はあちらほど難しくありません）",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "difficulty"
+      ],
+      "correct": 1,
+      "explanation": "not as ... as（〜ほど…でない）は原級比較の否定形。difficult の原形が正解。more difficult は比較級（than が必要）、most difficult は最上級（the が必要）、difficulty は名詞です。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "He is ___ than any other student in his class.（彼はクラスの他のどの生徒よりも背が高いです）",
+      "options": [
+        "tallest",
+        "as tall",
+        "tall",
+        "taller"
+      ],
+      "correct": 4,
+      "explanation": "than any other ... の構文では比較級を使います。「他のどれより〜」という意味で最上級と同じ内容を比較級で表します。taller が正解。tallest は the が必要、as tall は同等比較、tall は原級です。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "My sister plays the piano ___ better than me.（姉は私よりずっとうまくピアノを弾きます）",
+      "options": [
+        "very",
+        "more",
+        "much",
+        "most"
+      ],
+      "correct": 3,
+      "explanation": "比較級を強調するには much（ずっと・はるかに）を使います。much better が正解。very は比較級の強調には使えません（「very better」は誤り）。more は比較級を作る語、most は最上級です。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "This is ___ interesting of all the books I read.（これは私が読んだ本の中で一番おもしろいです）",
+      "options": [
+        "the most",
+        "more",
+        "much",
+        "as"
+      ],
+      "correct": 1,
+      "explanation": "of all ... があるので最上級。interesting は3音節なので the most interesting。the most が正解。more は比較級（than が必要）、much は強調語、as は同等比較に使います。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "Is English ___ difficult than math for you?（あなたにとって英語は数学より難しいですか）",
+      "options": [
+        "most",
+        "very",
+        "more",
+        "as"
+      ],
+      "correct": 3,
+      "explanation": "than があるので比較級。difficult は3音節なので more difficult。more が正解。most は最上級（the が必要）、very は強調語で比較形を作れません、as は同等比較です。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "He doesn't study as hard as ___.（彼は彼女ほど一生懸命勉強しません）",
+      "options": [
+        "her",
+        "hers",
+        "herself",
+        "she"
+      ],
+      "correct": 4,
+      "explanation": "as ... as の後には主格の代名詞 she を使うのが正式です（she does が省略されている）。her は目的格（動詞・前置詞の後）、hers は所有代名詞、herself は再帰代名詞です。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "This jacket is three times as ___ as mine.（このジャケットは私のものの3倍の値段です）",
+      "options": [
+        "expensively",
+        "more expensive",
+        "expensive",
+        "most expensive"
+      ],
+      "correct": 3,
+      "explanation": "倍数表現（three times）+ as ... as では形容詞の原形を使います。expensive が正解。expensively は副詞（形容詞の位置に不適）、more expensive は比較級（than が必要）、most expensive は最上級です。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "She got ___ on the second test.（彼女は2回目のテストでより良い点を取りました）",
+      "options": [
+        "good",
+        "gooder",
+        "best",
+        "better"
+      ],
+      "correct": 4,
+      "explanation": "good の比較級は better（不規則変化）。than はありませんが「前より良い」という文脈です。good は原級、gooder は誤った形（good の比較は不規則）、best は最上級（the が必要）です。"
+    },
+    {
+      "chapter": "L21 比較2 比較のいろいろ【中2】",
+      "question_text": "My brother can speak English ___ than I can.（兄は私よりずっと流暢に英語を話せます）",
+      "options": [
+        "fluently",
+        "more fluently",
+        "most fluently",
+        "much fluently"
+      ],
+      "correct": 2,
+      "explanation": "than があるので比較級。fluently は副詞で3音節なので more fluently が正解。most fluently は最上級（the が必要）、much fluently は誤り（比較級強調は much + 比較形）、fluently は原級です。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "This book ___ by many people around the world.（この本は世界中の多くの人々に読まれています）",
+      "options": [
+        "reads",
+        "is read",
+        "read",
+        "is reading"
+      ],
+      "correct": 2,
+      "explanation": "受動態（受け身）は be動詞 + 過去分詞。is read が正解。reads は三単現（能動態）、read は原形または過去形（能動態）、is reading は現在進行形（能動態）です。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "The Eiffel Tower ___ in Paris.（エッフェル塔はパリに建てられています）",
+      "options": [
+        "builds",
+        "was building",
+        "built",
+        "is built"
+      ],
+      "correct": 4,
+      "explanation": "受動態は be動詞 + 過去分詞。現在の状態を示す is built が正解。builds は三単現（能動態）、was building は過去進行形（能動態）、built は過去形（能動態）です。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "The window ___ by the wind last night.（昨夜、窓は風で壊されました）",
+      "options": [
+        "broke",
+        "was broken",
+        "is broken",
+        "breaks"
+      ],
+      "correct": 2,
+      "explanation": "last night（昨夜）があるので過去。受動態は be + 過去分詞なので was broken が正解。broke は過去形（能動態「壊した」）、is broken は現在の受動態、breaks は三単現（能動態）です。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "This song ___ by many young people.（この曲は多くの若者に愛されています）",
+      "options": [
+        "loves",
+        "love",
+        "is loved",
+        "was love"
+      ],
+      "correct": 3,
+      "explanation": "受動態は be + 過去分詞。is loved が正解（現在の状態）。loves と love は能動態（「愛する」主語が必要）、was love は過去形の受動態の誤った形（was loved が正しい）です。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "This letter ___ in French.（この手紙はフランス語で書かれています）",
+      "options": [
+        "writes",
+        "is written",
+        "write",
+        "was write"
+      ],
+      "correct": 2,
+      "explanation": "受動態は be + 過去分詞。is written が正解（write の過去分詞は written）。writes と write は能動態、was write は誤った形（was written が正しい）です。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "The cake ___ not ___ by my sister.（ケーキは妹によって作られたのではありません）",
+      "options": [
+        "is / made",
+        "is / make",
+        "was / made",
+        "did / make"
+      ],
+      "correct": 3,
+      "explanation": "受動態の否定は be + not + 過去分詞。by my sister があり過去の出来事なので was not made が正解。is not made は現在（時制が合わない）、is not make と did not make は受動態の形を作れません。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "___ this photo taken at school?（この写真は学校で撮られましたか）",
+      "options": [
+        "Did",
+        "Is",
+        "Does",
+        "Was"
+      ],
+      "correct": 4,
+      "explanation": "受動態の疑問文は be動詞を文頭に出します。過去の受動態なので Was ... taken? が正解。Did は一般動詞の疑問文（後ろに原形）、Is は現在形、Does は三単現の疑問文です。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "English ___ in many countries.（英語は多くの国で話されています）",
+      "options": [
+        "spoke",
+        "speaks",
+        "speak",
+        "is spoken"
+      ],
+      "correct": 4,
+      "explanation": "受動態は be + 過去分詞。is spoken が正解（speak の過去分詞は spoken）。spoke は過去形（能動態）、speaks は三単現（能動態）、speak は原形・複数形（能動態）です。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "The museum ___ by many tourists every year.（その美術館は毎年多くの観光客に訪れられています）",
+      "options": [
+        "visits",
+        "is visited",
+        "visited",
+        "is visiting"
+      ],
+      "correct": 2,
+      "explanation": "受動態は be + 過去分詞。現在の習慣的行為なので is visited が正解。visits は三単現（能動態）、visited は過去形（能動態）、is visiting は現在進行形（能動態）です。"
+    },
+    {
+      "chapter": "L22 受け身【中2・3】",
+      "question_text": "The concert ___ last Sunday.（コンサートは先週の日曜日に開催されました）",
+      "options": [
+        "holds",
+        "is held",
+        "was held",
+        "held"
+      ],
+      "correct": 3,
+      "explanation": "last Sunday（先週の日曜日）があるので過去。受動態なので was held が正解（hold の過去分詞は held）。holds は三単現（能動態）、is held は現在（時制が合わない）、held は過去形（能動態）です。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "This math problem is too difficult for me ___ solve.（この数学の問題は難しすぎて私には解けません）",
+      "options": [
+        "for",
+        "to",
+        "of",
+        "at"
+      ],
+      "correct": 2,
+      "explanation": "too ... to +動詞の原形で「〜すぎて…できない」という表現。to solve が正解。for は「（誰か）にとって」で too ... for + 人 + to の形ですが、ここでは空所に入れる前置詞として to が必要。of と at は意味が通じません。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "The bag is ___ heavy for me to carry.（そのかばんは私が運ぶには重すぎます）",
+      "options": [
+        "very",
+        "so",
+        "enough",
+        "too"
+      ],
+      "correct": 4,
+      "explanation": "too ... for 人 to +動詞の原形は「〜すぎて（人には）…できない」という表現。too が正解。very は「とても」（後ろに to 不定詞は続かない）、so は so ... that 構文（that 節が続く）、enough は enough to（十分に…できる）で反対の意味です。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "He is old ___ to watch that movie alone.（彼はその映画を一人で見られるほど大きいです）",
+      "options": [
+        "too",
+        "enough",
+        "very",
+        "so"
+      ],
+      "correct": 2,
+      "explanation": "形容詞 + enough to +動詞の原形で「〜するのに十分なほど」（〜できるほど…だ）。enough が正解。too は「〜すぎてできない」（逆の意味）、very は「とても」（to 不定詞は続かない）、so は so ... that 構文です。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "She was ___ tired that she fell asleep right away.（彼女はとても疲れていたので、すぐに眠ってしまいました）",
+      "options": [
+        "so",
+        "too",
+        "such",
+        "enough"
+      ],
+      "correct": 1,
+      "explanation": "so ... that 〜で「とても…なので〜」という結果を表す構文。so が正解。too は too ... to（〜すぎてできない）、such は such + 名詞 + that の構文（形容詞のみには使えない）、enough は「十分に」です。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "It is difficult ___ me to understand this problem.（この問題を理解するのは私にとって難しいです）",
+      "options": [
+        "of",
+        "for",
+        "to",
+        "about"
+      ],
+      "correct": 2,
+      "explanation": "It is + 形容詞 + for + 人 + to +動詞の原形は形式主語構文。「人にとって」を表す for が正解。of は「It is kind of you to ...」のように人の性質を表す形容詞（kind/nice/clever 等）の場合に使います。to と about は文法的に不適です。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "The water was ___ cold to drink.（その水は飲むには冷たすぎました）",
+      "options": [
+        "too",
+        "so",
+        "enough",
+        "very"
+      ],
+      "correct": 1,
+      "explanation": "too + 形容詞 + to +動詞の原形で「〜すぎて…できない」。too が正解。so は so ... that 構文（that 節が続く）、enough は逆の意味（十分に〜できる）、very は「とても」（to 不定詞は続かない）です。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "This computer is easy enough ___ anyone to use.（このコンピューターは誰でも使えるほど簡単です）",
+      "options": [
+        "of",
+        "by",
+        "for",
+        "to"
+      ],
+      "correct": 3,
+      "explanation": "enough to +動詞の原形の構文で「（誰か）にとって」を表すには enough + for + 人 + to の形を使います。for が正解。of は人の性質（kind/nice）、by は手段・動作主、to は不定詞の to です。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "It is important ___ us to protect the environment.（環境を守ることは私たちにとって大切です）",
+      "options": [
+        "of",
+        "to",
+        "by",
+        "for"
+      ],
+      "correct": 4,
+      "explanation": "It is + 形容詞 + for + 人 + to +動詞の原形（形式主語構文）。important は人の性質ではなく物事の性質を表す形容詞なので for を使います。of は人の性質（kind/nice 等）の場合、to は不定詞の to、by は手段です。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "He spoke ___ fast that I couldn't follow him.（彼はとても速く話したので私は理解できませんでした）",
+      "options": [
+        "so",
+        "too",
+        "enough",
+        "very"
+      ],
+      "correct": 1,
+      "explanation": "so ... that 〜で「とても…なので〜（結果）」の構文。so が正解。too は too ... to（〜すぎてできない）、enough は「十分に」（enough to が続く）、very は強調するだけで that 節は続きません。"
+    },
+    {
+      "chapter": "L23 重要表現いろいろ【中3】",
+      "question_text": "She was ___ kind to help me with my bag.（彼女はかばんを手伝ってくれるほど親切でした）",
+      "options": [
+        "too",
+        "so",
+        "enough",
+        "kind enough"
+      ],
+      "correct": 3,
+      "explanation": "kind enough to +動詞の原形で「〜するほど親切な」という表現。形容詞 + enough to の語順が重要で enough が正解。too は逆の意味（親切すぎてできない）、so は so ... that 構文、kind enough は選択肢4の確認ですが空所位置的に enough が正解です。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "She has ___ finished her homework.（彼女はちょうど宿題を終えたところです）",
+      "options": [
+        "just",
+        "yet",
+        "since",
+        "already"
+      ],
+      "correct": 1,
+      "explanation": "just は「ちょうど〜したところだ」という完了の意味で使う副詞で、have + just + 過去分詞の語順が基本。just が正解。yet は疑問文（まだ〜しましたか）・否定文（まだ〜していない）に使います。since は「〜以来」、already は「すでに」（肯定文）です。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "Have you finished your lunch ___?（もう昼食は終わりましたか）",
+      "options": [
+        "yet",
+        "still",
+        "just",
+        "already"
+      ],
+      "correct": 1,
+      "explanation": "疑問文で「もう〜しましたか」は yet を文末に置きます。yet が正解。still は「まだ」（否定文や疑問文で継続を示す）、just は「ちょうど」（already を含む肯定文）、already は疑問文でも使えますが「もう（意外）」というニュアンスになります。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "I have ___ seen that film twice.（私はすでにその映画を2回見ました）",
+      "options": [
+        "yet",
+        "already",
+        "just",
+        "never"
+      ],
+      "correct": 2,
+      "explanation": "already は「すでに・もう」という完了・結果を強調する副詞で肯定文に使います。already が正解。yet は疑問文・否定文、just は「ちょうど（今）」、never は「一度も〜ない」（経験の否定）です。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "He has ___ finished his report yet.（彼はまだ報告書を終えていません）",
+      "options": [
+        "just",
+        "already",
+        "not",
+        "never"
+      ],
+      "correct": 3,
+      "explanation": "「まだ〜していない」は has not + 過去分詞 + yet。not が正解（hasn't finished ... yet の形）。just は「ちょうど」（肯定）、already は「すでに」（肯定）、never は「一度も〜ない」（経験の否定）で文意が異なります。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "I have ___ lost my wallet.（私は財布をなくしてしまいました（今も手元にない））",
+      "options": [
+        "yet",
+        "already",
+        "since",
+        "just"
+      ],
+      "correct": 2,
+      "explanation": "「〜してしまった（その結果が今も続く）」という結果・完了を表します。already（すでに）が自然な文脈です。yet は疑問・否定文に使います。since は継続の起点、just は「ちょうど〜したばかり」でやや意味が違います。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "We have ___ prepared everything for the party.（私たちはパーティーの準備をすでに整えました）",
+      "options": [
+        "already",
+        "yet",
+        "never",
+        "just"
+      ],
+      "correct": 1,
+      "explanation": "already は肯定文で「すでに・もう」の意味。have already + 過去分詞の形。already が正解。yet は疑問・否定、never は経験の否定（一度も〜ない）、just は「ちょうど〜したばかり」（already より近い過去）です。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "Has the train ___ left?（電車はもう出発しましたか）",
+      "options": [
+        "still",
+        "just",
+        "yet",
+        "already"
+      ],
+      "correct": 3,
+      "explanation": "疑問文で「もう〜しましたか」は yet を文末に置きます（Has the train left yet?）。yet が正解。still は継続の「まだ」、just は「ちょうど」（肯定文）、already は疑問文でも使えますが主に「もう（意外・確認）」のニュアンスです。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "I have ___ been to that restaurant.（私はあのレストランにはまだ行ったことがありません）",
+      "options": [
+        "never",
+        "just",
+        "already",
+        "not yet"
+      ],
+      "correct": 1,
+      "explanation": "have never + 過去分詞で「一度も〜ない」という経験の否定。never が正解。just は「ちょうど」（肯定）、already は「すでに」（肯定）、not yet は「まだ〜していない」ですが never のほうが「一度もない」という強い否定を表します。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "She ___ already cleaned her room.（彼女はもう自分の部屋を掃除しました）",
+      "options": [
+        "has",
+        "did",
+        "was",
+        "is"
+      ],
+      "correct": 1,
+      "explanation": "現在完了形は have/has + 過去分詞。主語が She（三人称単数）なので has + already + cleaned が正解。did は過去形（一般動詞の疑問・否定に使う）、was は過去の be動詞、is は現在形です。"
+    },
+    {
+      "chapter": "L24 現在完了1 完了・結果【中3】",
+      "question_text": "I have just ___ home.（私はちょうど家に帰ったところです）",
+      "options": [
+        "come",
+        "came",
+        "coming",
+        "comes"
+      ],
+      "correct": 1,
+      "explanation": "現在完了形は have + 過去分詞。come の過去分詞は come（原形と同じ形）。have just come が正解。came は過去形、coming は現在分詞、comes は三単現です。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "I have lived in Osaka ___ five years.（私は5年間大阪に住んでいます）",
+      "options": [
+        "since",
+        "during",
+        "ago",
+        "for"
+      ],
+      "correct": 4,
+      "explanation": "for + 期間（5 years）で「〜の間（ずっと）」という継続を表します。for が正解。since は「〜以来・〜から」（起点を示す）、during は「〜の間に」（特定の期間を示すが完了形に直接続かない）、ago は過去形とともに使う語です。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "She has studied English ___ she was ten.（彼女は10歳のときからずっと英語を勉強しています）",
+      "options": [
+        "since",
+        "for",
+        "ago",
+        "during"
+      ],
+      "correct": 1,
+      "explanation": "since + 時点（she was ten）で「〜以来・〜から」という継続の起点を表します。since が正解。for は期間（〜の間）、ago は過去形と使う語（five years ago 等）、during は「〜の間に」（特定の期間）です。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "Have you ___ tried sushi?（あなたはこれまでにお寿司を食べたことがありますか）",
+      "options": [
+        "yet",
+        "ever",
+        "still",
+        "never"
+      ],
+      "correct": 2,
+      "explanation": "Have you ever + 過去分詞？で「これまでに〜したことがありますか」という経験を尋ねる表現。ever が正解。yet は「もう〜しましたか」（完了）、still は「まだ」（継続）、never は「一度も〜ない」（否定）です。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "He has ___ been to Okinawa.（彼は一度も沖縄に行ったことがありません）",
+      "options": [
+        "ever",
+        "yet",
+        "already",
+        "never"
+      ],
+      "correct": 4,
+      "explanation": "have never + 過去分詞で「一度も〜したことがない」という経験の否定。never が正解。ever は疑問文（〜したことがありますか）、yet は完了の疑問・否定文、already は「すでに」（肯定）です。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "This is the first time I ___ visited this city.（私がこの街を訪れたのはこれが初めてです）",
+      "options": [
+        "had",
+        "was",
+        "did",
+        "have"
+      ],
+      "correct": 4,
+      "explanation": "This is the first time + 現在完了（have + 過去分詞）で「〜したのはこれが初めて」。have が正解（have visited）。had は過去完了、was は過去の be動詞、did は過去の一般動詞です。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "How long ___ you known Kenji?（あなたはどのくらいケンジと知り合いですか）",
+      "options": [
+        "did",
+        "were",
+        "have",
+        "do"
+      ],
+      "correct": 3,
+      "explanation": "How long have you + 過去分詞？は「どのくらい（ずっと）〜していますか」という継続の期間を尋ねる疑問文。have が正解（現在完了）。did は過去形の疑問文（過去の一点）、were は過去の be動詞、do は現在形の疑問文です。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "I have read this book ___.（私はこの本を2回読んだことがあります）",
+      "options": [
+        "two times",
+        "two",
+        "twice",
+        "the twice"
+      ],
+      "correct": 3,
+      "explanation": "経験の回数は twice（2回）や three times（3回）などで表します。twice が正解（慣用的に2回は twice を使う）。two times も正しいですが twice のほうが自然。two は数字のみで不完全、the twice は冠詞が不要です。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "She has worked at this company ___ 2018.（彼女は2018年からこの会社で働いています）",
+      "options": [
+        "for",
+        "during",
+        "since",
+        "ago"
+      ],
+      "correct": 3,
+      "explanation": "since + 年（2018）で「〜以来・〜から（ずっと）」という継続の起点。since が正解。for は「〜の間」（期間の長さ）、during は「〜の間に」（特定の期間）、ago は過去形と使います（2018 から現在の場合は since）。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "I have ___ seen such a beautiful sunset before.（私はこれまでにこんなきれいな夕焼けを見たことがありません）",
+      "options": [
+        "ever",
+        "never",
+        "just",
+        "yet"
+      ],
+      "correct": 2,
+      "explanation": "have never + 過去分詞 + before で「これまで一度も〜したことがない」。never が正解。ever は疑問文で使う語、just は「ちょうど」（完了・結果）、yet は否定文で使いますが never のほうが強い否定（一度もない）を表します。"
+    },
+    {
+      "chapter": "L25 現在完了2 継続・経験【中3】",
+      "question_text": "We have been friends ___ we were in elementary school.（私たちは小学校のときから友達です）",
+      "options": [
+        "since",
+        "for",
+        "ago",
+        "during"
+      ],
+      "correct": 1,
+      "explanation": "since + 過去の時点・節（we were in elementary school）で継続の起点を示します。since が正解。for は期間の長さ（〜の間）、ago は過去形と使う語、during は「〜の間に」（特定の期間）です。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "The girl ___ by the window is my cousin.（窓のそばに座っている女の子は私のいとこです）",
+      "options": [
+        "sit",
+        "sitting",
+        "sat",
+        "sits"
+      ],
+      "correct": 2,
+      "explanation": "現在分詞（-ing形）が名詞を後置修飾し「〜している（名詞）」の意味になります。sitting が正解。sit は原形（動詞として機能しない）、sat は過去形、sits は三単現（後置修飾に使えません）。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "I found a wallet ___ on the bench.（私はベンチに置き忘れられた財布を見つけました）",
+      "options": [
+        "leave",
+        "left",
+        "leaving",
+        "leaves"
+      ],
+      "correct": 2,
+      "explanation": "過去分詞（left）が名詞を後置修飾し「〜された（名詞）」という受け身の意味になります。left が正解（leave の過去分詞）。leave は原形、leaving は現在分詞（「財布が置き忘れている」では意味が通じない）、leaves は三単現です。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "Look at the ___ dog over there.（あそこで眠っている犬を見てください）",
+      "options": [
+        "sleep",
+        "slept",
+        "sleeps",
+        "sleeping"
+      ],
+      "correct": 4,
+      "explanation": "現在分詞（sleeping）が名詞を前置修飾し「〜している（名詞）」の意味。sleeping dog が正解。sleep は原形、slept は過去形・過去分詞（前置修飾でも意味が変わる）、sleeps は三単現です。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "This is a letter ___ in Chinese.（これは中国語で書かれた手紙です）",
+      "options": [
+        "writing",
+        "wrote",
+        "written",
+        "write"
+      ],
+      "correct": 3,
+      "explanation": "過去分詞（written）が名詞を後置修飾し「〜された（名詞）」という受け身の意味になります。written が正解（write の過去分詞）。writing は現在分詞（「手紙が書いている」では意味が通じない）、wrote は過去形、write は原形です。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "The man ___ in the blue jacket is our coach.（青いジャケットを着ている男性が私たちのコーチです）",
+      "options": [
+        "wore",
+        "wear",
+        "wears",
+        "wearing"
+      ],
+      "correct": 4,
+      "explanation": "現在分詞（wearing）が名詞を後置修飾し「〜している（名詞）」の意味。wearing が正解。wear は原形、wore は過去形、wears は三単現でいずれも後置修飾には使えません。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "The ___ car needs to be repaired.（壊れた車は修理が必要です）",
+      "options": [
+        "broken",
+        "break",
+        "broke",
+        "breaking"
+      ],
+      "correct": 1,
+      "explanation": "過去分詞（broken）が名詞を前置修飾し「壊れた（状態の）」という受け身・状態の意味になります。broken car が正解。break は原形、broke は過去形、breaking は現在分詞（「壊れつつある」でニュアンスが違う）です。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "She has a friend ___ in Canada.（彼女にはカナダに住んでいる友達がいます）",
+      "options": [
+        "living",
+        "live",
+        "lived",
+        "lives"
+      ],
+      "correct": 1,
+      "explanation": "現在分詞（living）が名詞を後置修飾し「〜している（名詞）」の意味。living が正解。live は原形（後置修飾に使えない）、lived は過去形・過去分詞（受け身の意味になる）、lives は三単現です。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "The cookies ___ by my grandmother are delicious.（祖母が焼いたクッキーはおいしいです）",
+      "options": [
+        "baked",
+        "bake",
+        "baking",
+        "bakes"
+      ],
+      "correct": 1,
+      "explanation": "過去分詞（baked）が名詞を後置修飾し「〜された（名詞）」（受け身・完了の意味）。baked が正解（bake の過去分詞）。bake は原形、baking は現在分詞（「クッキーが焼いている」では意味が通じない）、bakes は三単現です。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "Do you know the boy ___ a red cap?（赤い帽子をかぶっている男の子を知っていますか）",
+      "options": [
+        "wearing",
+        "wears",
+        "wore",
+        "wear"
+      ],
+      "correct": 1,
+      "explanation": "現在分詞（wearing）が後置修飾で the boy を説明し「〜している（名詞）」の意味。wearing が正解。wear は原形（直後に名詞を伴うと動詞として読めない）、wore は過去形、wears は三単現です。"
+    },
+    {
+      "chapter": "L26 分詞【中3】",
+      "question_text": "I saw a bird ___ from tree to tree.（私は木から木へ飛んでいる鳥を見ました）",
+      "options": [
+        "fly",
+        "flew",
+        "flying",
+        "flies"
+      ],
+      "correct": 3,
+      "explanation": "現在分詞（flying）が名詞を後置修飾し「〜している（名詞）」の意味。flying が正解。fly は原形（後置修飾に使えない）、flew は過去形、flies は三単現です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "I have a friend ___ lives in Hokkaido.（私には北海道に住んでいる友達がいます）",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "whom"
+      ],
+      "correct": 2,
+      "explanation": "先行詞が人（a friend）で、関係代名詞節の中で主語の役割（lives の主語）なので主格の who が正解。which は物・動物の主格、whose は所有格（〜の）、whom は人の目的格です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "This is the cat ___ I found last week.（これは先週私が見つけた猫です）",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "correct": 3,
+      "explanation": "先行詞が動物（the cat）で、関係代名詞節の中で目的語の役割（I found ___）なので目的格の which が正解。who は人の主格、whose は所有格、whom は人の目的格です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "The teacher ___ taught us math was very kind.（私たちに数学を教えてくださった先生はとても親切でした）",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "whom"
+      ],
+      "correct": 2,
+      "explanation": "先行詞が人（The teacher）で、関係代名詞節の中で主語の役割（taught の主語）なので主格の who が正解。which は物、whose は所有格、whom は人の目的格です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "The book ___ she gave me was very interesting.（彼女が私にくれた本はとてもおもしろかったです）",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "whose"
+      ],
+      "correct": 1,
+      "explanation": "先行詞が物（The book）で、関係代名詞節の中で目的語の役割（she gave me ___）なので目的格の which が正解。who は人の主格、whose は所有格、whom は人の目的格です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "Do you know the boy ___ is playing guitar over there?（あそこでギターを弾いている男の子を知っていますか）",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "whose"
+      ],
+      "correct": 2,
+      "explanation": "先行詞が人（the boy）で、関係代名詞節の中で主語の役割（is playing の主語）なので主格の who が正解。which は物・動物、whom は人の目的格、whose は所有格です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "This is the movie ___ I want to watch.（これは私が見たい映画です）",
+      "options": [
+        "who",
+        "whom",
+        "whose",
+        "that"
+      ],
+      "correct": 4,
+      "explanation": "先行詞が物（the movie）で、関係代名詞節の中で目的語の役割（I want to watch ___）なので which または that が使えます。that が選択肢に含まれるので that が正解。who と whom は人、whose は所有格です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "She is the nurse ___ helped me at the hospital.（彼女が病院で私を助けてくれた看護師です）",
+      "options": [
+        "which",
+        "whose",
+        "whom",
+        "who"
+      ],
+      "correct": 4,
+      "explanation": "先行詞が人（the nurse）で主格（helped の主語）なので who が正解。which は物、whose は所有格、whom は人の目的格です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "The dog ___ my sister has is very cute.（姉が飼っている犬はとてもかわいいです）",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "whom"
+      ],
+      "correct": 1,
+      "explanation": "先行詞が動物（The dog）で、関係代名詞節の中で目的語の役割（my sister has ___）なので目的格の which が正解。who は人の主格、whose は所有格、whom は人の目的格です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "The man ___ I met at the party was a famous singer.（パーティーで会った男性は有名な歌手でした）",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "whom"
+      ],
+      "correct": 2,
+      "explanation": "先行詞が人（The man）で、関係代名詞節の中で目的語の役割（I met ___ at the party）なので目的格の whom または who が正解。口語では who も使えます。which は物、whose は所有格です。"
+    },
+    {
+      "chapter": "L27 関係代名詞1 主格・目的格【中3】",
+      "question_text": "I like movies ___ have happy endings.（私はハッピーエンドの映画が好きです）",
+      "options": [
+        "who",
+        "that",
+        "whom",
+        "whose"
+      ],
+      "correct": 2,
+      "explanation": "先行詞が物（movies）で、関係代名詞節の中で主語の役割（have の主語）なので主格の which または that が使えます。that が選択肢にあるので that が正解。who と whom は人、whose は所有格です。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "I know a girl ___ mother is a doctor.（私はお母さんが医者の女の子を知っています）",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "that"
+      ],
+      "correct": 3,
+      "explanation": "関係代名詞の所有格は whose で「〜の」という意味。先行詞が人（a girl）で所有格（whose mother）なので whose が正解。who は人の主格、which は物、that は所有格になれません。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "He lives in a house ___ roof is green.（彼は屋根が緑色の家に住んでいます）",
+      "options": [
+        "that",
+        "which",
+        "whose",
+        "who"
+      ],
+      "correct": 3,
+      "explanation": "先行詞が物（a house）で所有格（whose roof）なので whose が正解。whose は人にも物にも使えます。that と which は物の主格・目的格、who は人の主格です。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "She is a writer ___ books are popular all over the world.（彼女は本が世界中で人気の作家です）",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "that"
+      ],
+      "correct": 2,
+      "explanation": "先行詞が人（a writer）で所有格（whose books）なので whose が正解。who は人の主格（続く語が動詞のとき）、which は物の主格・目的格、that は所有格にはなれません。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "This is a company ___ products are sold in 50 countries.（これは製品が50か国で販売されている会社です）",
+      "options": [
+        "who",
+        "whose",
+        "whom",
+        "which"
+      ],
+      "correct": 2,
+      "explanation": "先行詞が物（a company）で所有格（whose products）なので whose が正解。whose は物にも使えます。who と whom は人、which は物の主格・目的格（所有格は作れない）です。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "I have a cat ___ eyes are blue.（私は目が青い猫を飼っています）",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "that"
+      ],
+      "correct": 3,
+      "explanation": "先行詞が動物（a cat）で所有格（whose eyes）なので whose が正解。whose は動物にも使えます。which は物・動物の主格・目的格（所有格にはなれない）、who は人の主格、that は所有格になれません。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "The student ___ phone rang during class was embarrassed.（授業中に電話が鳴った生徒は恥ずかしそうでした）",
+      "options": [
+        "who",
+        "which",
+        "that",
+        "whose"
+      ],
+      "correct": 4,
+      "explanation": "先行詞が人（The student）で所有格（whose phone）なので whose が正解。who は人の主格（続く語が動詞のとき）、which は物の主格・目的格、that は所有格になれません。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "We need a leader ___ ideas are clear and helpful.（私たちはアイデアが明確で役立つリーダーが必要です）",
+      "options": [
+        "who",
+        "whose",
+        "that",
+        "which"
+      ],
+      "correct": 2,
+      "explanation": "先行詞が人（a leader）で所有格（whose ideas）なので whose が正解。who は続く語が動詞のとき（主格）、that は所有格になれません。which は物です。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "This is the man ___ son won the championship.（これは息子が優勝した男性です）",
+      "options": [
+        "that",
+        "who",
+        "which",
+        "whose"
+      ],
+      "correct": 4,
+      "explanation": "先行詞が人（the man）で所有格（whose son）なので whose が正解。that は所有格になれません。who は主格（続く語が動詞のとき）、which は物です。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "I met a girl ___ hobby is painting.（私は趣味が絵画の女の子に会いました）",
+      "options": [
+        "whom",
+        "who",
+        "that",
+        "whose"
+      ],
+      "correct": 4,
+      "explanation": "先行詞が人（a girl）で所有格（whose hobby）なので whose が正解。whom は人の目的格（後ろに主語 + 動詞が続く）、who は主格（後ろに動詞が続く）、that は所有格になれません。"
+    },
+    {
+      "chapter": "L28 関係代名詞2 所有格【中3】",
+      "question_text": "They live in a building ___ windows are very large.（彼らは窓がとても大きなビルに住んでいます）",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "that"
+      ],
+      "correct": 3,
+      "explanation": "先行詞が物（a building）で所有格（whose windows）なので whose が正解。whose は物にも使えます。who は人の主格、which は物の主格・目的格（所有格にはなれない）、that は所有格になれません。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "I enjoy playing the piano every evening.（私は毎晩ピアノを弾くことを楽しんでいます）下線部 playing the piano は文の中でどんな働きをしていますか？",
+      "options": [
+        "主語（Subject）",
+        "動詞（Verb）",
+        "補語（Complement）",
+        "目的語（Object）"
+      ],
+      "correct": 4,
+      "explanation": "playing the piano は動名詞句で enjoy の目的語（O）として機能しています（SVOC でいう O）。主語は I、動詞は enjoy、目的語が playing the piano です。補語は be動詞などの後ろで S=C の関係になる語句です。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "The girl standing by the door is my sister.（ドアのそばに立っている女の子は私の妹です）下線部 standing by the door の品詞的役割は？",
+      "options": [
+        "副詞句（動詞を修飾）",
+        "名詞句（主語）",
+        "形容詞句（名詞を修飾）",
+        "動詞句（述語）"
+      ],
+      "correct": 3,
+      "explanation": "standing by the door は現在分詞句で名詞 The girl を後ろから修飾する形容詞句です。形容詞のように名詞を修飾する役割を持ちます。副詞句は動詞・形容詞を修飾、名詞句は主語・目的語・補語、動詞句は述語に相当します。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "To pass the exam is her goal.（試験に合格することが彼女の目標です）下線部 To pass the exam の役割は？",
+      "options": [
+        "副詞句",
+        "形容詞句",
+        "名詞句（主語）",
+        "名詞句（目的語）"
+      ],
+      "correct": 3,
+      "explanation": "To pass the exam は不定詞句（名詞的用法）で文全体の主語（S）として機能しています。名詞句（主語）が正解。名詞句（目的語）は動詞の後ろで目的語になる場合（例：I want to pass the exam）です。形容詞句は名詞修飾、副詞句は動詞修飾です。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "She studies hard to become a doctor.（彼女は医者になるために一生懸命勉強しています）下線部 to become a doctor の役割は？",
+      "options": [
+        "名詞句（補語）",
+        "名詞句（主語）",
+        "形容詞句（名詞修飾）",
+        "副詞句（目的を表す）"
+      ],
+      "correct": 4,
+      "explanation": "to become a doctor は不定詞句（副詞的用法）で動詞 studies を修飾し「〜するために（目的）」という副詞句です。名詞句（主語）は文頭で主語になる場合、形容詞句は名詞の後で名詞を修飾、名詞句（補語）は be動詞の後の補語です。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "I know the man who lives next door.（私は隣に住んでいる男性を知っています）この文の文型として正しいものは？",
+      "options": [
+        "SVO",
+        "SV",
+        "SVC",
+        "SVOO"
+      ],
+      "correct": 1,
+      "explanation": "I（S）+ know（V）+ the man who lives next door（O）の第3文型（SVO）です。the man who lives next door は関係代名詞節を含む名詞句で目的語（O）。SV は目的語なし、SVC は S=C の関係（補語）、SVOO は目的語が2つです。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "She seems happy today.（彼女は今日、幸せそうです）この文の文型として正しいものは？",
+      "options": [
+        "SVO",
+        "SVOO",
+        "SVC",
+        "SVOC"
+      ],
+      "correct": 3,
+      "explanation": "She（S）+ seems（V）+ happy（C）の第2文型（SVC）です。seem は「〜のように見える・思われる」という連結動詞（linking verb）で後ろに補語が来ます。SVO は他動詞 + 目的語、SVOO は目的語2つ、SVOC は目的語 + 補語です。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "He gave his mother some flowers.（彼は母親にいくつかの花を渡しました）この文の文型として正しいものは？",
+      "options": [
+        "SVO",
+        "SVOO",
+        "SVC",
+        "SVOC"
+      ],
+      "correct": 2,
+      "explanation": "He（S）+ gave（V）+ his mother（O1・人）+ some flowers（O2・物）の第4文型（SVOO）です。give のように「人に物を与える」動詞は目的語を2つとります。SVO は目的語1つ、SVC は補語（S=C）、SVOC は目的語 + 補語（O=C）です。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "The book written in simple English is easy to read.（やさしい英語で書かれたその本は読みやすいです）下線部 written in simple English の役割は？",
+      "options": [
+        "副詞句（動詞を修飾）",
+        "形容詞句（名詞を修飾）",
+        "名詞句（主語）",
+        "動詞句（述語）"
+      ],
+      "correct": 2,
+      "explanation": "written in simple English は過去分詞句で名詞 The book を後ろから修飾する形容詞句です。形容詞的に働き「やさしい英語で書かれた（本）」の意味。副詞句は動詞・形容詞を修飾、名詞句は主語・目的語、動詞句は述語です。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "We called our new baby Hana.（私たちは新しい赤ちゃんをハナと名づけました）この文の文型として正しいものは？",
+      "options": [
+        "SVO",
+        "SVOO",
+        "SVC",
+        "SVOC"
+      ],
+      "correct": 4,
+      "explanation": "We（S）+ called（V）+ our new baby（O）+ Hana（C）の第5文型（SVOC）です。call O C で「OをCと呼ぶ」という意味で O=C の関係（baby=Hana）が成り立ちます。SVO は目的語1つ、SVOO は目的語2つ（O1≠O2の関係）、SVC は目的語なしで補語があります。"
+    },
+    {
+      "chapter": "L29 英文解釈のコツ【中3】",
+      "question_text": "I was glad to hear that she passed the test.（彼女がテストに合格したと聞いてうれしかったです）下線部 that she passed the test の役割は？",
+      "options": [
+        "名詞句（hear の目的語）",
+        "副詞句",
+        "形容詞句（名詞修飾）",
+        "名詞句（主語）"
+      ],
+      "correct": 1,
+      "explanation": "that she passed the test は that 節（名詞節）で動詞 hear の目的語（O）として機能しています。名詞句（目的語）が正解。副詞句は動詞・形容詞を修飾、形容詞句は名詞を修飾、名詞句（主語）は文の主語になる場合です。"
+    }
+  ]
+}

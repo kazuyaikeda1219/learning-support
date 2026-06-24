@@ -1,0 +1,1207 @@
+{
+  "subject": "en",
+  "category": "英検",
+  "book_name": "英検準2級 単語",
+  "questions": [
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "She ___ hard for the test and got a perfect score.（彼女はテストのために一生懸命勉強して、満点を取った）",
+      "options": [
+        "studied",
+        "stayed",
+        "stopped",
+        "started"
+      ],
+      "correct": 1,
+      "explanation": "studied=勉強した。study hard for a test=テストに向けて一生懸命勉強する。stayed=とどまった、stopped=止まった、started=始めた。"
+    },
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "Tom had to ___ his homework three times because he kept making mistakes.（トムは何度も間違いをするので、宿題を3回やり直さなければならなかった）",
+      "options": [
+        "reply",
+        "refuse",
+        "redo",
+        "remove"
+      ],
+      "correct": 3,
+      "explanation": "redo=やり直す。redo homework=宿題をやり直す。reply=返事をする、refuse=断る、remove=取り除く。"
+    },
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "Our teacher asked us to ___ the main idea of each paragraph.（先生は各段落の要旨をまとめるように指示した）",
+      "options": [
+        "summarize",
+        "replace",
+        "surprise",
+        "subtract"
+      ],
+      "correct": 1,
+      "explanation": "summarize=まとめる・要約する。summarize the main idea=要旨をまとめる。replace=取り替える、surprise=驚かせる、subtract=引く。"
+    },
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "Many students ___ to understand the math problem at first.（最初、多くの生徒がその数学の問題を理解するのに苦労した）",
+      "options": [
+        "struggled",
+        "shouted",
+        "stepped",
+        "spelled"
+      ],
+      "correct": 1,
+      "explanation": "struggled=苦労した。struggle to do=〜しようと苦労する。shouted=叫んだ、stepped=歩いた、spelled=つづりを言った。"
+    },
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "The school ___ students to bring smartphones to class.（その学校は生徒がスマートフォンを授業に持ち込むことを禁止している）",
+      "options": [
+        "orders",
+        "follows",
+        "forces",
+        "forbids"
+      ],
+      "correct": 4,
+      "explanation": "forbids=禁止する。forbid A to do=AがするのをNGとする。orders=命令する（文脈不適）、follows=従う、forces=強制する（文脈不適）。"
+    },
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "The library has a large ___ of science books on its shelves.（図書館の棚には科学の本が大量に所蔵されている）",
+      "options": [
+        "collision",
+        "connection",
+        "collection",
+        "confusion"
+      ],
+      "correct": 3,
+      "explanation": "collection=コレクション・所蔵物。a collection of books=本の所蔵。collision=衝突、connection=つながり、confusion=混乱。"
+    },
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "She was chosen to give a ___ at the school graduation ceremony.（彼女は学校の卒業式でスピーチをするために選ばれた）",
+      "options": [
+        "spell",
+        "spread",
+        "speed",
+        "speech"
+      ],
+      "correct": 4,
+      "explanation": "speech=スピーチ・演説。give a speech=スピーチをする。spell=つづり、spread=広がり、speed=速度。"
+    },
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "He decided to ___ in the science club to explore his interest in chemistry.（彼は化学への興味を追求するために科学クラブに入ることにした）",
+      "options": [
+        "enter",
+        "ensure",
+        "enjoy",
+        "enroll"
+      ],
+      "correct": 4,
+      "explanation": "enroll（in）=入会する・登録する。enroll in a club=クラブに入る。enter=入る（建物など）、ensure=確実にする、enjoy=楽しむ。"
+    },
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "The teacher gave us a ___ list of words to memorize before the next class.（先生は次の授業までに覚えるべき単語リストを渡してくれた）",
+      "options": [
+        "victory",
+        "variety",
+        "vocabulary",
+        "volcano"
+      ],
+      "correct": 3,
+      "explanation": "vocabulary（list）=単語リスト。vocabulary=語彙。victory=勝利、variety=多様性、volcano=火山。"
+    },
+    {
+      "chapter": "英検準2級 単語 ① 学校・勉強",
+      "question_text": "It is important to ___ your notes soon after class so you don't forget.（忘れないうちに授業後すぐにノートを見直すことが大切だ）",
+      "options": [
+        "revise",
+        "reduce",
+        "remove",
+        "replace"
+      ],
+      "correct": 1,
+      "explanation": "revise=見直す・復習する。revise your notes=ノートを見直す。reduce=減らす、remove=取り除く、replace=取り替える。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "My mother always ___ the house before guests arrive.（母はお客が来る前にいつも家を掃除する）",
+      "options": [
+        "closes",
+        "climbs",
+        "cleans",
+        "claims"
+      ],
+      "correct": 3,
+      "explanation": "cleans（the house）=家を掃除する。clean the house=家を掃除する。closes=閉める、climbs=登る、claims=主張する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "He forgot to ___ off the lights before leaving home.（彼は家を出る前に電気を消すのを忘れた）",
+      "options": [
+        "take",
+        "turn",
+        "throw",
+        "think"
+      ],
+      "correct": 2,
+      "explanation": "turn off（the lights）=電気を消す。turn off は電気・スイッチを切る定番表現。take=取る、throw=投げる、think=考える。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "The family decided to ___ their house and move to a bigger one.（その家族は家を売って、もっと大きな家に引っ越すことにした）",
+      "options": [
+        "show",
+        "seal",
+        "send",
+        "sell"
+      ],
+      "correct": 4,
+      "explanation": "sell（the house）=家を売る。sell and move=売って引っ越す。show=見せる、seal=封をする、send=送る。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "Could you ___ the trash on your way out?（出かけるついでにゴミを出してくれる？）",
+      "options": [
+        "take in",
+        "take out",
+        "take back",
+        "take over"
+      ],
+      "correct": 2,
+      "explanation": "take out（the trash）=ゴミを出す。take out the garbage が定番。take in=取り込む、take back=取り返す、take over=引き継ぐ。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "My sister is ___ of spiders and screams whenever she sees one.（姉はクモが怖くて、見るたびに叫ぶ）",
+      "options": [
+        "afraid",
+        "careful",
+        "aware",
+        "capable"
+      ],
+      "correct": 1,
+      "explanation": "afraid（of）=〜を怖がっている。be afraid of spiders=クモが怖い。careful=注意深い、aware=気づいている、capable=能力のある。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "The parents ___ their children to go to bed by nine o'clock every night.（親は毎晩9時までに子どもを寝させる）",
+      "options": [
+        "refuse",
+        "remind",
+        "request",
+        "allow"
+      ],
+      "correct": 4,
+      "explanation": "allow（children to）=〜するのを許す。allow A to do=AがするのをOKとする。refuse=断る、remind=思い出させる、request=依頼する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "We have a ___ rule in our house: no phones at the dinner table.（うちには食事中に電話禁止というルールがある）",
+      "options": [
+        "firm",
+        "fire",
+        "fine",
+        "fair"
+      ],
+      "correct": 1,
+      "explanation": "firm（rule）=厳格なルール。a firm rule=しっかりとしたルール。fire=火、fine=罰金・晴れ、fair=公平な。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "Her grandmother ___ her how to bake bread from scratch.（祖母は彼女に、ゼロからパンを焼く方法を教えてくれた）",
+      "options": [
+        "told",
+        "talked",
+        "taught",
+        "took"
+      ],
+      "correct": 3,
+      "explanation": "taught（how to）=〜のやり方を教えた。teach A how to do=AにやりかたをOKと教える。told=言った、talked=話した、took=取った。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "My father is very ___ about keeping the kitchen clean.（父はキッチンを清潔に保つことにとても厳格だ）",
+      "options": [
+        "strange",
+        "strong",
+        "strict",
+        "straight"
+      ],
+      "correct": 3,
+      "explanation": "strict（about）=〜について厳格な。be strict about cleanliness=清潔さについて厳しい。strange=奇妙な、strong=強い、straight=まっすぐな。"
+    },
+    {
+      "chapter": "英検準2級 単語 ② 日常生活・家庭",
+      "question_text": "The baby cried all night, so the parents were completely ___ in the morning.（赤ちゃんが一晩中泣いたため、親は朝にへとへとだった）",
+      "options": [
+        "exhausted",
+        "expected",
+        "excited",
+        "examined"
+      ],
+      "correct": 1,
+      "explanation": "exhausted=疲れ果てた。completely exhausted=ひどく疲れた。expected=期待された、excited=わくわくした、examined=調べられた。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "We need to ___ our passports at least six months before they expire.（パスポートが切れる少なくとも6か月前に更新する必要がある）",
+      "options": [
+        "remove",
+        "repair",
+        "return",
+        "renew"
+      ],
+      "correct": 4,
+      "explanation": "renew（a passport）=パスポートを更新する。renew=更新する。remove=取り除く、repair=修理する、return=返す・戻る。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "Tourists are advised to ___ local food to experience the culture.（観光客は文化を体験するために地元の食べ物を試すことを勧められる）",
+      "options": [
+        "trust",
+        "treat",
+        "train",
+        "try"
+      ],
+      "correct": 4,
+      "explanation": "try（local food）=地元の食べ物を試す。try=試す・挑戦する。trust=信頼する、treat=扱う・ご馳走する、train=訓練する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "The tour guide ___ us through the ancient ruins of the temple.（ツアーガイドが古代遺跡を案内してくれた）",
+      "options": [
+        "left",
+        "led",
+        "lent",
+        "laid"
+      ],
+      "correct": 2,
+      "explanation": "led（us through）=〜を案内した。lead A through=AをBに案内する（ledはleadの過去形）。left=去った、lent=貸した、laid=置いた。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "Please make sure to ___ your luggage before going through airport security.（空港のセキュリティを通る前に荷物を確認してください）",
+      "options": [
+        "chase",
+        "check",
+        "choose",
+        "charge"
+      ],
+      "correct": 2,
+      "explanation": "check（luggage）=荷物を確認する。check your bags=荷物を確認する。chase=追う、choose=選ぶ、charge=請求する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "The train was so ___ during rush hour that I couldn't find a seat.（ラッシュアワーの電車はとても混んでいて座席が見つからなかった）",
+      "options": [
+        "crowded",
+        "created",
+        "covered",
+        "crossed"
+      ],
+      "correct": 1,
+      "explanation": "crowded=混んでいる。a crowded train=混雑した電車。created=作られた、covered=覆われた、crossed=渡った。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "We decided to ___ a car for the weekend trip to the mountains.（週末の山への旅行のために車を借りることにした）",
+      "options": [
+        "lend",
+        "land",
+        "rent",
+        "lose"
+      ],
+      "correct": 3,
+      "explanation": "rent（a car）=車を借りる。rent a car=レンタカーを借りる。lend=貸す（立場が逆）、land=着陸する、lose=失う。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "The bus ___ from the station every thirty minutes.（バスは駅から30分ごとに出発する）",
+      "options": [
+        "demands",
+        "designs",
+        "departs",
+        "drives"
+      ],
+      "correct": 3,
+      "explanation": "departs（from）=出発する。The bus departs at nine=バスは9時に出発する。demands=要求する、designs=設計する、drives=運転する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "She couldn't read the road signs because they were written in a foreign ___.（道路標識が外国語で書かれていたため、読めなかった）",
+      "options": [
+        "language",
+        "landscape",
+        "landing",
+        "manner"
+      ],
+      "correct": 1,
+      "explanation": "language=言語。a foreign language=外国語。landscape=景色、landing=着陸・上陸、manner=マナー・方法。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "The hotel room had a ___ view of the ocean from the balcony.（ホテルの部屋にはバルコニーから海の素晴らしい眺めがあった）",
+      "options": [
+        "boring",
+        "broken",
+        "beautiful",
+        "burning"
+      ],
+      "correct": 3,
+      "explanation": "beautiful（view）=美しい眺め。a beautiful view=美しい景色。boring=つまらない、broken=壊れた、burning=燃えている。"
+    },
+    {
+      "chapter": "英検準2級 単語 ③ 旅行・交通",
+      "question_text": "Before travelling abroad, it is a good idea to ___ travel insurance.（海外旅行の前に、旅行保険に加入するのがよい）",
+      "options": [
+        "produce",
+        "protect",
+        "promise",
+        "purchase"
+      ],
+      "correct": 4,
+      "explanation": "purchase（travel insurance）=旅行保険を購入する。purchase=購入する。produce=生産する、protect=守る、promise=約束する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "She practices swimming every morning to ___ her speed.（彼女は速度を上げるために毎朝水泳の練習をしている）",
+      "options": [
+        "impress",
+        "involve",
+        "ignore",
+        "improve"
+      ],
+      "correct": 4,
+      "explanation": "improve（speed）=速度を上げる・向上させる。improve skills=スキルを上げる。impress=感動させる、involve=含む、ignore=無視する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "The team ___ the championship after winning all five games.（チームは5試合全勝してチャンピオンシップを獲得した）",
+      "options": [
+        "won",
+        "wore",
+        "woke",
+        "went"
+      ],
+      "correct": 1,
+      "explanation": "won（the championship）=選手権を勝ち取った。win the championship=チャンピオンになる。wore=着た、woke=目覚めた、went=行った。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "He was so ___ in reading his comic book that he didn't hear the doorbell.（彼は漫画を読むのに夢中で、玄関のチャイムが聞こえなかった）",
+      "options": [
+        "absent",
+        "absorbed",
+        "alone",
+        "afraid"
+      ],
+      "correct": 2,
+      "explanation": "absorbed（in）=〜に夢中になっている。be absorbed in reading=読書に没頭する。absent=不在の、alone=一人で、afraid=怖がっている。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "The coach told the players to ___ before the game started.（コーチは試合開始前に選手たちにウォームアップするよう指示した）",
+      "options": [
+        "warm up",
+        "calm down",
+        "cool off",
+        "break down"
+      ],
+      "correct": 1,
+      "explanation": "warm up=ウォームアップする。warm up before a game=試合前にウォームアップする。calm down=落ち着く、cool off=冷ます・落ち着く、break down=故障する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "He draws ___ in his free time and has filled three sketchbooks.（彼は空き時間に絵を描いており、スケッチブックを3冊埋めた）",
+      "options": [
+        "passages",
+        "pockets",
+        "pictures",
+        "purposes"
+      ],
+      "correct": 3,
+      "explanation": "pictures=絵・写真。draw pictures=絵を描く。passages=通路・文章の一節、pockets=ポケット、purposes=目的。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "Playing the piano ___ a lot of daily practice and patience.（ピアノを弾くには毎日の練習と忍耐が多く必要だ）",
+      "options": [
+        "requests",
+        "requires",
+        "refuses",
+        "reaches"
+      ],
+      "correct": 2,
+      "explanation": "requires=必要とする。require practice=練習を必要とする。requests=依頼する、refuses=断る、reaches=届く。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "She joined the school drama club and played the ___ role in the play.（彼女は学校の演劇部に入り、劇の主役を演じた）",
+      "options": [
+        "menu",
+        "main",
+        "mail",
+        "mall"
+      ],
+      "correct": 2,
+      "explanation": "main（role）=主要な役。play the main role=主役を演じる。menu=メニュー、mail=郵便、mall=ショッピングモール。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "He is very ___ about collecting stamps and has thousands of them.（彼は切手収集に情熱的で、何千枚も持っている）",
+      "options": [
+        "powerful",
+        "practical",
+        "polite",
+        "passionate"
+      ],
+      "correct": 4,
+      "explanation": "passionate（about）=〜に情熱的な。be passionate about a hobby=趣味に情熱を持つ。powerful=力強い、practical=実用的な、polite=礼儀正しい。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "The match was ___ because both teams scored the same number of points.（両チームが同じ得点だったため、試合は引き分けだった）",
+      "options": [
+        "a drag",
+        "a drop",
+        "a drill",
+        "a draw"
+      ],
+      "correct": 4,
+      "explanation": "a draw=引き分け。The match ended in a draw.=試合は引き分けで終わった。a drag=退屈なこと、a drop=下落、a drill=ドリル。"
+    },
+    {
+      "chapter": "英検準2級 単語 ④ 趣味・スポーツ",
+      "question_text": "He ___ his ankle while playing basketball and had to sit out the rest of the game.（バスケをしている最中に足首をひねり、残りの試合は出られなかった）",
+      "options": [
+        "sprained",
+        "sprayed",
+        "spread",
+        "sprinted"
+      ],
+      "correct": 1,
+      "explanation": "sprained（ankle）=足首をひねった。sprain an ankle=足首を捻挫する。sprayed=噴射した、spread=広げた、sprinted=全力疾走した。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "This restaurant is famous for its ___ portions and affordable prices.（このレストランは量が多くてお手頃な値段で有名だ）",
+      "options": [
+        "genuine",
+        "generous",
+        "gradual",
+        "grateful"
+      ],
+      "correct": 2,
+      "explanation": "generous（portions）=量が多い・気前のよい。generous portions=たっぷりの量。genuine=本物の、gradual=徐々の、grateful=感謝している。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "She asked the waiter to ___ her steak medium rare.（彼女はウェイターにステーキをミディアムレアに焼くよう頼んだ）",
+      "options": [
+        "cost",
+        "copy",
+        "cook",
+        "call"
+      ],
+      "correct": 3,
+      "explanation": "cook（steak）=ステーキを焼く・料理する。cook A medium rare=Aをミディアムレアに焼く。cost=費用がかかる、copy=コピーする、call=呼ぶ。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "He couldn't decide which jacket to buy because they were both ___.（どちらのジャケットも魅力的で、どちらを買うか決められなかった）",
+      "options": [
+        "approving",
+        "appearing",
+        "appealing",
+        "applying"
+      ],
+      "correct": 3,
+      "explanation": "appealing=魅力的な。both options are appealing=どちらも魅力的。approving=承認している、appearing=現れている、applying=応募している。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "The café offers a ___ of cakes and pastries every morning.（そのカフェは毎朝ケーキやパイなどの品揃えを提供している）",
+      "options": [
+        "selection",
+        "section",
+        "season",
+        "session"
+      ],
+      "correct": 1,
+      "explanation": "selection=品揃え・選択。a selection of cakes=ケーキの品揃え。section=区画・節、season=季節、session=セッション・時間。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "Could you ___ this shirt in a different color?（このシャツを別の色で持ってきていただけますか）",
+      "options": [
+        "break",
+        "build",
+        "blow",
+        "bring"
+      ],
+      "correct": 4,
+      "explanation": "bring（this shirt in a different color）=別の色のシャツを持ってくる。bring=持ってくる。break=壊す、build=建てる、blow=吹く。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "The new shopping center has a ___ food court with dishes from around the world.（新しいショッピングセンターには世界各地の料理が揃う大きなフードコートがある）",
+      "options": [
+        "hurry",
+        "huge",
+        "happy",
+        "heavy"
+      ],
+      "correct": 2,
+      "explanation": "huge（food court）=巨大なフードコート。huge=とても大きい。hurry=急ぐ（動詞・名詞）、happy=幸せな、heavy=重い。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "This jacket is a little too expensive. Is there anything more ___ in the store?（このジャケットは少し高すぎる。もっと手頃な値段のものはありますか）",
+      "options": [
+        "affordable",
+        "available",
+        "adorable",
+        "advisable"
+      ],
+      "correct": 1,
+      "explanation": "affordable=手頃な値段の。an affordable price=手頃な価格。available=入手可能な、adorable=かわいらしい、advisable=望ましい。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "I always check the ___ label before buying food to make sure it hasn't expired.（期限が切れていないか確認するために、食品を買う前にいつも賞味期限のラベルを確認する）",
+      "options": [
+        "export",
+        "explore",
+        "express",
+        "expiry"
+      ],
+      "correct": 4,
+      "explanation": "expiry（label）=賞味期限（ラベル）。expiry date=賞味期限・有効期限。export=輸出する、explore=探索する、express=表現する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "The grocery store was offering a ___ deal on fresh vegetables this week.（スーパーは今週、新鮮な野菜に特売を設けていた）",
+      "options": [
+        "spiritual",
+        "simple",
+        "special",
+        "social"
+      ],
+      "correct": 3,
+      "explanation": "special（deal）=特売・特別割引。a special deal=特売。spiritual=精神的な、simple=簡単な、social=社会的な。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑤ 食事・買い物",
+      "question_text": "She saved up enough money to ___ a new bicycle.（彼女は新しい自転車を買うのに十分なお金を貯めた）",
+      "options": [
+        "accept",
+        "arrange",
+        "afford",
+        "attempt"
+      ],
+      "correct": 3,
+      "explanation": "afford（a bicycle）=（自転車を買う）余裕がある。afford to buy=買う余裕がある。accept=受け入れる、arrange=手配する、attempt=試みる。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "My doctor told me to ___ sugar to lower my blood pressure.（医師は血圧を下げるために糖分を控えるように言った）",
+      "options": [
+        "advise",
+        "achieve",
+        "avoid",
+        "admit"
+      ],
+      "correct": 3,
+      "explanation": "avoid（sugar）=糖分を避ける。avoid eating sugar=糖分を避ける。advise=助言する、achieve=達成する、admit=認める。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "Regular exercise helps to ___ a healthy weight throughout your life.（定期的な運動は生涯を通じて健康的な体重を維持するのに役立つ）",
+      "options": [
+        "mention",
+        "maintain",
+        "measure",
+        "match"
+      ],
+      "correct": 2,
+      "explanation": "maintain（weight）=体重を維持する。maintain good health=健康を維持する。mention=言及する、measure=測る、match=一致する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "She had a ___ that lasted three days, so she visited the doctor.（彼女は3日間続く発熱があったため、医者を訪れた）",
+      "options": [
+        "fever",
+        "flavor",
+        "favor",
+        "factor"
+      ],
+      "correct": 1,
+      "explanation": "fever=発熱。have a fever=熱がある。flavor=風味、favor=好意、factor=要因。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "He takes vitamins every morning to ___ his immune system.（彼は免疫系を強化するために毎朝ビタミンを摂っている）",
+      "options": [
+        "stretch",
+        "struggle",
+        "stress",
+        "strengthen"
+      ],
+      "correct": 4,
+      "explanation": "strengthen（the immune system）=免疫系を強化する。strengthen=強める。stretch=伸ばす（運動文脈）、struggle=苦労する、stress=ストレスを与える。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "Getting enough sleep is ___ for staying healthy and focused.（健康を保ち集中するためには、十分な睡眠を取ることが不可欠だ）",
+      "options": [
+        "excellent",
+        "efficient",
+        "essential",
+        "emotional"
+      ],
+      "correct": 3,
+      "explanation": "essential（for）=〜に不可欠な。essential for good health=健康に不可欠。excellent=優秀な、efficient=効率的な、emotional=感情的な。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "The dentist advised me to ___ my teeth at least twice a day.（歯科医は1日に少なくとも2回歯を磨くように勧めた）",
+      "options": [
+        "break",
+        "brush",
+        "bring",
+        "breathe"
+      ],
+      "correct": 2,
+      "explanation": "brush（teeth）=歯を磨く。brush your teeth twice a day=1日2回歯を磨く。break=壊す、bring=持ってくる、breathe=呼吸する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "She felt ___ after her long run and had to stop and drink water.（長い走りの後、息切れを感じたので止まって水を飲まなければならなかった）",
+      "options": [
+        "careless",
+        "helpless",
+        "restless",
+        "breathless"
+      ],
+      "correct": 4,
+      "explanation": "breathless=息切れがする。feel breathless=息が切れる。careless=不注意な、helpless=無力な、restless=落ち着かない。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "The nurse said his blood ___ was slightly too high and he needed to rest.（看護師は彼の血圧が少し高すぎるため休養が必要だと言った）",
+      "options": [
+        "process",
+        "pressure",
+        "promise",
+        "produce"
+      ],
+      "correct": 2,
+      "explanation": "pressure（blood pressure）=血圧。high blood pressure=高血圧。process=過程、promise=約束、produce=生産する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "A balanced ___ with plenty of fruits and vegetables is key to good health.（たくさんの果物と野菜を含むバランスの取れた食事が健康の鍵だ）",
+      "options": [
+        "dairy",
+        "daily",
+        "diet",
+        "date"
+      ],
+      "correct": 3,
+      "explanation": "diet=食事・食生活。a balanced diet=バランスの取れた食事。dairy=乳製品の、daily=毎日の（形容詞）、date=日付。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑥ 健康・体",
+      "question_text": "He went to the ___ to get his broken arm checked after the fall.（転倒後、骨折した腕を診てもらうために病院へ行った）",
+      "options": [
+        "hospital",
+        "hotel",
+        "harbor",
+        "hobby"
+      ],
+      "correct": 1,
+      "explanation": "hospital=病院。go to the hospital=病院へ行く。hotel=ホテル、harbor=港、hobby=趣味。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "Many animals have lost their ___ due to the destruction of forests.（森林破壊により多くの動物が生息地を失った）",
+      "options": [
+        "habit",
+        "harvest",
+        "habitat",
+        "harbor"
+      ],
+      "correct": 3,
+      "explanation": "habitat=生息地。lose one's habitat=生息地を失う。habit=習慣、harvest=収穫、harbor=港。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "The river became heavily ___ after the factory dumped chemicals into it.（工場が化学物質を流した後、川はひどく汚染された）",
+      "options": [
+        "polluted",
+        "polished",
+        "pointed",
+        "powered"
+      ],
+      "correct": 1,
+      "explanation": "polluted=汚染された。heavily polluted=ひどく汚染された。polished=磨かれた、pointed=とがった、powered=動力で動く。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "The government plans to ___ more forests to help reduce carbon dioxide.（政府は二酸化炭素を削減するためにより多くの森林を植える計画だ）",
+      "options": [
+        "plant",
+        "paint",
+        "print",
+        "place"
+      ],
+      "correct": 1,
+      "explanation": "plant（forests）=森林を植える。plant trees=木を植える。paint=塗る、print=印刷する、place=置く。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "People are encouraged to ___ glass, paper, and plastic at home to protect the environment.（環境を守るために自宅でガラス・紙・プラスチックをリサイクルすることが奨励されている）",
+      "options": [
+        "replace",
+        "reflect",
+        "reduce",
+        "recycle"
+      ],
+      "correct": 4,
+      "explanation": "recycle=リサイクルする。recycle waste=廃棄物をリサイクルする。replace=取り替える、reflect=反射する、reduce=減らす（ただし文脈上「リサイクル」が最適）。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "The unusually hot summer was a clear sign of ___ change affecting our planet.（異常に暑い夏は地球に影響を与えている気候変動のわかりやすい兆候だった）",
+      "options": [
+        "classic",
+        "clever",
+        "climate",
+        "client"
+      ],
+      "correct": 3,
+      "explanation": "climate（change）=気候（変動）。climate change=気候変動。classic=典型的な・名作の、clever=賢い、client=顧客。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "We should try to ___ water by taking shorter showers.（シャワーの時間を短くして水を節約するよう心がけるべきだ）",
+      "options": [
+        "convert",
+        "confirm",
+        "consume",
+        "conserve"
+      ],
+      "correct": 4,
+      "explanation": "conserve（water）=水を節約する・保全する。conserve energy=エネルギーを節約する。convert=変換する、confirm=確認する、consume=消費する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "Solar ___ is a clean and renewable source of power that can power homes.（太陽エネルギーは家庭に電力を供給できるクリーンで再生可能なエネルギー源だ）",
+      "options": [
+        "effort",
+        "energy",
+        "entrance",
+        "error"
+      ],
+      "correct": 2,
+      "explanation": "energy（solar energy）=エネルギー。solar energy=太陽エネルギー。effort=努力、entrance=入口、error=誤り。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "A number of rare bird ___ are now on the endangered list in this country.（多くの希少な鳥の種がこの国の絶滅危惧リストに入っている）",
+      "options": [
+        "speeches",
+        "spaces",
+        "spices",
+        "species"
+      ],
+      "correct": 4,
+      "explanation": "species=（生物の）種。endangered species=絶滅危惧種。speeches=演説（複数）、spaces=空間、spices=スパイス。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "The ___ of oil in the sea caused great damage to local marine life.（海への石油の流出は地元の海洋生物に大きな被害をもたらした）",
+      "options": [
+        "spell",
+        "spill",
+        "spin",
+        "split"
+      ],
+      "correct": 2,
+      "explanation": "spill（of oil）=（石油の）流出。an oil spill=石油流出事故。spell=つづり・魔法、spin=回転する、split=分割する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑦ 環境・自然",
+      "question_text": "Many people now use ___ bags when shopping to reduce plastic waste.（プラスチックごみを減らすために、多くの人々が買い物の際にエコバッグを使っている）",
+      "options": [
+        "reliable",
+        "remarkable",
+        "reasonable",
+        "reusable"
+      ],
+      "correct": 4,
+      "explanation": "reusable（bags）=繰り返し使えるバッグ。reusable=再使用可能な。reliable=信頼できる、remarkable=注目すべき、reasonable=妥当な。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "She was ___ to hear that she had won first prize in the art contest.（彼女は美術コンテストで1位を取ったと聞いて喜んだ）",
+      "options": [
+        "delighted",
+        "delivered",
+        "delayed",
+        "decided"
+      ],
+      "correct": 1,
+      "explanation": "delighted=大喜びした。delighted to hear=聞いて喜んだ。delivered=届けた、delayed=遅らせた、decided=決めた。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "He felt ___ because he had forgotten his best friend's birthday.（仲良しの誕生日を忘れてしまい、彼は罪悪感を覚えた）",
+      "options": [
+        "grumpy",
+        "greedy",
+        "guilty",
+        "gentle"
+      ],
+      "correct": 3,
+      "explanation": "guilty=罪悪感がある。feel guilty（about）=〜について罪悪感を感じる。grumpy=不機嫌な、greedy=欲張りな、gentle=優しい。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "It takes a ___ person to apologize even when they are not at fault.（過ちがないときでも謝れるのは謙虚な人だ）",
+      "options": [
+        "harmful",
+        "hasty",
+        "hollow",
+        "humble"
+      ],
+      "correct": 4,
+      "explanation": "humble=謙虚な。a humble person=謙虚な人。harmful=有害な、hasty=急いだ、hollow=うつろな。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "She was ___ about the presentation and couldn't sleep the night before.（彼女は前日の夜にプレゼンについて不安で眠れなかった）",
+      "options": [
+        "nervous",
+        "nasty",
+        "noble",
+        "narrow"
+      ],
+      "correct": 1,
+      "explanation": "nervous（about）=〜について不安な・緊張している。feel nervous about a presentation=プレゼンに緊張する。nasty=不快な、noble=高貴な、narrow=狭い。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "He is known for being ___ because he always helps people without being asked.（彼は頼まれなくても人を助けるため、親切者として知られている）",
+      "options": [
+        "genuine",
+        "gradual",
+        "grateful",
+        "generous"
+      ],
+      "correct": 4,
+      "explanation": "generous=寛大な・親切な。a generous person=寛大な人。genuine=本物の、gradual=徐々の、grateful=感謝している。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "She remained ___ even when the situation seemed hopeless.（状況が絶望的に見えても彼女は前向きだった）",
+      "options": [
+        "optional",
+        "optimistic",
+        "opposite",
+        "original"
+      ],
+      "correct": 2,
+      "explanation": "optimistic=楽観的な。remain optimistic=楽観的でいる。optional=任意の、opposite=反対の、original=独創的な。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "He was so ___ of criticism that he never showed his artwork to others.（批判を恐れるあまり、彼は自分の作品を他人に見せなかった）",
+      "options": [
+        "frightened",
+        "finished",
+        "forgotten",
+        "focused"
+      ],
+      "correct": 1,
+      "explanation": "frightened（of）=〜を恐れている。frightened of criticism=批判を怖がっている。finished=終わった、forgotten=忘れられた、focused=集中した。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "She is very ___ and always listens carefully when others are talking.（彼女はとても思いやりがあり、他人が話しているときはいつも注意深く聞く）",
+      "options": [
+        "considerate",
+        "confident",
+        "consistent",
+        "convenient"
+      ],
+      "correct": 1,
+      "explanation": "considerate=思いやりのある。a considerate person=思いやりのある人。confident=自信のある、consistent=一貫した、convenient=便利な。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "He showed great ___ by walking into the burning building to save the child.（子どもを救うために燃える建物の中に入った彼は大きな勇気を見せた）",
+      "options": [
+        "brevity",
+        "bravery",
+        "battery",
+        "beauty"
+      ],
+      "correct": 2,
+      "explanation": "bravery=勇気・勇敢さ。show bravery=勇気を見せた。brevity=簡潔さ、battery=電池、beauty=美しさ。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑧ 気持ち・性格",
+      "question_text": "I am truly ___ for all the support you have given me over the years.（長年にわたるご支援に心から感謝しています）",
+      "options": [
+        "graceful",
+        "grateful",
+        "grumpy",
+        "greedy"
+      ],
+      "correct": 2,
+      "explanation": "grateful（for）=〜に感謝している。be grateful for support=支援に感謝する。graceful=優美な、grumpy=不機嫌な、greedy=欲張りな。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "The local government is planning to ___ a new bridge over the river.（市区町村が川に新しい橋を建設する計画を立てている）",
+      "options": [
+        "consume",
+        "construct",
+        "contact",
+        "control"
+      ],
+      "correct": 2,
+      "explanation": "construct（a bridge）=橋を建設する。construct a building=建物を建てる。consume=消費する、contact=連絡する、control=管理する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "A new law was ___ to protect the rights of children in the country.（国内の子どもたちの権利を守るために新しい法律が制定された）",
+      "options": [
+        "passed",
+        "pressed",
+        "promised",
+        "praised"
+      ],
+      "correct": 1,
+      "explanation": "passed（a law）=法律が可決・制定された。pass a law=法律を可決する。pressed=押した、promised=約束した、praised=称賛した。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "The newspaper ___ the story of a child who saved his classmate from drowning.（新聞は溺れていたクラスメートを救った子どもの話を報道した）",
+      "options": [
+        "required",
+        "reported",
+        "replaced",
+        "revised"
+      ],
+      "correct": 2,
+      "explanation": "reported（the story）=話を報道した。report a story=ニュースを報道する。required=必要とした、replaced=取り替えた、revised=見直した。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "The mayor gave a speech to ___ residents about the new recycling program.（市長は新しいリサイクルプログラムについて住民に知らせるためにスピーチを行った）",
+      "options": [
+        "involve",
+        "ignore",
+        "impress",
+        "inform"
+      ],
+      "correct": 4,
+      "explanation": "inform（residents about）=住民に〜を知らせる。inform A about B=AにBについて知らせる。involve=含む、ignore=無視する、impress=感動させる。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "Many young people ___ in the election to make their voices heard.（多くの若者が自分たちの声を届けるために選挙に参加した）",
+      "options": [
+        "visited",
+        "voted",
+        "varied",
+        "valued"
+      ],
+      "correct": 2,
+      "explanation": "voted（in the election）=選挙で投票した。vote=投票する。visited=訪問した、varied=さまざまだった、valued=大切にした。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "The unemployment ___ dropped to the lowest level in twenty years.（失業率が20年ぶりの最低水準に下がった）",
+      "options": [
+        "race",
+        "rate",
+        "range",
+        "rank"
+      ],
+      "correct": 2,
+      "explanation": "rate（unemployment rate）=率。unemployment rate=失業率。race=競走・人種、range=範囲、rank=順位。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "The two countries agreed to ___ a trade deal that benefits both sides.（両国は双方に利益をもたらす貿易協定を結ぶことに同意した）",
+      "options": [
+        "confuse",
+        "conclude",
+        "compare",
+        "consider"
+      ],
+      "correct": 2,
+      "explanation": "conclude（a deal）=取引・協定を締結する。conclude a trade deal=貿易協定を結ぶ。confuse=混乱させる、compare=比較する、consider=検討する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "The scientist made an important ___ that could change the way we treat cancer.（その科学者は、がんの治療方法を変えうる重要な発見をした）",
+      "options": [
+        "delivery",
+        "directory",
+        "diversity",
+        "discovery"
+      ],
+      "correct": 4,
+      "explanation": "discovery=発見。make a discovery=発見をする。delivery=配達、directory=住所録・ディレクトリ、diversity=多様性。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "The government is working to ___ poverty in rural areas.（政府は地方の貧困を撲滅しようと取り組んでいる）",
+      "options": [
+        "evaluate",
+        "estimate",
+        "encourage",
+        "eliminate"
+      ],
+      "correct": 4,
+      "explanation": "eliminate（poverty）=貧困を撲滅する。eliminate a problem=問題をなくす。evaluate=評価する、estimate=推定する、encourage=奨励する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑨ 社会・ニュース",
+      "question_text": "Local volunteers ___ together to clean up the beach after the storm.（地元のボランティアは嵐の後、ビーチの清掃のために集まった）",
+      "options": [
+        "gathered",
+        "gambled",
+        "guarded",
+        "guided"
+      ],
+      "correct": 1,
+      "explanation": "gathered（together）=集まった。gather together=集まる。gambled=賭けた、guarded=守った、guided=案内した。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "We had to ___ the school trip because many students were sick.（多くの生徒が病気のため、修学旅行を延期しなければならなかった）",
+      "options": [
+        "call up",
+        "call off",
+        "call back",
+        "call out"
+      ],
+      "correct": 2,
+      "explanation": "call off=中止する・延期する。call off the trip=旅行を中止する。call up=電話する、call back=折り返し電話する、call out=叫ぶ。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "She needs to ___ her English before the test next month.（来月のテストの前に英語を練習する必要がある）",
+      "options": [
+        "break up on",
+        "blow up on",
+        "brush up on",
+        "bring up on"
+      ],
+      "correct": 3,
+      "explanation": "brush up on=〜をブラッシュアップする・復習する。brush up on English=英語を復習する。break up=分かれる、blow up=爆発する、bring up=育てる・話題にする。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "He had to ___ a lot of money to cover the repair costs.（修理費用をカバーするために大金を用意しなければならなかった）",
+      "options": [
+        "come down with",
+        "come up to",
+        "come up with",
+        "come along with"
+      ],
+      "correct": 3,
+      "explanation": "come up with（money）=（お金を）用意する。come up with a solution=解決策を考え出す。come down with=病気になる、come along=ついていく。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "My friends and I are ___ visiting the new theme park next weekend.（友人たちと来週末、新しいテーマパークを訪れることを楽しみにしている）",
+      "options": [
+        "looking back at",
+        "looking forward to",
+        "looking down on",
+        "looking up to"
+      ],
+      "correct": 2,
+      "explanation": "looking forward to=〜を楽しみにしている。look forward to doing=〜するのを楽しみにする。looking back at=振り返る、looking down on=見下す、looking up to=尊敬する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "She became sick on the plane and had to ___ the sightseeing tour.（飛行機で気分が悪くなり、観光ツアーを欠席しなければならなかった）",
+      "options": [
+        "drop out of",
+        "drop in on",
+        "drop off at",
+        "drop back from"
+      ],
+      "correct": 1,
+      "explanation": "drop out of=〜を欠席する・途中でやめる。drop out of the tour=ツアーを欠席する。drop in on=立ち寄る、drop off at=降りる、drop back=遅れる。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "I couldn't ___ what the teacher was saying because the classroom was too noisy.（教室がうるさすぎて先生の言っていることが聞き取れなかった）",
+      "options": [
+        "make up",
+        "make over",
+        "make out",
+        "make off"
+      ],
+      "correct": 3,
+      "explanation": "make out=聞き取る・理解する。make out what someone is saying=言っていることを理解する。make up=作り上げる・仲直りする、make over=作り直す、make off=逃げる。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "He decided to ___ his old computer and buy a new one.（彼は古いパソコンを処分して新しいものを買うことにした）",
+      "options": [
+        "get out of",
+        "get along with",
+        "get rid of",
+        "get over with"
+      ],
+      "correct": 3,
+      "explanation": "get rid of=〜を処分する・取り除く。get rid of old things=古いものを処分する。get out of=〜から出る、get along with=うまくやる、get over with=片付ける。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "She didn't feel well, so she decided to ___ the party early.（気分が優れなかったため、彼女はパーティーを早く切り上げることにした）",
+      "options": [
+        "lose",
+        "leave",
+        "lean",
+        "last"
+      ],
+      "correct": 2,
+      "explanation": "leave（early）=早退する。leave the party early=パーティーを早く離れる。lose=失う、lean=もたれる、last=続く。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "It is important to ___ with your friends even when you are busy.（忙しいときも友人との連絡を保つことが大切だ）",
+      "options": [
+        "keep in mind",
+        "keep in shape",
+        "keep in touch",
+        "keep in check"
+      ],
+      "correct": 3,
+      "explanation": "keep in touch（with）=〜と連絡を取り合う。keep in touch with friends=友人と連絡を保つ。keep in mind=心に留める、keep in shape=体型を維持する、keep in check=抑制する。"
+    },
+    {
+      "chapter": "英検準2級 単語 ⑩ 熟語（準2級頻出イディオム）",
+      "question_text": "He was ___ by the kindness of the strangers who helped him find his way.（道を教えてくれた見知らぬ人の親切に感銘を受けた）",
+      "options": [
+        "mixed",
+        "missed",
+        "marked",
+        "moved"
+      ],
+      "correct": 4,
+      "explanation": "moved（by）=〜に感動した。be moved by kindness=親切に感動する。mixed=混ざった、missed=見逃した、marked=印をつけた。"
+    }
+  ]
+}

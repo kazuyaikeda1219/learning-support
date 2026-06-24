@@ -1,0 +1,1207 @@
+{
+  "subject": "en",
+  "category": "TOEIC",
+  "book_name": "TOEIC 頻出単語（〜500）",
+  "questions": [
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "Ms. Yamada will ___ for the position of marketing manager next week.（山田さんは来週マーケティングマネージャーのポジションに応募する予定です）",
+      "options": [
+        "approve",
+        "apply",
+        "appeal",
+        "appoint"
+      ],
+      "correct": 2,
+      "explanation": "apply for=〜に応募する。apply for a position が定番表現。approve=承認する、appeal=訴える、appoint=任命する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "All ___ must bring two forms of identification to the interview.（応募者全員が面接に2種類の身分証明書を持参してください）",
+      "options": [
+        "candidates",
+        "managers",
+        "customers",
+        "supervisors"
+      ],
+      "correct": 1,
+      "explanation": "candidate=候補者・応募者。job candidate=求職者。manager=管理職、customer=顧客、supervisor=上司。"
+    },
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "Please attach your ___ to the application form before submitting it.（提出前に応募書類に履歴書を添付してください）",
+      "options": [
+        "contract",
+        "invoice",
+        "warranty",
+        "résumé"
+      ],
+      "correct": 4,
+      "explanation": "résumé=履歴書（米）。attach one's résumé が定番。contract=契約書、invoice=請求書、warranty=保証書。"
+    },
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "The company plans to ___ twenty new staff members before April.（その会社は4月までに新しいスタッフを20人採用する計画だ）",
+      "options": [
+        "recruit",
+        "train",
+        "retain",
+        "reduce"
+      ],
+      "correct": 1,
+      "explanation": "recruit=採用する・募集する。名詞recruitment=採用活動。train=訓練する、retain=維持する、reduce=削減する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "Mr. Park received a positive ___ after his six-month trial period.（朴さんは6か月の試用期間後に良い評価を受けた）",
+      "options": [
+        "evaluation",
+        "invitation",
+        "application",
+        "confirmation"
+      ],
+      "correct": 1,
+      "explanation": "evaluation=評価・査定。performance evaluation=人事考課。invitation=招待、application=応募、confirmation=確認。"
+    },
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "The new employee will need a two-week ___ period to learn the systems.（新入社員はシステムを覚えるために2週間の研修期間が必要だ）",
+      "options": [
+        "transfer",
+        "tracking",
+        "trial",
+        "training"
+      ],
+      "correct": 4,
+      "explanation": "training=研修・訓練。training period=研修期間。transfer=異動・転送、tracking=追跡、trial=試用・試み。"
+    },
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "The job posting listed strong communication skills as a key ___.（求人票は優れたコミュニケーション能力を重要な要件として挙げていた）",
+      "options": [
+        "requirement",
+        "background",
+        "department",
+        "experience"
+      ],
+      "correct": 1,
+      "explanation": "requirement=要件・必須条件。meet the requirements=要件を満たす。background=経歴、department=部門、experience=経験。"
+    },
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "The HR department will ___ the most suitable candidate for the position.（人事部が最も適した候補者を選定する）",
+      "options": [
+        "select",
+        "assign",
+        "collect",
+        "produce"
+      ],
+      "correct": 1,
+      "explanation": "select=選ぶ・選定する。select a candidate=候補者を選定する。assign=割り当てる、collect=集める、produce=生産する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "Employees are required to complete an annual ___ review with their supervisor.（従業員は上司と年次業績評価面談を行うことが求められる）",
+      "options": [
+        "preference",
+        "performance",
+        "patience",
+        "presence"
+      ],
+      "correct": 2,
+      "explanation": "performance=業績・パフォーマンス。performance review=業績評価面談。preference=好み、patience=忍耐、presence=存在。"
+    },
+    {
+      "chapter": "TOEIC 単語 ① 人事・採用",
+      "question_text": "Ms. Chen was ___ to the position of department head last month.（陳さんは先月、部長職に昇進した）",
+      "options": [
+        "transferred",
+        "presented",
+        "permitted",
+        "promoted"
+      ],
+      "correct": 4,
+      "explanation": "promoted=昇進した。be promoted to=〜に昇進する。transferred=異動した、presented=表彰された、permitted=許可された。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "Could you ___ this memo to all staff members by end of day?（今日中にすべてのスタッフにこのメモを配布してもらえますか）",
+      "options": [
+        "display",
+        "discuss",
+        "discard",
+        "distribute"
+      ],
+      "correct": 4,
+      "explanation": "distribute=配布する・配信する。distribute a memo=メモを配布する。display=展示する、discuss=話し合う、discard=捨てる。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "Please ___ the attached file and send your comments by Friday.（添付ファイルを確認し、金曜日までに意見を送ってください）",
+      "options": [
+        "review",
+        "renew",
+        "reduce",
+        "remove"
+      ],
+      "correct": 1,
+      "explanation": "review=確認する・見直す。review a document=書類を確認する。renew=更新する、reduce=削減する、remove=取り除く。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "We have moved to a new ___ system to manage all internal documents.（社内文書を管理するため新しいファイリングシステムに移行した）",
+      "options": [
+        "filling",
+        "finding",
+        "filing",
+        "fixing"
+      ],
+      "correct": 3,
+      "explanation": "filing（system）=書類整理システム。filing cabinet=書類棚。filling=詰め物、finding=発見・結果、fixing=修理。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "The IT department will ___ the software update on all computers tonight.（IT部門が今夜全コンピュータのソフトウェアを更新する）",
+      "options": [
+        "inspect",
+        "instruct",
+        "intend",
+        "install"
+      ],
+      "correct": 4,
+      "explanation": "install=インストールする・設置する。install software=ソフトウェアをインストールする。inspect=点検する、instruct=指示する、intend=意図する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "All employees must show their identity cards when ___ the building.（社員は建物に入るとき身分証明カードを提示しなければならない）",
+      "options": [
+        "leaving",
+        "building",
+        "entering",
+        "visiting"
+      ],
+      "correct": 3,
+      "explanation": "entering（the building）=建物に入る。show one's ID card when entering が定番。leaving=出る、building=建てる、visiting=訪問する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "The ___ room on the second floor is available for small group meetings.（2階の会議室は小グループの打ち合わせに使用できる）",
+      "options": [
+        "convenience",
+        "confidence",
+        "conference",
+        "compliance"
+      ],
+      "correct": 3,
+      "explanation": "conference（room）=会議（室）。conference call=電話会議。convenience=便利さ、confidence=自信、compliance=法令遵守。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "Please make sure to ___ all emails before sending them to clients.（顧客へ送る前に、メールを必ず校正してください）",
+      "options": [
+        "produce",
+        "proceed",
+        "propose",
+        "proofread"
+      ],
+      "correct": 4,
+      "explanation": "proofread=校正する・誤りを確認する。proofread an email=メールを校正する。produce=生産する、proceed=進む、propose=提案する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "The maintenance crew will ___ the air conditioning system next Monday.（メンテナンス班は来週月曜日に空調システムを点検する）",
+      "options": [
+        "expect",
+        "inspect",
+        "connect",
+        "collect"
+      ],
+      "correct": 2,
+      "explanation": "inspect=点検する・検査する。名詞inspection=点検。expect=期待する、connect=接続する、collect=集める。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "Our office will be ___ for the New Year holiday from December 29 to January 3.（弊社は12月29日から1月3日まで年末年始の休業となります）",
+      "options": [
+        "crowded",
+        "covered",
+        "closed",
+        "completed"
+      ],
+      "correct": 3,
+      "explanation": "closed=休業・閉鎖。be closed for a holiday=休日のため休業する。crowded=混雑した、covered=覆われた、completed=完了した。"
+    },
+    {
+      "chapter": "TOEIC 単語 ② オフィス・社内連絡",
+      "question_text": "Mr. Ito sent a ___ to all departments regarding the change in office hours.（伊藤氏は全部門に勤務時間変更に関する通知を送った）",
+      "options": [
+        "source",
+        "motion",
+        "record",
+        "notice"
+      ],
+      "correct": 4,
+      "explanation": "notice=通知・お知らせ。send a notice to departments=部署に通知を送る。source=出所、motion=動議・動き、record=記録。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "The weekly team meeting has been ___ from Tuesday to Thursday.（週次チームミーティングが火曜日から木曜日に変更になった）",
+      "options": [
+        "replaced",
+        "rejected",
+        "reversed",
+        "rescheduled"
+      ],
+      "correct": 4,
+      "explanation": "rescheduled=日程変更された。reschedule a meeting=会議を日程変更する。replaced=取り替えられた、rejected=却下された、reversed=逆にされた。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "We will ___ the key points from today's meeting in tomorrow's email.（明日のメールで本日の会議の要点をまとめます）",
+      "options": [
+        "supply",
+        "summarize",
+        "surround",
+        "survey"
+      ],
+      "correct": 2,
+      "explanation": "summarize=まとめる・要約する。名詞summary=要約。supply=供給する、surround=囲む、survey=調査する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "The ___ for next Monday's board meeting has been sent to all directors.（来週月曜の取締役会の議題が全取締役に送られた）",
+      "options": [
+        "agency",
+        "aspect",
+        "account",
+        "agenda"
+      ],
+      "correct": 4,
+      "explanation": "agenda=議題・アジェンダ。set the agenda=議題を設定する。agency=代理店、aspect=側面、account=口座。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "All team members are requested to ___ the product launch meeting.（全チームメンバーに製品発表会議への出席が求められる）",
+      "options": [
+        "attend",
+        "amend",
+        "extend",
+        "intend"
+      ],
+      "correct": 1,
+      "explanation": "attend（a meeting）=会議に出席する。名詞attendance=出席。amend=修正する、extend=延長する、intend=意図する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "The team leader will give a brief ___ of last quarter's results.（チームリーダーが前四半期の業績について簡単に報告する）",
+      "options": [
+        "interview",
+        "overview",
+        "preview",
+        "review"
+      ],
+      "correct": 2,
+      "explanation": "overview=概要・概観。give an overview of=〜の概要を述べる。interview=面接、preview=試写・予告、review=検討。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "Please ___ your presentation to no more than fifteen minutes.（プレゼンは15分以内に収めてください）",
+      "options": [
+        "limit",
+        "list",
+        "lead",
+        "link"
+      ],
+      "correct": 1,
+      "explanation": "limit（something to）=〜を〜以内に制限する。limit your presentation to 15 minutes が定番。list=リストアップ、lead=率いる、link=つなぐ。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "Ms. Tanaka will ___ the meeting while Mr. Smith is on vacation.（スミス氏が休暇中は田中さんが会議を進行する）",
+      "options": [
+        "check",
+        "change",
+        "charge",
+        "chair"
+      ],
+      "correct": 4,
+      "explanation": "chair（a meeting）=会議を議長として進行する。chairperson=議長。check=確認する、change=変える、charge=請求する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "The manager asked everyone to ___ their ideas before the next meeting.（部長は次の会議前に全員がアイデアをまとめてくるよう求めた）",
+      "options": [
+        "prevent",
+        "present",
+        "predict",
+        "prepare"
+      ],
+      "correct": 4,
+      "explanation": "prepare（ideas）=（アイデアを）準備する。prepare for a meeting=会議の準備をする。prevent=防ぐ、present=提示する、predict=予測する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "After a long ___, both sides agreed to the final proposal.（長い議論の末、両者は最終提案に合意した）",
+      "options": [
+        "decision",
+        "direction",
+        "dimension",
+        "discussion"
+      ],
+      "correct": 4,
+      "explanation": "discussion=議論・話し合い。after a discussion=議論の後。decision=決定、direction=方向、dimension=寸法・次元。"
+    },
+    {
+      "chapter": "TOEIC 単語 ③ 会議",
+      "question_text": "The CEO made a few important ___ to the business strategy during the meeting.（CEOは会議中にビジネス戦略にいくつかの重要な修正を加えた）",
+      "options": [
+        "arguments",
+        "agreements",
+        "achievements",
+        "adjustments"
+      ],
+      "correct": 4,
+      "explanation": "adjustments=修正・調整。make adjustments to=〜に調整を加える。argument=議論・口論、agreement=合意、achievement=達成。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "Please ___ your hotel and flight at least two weeks in advance.（少なくとも2週間前にホテルと飛行機を予約してください）",
+      "options": [
+        "look",
+        "book",
+        "cook",
+        "hook"
+      ],
+      "correct": 2,
+      "explanation": "book=予約する（動詞）。book a hotel/flight が定番。look=見る、cook=料理する、hook=引っかける。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "Employees traveling on business must keep all ___ for expense reporting.（出張する社員は経費精算のためすべての領収書を保管しなければならない）",
+      "options": [
+        "receipts",
+        "records",
+        "reports",
+        "recipes"
+      ],
+      "correct": 1,
+      "explanation": "receipts=領収書（複数）。keep receipts=領収書を保管する。records=記録、reports=報告書、recipes=レシピ。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "The company will ___ all travel costs for the business trip to Singapore.（シンガポール出張のすべての出張費を会社が負担する）",
+      "options": [
+        "recover",
+        "replace",
+        "reimburse",
+        "reduce"
+      ],
+      "correct": 3,
+      "explanation": "reimburse=（費用を）払い戻す・弁済する。reimburse travel costs=交通費を精算する。recover=回復する、replace=取り替える、reduce=削減する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "Mr. Kimura is currently ___ and will return on Friday.（木村氏は現在大阪に出張中で、金曜に戻る）",
+      "options": [
+        "on a day off",
+        "on a business trip",
+        "on a break",
+        "on a schedule"
+      ],
+      "correct": 2,
+      "explanation": "on a business trip=出張中。be on a business trip が定番。on a day off=休暇中、on a break=休憩中、on a schedule=予定通り。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "The flight to New York has been ___ due to bad weather.（悪天候のためニューヨーク行きの便が遅延した）",
+      "options": [
+        "canceled",
+        "delayed",
+        "departed",
+        "decided"
+      ],
+      "correct": 2,
+      "explanation": "delayed=遅延した。The flight has been delayed by two hours. が典型文。canceled=キャンセルされた、departed=出発した、decided=決定した。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "Please fill in the travel ___ form at least three days before the trip.（出張前少なくとも3日前に出張申請書を記入してください）",
+      "options": [
+        "request",
+        "result",
+        "return",
+        "record"
+      ],
+      "correct": 1,
+      "explanation": "（travel）request（form）=申請（書）。travel request form=出張申請書。result=結果、return=返却・帰り、record=記録。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "Passengers are reminded to ___ at Gate 12 by 10:45.（乗客の方は10時45分までに12番ゲートにてご搭乗ください）",
+      "options": [
+        "bored",
+        "board",
+        "broad",
+        "brand"
+      ],
+      "correct": 2,
+      "explanation": "board（a plane）=搭乗する。boarding time=搭乗時刻。bored=退屈した（形容詞）、broad=広い、brand=ブランド。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "The visiting team will ___ at Narita Airport at 7:00 a.m.（訪問チームは午前7時に成田空港に到着する）",
+      "options": [
+        "arrive",
+        "drive",
+        "revive",
+        "survive"
+      ],
+      "correct": 1,
+      "explanation": "arrive（at）=〜に到着する。arrive at the airport が定番。drive=運転する、revive=復活する、survive=生き延びる。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "Could you arrange a ___ from the airport to the hotel for our guests?（空港からホテルまでのお客様の移送を手配していただけますか）",
+      "options": [
+        "training",
+        "transfer",
+        "transport",
+        "transaction"
+      ],
+      "correct": 2,
+      "explanation": "transfer=送迎・移動手段。arrange a transfer=送迎を手配する。training=研修、transport=輸送全般、transaction=取引。"
+    },
+    {
+      "chapter": "TOEIC 単語 ④ 出張・移動",
+      "question_text": "The hotel offers a complimentary breakfast and free ___ for all guests.（そのホテルは全宿泊客に無料朝食と無料駐車場を提供している）",
+      "options": [
+        "parking",
+        "packing",
+        "planning",
+        "printing"
+      ],
+      "correct": 1,
+      "explanation": "parking=駐車場・駐車。free parking=無料駐車場。packing=梱包、planning=計画立案、printing=印刷。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "Please send the ___ to our accounts department as soon as possible.（できるだけ早く請求書を経理部に送ってください）",
+      "options": [
+        "invitation",
+        "invoice",
+        "information",
+        "instruction"
+      ],
+      "correct": 2,
+      "explanation": "invoice=請求書・インボイス。issue an invoice=請求書を発行する。invitation=招待状、information=情報、instruction=指示。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "The annual report showed that the company's ___ had grown by fifteen percent.（年次報告書は会社の収入が15%増加したことを示した）",
+      "options": [
+        "review",
+        "revenue",
+        "release",
+        "resource"
+      ],
+      "correct": 2,
+      "explanation": "revenue=収益・売上高。annual revenue=年間収益。review=見直し、release=公開、resource=資源。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "Our accounting department needs to ___ all expenses before the end of March.（経理部は3月末までにすべての費用を処理しなければならない）",
+      "options": [
+        "produce",
+        "progress",
+        "prevent",
+        "process"
+      ],
+      "correct": 4,
+      "explanation": "process（expenses）=（費用を）処理する。process an invoice=請求書を処理する。produce=生産する、progress=前進する、prevent=防ぐ。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "This quarter's results show a net ___ of approximately 2 million yen.（今四半期の結果は約200万円の純損失を示している）",
+      "options": [
+        "loan",
+        "list",
+        "loss",
+        "lack"
+      ],
+      "correct": 3,
+      "explanation": "loss=損失。net loss=純損失。反対はprofit=利益。loan=融資、list=リスト、lack=欠如。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "The payment is due on the 15th of every month, so please avoid any ___.（支払いは毎月15日が期限ですので、遅延のないようにしてください）",
+      "options": [
+        "defects",
+        "demands",
+        "discounts",
+        "delays"
+      ],
+      "correct": 4,
+      "explanation": "delays=遅延。avoid delays=遅延を避ける。defects=欠陥、demands=需要・要求、discounts=割引。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "All travel ___ must be approved by the finance manager before booking.（すべての出張費用は予約前に財務マネージャーの承認を得てください）",
+      "options": [
+        "exports",
+        "expenses",
+        "efforts",
+        "events"
+      ],
+      "correct": 2,
+      "explanation": "expenses=費用・経費。business expenses=業務経費。exports=輸出品、efforts=努力、events=イベント。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "The company is planning to ___ an external audit for the first time.（その会社は初めて外部監査を実施する予定だ）",
+      "options": [
+        "contact",
+        "contain",
+        "conduct",
+        "contract"
+      ],
+      "correct": 3,
+      "explanation": "conduct（an audit）=（監査を）実施する。conduct a survey=調査を実施する。contact=連絡する、contain=含む、contract=契約する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "Please check the ___ carefully before you sign the agreement.（契約書に署名する前に条件をよく確認してください）",
+      "options": [
+        "terms",
+        "trends",
+        "trains",
+        "tasks"
+      ],
+      "correct": 1,
+      "explanation": "terms=条件・条項。terms of payment=支払い条件。trends=傾向、trains=電車（複数）、tasks=課題（複数）。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "Our company has a strict ___ against accepting gifts from suppliers.（当社はサプライヤーからの贈り物の受け取りを禁止する厳格な方針がある）",
+      "options": [
+        "polite",
+        "police",
+        "portion",
+        "policy"
+      ],
+      "correct": 4,
+      "explanation": "policy=方針・規則。company policy=会社の方針。polite=礼儀正しい（形容詞）、police=警察、portion=部分。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑤ 経理・請求",
+      "question_text": "The accountant ___ the quarterly figures and found no errors.（会計士は四半期の数値を照合し、誤りがないことを確認した）",
+      "options": [
+        "version",
+        "visited",
+        "verified",
+        "voted"
+      ],
+      "correct": 3,
+      "explanation": "verified=確認した・照合した。verify financial figures=財務数値を照合する。version=版、visited=訪問した、voted=投票した。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "The company will ___ its new product line at the trade show next month.（その会社は来月の展示会で新製品ラインをお披露目する）",
+      "options": [
+        "lend",
+        "learn",
+        "launch",
+        "limit"
+      ],
+      "correct": 3,
+      "explanation": "launch（a product）=製品を発売・発表する。product launch=製品発表会。lend=貸す、learn=学ぶ、limit=制限する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "Our marketing team conducted a ___ to understand customer preferences.（マーケティングチームは顧客の好みを把握するために調査を行った）",
+      "options": [
+        "survey",
+        "service",
+        "surface",
+        "supply"
+      ],
+      "correct": 1,
+      "explanation": "survey=調査・アンケート。conduct a survey=調査を実施する。service=サービス、surface=表面、supply=供給。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "The new advertising ___ increased brand awareness by thirty percent.（新しい広告キャンペーンでブランド認知度が30%向上した）",
+      "options": [
+        "captain",
+        "caption",
+        "campaign",
+        "camping"
+      ],
+      "correct": 3,
+      "explanation": "campaign=キャンペーン。advertising campaign=広告キャンペーン。captain=船長・主将、caption=キャプション、camping=キャンプ。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "ABC Corp. has a strong ___ in the domestic smartphone market.（ABC社は国内スマートフォン市場で強いシェアを持つ）",
+      "options": [
+        "shore",
+        "share",
+        "shape",
+        "shift"
+      ],
+      "correct": 2,
+      "explanation": "（market）share=市場占有率・シェア。market share is growing=市場シェアが伸びている。shore=海岸、shape=形、shift=交代。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "The sales team's main ___ this year is to increase overseas customers by twenty percent.（営業チームの今年の主な目標は海外顧客を20%増やすことだ）",
+      "options": [
+        "tender",
+        "theater",
+        "texture",
+        "target"
+      ],
+      "correct": 4,
+      "explanation": "target=目標・ターゲット。sales target=営業目標。tender=入札、theater=劇場、texture=質感。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "We need to ___ a competitive price to win more contracts.（より多くの契約を取るために競争力のある価格を提示する必要がある）",
+      "options": [
+        "order",
+        "offer",
+        "obey",
+        "obtain"
+      ],
+      "correct": 2,
+      "explanation": "offer（a price）=価格を提示する・申し出る。offer a discount=割引を提示する。order=注文する、obey=従う、obtain=得る。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "The new product was designed to ___ younger consumers in their twenties.（その新製品は20代の若い消費者を引きつけることを目的に設計された）",
+      "options": [
+        "attract",
+        "attach",
+        "attack",
+        "attend"
+      ],
+      "correct": 1,
+      "explanation": "attract（consumers）=（消費者を）引きつける。attract attention=注目を集める。attach=添付する、attack=攻撃する、attend=出席する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "XYZ Inc. decided to ___ its services to three new Asian markets.（XYZ社はサービスをアジアの3つの新市場に拡大することを決めた）",
+      "options": [
+        "expect",
+        "expose",
+        "expand",
+        "explain"
+      ],
+      "correct": 3,
+      "explanation": "expand（services to）=〜へサービスを拡大する。expand into a new market=新市場に進出する。expect=期待する、expose=さらす、explain=説明する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "Customer ___ is essential for long-term business success.（顧客満足は長期的なビジネスの成功に不可欠だ）",
+      "options": [
+        "satisfaction",
+        "situation",
+        "selection",
+        "separation"
+      ],
+      "correct": 1,
+      "explanation": "satisfaction=満足。customer satisfaction=顧客満足。situation=状況、selection=選択、separation=分離。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑥ マーケティング・営業",
+      "question_text": "The sales ___ for April has already exceeded the monthly goal.（4月の売上実績はすでに月間目標を超えた）",
+      "options": [
+        "filters",
+        "fixtures",
+        "factors",
+        "figures"
+      ],
+      "correct": 4,
+      "explanation": "figures=数値・数字。sales figures=売上高。filters=フィルター、fixtures=備品・設備、factors=要因。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "If you have any questions, please do not ___ to contact our support team.（ご質問があれば、遠慮なくサポートチームにご連絡ください）",
+      "options": [
+        "negotiate",
+        "investigate",
+        "separate",
+        "hesitate"
+      ],
+      "correct": 4,
+      "explanation": "hesitate=ためらう。do not hesitate to do=遠慮なく〜してください。negotiate=交渉する、investigate=調査する、separate=分ける。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "The customer service team works hard to ___ all complaints within 24 hours.（カスタマーサービスチームはすべての苦情を24時間以内に解決するよう努めている）",
+      "options": [
+        "reserve",
+        "resolve",
+        "resource",
+        "respond"
+      ],
+      "correct": 2,
+      "explanation": "resolve（complaints）=（苦情を）解決する。resolve an issue=問題を解決する。reserve=予約する、resource=資源、respond=返答する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "We sincerely apologize for any ___ caused by the delivery error.（配送ミスによりご不便をおかけしたことを深くお詫び申し上げます）",
+      "options": [
+        "independence",
+        "interference",
+        "inconvenience",
+        "indifference"
+      ],
+      "correct": 3,
+      "explanation": "inconvenience=不便・迷惑。We apologize for the inconvenience. が定番のビジネス英語。independence=独立、interference=妨害、indifference=無関心。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "Our store offers a full ___ if you are not satisfied with your purchase.（ご購入に満足いただけない場合は全額返金いたします）",
+      "options": [
+        "reflect",
+        "refund",
+        "refuse",
+        "reform"
+      ],
+      "correct": 2,
+      "explanation": "refund=返金・返金する。offer a refund=返金に応じる。reflect=反射する・考える、refuse=断る、reform=改革する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "A customer ___ about a delayed shipment was received this morning.（今朝、配送遅延に関する顧客からの苦情が寄せられた）",
+      "options": [
+        "complement",
+        "component",
+        "commitment",
+        "complaint"
+      ],
+      "correct": 4,
+      "explanation": "complaint=苦情・クレーム。file a complaint=苦情を申し出る。complement=補完物、component=構成要素、commitment=約束・責任。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "The ___ center is open seven days a week to handle inquiries.（問い合わせ対応のためにコールセンターは週7日営業している）",
+      "options": [
+        "cost",
+        "cash",
+        "call",
+        "care"
+      ],
+      "correct": 3,
+      "explanation": "call（center）=コールセンター。call center handles inquiries=コールセンターが問い合わせに対応する。cost=費用、cash=現金、care=世話。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "Our store policy says that all returns must be made within thirty days of ___.（店の規定では、返品はすべて購入後30日以内に行う必要があります）",
+      "options": [
+        "practice",
+        "purchase",
+        "payment",
+        "promise"
+      ],
+      "correct": 2,
+      "explanation": "purchase=購入。within thirty days of purchase=購入から30日以内。practice=練習、payment=支払い、promise=約束。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "We will ___ the damaged item and send a replacement within three days.（破損した商品を回収し、3日以内に交換品をお送りします）",
+      "options": [
+        "connect",
+        "correct",
+        "collect",
+        "convert"
+      ],
+      "correct": 3,
+      "explanation": "collect（a damaged item）=（破損品を）回収する。collect=集める・回収する。connect=つなぐ、correct=修正する、convert=変換する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "Thank you for your ___ feedback about our new service.（弊社の新サービスについての貴重なご意見をいただきありがとうございます）",
+      "options": [
+        "valuable",
+        "variable",
+        "visible",
+        "various"
+      ],
+      "correct": 1,
+      "explanation": "valuable=貴重な。valuable feedback=貴重なフィードバック。variable=変わりやすい、visible=目に見える、various=さまざまな。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑦ 顧客対応",
+      "question_text": "Our technician will visit your office to ___ the issue by Thursday.（弊社の技術者が木曜日までに貴社を訪問し問題を修理します）",
+      "options": [
+        "fix",
+        "mix",
+        "fit",
+        "fill"
+      ],
+      "correct": 1,
+      "explanation": "fix（an issue）=問題を修正する・直す。fix a problem=問題を解決する。mix=混ぜる、fit=合う、fill=満たす・記入する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "Both companies are expected to ___ the agreement by the end of this week.（両社は今週末までに合意書に署名することが見込まれる）",
+      "options": [
+        "send",
+        "save",
+        "sign",
+        "sort"
+      ],
+      "correct": 3,
+      "explanation": "sign（an agreement）=（合意書に）署名する。sign a contract=契約書に署名する。send=送る、save=保存する、sort=分類する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "Please read the ___ carefully before signing the lease agreement.（賃貸契約書に署名する前に条項をよく読んでください）",
+      "options": [
+        "classes",
+        "clauses",
+        "causes",
+        "closes"
+      ],
+      "correct": 2,
+      "explanation": "clauses=条項・条文（複数）。read the clauses=条項を読む。classes=授業（複数）、causes=原因（複数）、closes=閉鎖（複数）。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "Our legal team will ___ the contract to ensure there are no issues.（弊社の法務チームが問題がないことを確認するために契約書を審査する）",
+      "options": [
+        "examine",
+        "expand",
+        "expose",
+        "express"
+      ],
+      "correct": 1,
+      "explanation": "examine（a contract）=契約書を審査する・調べる。examine a document=書類を調べる。expand=拡大する、expose=さらす、express=表現する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "The contract is ___ for two years, after which it can be renewed.（契約は2年間有効で、その後更新することができる）",
+      "options": [
+        "vivid",
+        "valid",
+        "vital",
+        "visual"
+      ],
+      "correct": 2,
+      "explanation": "valid=有効な。The contract is valid for two years.が定番。vivid=鮮やかな、vital=極めて重要な、visual=視覚の。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "The company may ___ the contract if the other party fails to deliver on time.（相手方が期限内に納品しない場合、会社は契約を解除できる）",
+      "options": [
+        "transfer",
+        "transform",
+        "terminate",
+        "transport"
+      ],
+      "correct": 3,
+      "explanation": "terminate（a contract）=契約を解除・終了する。terminate an agreement=合意を終了する。transfer=移す、transform=変える、transport=輸送する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "All suppliers must ___ with the company's environmental standards.（すべてのサプライヤーは会社の環境基準に従わなければならない）",
+      "options": [
+        "complete",
+        "compare",
+        "comply",
+        "compete"
+      ],
+      "correct": 3,
+      "explanation": "comply（with）=〜に従う・遵守する。comply with regulations=規制を遵守する。complete=完了する、compare=比較する、compete=競う。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "The new regulation requires companies to ___ their data privacy practices.（新しい規制は企業がデータプライバシーの取り扱いを開示することを求めている）",
+      "options": [
+        "disclose",
+        "discover",
+        "discuss",
+        "dismiss"
+      ],
+      "correct": 1,
+      "explanation": "disclose=開示する・公表する。disclose information=情報を開示する。discover=発見する、discuss=議論する、dismiss=却下する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "The ___ clearly states that neither party may share confidential information.（合意書はいずれの当事者も機密情報を共有してはならないと明確に定めている）",
+      "options": [
+        "argument",
+        "attachment",
+        "amendment",
+        "agreement"
+      ],
+      "correct": 4,
+      "explanation": "agreement=合意書・協定。sign an agreement=合意書に署名する。argument=議論・口論、attachment=添付・愛着、amendment=修正。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "The company filed a ___ against its former employee for leaking trade secrets.（その会社は企業秘密を漏洩した元従業員を相手取り訴訟を起こした）",
+      "options": [
+        "layout",
+        "layoff",
+        "launch",
+        "lawsuit"
+      ],
+      "correct": 4,
+      "explanation": "lawsuit=訴訟。file a lawsuit against=〜を相手取り訴訟を起こす。layout=レイアウト、layoff=解雇、launch=発売。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑧ 契約・法務",
+      "question_text": "The legal ___ says that both sides must give 30 days' notice to end the deal.（法的条項では、契約を終了するには両者が30日前に通知しなければならないとある）",
+      "options": [
+        "promotion",
+        "production",
+        "provision",
+        "proposition"
+      ],
+      "correct": 3,
+      "explanation": "provision=（法的）条項・規定。legal provision=法的規定。promotion=昇進・販促、production=生産、proposition=提案。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "The factory increased its ___ capacity to meet rising demand.（工場は高まる需要に応えるため生産能力を増強した）",
+      "options": [
+        "protection",
+        "production",
+        "promotion",
+        "prediction"
+      ],
+      "correct": 2,
+      "explanation": "production（capacity）=生産（能力）。increase production=生産量を増やす。protection=保護、promotion=促進、prediction=予測。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "All goods must pass a quality ___ before they leave the factory.（工場を出る前にすべての商品が品質検査に合格しなければならない）",
+      "options": [
+        "choice",
+        "chart",
+        "check",
+        "chain"
+      ],
+      "correct": 3,
+      "explanation": "（quality）check=品質検査。pass a quality check=品質検査に合格する。choice=選択、chart=グラフ、chain=連鎖・チェーン。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "The order will be ___ to your address within five business days.（注文品は5営業日以内にご住所に配送されます）",
+      "options": [
+        "decided",
+        "delivered",
+        "declined",
+        "described"
+      ],
+      "correct": 2,
+      "explanation": "delivered=配送された。deliver a package=荷物を配達する。decided=決定された、declined=断られた、described=説明された。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "We are currently running low on ___ and need to order more materials.（現在在庫が減ってきているため、材料を追加注文する必要がある）",
+      "options": [
+        "innovation",
+        "investment",
+        "inventory",
+        "instruction"
+      ],
+      "correct": 3,
+      "explanation": "inventory=在庫・棚卸し。check inventory=在庫を確認する。innovation=革新、investment=投資、instruction=指示。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "The machine broke down and caused a two-hour ___ in the production line.（機械が故障し、生産ラインに2時間の中断を引き起こした）",
+      "options": [
+        "breakout",
+        "breakdown",
+        "breakthrough",
+        "broadcast"
+      ],
+      "correct": 2,
+      "explanation": "breakdown=故障・崩壊。machine breakdown=機械の故障。breakout=脱出、breakthrough=突破・画期的進歩、broadcast=放送。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "The ___ company is responsible for getting goods from the warehouse to stores.（物流会社が倉庫から店舗への商品の配送を担当している）",
+      "options": [
+        "locates",
+        "licenses",
+        "layouts",
+        "logistics"
+      ],
+      "correct": 4,
+      "explanation": "logistics（company）=物流（会社）。logistics management=物流管理。locates=位置を特定する、licenses=許可証を発行する、layouts=配置。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "Goods stored in the ___ must be kept at a temperature below five degrees.（倉庫に保管された商品は5度以下の温度を保たなければならない）",
+      "options": [
+        "warehouse",
+        "hardware",
+        "software",
+        "cookware"
+      ],
+      "correct": 1,
+      "explanation": "warehouse=倉庫。store goods in a warehouse=倉庫に商品を保管する。hardware=ハードウェア・金物、software=ソフトウェア、cookware=調理器具。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "The shipping ___ includes the tracking number for your package.（配送確認書にはお荷物の追跡番号が含まれています）",
+      "options": [
+        "confirmation",
+        "conversation",
+        "competition",
+        "construction"
+      ],
+      "correct": 1,
+      "explanation": "confirmation=確認書・確認。shipping confirmation=配送確認。conversation=会話、competition=競争、construction=建設。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "There is a ___ of skilled workers in the manufacturing industry right now.（現在、製造業では熟練労働者が不足している）",
+      "options": [
+        "sharing",
+        "shipping",
+        "shortage",
+        "shifting"
+      ],
+      "correct": 3,
+      "explanation": "shortage=不足。labor shortage=労働力不足。sharing=共有、shipping=配送、shifting=移行。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑨ 製造・物流",
+      "question_text": "Parts from overseas suppliers are ___ by ship to reduce transportation costs.（輸送コスト削減のため、海外サプライヤーからの部品は船で運ばれる）",
+      "options": [
+        "shaped",
+        "shared",
+        "shipped",
+        "shifted"
+      ],
+      "correct": 3,
+      "explanation": "shipped=船便・輸送で送られた。ship goods by sea=海上輸送で商品を送る。shaped=形作られた、shared=共有された、shifted=移行した。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "We had to ___ the product release because of a software bug.（ソフトウェアの不具合のため製品のリリースを延期しなければならなかった）",
+      "options": [
+        "put on",
+        "put off",
+        "put up",
+        "put away"
+      ],
+      "correct": 2,
+      "explanation": "put off=延期する。put off the meeting=会議を延期する。put on=着る、put up=掲げる・泊める、put away=片づける。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "Ms. Watanabe is currently ___ of the overseas sales department.（渡辺さんは現在海外営業部の責任者を務めている）",
+      "options": [
+        "in charge",
+        "in front",
+        "in common",
+        "in need"
+      ],
+      "correct": 1,
+      "explanation": "in charge (of)=〜の担当で・責任者で。be in charge of a department=部門を担当する。in front=前方に、in common=共通して、in need=困っている。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "The IT team will ___ the system error before the end of business today.（ITチームは今日の業務終了前にシステムのエラーを調査する）",
+      "options": [
+        "look up",
+        "look after",
+        "look into",
+        "look for"
+      ],
+      "correct": 3,
+      "explanation": "look into=調査する・調べる。look into an issue=問題を調査する。look up=調べる・上を向く、look after=世話をする、look for=探す。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "Please ___ Mr. Sato's offer and let us know your decision by tomorrow.（佐藤氏の提案を検討の上、明日までに決定をお知らせください）",
+      "options": [
+        "think over",
+        "think out",
+        "think back",
+        "think up"
+      ],
+      "correct": 1,
+      "explanation": "think over=十分に検討する。think over a proposal=提案をじっくり検討する。think out=考え出す、think back=振り返る、think up=考案する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "Our profits have been ___ steadily over the past three years.（当社の利益はこの3年間で着実に増加している）",
+      "options": [
+        "going out",
+        "going off",
+        "going up",
+        "going down"
+      ],
+      "correct": 3,
+      "explanation": "going up=増加している・上昇している。profits are going up=利益が増加中。going out=外出する、going off=爆発する、going down=下落している。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "I will ___ the details of the proposal before our meeting tomorrow.（明日の会議の前に提案書の詳細をまとめておきます）",
+      "options": [
+        "go under",
+        "go over",
+        "go along",
+        "go away"
+      ],
+      "correct": 2,
+      "explanation": "go over（details）=詳細を見直す・確認する。go over a report=報告書を見直す。go under=沈む・倒産する、go along=進む、go away=離れる。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "Please ___ the team while I'm away on business next week.（来週私が出張中はチームの面倒を見てください）",
+      "options": [
+        "take part in",
+        "take place at",
+        "take charge of",
+        "take care of"
+      ],
+      "correct": 4,
+      "explanation": "take care of=〜の世話をする・管理する。take care of the team=チームを管理する。take part in=参加する、take place=開催される、take charge of=担当する。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "The new manager has been trying to ___ with all team members since joining.（新しい部長は着任以来、全チームメンバーとうまくやろうとしている）",
+      "options": [
+        "get across",
+        "get around",
+        "get along",
+        "get away"
+      ],
+      "correct": 3,
+      "explanation": "get along（with）=〜とうまくやる・仲良くする。get along with colleagues=同僚とうまくやる。get across=伝える、get around=回避する、get away=逃げる。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "The finance team needs to ___ with the sales team to prepare the budget.（財務チームは予算を作成するため営業チームと連携する必要がある）",
+      "options": [
+        "work overtime",
+        "work around",
+        "work apart",
+        "work together"
+      ],
+      "correct": 4,
+      "explanation": "work together（with）=〜と協力する・連携する。work together on a project=プロジェクトで協力する。work overtime=残業する、work around=回避策を探す、work apart=離れて働く。"
+    },
+    {
+      "chapter": "TOEIC 単語 ⑩ 熟語（ビジネス頻出イディオム）",
+      "question_text": "The meeting was ___ because the CEO had an urgent appointment.（CEOに急用があったため、会議は急遽中止になった）",
+      "options": [
+        "called off",
+        "called back",
+        "called up",
+        "called for"
+      ],
+      "correct": 1,
+      "explanation": "called off=中止された。call off a meeting=会議を中止する。called back=折り返し電話した、called up=電話した・召集した、called for=要求した。"
+    }
+  ]
+}
