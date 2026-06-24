@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed:eiken3": "tsx scripts/seed-eiken3-questions.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.3.0",
@@ -29,6 +30,7 @@
     "kuroshiro-analyzer-kuromoji": "^1.1.0",
     "postcss": "^8.5.14",
     "tailwindcss": "^4.3.0",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }
